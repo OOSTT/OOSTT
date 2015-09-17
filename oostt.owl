@@ -279,7 +279,7 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000004">
         <rdfs:label xml:lang="en">specialty liaison role</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000017"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in a physician and that is realized by the bearer representing their speciality in the multidisciplinary peer review committee.</obo:IAO_0000115>
     </owl:Class>
     
@@ -374,7 +374,8 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000013">
         <rdfs:label xml:lang="en">trauma team lead</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
+        <obo:IAO_0000115 xml:lang="en">A healthcare provider who is bearing a trauma team lead role.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -417,6 +418,8 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000016">
         <rdfs:label xml:lang="en">enabling legislation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A Statute or a set of statutes specifying an agency that holds authority for the creation and operation of a trauma system.</obo:IAO_0000115>
+        <obo:OOSTT_00000030 xml:lang="en">A statute or multiple statutes that identifies a lead agency and authorizes the creation, operation, and evaluation of a state, regional or local trauma system.</obo:OOSTT_00000030>
     </owl:Class>
     
 
@@ -425,7 +428,7 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000017">
         <rdfs:label xml:lang="en">trauma service</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
         <obo:IAO_0000115 xml:lang="en">The organizational unit of a healthcare facility that is designated to provide and coordinate care for injured patients.</obo:IAO_0000115>
     </owl:Class>
     
@@ -435,7 +438,9 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000018">
         <rdfs:label xml:lang="en">trauma program manager (role)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that is realized by managing the operation of the trauma service, including: supervision of trauma registry, trauma case managers, and support staff; coordination with hospital administration and medical staff; coordination of trauma quality improvement functions; preparation of trauma designation/verification applications, documentation and required reporting; and trauma-specific education and training.</obo:IAO_0000115>
+        <obo:OOSTT_00000030 xml:lang="en">The individual responsible for managing the operation of the trauma service, including: supervision of trauma registry, trauma case managers, and support staff; coordination with hospital administration and medical staff; coordination of trauma quality improvement functions; preparation of trauma designation/verification applications, documentation and required reporting; and trauma-specific education and training.</obo:OOSTT_00000030>
     </owl:Class>
     
 
@@ -444,7 +449,8 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000019">
         <rdfs:label xml:lang="en">trauma center verification</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:OOSTT_00000030 xml:lang="en">A process that comprehensively determines whether a facility meets the established criteria (state or national) regarding procedures, resources and capabilities for the level of trauma service requested by the facility.</obo:OOSTT_00000030>
     </owl:Class>
     
 
@@ -464,7 +470,8 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000021">
         <rdfs:label xml:lang="en">trauma medical director (role)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role borne by a physiscian and is realized by having the authority to manage all aspects of the trauma service.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -473,16 +480,8 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000022">
         <rdfs:label xml:lang="en">trauma registrar (role)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000023 -->
-
-    <owl:Class rdf:about="&obo;OOSTT_00000023">
-        <rdfs:label xml:lang="en">trauma program</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A registrar role that is realized by preparing, keeping and oversees records in a trauma registry.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -491,34 +490,9 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000024">
         <rdfs:label xml:lang="en">trauma resuscitation team</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000025 -->
-
-    <owl:Class rdf:about="&obo;OOSTT_00000025">
-        <rdfs:label xml:lang="en">administrative committee</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000026 -->
-
-    <owl:Class rdf:about="&obo;OOSTT_00000026">
-        <rdfs:label xml:lang="en">trauma notification</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000027 -->
-
-    <owl:Class rdf:about="&obo;OOSTT_00000027">
-        <rdfs:label xml:lang="en">trauma team response monitoring</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
+        <obo:OOSTT_00000030 xml:lang="en">A trauma team is a multidisciplinary group of healthcare workers who collectively work together on the assessment and treatment of those who are severely injured.</obo:OOSTT_00000030>
+        <obo:IAO_0000115 xml:lang="en">An organization of healthcare professionals from multiple disciplines who collectively work together on the assessment and treatment of those who are severely injured.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -527,7 +501,8 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000028">
         <rdfs:label xml:lang="en">jurisdictional lead agency&quot;</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000014"/>
+        <obo:OOSTT_00000030 xml:lang="en">The entity given authority by the government to implement rules and financing.</obo:OOSTT_00000030>
     </owl:Class>
     
 
