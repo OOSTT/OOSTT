@@ -248,7 +248,7 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000001">
         <rdfs:label xml:lang="en">trauma team lead role</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000017"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
     </owl:Class>
     
 
@@ -316,6 +316,16 @@ Ditto for its current descendants.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000008 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000008">
+        <rdfs:label xml:lang="en">lead agency role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role appointed by legislature that grants the bearer authority to plan, coordinate and monitor trauma-EMS systems.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000009 -->
 
     <owl:Class rdf:about="&obo;OOSTT_00000009">
@@ -373,7 +383,20 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000014">
         <rdfs:label xml:lang="en">lead agency</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0000245"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OOSTT_00000008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">An organization that has statutory authority from the legislature to develop and oversee a trauma system.</obo:IAO_0000115>
+        <obo:OOSTT_00000030 xml:lang="en">The agency legally responsible for trauma-EMS systems planning, program coordination, and monitoring within the state, region or county.</obo:OOSTT_00000030>
     </owl:Class>
     
 
@@ -403,6 +426,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000017">
         <rdfs:label xml:lang="en">trauma service</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">The organizational unit of a healthcare facility that is designated to provide and coordinate care for injured patients.</obo:IAO_0000115>
     </owl:Class>
     
 
