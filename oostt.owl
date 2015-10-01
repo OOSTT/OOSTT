@@ -1,9 +1,11 @@
 <?xml version="1.0"?>
 
 
-<!DOCTYPE Ontology [
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
 ]>
@@ -19,6 +21,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;ostco/dev/oostt.owl">
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
+        <dc:contributor xml:lang="en">Neil J. Otte</dc:contributor>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <owl:versionInfo xml:lang="en">development version - 2015-09-17</owl:versionInfo>
         <owl:imports rdf:resource="http://purl.obofoundry.org/obo/iao/d-acts/20150916/d-acts.owl"/>
@@ -104,11 +107,161 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000142 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000142"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000219 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000219"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000417 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000417">
+        <rdfs:subPropertyOf rdf:resource="&obo;ostco/dev/oostt.owl#issubjectof"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000418 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000418">
+        <owl:inverseOf rdf:resource="&obo;ostco/dev/oostt.owl#isqualityspecificationas"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0020012 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0020012">
+        <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000136"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0020018 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0020018">
+        <rdfs:subPropertyOf rdf:resource="&obo;ostco/dev/oostt.owl#issubjectof"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#hasduration -->
+
+    <owl:ObjectProperty rdf:about="&obo;ostco/dev/oostt.owl#hasduration">
+        <rdfs:label xml:lang="en">has duration</rdfs:label>
+        <owl:inverseOf rdf:resource="&obo;ostco/dev/oostt.owl#hasduration"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;ostco/dev/oostt.owl#issubjectof"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#isdenotedby -->
+
+    <owl:ObjectProperty rdf:about="&obo;ostco/dev/oostt.owl#isdenotedby">
+        <rdfs:label xml:lang="en">is denoted by</rdfs:label>
+        <owl:inverseOf rdf:resource="&obo;IAO_0000219"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;ostco/dev/oostt.owl#issubjectof"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#ismentionedby -->
+
+    <owl:ObjectProperty rdf:about="&obo;ostco/dev/oostt.owl#ismentionedby">
+        <rdfs:label xml:lang="en">is mentioned by</rdfs:label>
+        <owl:inverseOf rdf:resource="&obo;IAO_0000142"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;ostco/dev/oostt.owl#issubjectof"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#isprescribedby -->
+
+    <owl:ObjectProperty rdf:about="&obo;ostco/dev/oostt.owl#isprescribedby">
+        <rdfs:label xml:lang="en">is prescribed by</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;ostco/dev/oostt.owl#issubjectof"/>
+        <owl:inverseOf rdf:resource="&obo;ostco/dev/oostt.owl#prescribes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#isqualityspecificationas -->
+
+    <owl:ObjectProperty rdf:about="&obo;ostco/dev/oostt.owl#isqualityspecificationas">
+        <rdfs:label xml:lang="en">is quality specification as</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;ostco/dev/oostt.owl#issubjectof"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#issubjectof -->
+
+    <owl:ObjectProperty rdf:about="&obo;ostco/dev/oostt.owl#issubjectof">
+        <rdfs:label xml:lang="en">is subject of</rdfs:label>
+        <owl:inverseOf rdf:resource="&obo;IAO_0000136"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#prescribes -->
+
+    <owl:ObjectProperty rdf:about="&obo;ostco/dev/oostt.owl#prescribes">
+        <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000136"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
+
+    <rdf:Description rdf:about="&obo;OBI_0000245">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002351"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000053"/>
+                                <owl:someValuesFrom rdf:resource="&obo;ostco/dev/oostt.owl#committeememberrole"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -298,7 +451,7 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000006">
         <rdfs:label xml:lang="en">trauma multidisciplinary peer review committee</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
+        <rdfs:subClassOf rdf:resource="&obo;ostco/dev/oostt.owl#committee"/>
         <obo:OOSTT_00000030 xml:lang="en">A committee with a members from mutliple specialties that engages in case review of trauma cases.</obo:OOSTT_00000030>
     </owl:Class>
     
@@ -372,6 +525,25 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000013">
         <rdfs:label xml:lang="en">trauma team lead</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000053"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OMRSE_00000013"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OOSTT_00000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
         <obo:IAO_0000115 xml:lang="en">A healthcare provider who is bearing a trauma team lead role.</obo:IAO_0000115>
     </owl:Class>
@@ -512,1183 +684,113 @@ Ditto for its current descendants.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role that is borne by a hospital or clinic and is realized by its bearer providing emergency trauma care through specially trained personnel at all times. The role is the specified outcome of a trauma center designation.</obo:IAO_0000115>
     </owl:Class>
-</rdf:RDF>
-=======
-     ontologyIRI="http://purl.obolibrary.org/obo/ostco/dev/oostt.owl">
-    <Prefix name="" IRI="http://purl.obolibrary.org/obo/ostco/dev/ostco.owl#"/>
-    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
-    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://purl.obofoundry.org/obo/iao/d-acts/20150916/d-acts.owl</Import>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:title"/>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ontology of Organizational Structures of Trauma centers and Trauma Systems</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">development version - 2015-09-17</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mathias Brochhausen</Literal>
-    </Annotation>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OMRSE_00000010"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OMRSE_00000012"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OMRSE_00000013"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OMRSE_00000024"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OMRSE_00000025"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OMRSE_00000027"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OMRSE_00000054"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000000"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000001"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000002"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000003"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000004"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000005"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000006"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000007"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000008"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000009"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000010"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000011"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000012"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000013"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000014"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000015"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000016"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000017"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000018"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000019"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000020"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000021"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000022"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000024"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000028"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:OOSTT_00000029"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#authority"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#committee"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#committeememberrole"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#government"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#governmentalorganization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#legislature"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#patientsafety"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#performanceimprovementcommittee"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#professionalorganization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#registrarrole"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#statutoryauthority"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasduration"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isdenotedby"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#ismentionedby"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isprescribedby"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isqualityspecificationas"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#issubjectof"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#prescribes"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-    </Declaration>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="obo:OOSTT_00000000"/>
-        <ObjectIntersectionOf>
-            <ObjectIntersectionOf>
-                <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
-                <ObjectSomeValuesFrom>
-                    <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
-                    <Class abbreviatedIRI="obo:OMRSE_00000013"/>
-                </ObjectSomeValuesFrom>
-            </ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
-                <Class abbreviatedIRI="obo:OOSTT_00000004"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="obo:OOSTT_00000013"/>
-        <ObjectIntersectionOf>
-            <ObjectIntersectionOf>
-                <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
-                <ObjectSomeValuesFrom>
-                    <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
-                    <Class abbreviatedIRI="obo:OMRSE_00000013"/>
-                </ObjectSomeValuesFrom>
-            </ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
-                <Class abbreviatedIRI="obo:OOSTT_00000001"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="obo:OOSTT_00000014"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:OBI_0000245"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
-                <Class abbreviatedIRI="obo:OOSTT_00000008"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OBI_0000245"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:RO_0002351"/>
-            <ObjectIntersectionOf>
-                <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
-                <ObjectSomeValuesFrom>
-                    <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
-                    <Class IRI="#committeememberrole"/>
-                </ObjectSomeValuesFrom>
-            </ObjectIntersectionOf>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OMRSE_00000010"/>
-        <Class abbreviatedIRI="obo:OMRSE_00000024"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OMRSE_00000012"/>
-        <Class abbreviatedIRI="obo:OMRSE_00000010"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OMRSE_00000013"/>
-        <Class abbreviatedIRI="obo:OMRSE_00000012"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OMRSE_00000024"/>
-        <Class abbreviatedIRI="obo:BFO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OMRSE_00000025"/>
-        <Class abbreviatedIRI="obo:OMRSE_00000024"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OMRSE_00000027"/>
-        <Class abbreviatedIRI="obo:OMRSE_00000025"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OMRSE_00000054"/>
-        <Class abbreviatedIRI="obo:OMRSE_00000027"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000000"/>
-        <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000000"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:RO_0002350"/>
-            <Class abbreviatedIRI="obo:OOSTT_00000006"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000001"/>
-        <Class abbreviatedIRI="obo:BFO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000002"/>
-        <Class abbreviatedIRI="obo:OBI_0000245"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000003"/>
-        <Class abbreviatedIRI="obo:OBI_0000245"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000004"/>
-        <Class abbreviatedIRI="obo:BFO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000005"/>
-        <Class abbreviatedIRI="obo:IAO_0000104"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000006"/>
-        <Class IRI="#committee"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000007"/>
-        <Class abbreviatedIRI="obo:OBI_0000245"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000008"/>
-        <Class abbreviatedIRI="obo:BFO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000009"/>
-        <Class abbreviatedIRI="obo:OOSTT_00000015"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000010"/>
-        <Class abbreviatedIRI="obo:IAO_0000001"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000011"/>
-        <Class abbreviatedIRI="obo:OBI_0000011"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000012"/>
-        <Class abbreviatedIRI="obo:OBI_0000011"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000013"/>
-        <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000014"/>
-        <Class abbreviatedIRI="obo:OBI_0000245"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000015"/>
-        <Class abbreviatedIRI="obo:OBI_0000245"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000016"/>
-        <Class abbreviatedIRI="obo:BFO_0000001"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000017"/>
-        <Class abbreviatedIRI="obo:OBI_0000245"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000018"/>
-        <Class abbreviatedIRI="obo:BFO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000019"/>
-        <Class abbreviatedIRI="obo:OBI_0000011"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000020"/>
-        <Class abbreviatedIRI="obo:IAO_0021002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000021"/>
-        <Class abbreviatedIRI="obo:BFO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000022"/>
-        <Class abbreviatedIRI="obo:BFO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000024"/>
-        <Class abbreviatedIRI="obo:OBI_0000245"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000028"/>
-        <Class abbreviatedIRI="obo:OOSTT_00000014"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:OOSTT_00000029"/>
-        <Class abbreviatedIRI="obo:BFO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#authority"/>
-        <Class abbreviatedIRI="obo:IAO_0021004"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#committee"/>
-        <Class abbreviatedIRI="obo:OBI_0000245"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#committeememberrole"/>
-        <Class abbreviatedIRI="obo:BFO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#government"/>
-        <Class abbreviatedIRI="obo:OBI_0000245"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#governmentalorganization"/>
-        <Class abbreviatedIRI="obo:OBI_0000245"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#legislature"/>
-        <Class IRI="#governmentalorganization"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#patientsafety"/>
-        <Class abbreviatedIRI="obo:BFO_0000016"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#performanceimprovementcommittee"/>
-        <Class IRI="#committee"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#professionalorganization"/>
-        <Class abbreviatedIRI="obo:OBI_0000245"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#registrarrole"/>
-        <Class abbreviatedIRI="obo:BFO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#statutoryauthority"/>
-        <Class IRI="#authority"/>
-    </SubClassOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="obo:IAO_0000417"/>
-        <ObjectProperty IRI="#issubjectof"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="obo:IAO_0020012"/>
-        <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="obo:IAO_0020018"/>
-        <ObjectProperty IRI="#issubjectof"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasduration"/>
-        <ObjectProperty IRI="#issubjectof"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#isdenotedby"/>
-        <ObjectProperty IRI="#issubjectof"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#ismentionedby"/>
-        <ObjectProperty IRI="#issubjectof"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#isprescribedby"/>
-        <ObjectProperty IRI="#issubjectof"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#isqualityspecificationas"/>
-        <ObjectProperty IRI="#issubjectof"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#prescribes"/>
-        <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
-    </SubObjectPropertyOf>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#issubjectof"/>
-        <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#ismentionedby"/>
-        <ObjectProperty abbreviatedIRI="obo:IAO_0000142"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#isdenotedby"/>
-        <ObjectProperty abbreviatedIRI="obo:IAO_0000219"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#isqualityspecificationas"/>
-        <ObjectProperty abbreviatedIRI="obo:IAO_0000418"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#hasduration"/>
-        <ObjectProperty IRI="#hasduration"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#isprescribedby"/>
-        <ObjectProperty IRI="#prescribes"/>
-    </InverseObjectProperties>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">definition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">definition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">definition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">textual definition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">definition editor</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">definition editor</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">definition editor</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">term editor</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000118</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">alternative term</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">definition source</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">definition source</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">definition source</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000412</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">imported from</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OMRSE_00000010</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A role in human social processes that is realized by health care processes such as seeking or providing treatment for disease and injury, diagnosing disease and injury, or undergoing diagnosis. </Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:OMRSE_00000010</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">William R. Hogan</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:OMRSE_00000010</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">health care role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:OMRSE_00000010</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>obo:OMRSE_00000010</AbbreviatedIRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Mathias Brochhausen</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OMRSE_00000010</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">human health care role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OMRSE_00000012</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A human health care role inhering in an organization or human being that is realized by a process of providing health care services to an organism.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:OMRSE_00000012</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mathias Brochhausen
-</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:OMRSE_00000012</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>obo:OMRSE_00000012</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">William R. Hogan</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OMRSE_00000012</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">health care provider role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OMRSE_00000013</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A health care role borne by a human being and realized by promoting, maintaining or restoring human health through the study, diagnosis, and treatment of disease, injury and other physical and mental impairments.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:OMRSE_00000013</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mathias Brochhausen</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:OMRSE_00000013</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">physician</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <AbbreviatedIRI>obo:OMRSE_00000013</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">http://en.wikipedia.org/wiki/Physician</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:OMRSE_00000013</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OMRSE_00000013</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">physician role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OMRSE_00000024</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A role inhering in an entity realized by social interactions in human society.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:OMRSE_00000024</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mathias Brochhausen</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:OMRSE_00000024</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>obo:OMRSE_00000024</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Previous definition: A role played by an entity in human social processes.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OMRSE_00000024</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">role in human social processes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OMRSE_00000025</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A role in human social processes that inheres in an organization.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:OMRSE_00000025</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">William R. Hogan</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:OMRSE_00000025</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>obo:OMRSE_00000025</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Defined class that we will ultimately move to an application ontology.  We are leaving here for now until we determine which application ontology: it is likely going to be an ontology that does not currently (2012-06-05) exist.
+    
 
-Ditto for its current descendants.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OMRSE_00000025</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">organization social role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OMRSE_00000027</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">An organization social role that is realized by a health care process.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:OMRSE_00000027</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>obo:OMRSE_00000027</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Previous definition: An organization social role played by an organization in health care processes.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OMRSE_00000027</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">organization health care role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OMRSE_00000054</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A healthcare provider role that inheres in an organization and is realized by providing inpatient and outpatient care.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:OMRSE_00000054</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mathias Brochhausen</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:OMRSE_00000054</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OMRSE_00000054</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hospital role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000000</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A physician representing their specialty in the multidisciplinary peer review committee.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000000</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A physician representing their specialty in the multidisciplinary peer review committee.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000000</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">specialty liaison</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000001</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma team lead role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000002</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A hospital or clinic that provides emergency trauma care through specially trained personnel at all times.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000002</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A specialized hospital or clinic with the immediately or promptly availability of  specially trained health care personnel who provide emergency care on a 24-hour–7-day/week basis for injured people. These specially trained personnel are immediately or promptly available to treat patients with ready operating rooms, special equipment, and necessary supplies. The American College of Surgeons defines certain standards for each of the 4 levels of trauma centers that it identifies.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000002</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma center</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000003</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A professional organization of healthcare providers and trauma facilitites aiming to improve trauma care, the trauma system, and/or to conduct trauma research.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000003</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A group of health professionals and trauma facilities with a formal mission focused on improving trauma care, the trauma system, and/or trauma research.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000003</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma professional organization</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000004</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A role that inheres in a physician and that is realized by the bearer representing their speciality in the multidisciplinary peer review committee.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000004</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">specialty liaison role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000005</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A plan specification specifying the monitoring, evaluating and improving of the quality of care for trauma patients and of a trauma service as whole.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000005</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A  plan specification specifying the monitoring, evaluating and improving of the quality of care for trauma patients and of a trauma service as whole.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000005</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma performance improvement/patient safety process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000006</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A committee with a members from mutliple specialties that engages in case review of trauma cases.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000006</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma multidisciplinary peer review committee</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000007</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A performance improvement committee to evaluate the system of care within trauma center.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000007</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma program operational process performance improvement committee</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000008</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A role appointed by legislature that grants the bearer authority to plan, coordinate and monitor trauma-EMS systems.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000008</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">lead agency role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000009</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">An organization in a defined geographic area that ensures optimal trauma care; it includes - injury prevention, access to care, prehospital care, acute hospital care and rehabilitation.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000009</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A systematic approach within an entire community that ensures optimal trauma care; it includes - injury prevention, access to care, prehospital care, acute hospital care and rehabilitation.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000009</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">regional trauma system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000010</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A conditional specification that guides &quot;prehospital providers in determining the most appropriate facility to care for the injured patient</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000010</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A decision tool that guides &quot;prehospital providers determine the most appropriate facility to care for the injured patient&quot; [PMID: 22626915].</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000010</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">field triage guideline</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000011</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The planned process of alerting the trauma team members that a trauma patient is enroute or has arrived.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000011</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Notification of the appropriate trauma team to treat a patient to match the severity of his/her injuries after notification that the patient is enroute or has arrived.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000011</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma team activation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000012</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The planned process of trauma team members arriving to treat the patient.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000012</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Assembling of the appropriate trauma team to treat a patient to match the severity of his/her injuries after notification that the patient is enroute or has arrived.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000012</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma team response</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000013</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A healthcare provider who is bearing a trauma team lead role.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000013</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma team lead</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000014</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">An organization that has statutory authority from the legislature to develop and oversee a trauma system.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000014</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The agency legally responsible for trauma-EMS systems planning, program coordination, and monitoring within the state, region or county.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000014</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">lead agency</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000015</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">An organization of organizations and healthcare providers to facilitate and coordinate a multidisciplinary response to severe injury.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000015</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">An organized approach to facilitating and coordinating a multidisciplinary system response to severely injured patients. A trauma system encompasses a continuum of care provision and is inclusive of injury prevention and control, public health, EMS field intervention, ED care, surgical interventions, intensive and general surgical in-hospital care, and rehabilitative services, along with the social services and the support groups that assist injured people and their significant others with their return to society at the most productive level possible.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000015</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000016</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A Statute or a set of statutes specifying an agency that holds authority for the creation and operation of a trauma system.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000016</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A statute or multiple statutes that identifies a lead agency and authorizes the creation, operation, and evaluation of a state, regional or local trauma system.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000016</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">enabling legislation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000017</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The organizational unit of a healthcare facility that is designated to provide and coordinate care for injured patients.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000017</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma service</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000018</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A role that is realized by managing the operation of the trauma service, including: supervision of trauma registry, trauma case managers, and support staff; coordination with hospital administration and medical staff; coordination of trauma quality improvement functions; preparation of trauma designation/verification applications, documentation and required reporting; and trauma-specific education and training.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000018</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The individual responsible for managing the operation of the trauma service, including: supervision of trauma registry, trauma case managers, and support staff; coordination with hospital administration and medical staff; coordination of trauma quality improvement functions; preparation of trauma designation/verification applications, documentation and required reporting; and trauma-specific education and training.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000018</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma program manager (role)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000019</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A process that comprehensively determines whether a facility meets the established criteria (state or national) regarding procedures, resources and capabilities for the level of trauma service requested by the facility.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000019</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma center verification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000020</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A document act that creates the role of a trauma center based on a trauma center verifcation.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000020</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A state or regional recognition process in which a facility is endowed with a trauma center role.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000020</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma center designation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000021</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A role borne by a physiscian and is realized by having the authority to manage all aspects of the trauma service.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000021</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma medical director (role)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000022</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A registrar role that is realized by preparing, keeping and oversees records in a trauma registry.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000022</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma registrar (role)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000024</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">An organization of healthcare professionals from multiple disciplines who collectively work together on the assessment and treatment of those who are severely injured.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000024</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A trauma team is a multidisciplinary group of healthcare workers who collectively work together on the assessment and treatment of those who are severely injured.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000024</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma resuscitation team</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:OOSTT_00000030"/>
-        <AbbreviatedIRI>obo:OOSTT_00000028</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The entity given authority by the government to implement rules and financing.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000028</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">jurisdictional lead agency&quot;</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:OOSTT_00000029</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A role that is borne by a hospital or clinic and is realized by its bearer providing emergency trauma care through specially trained personnel at all times. The role is the specified outcome of a trauma center designation.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000029</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trauma center role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:OOSTT_00000030</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">OOSTT user centered description</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#authority</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">a socio-legal generically dependent continuant that is concretized in a role within an organization context and which legally, normatively, or ethically permits some action.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#authority</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">authority</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#committee</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">an organization consisting of persons who bear committee member role where that organization is appointed by an organization or members of an organization to realize a function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#committeememberrole</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">a role in the organization content of a committee.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#committeememberrole</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">committee member role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#government</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">government</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#governmentalorganization</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">governmental organization</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasduration</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has duration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#isdenotedby</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is denoted by</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#ismentionedby</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is mentioned by</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#isprescribedby</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is prescribed by</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#isqualityspecificationas</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is quality specification as</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#issubjectof</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is subject of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#legislature</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">a governmental organization that has the authority to create, amend, fund, and repeal laws.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#patientsafety</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">a disposition realized in process profiles that have participants the biological qualities of patients and the practices and instruments of medical professionals.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#patientsafety</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">patient safety</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#performanceimprovementcommittee</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">a committee whose function is to evaluate the system of care within a trauma center.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#performanceimprovementcommittee</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">performance improvement committee</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#professionalorganization</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">An organization whose purpose is to serve the goals of a particular profession or whose members bear roles within a single profession.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#professionalorganization</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">professional organization</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#registrarrole</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">a role that inheres in a homo sapien or organization that prepares, keeps, and oversees records made in a register.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#registrarrole</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">registrar role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#statutoryauthority</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">authority prescribed by some enabling legislation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#statutoryauthority</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">statutory authority</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>rdfs:label</AbbreviatedIRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">label</Literal>
-    </AnnotationAssertion>
-</Ontology>
->>>>>>> 40b6daa181068602296ff66097492e2e11a994d9
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#authority -->
+
+    <owl:Class rdf:about="&obo;ostco/dev/oostt.owl#authority">
+        <rdfs:label xml:lang="en">authority</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0021004"/>
+        <obo:IAO_0000115 xml:lang="en">a socio-legal generically dependent continuant that is concretized in a role within an organization context and which legally, normatively, or ethically permits some action.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#committee -->
+
+    <owl:Class rdf:about="&obo;ostco/dev/oostt.owl#committee">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">an organization consisting of persons who bear committee member role where that organization is appointed by an organization or members of an organization to realize a function</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#committeememberrole -->
+
+    <owl:Class rdf:about="&obo;ostco/dev/oostt.owl#committeememberrole">
+        <rdfs:label xml:lang="en">committee member role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">a role in the organization content of a committee.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#government -->
+
+    <owl:Class rdf:about="&obo;ostco/dev/oostt.owl#government">
+        <rdfs:label xml:lang="en">government</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#governmentalorganization -->
+
+    <owl:Class rdf:about="&obo;ostco/dev/oostt.owl#governmentalorganization">
+        <rdfs:label xml:lang="en">governmental organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#legislature -->
+
+    <owl:Class rdf:about="&obo;ostco/dev/oostt.owl#legislature">
+        <rdfs:subClassOf rdf:resource="&obo;ostco/dev/oostt.owl#governmentalorganization"/>
+        <obo:IAO_0000115 xml:lang="en">a governmental organization that has the authority to create, amend, fund, and repeal laws.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#patientsafety -->
+
+    <owl:Class rdf:about="&obo;ostco/dev/oostt.owl#patientsafety">
+        <rdfs:label xml:lang="en">patient safety</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000016"/>
+        <obo:IAO_0000115 xml:lang="en">a disposition realized in process profiles that have participants the biological qualities of patients and the practices and instruments of medical professionals.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#performanceimprovementcommittee -->
+
+    <owl:Class rdf:about="&obo;ostco/dev/oostt.owl#performanceimprovementcommittee">
+        <rdfs:label xml:lang="en">a committee whose function is to evaluate the system of care within a trauma center.</rdfs:label>
+        <rdfs:label xml:lang="en">performance improvement committee</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ostco/dev/oostt.owl#committee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#professionalorganization -->
+
+    <owl:Class rdf:about="&obo;ostco/dev/oostt.owl#professionalorganization">
+        <rdfs:label xml:lang="en">professional organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">An organization whose purpose is to serve the goals of a particular profession or whose members bear roles within a single profession.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#registrarrole -->
+
+    <owl:Class rdf:about="&obo;ostco/dev/oostt.owl#registrarrole">
+        <rdfs:label xml:lang="en">registrar role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">a role that inheres in a homo sapien or organization that prepares, keeps, and oversees records made in a register.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ostco/dev/oostt.owl#statutoryauthority -->
+
+    <owl:Class rdf:about="&obo;ostco/dev/oostt.owl#statutoryauthority">
+        <rdfs:label xml:lang="en">statutory authority</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ostco/dev/oostt.owl#authority"/>
+        <obo:IAO_0000115 xml:lang="en">authority prescribed by some enabling legislation</obo:IAO_0000115>
+    </owl:Class>
+</rdf:RDF>
 
 
 
