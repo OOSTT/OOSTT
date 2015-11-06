@@ -22,10 +22,10 @@
     <owl:Ontology rdf:about="&obo;oostt/dev/oostt.owl">
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
+        <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
         <dc:contributor xml:lang="en">Mihail Eduard Tudoreanu</dc:contributor>
-        <dc:contributor xml:lang="en">Neil J. Otte</dc:contributor>
         <dc:contributor xml:lang="en">Nels D. Sanddal</dc:contributor>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <dc:contributor xml:lang="en">Robert J. Winchell</dc:contributor>
@@ -162,7 +162,7 @@
         <rdfs:label xml:lang="en">human health care role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000024"/>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
-        <obo:IAO_0000115 xml:lang="en">A role in human social processes that is realized by health care processes such as seeking or providing treatment for disease and injury, diagnosing disease and injury, or undergoing diagnosis. </obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role in human social processes that is realized by health care processes such as seeking or providing treatment for disease and injury, diagnosing disease and injury, and undergoing diagnosis.</obo:IAO_0000115>
         <rdfs:comment>Mathias Brochhausen</rdfs:comment>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">health care role</obo:IAO_0000118>
@@ -190,7 +190,7 @@
         <rdfs:label xml:lang="en">physician role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000012"/>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
-        <obo:IAO_0000115 xml:lang="en">A health care role borne by a human being and realized by promoting, maintaining or restoring human health through the study, diagnosis, and treatment of disease, injury and other physical and mental impairments.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A health care role borne by a human being and realized by promoting, maintaining, or restoring human health through the study, diagnosis, and treatment of disease, injury and other physical and mental impairments.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Physician</obo:IAO_0000119>
         <obo:IAO_0000118 xml:lang="en">physician</obo:IAO_0000118>
@@ -339,7 +339,7 @@ Ditto for its current descendants.</rdfs:comment>
         <rdfs:label xml:lang="en">trauma performance improvement/patient safety program</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000104"/>
         <obo:OOSTT_00000030 xml:lang="en">A  plan specification specifying the monitoring, evaluating and improving of the quality of care for trauma patients and of a trauma service as whole.</obo:OOSTT_00000030>
-        <obo:IAO_0000115 xml:lang="en">A plan specification specifying the monitoring, evaluating and improving of the quality of care for trauma patients and of a trauma service as whole.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A plan specification specifying the monitoring, evaluating, and improving of the quality of care for trauma patients and of a trauma service as whole.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">trauma performance improvement/patient safety process</obo:IAO_0000118>
     </owl:Class>
@@ -351,7 +351,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000006">
         <rdfs:label xml:lang="en">trauma multidisciplinary peer review committee</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000114"/>
-        <obo:OOSTT_00000030 xml:lang="en">A committee with a members from mutliple specialties that engages in case review of trauma cases.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A committee with members from mutliple specialties that engages in case review of trauma cases.</obo:OOSTT_00000030>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
@@ -362,7 +362,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000007">
         <rdfs:label xml:lang="en">trauma program operational process performance improvement committee</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000115"/>
-        <obo:OOSTT_00000030 xml:lang="en">A performance improvement committee to evaluate the system of care within trauma center.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A performance improvement committee to evaluate the system of care within a trauma center.</obo:OOSTT_00000030>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
@@ -373,7 +373,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000008">
         <rdfs:label xml:lang="en">lead agency role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role appointed by legislature that grants the bearer authority to plan, coordinate and monitor trauma-EMS systems.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role appointed by a legislature that grants the bearer authority to plan, coordinate, and monitor trauma-EMS systems.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
@@ -385,7 +385,7 @@ Ditto for its current descendants.</rdfs:comment>
         <rdfs:label xml:lang="en">regional trauma system</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000015"/>
         <obo:OOSTT_00000030 xml:lang="en">A systematic approach within an entire community that ensures optimal trauma care; it includes - injury prevention, access to care, prehospital care, acute hospital care and rehabilitation.</obo:OOSTT_00000030>
-        <obo:IAO_0000115 xml:lang="en">An organization in a defined geographic area that ensures optimal trauma care; it includes - injury prevention, access to care, prehospital care, acute hospital care and rehabilitation.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An organization in a defined geographic area that ensures optimal trauma care; it includes - injury prevention, access to care, prehospital care, acute hospital care, and rehabilitation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
@@ -396,7 +396,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000010">
         <rdfs:label xml:lang="en">field triage guideline</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000001"/>
-        <obo:IAO_0000115 xml:lang="en">A conditional specification that guides &quot;prehospital providers in determining the most appropriate facility to care for the injured patient</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A conditional specification that guides prehospital providers in determining the most appropriate facility to care for the injured patient.</obo:IAO_0000115>
         <obo:OOSTT_00000030 xml:lang="en">A decision tool that guides &quot;prehospital providers determine the most appropriate facility to care for the injured patient&quot; [PMID: 22626915].</obo:OOSTT_00000030>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
@@ -478,7 +478,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000016">
         <rdfs:label xml:lang="en">enabling legislation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
-        <obo:IAO_0000115 xml:lang="en">A Statute or a set of statutes specifying an agency that holds authority for the creation and operation of a trauma system.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A statute or a set of statutes specifying an agency that holds authority for the creation and operation of a trauma system.</obo:IAO_0000115>
         <obo:OOSTT_00000030 xml:lang="en">A statute or multiple statutes that identifies a lead agency and authorizes the creation, operation, and evaluation of a state, regional or local trauma system.</obo:OOSTT_00000030>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
@@ -513,7 +513,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000019">
         <rdfs:label xml:lang="en">trauma center verification</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
-        <obo:OOSTT_00000030 xml:lang="en">A process that comprehensively determines whether a facility meets the established criteria (state or national) regarding procedures, resources and capabilities for the level of trauma service requested by the facility.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A process that comprehensively determines whether a facility meets the established criteria (state or national) regarding procedures, resources, and capabilities for the level of trauma service requested by the facility.</obo:OOSTT_00000030>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
@@ -536,7 +536,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000021">
         <rdfs:label xml:lang="en">trauma medical director (role)</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role borne by a physiscian and is realized by having the authority to manage all aspects of the trauma service.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role borne by a physician and realized by having the authority to manage all aspects of the trauma service.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
@@ -547,7 +547,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000022">
         <rdfs:label xml:lang="en">trauma registrar (role)</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000116"/>
-        <obo:IAO_0000115 xml:lang="en">A registrar role that is realized by preparing, keeping and oversees records in a trauma registry.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A registrar role that is realized by preparing, keeping, and overseeing records in a trauma registry.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
@@ -698,7 +698,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000100">
         <rdfs:label xml:lang="en">authority</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0021004"/>
-        <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">a socio-legal generically dependent continuant that is concretized in a role within an organizational context and which legally, normatively, or ethically permits some action.</obo:IAO_0000115>
     </owl:Class>
     
@@ -709,7 +709,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000101">
         <rdfs:label xml:lang="en">statutory authority</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000100"/>
-        <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">authority prescribed by some enabling legislation</obo:IAO_0000115>
     </owl:Class>
     
@@ -720,7 +720,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000110">
         <rdfs:label xml:lang="en">legislature</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000111"/>
-        <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">a governmental organization that has the authority to create, amend, fund, and repeal laws.</obo:IAO_0000115>
     </owl:Class>
     
@@ -741,7 +741,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000112">
         <rdfs:label xml:lang="en">government</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
-        <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -767,8 +767,8 @@ Ditto for its current descendants.</rdfs:comment>
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">an organization consisting of persons who bear committee member role where that organization is appointed by an organization or members of an organization to realize a function</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">an organization consisting of persons who bear committee member role where that organization is appointed by an organization or members of an organization to realize a function.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -778,7 +778,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000115">
         <rdfs:label xml:lang="en">performance improvement committee</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000114"/>
-        <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">a committee whose function is to evaluate the system of care within a trauma center.</obo:IAO_0000115>
     </owl:Class>
     
@@ -801,7 +801,7 @@ Ditto for its current descendants.</rdfs:comment>
         <rdfs:label xml:lang="en">committee member role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
         <obo:IAO_0000117 xml:lang="en">Neil J Otte</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">a role in the organization content of a committee.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a role in the organization context of a committee.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -823,7 +823,7 @@ Ditto for its current descendants.</rdfs:comment>
         <rdfs:label xml:lang="en">professional organization</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
         <obo:IAO_0000115 xml:lang="en">An organization whose purpose is to serve the goals of a particular profession or whose members bear roles within a single profession.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
     </owl:Class>
 </rdf:RDF>
 
