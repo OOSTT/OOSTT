@@ -34,7 +34,7 @@
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2015-10-16</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2015-01-26</owl:versionInfo>
         <owl:imports rdf:resource="http://purl.obofoundry.org/obo/iao/d-acts/20150916/d-acts.owl"/>
     </owl:Ontology>
     
@@ -488,10 +488,11 @@ Ditto for its current descendants.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000017 -->
 
     <owl:Class rdf:about="&obo;OOSTT_00000017">
-        <rdfs:label xml:lang="en">trauma service</rdfs:label>
+        <rdfs:label xml:lang="en">trauma program</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">The organizational unit of a healthcare facility that is designated to provide and coordinate care for injured patients.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">trauma service</obo:IAO_0000118>
     </owl:Class>
     
 
