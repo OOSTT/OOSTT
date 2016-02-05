@@ -127,11 +127,118 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo#OOSTT_08e4c5de_dc5d_4eba_842c_894d0a598355 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo#OOSTT_08e4c5de_dc5d_4eba_842c_894d0a598355">
+        <rdfs:label xml:lang="en">describes</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">a relation holding between a descriptive information content entity and some entity.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000136"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#OOSTT_0f8d0c70_9bbe_47f5_b050_13889ecddacc -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo#OOSTT_0f8d0c70_9bbe_47f5_b050_13889ecddacc">
+        <rdfs:label xml:lang="en">is legally transfered by</rdfs:label>
+        <owl:inverseOf rdf:resource="&obo;IAO_0021012"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0000056"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#OOSTT_20b84a7b_250e_4bfc_b1b3_a903bc8eae22 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo#OOSTT_20b84a7b_250e_4bfc_b1b3_a903bc8eae22">
+        <rdfs:label xml:lang="en">specifies</rdfs:label>
+        <obo:IAO_0000112 rdf:datatype="&xsd;string">(e.g. a rule specifies authority) (e.g. “The leasee may not throw parties in the house” specifies “one’s authority to lease the house is absent the authority to throw parties in the house”.</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">a relation that holds between a directive information content entity and a social legal generically dependent continuant.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000136"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#OOSTT_41694bb3_e735_4238_916e_bf3be057885c -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo#OOSTT_41694bb3_e735_4238_916e_bf3be057885c">
+        <rdfs:label xml:lang="en">has author</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">a relation holding between a person or organization bearing author role and a document.</obo:IAO_0000115>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#OOSTT_498aaa4c_5d04_4e52_bb4b_aa1874bf1dcf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo#OOSTT_498aaa4c_5d04_4e52_bb4b_aa1874bf1dcf">
+        <rdfs:label xml:lang="en">is specified input of</rdfs:label>
+        <owl:inverseOf rdf:resource="&obo;OBI_0000293"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0000056"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#OOSTT_64289500_62c5_4073_8eac_0b79475b37ec -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo#OOSTT_64289500_62c5_4073_8eac_0b79475b37ec">
+        <rdfs:label xml:lang="en">is legally revoked by</rdfs:label>
+        <owl:inverseOf rdf:resource="&obo;IAO_0021011"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0000056"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#OOSTT_aea516fb_7a08_4d58_b906_8b3e32f715b4 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo#OOSTT_aea516fb_7a08_4d58_b906_8b3e32f715b4">
+        <rdfs:label xml:lang="en">is organizational context of</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0000056"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#OOSTT_cec172a2_5a3a_427a_b681_b20b2b0de977 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo#OOSTT_cec172a2_5a3a_427a_b681_b20b2b0de977">
+        <rdfs:label xml:lang="en">is active participant of</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0000056"/>
+        <owl:inverseOf rdf:resource="&obo;RO_0002218"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#OOSTT_fb251739_df89_44a9_b3f0_2aeac917fae5 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo#OOSTT_fb251739_df89_44a9_b3f0_2aeac917fae5">
+        <rdfs:label xml:lang="en">has organizational context</rdfs:label>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo#OOSTT_aea516fb_7a08_4d58_b906_8b3e32f715b4"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0000057"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0020012 -->
 
     <rdf:Description rdf:about="&obo;IAO_0020012">
         <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000136"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021011 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0021011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021012 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0021012"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
+
+    <rdf:Description rdf:about="&obo;OBI_0000293"/>
     
 
 
@@ -145,6 +252,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002218 -->
+
+    <rdf:Description rdf:about="&obo;RO_0002218"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -153,6 +266,38 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#OOSTT_202af835_1083_4c9d_8346_a54428439df6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo#OOSTT_202af835_1083_4c9d_8346_a54428439df6">
+        <rdfs:label xml:lang="en">specialized role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Specialized Roles and Member Roles are two higher-level role-types and they are distinct. One can belong to an organization in virtue of being a member, and there are different membership roles (e.g. an institutional membership role, an individual membership role), but one can also have specialized roles in addition (e.g. the doctor of a hospital, the midwife in a labor-and-delivery division of a hospital), where the specialized role is a product of a special set of duties and obligations one takes on within the organizational context, or is the product of a special task one takes on, where both the task, the duties, and the obligations are not applied in virtue of the membership relation alone (e.g. if I am a member of a hospital, I am not therefore a doctor).</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="en">a role with a set of duties, tasks, or obligations distinct from those acquired by one&apos;s mere membership to an organization.</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">e.g. &quot;Trauma team lead&quot; is a specialized role that inheres within a person who also bears a member role within a trauma team organization.</obo:IAO_0000112>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#OOSTT_2d9894eb_abcd_4100_8e74_48b906a9a937 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo#OOSTT_2d9894eb_abcd_4100_8e74_48b906a9a937">
+        <rdfs:label xml:lang="en">member role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#OOSTT_f8162a47_0a92_4188_8715_f9bcba7f2927 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo#OOSTT_f8162a47_0a92_4188_8715_f9bcba7f2927">
+        <rdfs:label xml:lang="en">institutional member role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo#OOSTT_2d9894eb_abcd_4100_8e74_48b906a9a937"/>
+        <obo:IAO_0000115 xml:lang="en">a role inhering in an organization when that organization bears a member relation to an organization.</obo:IAO_0000115>
+    </owl:Class>
     
 
 
@@ -202,7 +347,7 @@
 
     <owl:Class rdf:about="&obo;OMRSE_00000024">
         <rdfs:label xml:lang="en">role in human social processes</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo#OOSTT_202af835_1083_4c9d_8346_a54428439df6"/>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:IAO_0000115 xml:lang="en">A role inhering in an entity realized by social interactions in human society.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
@@ -291,7 +436,7 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000001">
         <rdfs:label xml:lang="en">trauma team lead role</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo#OOSTT_202af835_1083_4c9d_8346_a54428439df6"/>
         <obo:IAO_0000115 xml:lang="en">A role borne by a physician that is realized by making the diagnostic and therapeutic decision during a trauma resuscitation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
@@ -326,7 +471,7 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000004">
         <rdfs:label xml:lang="en">specialty liaison role</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo#OOSTT_202af835_1083_4c9d_8346_a54428439df6"/>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in a physician and that is realized by the bearer representing their speciality in the multidisciplinary peer review committee.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
@@ -372,7 +517,7 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000008">
         <rdfs:label xml:lang="en">lead agency role</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo#OOSTT_202af835_1083_4c9d_8346_a54428439df6"/>
         <obo:IAO_0000115 xml:lang="en">A role appointed by a legislature that grants the bearer authority to plan, coordinate, and monitor trauma-EMS systems.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
@@ -500,7 +645,7 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000018">
         <rdfs:label xml:lang="en">trauma program manager (role)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo#OOSTT_202af835_1083_4c9d_8346_a54428439df6"/>
         <obo:IAO_0000115 xml:lang="en">A role that is realized by managing the operation of the trauma service, including: supervision of trauma registry, trauma case managers, and support staff; coordination with hospital administration and medical staff; coordination of trauma quality improvement functions; preparation of trauma designation/verification applications, documentation and required reporting; and trauma-specific education and training.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The individual responsible for managing the operation of the trauma service, including: supervision of trauma registry, trauma case managers, and support staff; coordination with hospital administration and medical staff; coordination of trauma quality improvement functions; preparation of trauma designation/verification applications, documentation and required reporting; and trauma-specific education and training.</obo:OOSTT_00000030>
@@ -535,7 +680,7 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000021">
         <rdfs:label xml:lang="en">trauma medical director (role)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo#OOSTT_202af835_1083_4c9d_8346_a54428439df6"/>
         <obo:IAO_0000115 xml:lang="en">A role borne by a physician and realized by having the authority to manage all aspects of the trauma service.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
@@ -628,7 +773,7 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000029">
         <rdfs:label xml:lang="en">trauma center role</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo#OOSTT_202af835_1083_4c9d_8346_a54428439df6"/>
         <obo:IAO_0000115 xml:lang="en">A role that is borne by a hospital or clinic and is realized by its bearer providing emergency trauma care through specially trained personnel at all times. The role is the specified outcome of a trauma center designation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
@@ -788,7 +933,7 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000116">
         <rdfs:label xml:lang="en">registrar role</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo#OOSTT_202af835_1083_4c9d_8346_a54428439df6"/>
         <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">a role that inheres in a homo sapiens or organization that is realized by preparing, keeping, and overseeing records made in a register.</obo:IAO_0000115>
     </owl:Class>
@@ -798,10 +943,10 @@ Ditto for its current descendants.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000117 -->
 
     <owl:Class rdf:about="&obo;OOSTT_00000117">
-        <rdfs:label xml:lang="en">committee member role</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
-        <obo:IAO_0000117 xml:lang="en">Neil J Otte</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">a role in the organization context of a committee.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">individual member role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo#OOSTT_2d9894eb_abcd_4100_8e74_48b906a9a937"/>
+        <obo:IAO_0000117 xml:lang="en">J Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">a role inhering in an individual when that individual bears a member relation to an organization.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -811,8 +956,8 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000118">
         <rdfs:label xml:lang="en">patient safety</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000016"/>
-        <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">a disposition realized in process profiles that have participants the biological qualities of patients and the practices and instruments of medical professionals.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">a disposition realized in process profiles that have as participants the biological qualities of patients and the practices and instruments of medical professionals.</obo:IAO_0000115>
     </owl:Class>
     
 
