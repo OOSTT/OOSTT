@@ -24,6 +24,7 @@
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
+        <dc:contributor xml:lang="en">John Judkins</dc:contributor>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
         <dc:contributor xml:lang="en">Mihail Eduard Tudoreanu</dc:contributor>
         <dc:contributor xml:lang="en">Nels D. Sanddal</dc:contributor>
@@ -759,7 +760,31 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000037">
         <rdfs:label xml:lang="en">trauma on call plan specification</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000104"/>
-        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies which trauma personnel is supposed to be ready for trauma team activation during which time periods.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies which members of trauma personnel are supposed to be ready for trauma team activation during which time periods.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000038 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000038">
+        <rdfs:label xml:lang="en">regional trauma professional organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000003"/>
+        <obo:IAO_0000115 xml:lang="en">A trauma professional organization focusing its mission on a specified region within a nation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000039 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000039">
+        <rdfs:label xml:lang="en">national trauma professional organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000003"/>
+        <obo:IAO_0000115 xml:lang="en">A trauma professional organization focusing its mission on a national level.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
