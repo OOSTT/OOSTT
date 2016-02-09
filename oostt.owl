@@ -34,7 +34,7 @@
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2015-01-27</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2015-02-09</owl:versionInfo>
         <owl:imports rdf:resource="http://purl.obofoundry.org/obo/iao/d-acts/20150916/d-acts.owl"/>
     </owl:Ontology>
     
@@ -547,10 +547,11 @@ Ditto for its current descendants.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000018 -->
 
     <owl:Class rdf:about="&obo;OOSTT_00000018">
-        <rdfs:label xml:lang="en">trauma program manager (role)</rdfs:label>
+        <rdfs:label xml:lang="en">trauma program manager role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role that is realized by managing the operation of the trauma service, including: supervision of trauma registry, trauma case managers, and support staff; coordination with hospital administration and medical staff; coordination of trauma quality improvement functions; preparation of trauma designation/verification applications, documentation and required reporting; and trauma-specific education and training.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">TPM role</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">The individual responsible for managing the operation of the trauma service, including: supervision of trauma registry, trauma case managers, and support staff; coordination with hospital administration and medical staff; coordination of trauma quality improvement functions; preparation of trauma designation/verification applications, documentation and required reporting; and trauma-specific education and training.</obo:OOSTT_00000030>
     </owl:Class>
     
@@ -582,10 +583,11 @@ Ditto for its current descendants.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000021 -->
 
     <owl:Class rdf:about="&obo;OOSTT_00000021">
-        <rdfs:label xml:lang="en">trauma medical director (role)</rdfs:label>
+        <rdfs:label xml:lang="en">trauma medical director role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role borne by a physician and realized by having the authority to manage all aspects of the trauma service.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">TMD role</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -747,6 +749,18 @@ Ditto for its current descendants.</rdfs:comment>
         <rdfs:label xml:lang="en">trauma program role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000015"/>
         <obo:IAO_0000118 xml:lang="en">A healthcare provider organization role that is borne by a part of a healthcare provider organization and that is realized by providing and coordinating care for injured patients.</obo:IAO_0000118>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000037 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000037">
+        <rdfs:label xml:lang="en">trauma on call plan specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000104"/>
+        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies which trauma personnel is supposed to be ready for trauma team activation during which time periods.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
