@@ -35,7 +35,7 @@
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2015-02-09</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2015-02-29</owl:versionInfo>
         <owl:imports rdf:resource="http://purl.obofoundry.org/obo/iao/d-acts/20150916/d-acts.owl"/>
     </owl:Ontology>
     
@@ -136,6 +136,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000042 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OOSTT_00000042">
+        <rdfs:label xml:lang="en">organize</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">&apos;organize&apos; holds between an independent continuant and a planned process, iff the independent continuant particpates in the planned process and also participated in the creation of the plan specification that the planned process realizes.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:domain rdf:resource="&obo;BFO_0000004"/>
+        <rdfs:range rdf:resource="&obo;OBI_0000011"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0000056"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000113 -->
 
     <owl:ObjectProperty rdf:about="&obo;OOSTT_00000113">
@@ -195,6 +208,20 @@
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Physician</obo:IAO_0000119>
         <obo:IAO_0000118 xml:lang="en">physician</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000014 -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000014">
+        <rdfs:label xml:lang="en">nurse role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000012"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A health care role borne by a human being and realized by the care of individuals, families, and communities so they may attain, maintain, or recover optimal health and quality of life.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">based on: http://en.wikipedia.org/wiki/Nursing</obo:IAO_0000119>
+        <obo:IAO_0000118 xml:lang="en">nurse</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -372,9 +399,16 @@ Ditto for its current descendants.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000007 -->
 
     <owl:Class rdf:about="&obo;OOSTT_00000007">
-        <rdfs:label xml:lang="en">trauma program operational process performance improvement committee</rdfs:label>
+        <rdfs:label xml:lang="en">trauma program operational review committee</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000115"/>
-        <obo:OOSTT_00000030 xml:lang="en">A performance improvement committee to evaluate the system of care within a trauma center.</obo:OOSTT_00000030>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;OOSTT_00000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A performance improvement committee that is part of a trauma program and reviews the system of care within that trauma center.</obo:IAO_0000115>
+        <obo:OOSTT_00000030 xml:lang="en">A performance improvement committee to reviews the system of care within a trauma center.</obo:OOSTT_00000030>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
@@ -596,7 +630,7 @@ Ditto for its current descendants.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000022 -->
 
     <owl:Class rdf:about="&obo;OOSTT_00000022">
-        <rdfs:label xml:lang="en">trauma registrar (role)</rdfs:label>
+        <rdfs:label xml:lang="en">trauma registrar role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000116"/>
         <obo:IAO_0000115 xml:lang="en">A registrar role that is realized by preparing, keeping, and overseeing records in a trauma registry.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
@@ -786,6 +820,63 @@ Ditto for its current descendants.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000003"/>
         <obo:IAO_0000115 xml:lang="en">A trauma professional organization focusing its mission on a national level.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000040 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000040">
+        <rdfs:label xml:lang="en">trauma peer review committee meeting plan specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000104"/>
+        <obo:IAO_0000115 xml:lang="en">A plan specification specifying the organization of meetings of representatives of all medical specialities involved in trauma care to review the performance from a peer perspective.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000041 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000041">
+        <rdfs:label xml:lang="en">trauma peer review committee meeting</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0000059"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OOSTT_00000040"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that realizes the concretization of a trauma peer review committee meeting plan specification. This meeting is inteded to to review the performance from a representatives of all medical specialities involved in trauma care by their peers.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000043 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000043">
+        <rdfs:label xml:lang="en">head of emergency medicine department role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that is borne by a person that also bears a emergency medicine physician role and that is realized by providing management and leadership for a emergency medicine department.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">director of emergency medicine</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">http://www.acep.org/workarea/DownloadAsset.aspx?id=29878</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000044 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000044">
+        <rdfs:label xml:lang="en">nurse executive role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000014"/>
+        <obo:IAO_0000115 xml:lang="en">A nurse role that is realized by managing a team of healthcare professionals, provide continuing education and providing input to healthcare policies in their organization</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
