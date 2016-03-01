@@ -35,7 +35,7 @@
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2015-02-29</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2016-03-01</owl:versionInfo>
         <owl:imports rdf:resource="http://purl.obofoundry.org/obo/iao/d-acts/20150916/d-acts.owl"/>
     </owl:Ontology>
     
@@ -145,6 +145,20 @@
         <rdfs:domain rdf:resource="&obo;BFO_0000004"/>
         <rdfs:range rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0000056"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000045 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OOSTT_00000045">
+        <rdfs:label xml:lang="en">mutually specifically depends on</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">This relation holds between two specifically dependent continuant a and b and b is of its nature such that it cannot exist unless c exists and a is of its nature such that it cannot exist unless b exists.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://ncor.buffalo.edu/2016/deontic-gainesville.pdf</obo:IAO_0000119>
+        <rdfs:domain rdf:resource="&obo;BFO_0000020"/>
+        <rdfs:range rdf:resource="&obo;BFO_0000020"/>
     </owl:ObjectProperty>
     
 
@@ -619,8 +633,8 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000021">
         <rdfs:label xml:lang="en">trauma medical director role</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role borne by a physician and realized by having the authority to manage all aspects of the trauma service.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000010"/>
+        <obo:IAO_0000115 xml:lang="en">A human health care role borne by a physician and that, if realized, is realized by having the authority to manage all aspects of the trauma service.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">TMD role</obo:IAO_0000118>
     </owl:Class>
@@ -875,8 +889,62 @@ Ditto for its current descendants.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;OOSTT_00000044">
         <rdfs:label xml:lang="en">nurse executive role</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000014"/>
-        <obo:IAO_0000115 xml:lang="en">A nurse role that is realized by managing a team of healthcare professionals, provide continuing education and providing input to healthcare policies in their organization</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000010"/>
+        <obo:IAO_0000115 xml:lang="en">A human health care role borne by a nurse and if realized, relized by managing a team of healthcare professionals, provide continuing education or providing input to healthcare policies in their organization</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000046 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000046">
+        <rdfs:label xml:lang="en">reporter role</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;BFO_0000023"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="&obo;IAO_0021003"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OOSTT_00000045"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OOSTT_00000047"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that is the specified outcome of a social act and that is mutually specifically dependent on a reportee role and that, if realized, is realized by the bearer of the role reporting activities and results to the bearer of the depending reportee role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000047 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000047">
+        <rdfs:label xml:lang="en">reportee role</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;BFO_0000023"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="&obo;IAO_0021003"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OOSTT_00000045"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OOSTT_00000046"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that is the specified outcome of a social act and that is mutually specifically dependent on a reporter role and that, if realized, is realized by the bearer of the role receiving reports on activities and results by the bearer of the depending reporter role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
