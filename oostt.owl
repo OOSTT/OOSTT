@@ -155,7 +155,7 @@
         <rdfs:label xml:lang="en">mutually specifically depends on</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">This relation holds between two specifically dependent continuant a and b and b is of its nature such that it cannot exist unless c exists and a is of its nature such that it cannot exist unless b exists.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This relation holds between two specifically dependent continuants, a and b, where b is of its nature such that it cannot exist unless a exists and where a is of its nature such that it cannot exist unless b exists.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://ncor.buffalo.edu/2016/deontic-gainesville.pdf</obo:IAO_0000119>
         <rdfs:domain rdf:resource="&obo;BFO_0000020"/>
         <rdfs:range rdf:resource="&obo;BFO_0000020"/>
