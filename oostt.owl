@@ -950,6 +950,49 @@ Ditto for its current descendants.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000048 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000048">
+        <rdfs:label xml:lang="en">anesthesiologist liaison role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000004"/>
+        <obo:IAO_0000115 xml:lang="en">A specialty liaison role borne by an anesthesiologist and realized by the bearer representing anesthesiology in the multidisciplinary peer review committee</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000049 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000049">
+        <rdfs:label xml:lang="en">continuing medical education plan specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000104"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;OOSTT_00000050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A plan specification that has continuing medical education objecte specifications as parts and that when concretized, is realized in processes that help maintain competence and learn about new and developing areas of medicine or the medical speciality of its bearer.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000050 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000050">
+        <rdfs:label xml:lang="en">continuing medical education objective specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">An objective specification that describes the endpoint of processes to  maintain competency and learn new and developing areas in medicine or one of its specialities.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Continuing_medical_education&amp;oldid=708782251</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000100 -->
 
     <owl:Class rdf:about="&obo;OOSTT_00000100">
