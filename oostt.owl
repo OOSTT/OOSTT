@@ -36,7 +36,7 @@
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <owl:versionInfo xml:lang="en">development version - 2016-03-01</owl:versionInfo>
-        <owl:imports rdf:resource="http://purl.obofoundry.org/obo/iao/d-acts/20150916/d-acts.owl"/>
+        <owl:imports rdf:resource="http://purl.obofoundry.org/obo/iao/d-acts/2016-02-16/d-acts.owl"/>
     </owl:Ontology>
     
 
@@ -989,6 +989,18 @@ Ditto for its current descendants.</rdfs:comment>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Continuing_medical_education&amp;oldid=708782251</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000051 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000051">
+        <rdfs:label xml:lang="en">hospital governing body role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organization and, if realized, is realized by the bearer providing direction and overseeing the operations of a hospital.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
 
