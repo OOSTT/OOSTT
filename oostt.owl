@@ -20,6 +20,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;oostt/dev/oostt.owl">
+        <dc:license>http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
