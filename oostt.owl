@@ -104,7 +104,7 @@
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000030 -->
 
     <owl:AnnotationProperty rdf:about="&obo;OOSTT_00000030">
-        <rdfs:label xml:lang="en">OOSTT user centered description</rdfs:label>
+        <rdfs:label xml:lang="en">OOSTT user-centered description</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:AnnotationProperty>
     
