@@ -599,7 +599,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000018">
         <rdfs:label xml:lang="en">trauma program manager role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role that is realized by managing the operation of the trauma service, including: supervision of trauma registry, trauma case managers, and support staff; coordination with hospital administration and medical staff; coordination of trauma quality improvement functions; preparation of trauma designation/verification applications, documentation and required reporting; and trauma-specific education and training.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role borne by a human healthcare provider that, if realized is realized by managing the operation of the trauma service, including: supervision of trauma registry, trauma case managers, and support staff; coordination with hospital administration and medical staff; coordination of trauma quality improvement functions; preparation of trauma designation/verification applications, documentation and required reporting; and trauma-specific education and training.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">TPM role</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">The individual responsible for managing the operation of the trauma service, including: supervision of trauma registry, trauma case managers, and support staff; coordination with hospital administration and medical staff; coordination of trauma quality improvement functions; preparation of trauma designation/verification applications, documentation and required reporting; and trauma-specific education and training.</obo:OOSTT_00000030>
@@ -648,7 +648,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000022">
         <rdfs:label xml:lang="en">trauma registrar role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000116"/>
-        <obo:IAO_0000115 xml:lang="en">A registrar role that is realized by preparing, keeping, and overseeing records in a trauma registry.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A registrar role borne by a human being that, if realized,  is realized by preparing, keeping, and overseeing records in a trauma registry.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
@@ -730,7 +730,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000029">
         <rdfs:label xml:lang="en">trauma center role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role that is borne by a hospital or clinic and is realized by its bearer providing emergency trauma care through specially trained personnel at all times. The role is the specified outcome of a trauma center designation.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role that is borne by a hospital or clinic and, if realized, is realized by its bearer providing emergency trauma care through specially trained personnel at all times. The role is the specified outcome of a trauma center designation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
