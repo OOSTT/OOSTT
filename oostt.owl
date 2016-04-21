@@ -357,7 +357,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000002">
         <rdfs:label xml:lang="en">trauma center</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
-        <obo:IAO_0000115 xml:lang="en">A hospital or clinic that provides emergency trauma care through specially trained personnel at all times.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A hospital or clinic that provides emergency trauma care through specially trained personnel.</obo:IAO_0000115>
         <obo:OOSTT_00000030 xml:lang="en">A specialized hospital or clinic with the immediately or promptly availability of  specially trained health care personnel who provide emergency care on a 24-hour–7-day/week basis for injured people. These specially trained personnel are immediately or promptly available to treat patients with ready operating rooms, special equipment, and necessary supplies. The American College of Surgeons defines certain standards for each of the 4 levels of trauma centers that it identifies.</obo:OOSTT_00000030>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
@@ -446,7 +446,7 @@ Ditto for its current descendants.</rdfs:comment>
         <rdfs:label xml:lang="en">regional trauma system</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OOSTT_00000015"/>
         <obo:OOSTT_00000030 xml:lang="en">A systematic approach within an entire community that ensures optimal trauma care; it includes - injury prevention, access to care, prehospital care, acute hospital care and rehabilitation.</obo:OOSTT_00000030>
-        <obo:IAO_0000115 xml:lang="en">An organization in a defined geographic area that ensures optimal trauma care; it includes - injury prevention, access to care, prehospital care, acute hospital care, and rehabilitation.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An organization in a defined geographic area that ensures optimal trauma care, which includes injury prevention, access to care, prehospital care, acute hospital care, and rehabilitation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
@@ -635,7 +635,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000021">
         <rdfs:label xml:lang="en">trauma medical director role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000010"/>
-        <obo:IAO_0000115 xml:lang="en">A human health care role borne by a physician that, if realized, is realized by having the authority to manage all aspects of the trauma service.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A human health care role borne by a physician that, if realized, is realized by having the authority to direct and oversee the manage all aspects of the trauma service.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">TMD role</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">The role borne of having the authority to manage all aspects of a trauma service. The role is borne by a physician.</obo:OOSTT_00000030>
@@ -730,7 +730,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="&obo;OOSTT_00000029">
         <rdfs:label xml:lang="en">trauma center role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role that is borne by a hospital or clinic and, if realized, is realized by its bearer providing emergency trauma care through specially trained personnel at all times. The role is the specified outcome of a trauma center designation.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role that is borne by a hospital or clinic and, if realized, is realized by its bearer providing emergency trauma care through specially trained personnel. The role is the specified outcome of a trauma center designation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
