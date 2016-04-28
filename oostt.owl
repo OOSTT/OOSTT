@@ -901,7 +901,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A human health care role borne by a physician that, if realized, is realized by having the authority to direct and oversee the manage all aspects of the trauma service.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">TMD role</obo:IAO_0000118>
-        <obo:OOSTT_00000030 xml:lang="en">The role borne of having the authority to manage all aspects of a trauma service. The role is borne by a physician.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">The role borne by a physician having the authority to manage all aspects of a trauma service.</obo:OOSTT_00000030>
     </owl:Class>
     
 
