@@ -1561,6 +1561,24 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000079 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000079">
+        <rdfs:label xml:lang="en">prehospital education</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000080 -->
+
+    <owl:Class rdf:about="&obo;OOSTT_00000080">
+        <rdfs:label xml:lang="en">emergency medical services operation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000096"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000100 -->
 
     <owl:Class rdf:about="&obo;OOSTT_00000100">
