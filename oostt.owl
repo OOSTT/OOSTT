@@ -898,7 +898,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <owl:Class rdf:about="&obo;OOSTT_00000021">
         <rdfs:label xml:lang="en">trauma medical director role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000010"/>
-        <obo:IAO_0000115 xml:lang="en">A human health care role borne by a physician that, if realized, is realized by having the authority to direct and oversee the manage all aspects of the trauma service.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A human health care role borne by a physician that, if realized, is realized by having the authority to direct and oversee the management all aspects of the trauma service.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">TMD role</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">The role borne by a physician having the authority to manage all aspects of a trauma service.</obo:OOSTT_00000030>
