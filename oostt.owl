@@ -25,9 +25,9 @@
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
         <dc:contributor xml:lang="en">Rohit Pradhan</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2016-06-17</owl:versionInfo>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2016-06-22</owl:versionInfo>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
     </owl:Ontology>
@@ -1548,6 +1548,18 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is the specified outcome of and documents the sucessful completion of a tertiary education program.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">academic degree</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000075">
@@ -1601,6 +1613,82 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <rdfs:label xml:lang="en">obsolete_emergency medical services operation</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000074"/>
+        <obo:IAO_0000117 xml:lang="en">An academic degree awarded by colleges and universities upon completion of a program of study lasting two years.</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Associate_degree&amp;oldid=723897149</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">associate degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000074"/>
+        <obo:IAO_0000115 xml:lang="en">An academic degree awarded by universities upon completion of a course of study demonstrating a mastery or high-order overview of a specific field of study or area of professional practice.[1] Within the area studied, graduates are posited to possess advanced knowledge of a specialized body of theoretical and applied topics; high order skills in analysis, critical evaluation, or professional application; and the ability to solve complex problems and think rigorously and independently.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Master%27s_degree&amp;oldid=726036185</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">master&apos;s degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000074"/>
+        <obo:IAO_0000115 xml:lang="en">An academic degree awarded by colleges and universities upon completion of a course of study lasting three to seven years.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Bachelor%27s_degree&amp;oldid=725713923</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">bachelor&apos;s degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000083"/>
+        <obo:IAO_0000115 xml:lang="en">An academic degree in the science and principles of nursing, granted by an accredited tertiary education provider after the successful completion of a bachelor&apos;s of nursing program.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Bachelor_of_Science_in_Nursing&amp;oldid=725962822</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">bachelor&apos;s of nursing degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000081"/>
+        <obo:IAO_0000115 xml:lang="en">An academic degree granted by an accredited tertiary education provider after the successful completion of an associate of nursing program.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">associate of science in nursing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000082"/>
+        <obo:IAO_0000117 xml:lang="en">An academic degree in the science and principles of nursing, granted by an accredited tertiary education provider after the successful completion of a master&apos;s of nursing program.</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">master&apos;s in the science of nursing degree</rdfs:label>
     </owl:Class>
     
 
