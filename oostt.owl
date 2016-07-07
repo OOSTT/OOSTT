@@ -1755,6 +1755,36 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000027"/>
+        <obo:IAO_0000115 xml:lang="en">An organization healthcare role that is borne by a hospital and that, if realized, is realized by directly organizing and controlling prehospital providers.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Stedman&apos;s Medical Dictionary for the Health Professions and Nursing. 7th Edition. 2012.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">emergency medical services base station role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117 xml:lang="en">A document that is about a trauma registrar role and specifies the extend of of work and the rights and obligations that are associated with that role.</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">It is important to note that this is not the rights and obligations or the professional role itself. This is a descriptive information content entity, not a directive one or a conglomerate of socio=legal entities.</rdfs:comment>
+        <rdfs:label xml:lang="en">trauma registrar job description</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000110">
