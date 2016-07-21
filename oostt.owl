@@ -1919,6 +1919,17 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000058"/>
+        <obo:IAO_0000115 xml:lang="en">An authority role that, if realized, is realized by its bearer providing a document that list the minimum qualifications of a person to become a member of the trauma service.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">authority to specify criteria for trauma service membership</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000100">
@@ -1937,6 +1948,17 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">authority prescribed by some enabling legislation</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">statutory authority</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000058"/>
+        <obo:IAO_0000115 xml:lang="en">An authority role that, if realized, is realized by its bearer actively participating in a document act that has a trauma panel member role as its specified output.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">authority to appoint members of the trauma panel</rdfs:label>
     </owl:Class>
     
 
@@ -1967,6 +1989,38 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">It is important to note that this is not the rights and obligations or the professional role itself. This is a descriptive information content entity, not a directive one or a conglomerate of socio=legal entities.</rdfs:comment>
         <rdfs:label xml:lang="en">trauma registrar job description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000058"/>
+        <obo:IAO_0000115 xml:lang="en">An authority role that, if realized, is relaized by its bearer participating in a document act that revokes a trauma panel member role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">authority to remove members from the trauma panel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021006"/>
+        <obo:IAO_0000115>An obligee role that, if realized, is realized by its bearer participating in continuing trauma eduction to amount to 18 hours in three years.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">trauma education obligee role for eighteen hours in three years</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that is scattered over multiple temporal regions within a three year time frame, and that is realizing some plan specification of trauma care education and that is sufficient to receive 18 credit hours.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">trauma education verifiable for 18 hours of 3 years</rdfs:label>
     </owl:Class>
     
 
