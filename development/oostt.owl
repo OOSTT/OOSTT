@@ -16,8 +16,8 @@
         <dc:contributor xml:lang="en">Nels D. Sanddal</dc:contributor>
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
         <dc:contributor xml:lang="en">Robert T. Maxson</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2016-07-20</owl:versionInfo>
         <dc:contributor xml:lang="en">Robert J. Winchell</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2016-09-29</owl:versionInfo>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
         <dc:contributor xml:lang="en">Mihail Eduard Tudoreanu</dc:contributor>
         <dc:contributor xml:lang="en">John Judkins</dc:contributor>
@@ -2220,9 +2220,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125 -->
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000125 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000125">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2243,7 +2243,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                                     </owl:Restriction>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000126"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000126"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -2260,9 +2260,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000126 -->
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000126 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000126">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in a human being and is acquired by successfully completing an orthopedic residency.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
@@ -2272,9 +2272,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000127 -->
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000127 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000127">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000127">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2296,7 +2296,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                                     </owl:Restriction>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000128"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000128"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -2313,9 +2313,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000128 -->
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000128 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000128">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
         <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is realized by its bearer using operative manual and instrumental techniques on the nervous system of a patient to investigate and/or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">neurosurgeon role</rdfs:label>
@@ -2323,9 +2323,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000129 -->
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000129 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000129">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is about a particular liaison to the trauma panel and affirms that they have attended at least 50% of trauma peer review committee meetings since taking the liaison role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
