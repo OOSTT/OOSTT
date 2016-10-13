@@ -2294,9 +2294,32 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000144">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
-        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques on a patient&apos;s spine to investigate and/or treat a pathological condition such as disease or injury, to help improve bodily function or appearance.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques on a patient&apos;s spine to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">spinal surgery provider organization role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in a human being and, if realized, is realized by representing an emergency department in the quality improvement program of organization providing pre-hospital care and services.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">representative from emergency department to pre-hospital provider QI program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
+        <obo:IAO_0000115 xml:lang="en">A health care provider role that inheres in a human being and, if realized, is realized by a process of providing health care to a patient before and during transport of the patient to the hospital.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">prehospital care provider role</rdfs:label>
     </owl:Class>
     
 
