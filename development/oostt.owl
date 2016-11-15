@@ -16,8 +16,8 @@
         <dc:contributor xml:lang="en">Nels D. Sanddal</dc:contributor>
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
         <dc:contributor xml:lang="en">Robert T. Maxson</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2016-11-14</owl:versionInfo>
         <dc:contributor xml:lang="en">Robert J. Winchell</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2016-11-15</owl:versionInfo>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
         <dc:contributor xml:lang="en">Mihail Eduard Tudoreanu</dc:contributor>
         <dc:contributor xml:lang="en">John Judkins</dc:contributor>
@@ -1134,8 +1134,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000029"/>
         <obo:IAO_0000115 xml:lang="en">A Level I trauma center role is a trauma center role that is borne by a hospital that provides the highest level of surgical care to trauma patiets. Its bearer has a full range of specialists and equipement available 24 hours a day and admits a minimum required annual volume of severly injured patients. The role is created by a Level I Trauma Center designation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">level I trauma center role</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Trauma_center&amp;oldid=685886443</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">level I trauma center role</rdfs:label>
+        <rdfs:label xml:lang="en">level 1 trauma center role</rdfs:label>
     </owl:Class>
     
 
@@ -1146,8 +1147,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000029"/>
         <obo:IAO_0000115 xml:lang="en">A Level II trauma center role is a trauma center role that is borne by a hospital that provides 24-hour availability of all essential specialities, personnel, and equipment. Minimum volume requirements depend on local conditions. The bearers of this role do not necessarily have an ongoing program of research or a surgical residency program. The role is created by a Level II Trauma Center designation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">level II trauma center role</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Trauma_center&amp;oldid=685886443</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">level II trauma center role</rdfs:label>
+        <rdfs:label xml:lang="en">level 2 trauma center role</rdfs:label>
     </owl:Class>
     
 
@@ -1158,8 +1160,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000029"/>
         <obo:IAO_0000115 xml:lang="en">A Level III trauma center role is a trauma center role that is borne by a hospital that while  not having the full availability of specialists, has resources for emergency resuscitation, surgery, and intensive care of most trauma patients. The bearer of this role has transfer agreements with Level I or Level II trauma centers. The role is created by a Level III Trauma Center designation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">level III trauma center role</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Trauma_center&amp;oldid=685886443</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">level III trauma center role</rdfs:label>
+        <rdfs:label xml:lang="en">level 3 trauma center role</rdfs:label>
     </owl:Class>
     
 
@@ -1192,8 +1195,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000029"/>
         <obo:IAO_0000115 xml:lang="en">A Level IV trauma center role is a trauma center role that is borne by a hospital or clinic that provides evaluation, stabilization, diagnostic capabilities, and transfer to a higher level of care. The role is created by a Level IV Trauma Center designation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">level IV trauma center role</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Trauma_center&amp;oldid=685886443</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">level IV trauma center role</rdfs:label>
+        <rdfs:label xml:lang="en">level 4 trauma center role</rdfs:label>
     </owl:Class>
     
 
@@ -1216,8 +1220,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000029"/>
         <obo:IAO_0000115 xml:lang="en">A level V trauma center role is a trauma center role that is borne by a hospital or clinic that provides initial evaluation, stabilization, diagnostic capabilities, and transfer to a higher level of care. If the bearer of the role is not open 24 hours daily, the facility must have an after-hours trauma response protocol. The role is created by a Level V Trauma Center designation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">level V trauma center role</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Trauma_center&amp;oldid=685886443</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">level V trauma center role</rdfs:label>
+        <rdfs:label xml:lang="en">level 5 trauma center role</rdfs:label>
     </owl:Class>
     
 
@@ -2790,6 +2795,33 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques on a patient&apos;s spine to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">spinal surgery provider organization role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000146">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000025"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
+        <obo:IAO_0000115 xml:lang="en">An aggregate of organizations whose members are all bearer of a level 1 trauma center role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">aggregate of level 1 trauma centers</rdfs:label>
     </owl:Class>
     
 
