@@ -2619,26 +2619,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000132 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000132">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000846"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000017"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in a person, who is a member in a trauma program, and, if realized, is realized by acting us the contact point of the trauma program regarding nursing care in the emergency department.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">emergency department nursing liaison of trauma program</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -2986,9 +2971,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A role that is borne by an emergency physician who is a member of the emergency department and that is realized by its bearer serving as the point of contact for all quality improvement-related communication between the emergency department and the trauma medical director.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role that is borne by an emergency physician who is a member of the emergency department and that is realized by its bearer serving as the point of contact for all quality improvement-related communication between to the emergency department and the trauma medical director.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">emergency department quality improvement liaison role</rdfs:label>
+        <rdfs:label xml:lang="en">emergency department quality improvement liaison to TMD role</rdfs:label>
     </owl:Class>
     
 
