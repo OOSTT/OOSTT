@@ -2264,9 +2264,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A role that is borne by a member of an emergency department and that, if realized, is realized by its bearer providing insight regarding emergency department procedures to the quality improvement program of a pre-hospital provider.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role that is borne by a member of an emergency department and that, if realized, is realized by its bearer representing the emergency department.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">ED representative to pre-hospital QI program role</rdfs:label>
+        <rdfs:label xml:lang="en">emergency department representative role</rdfs:label>
     </owl:Class>
     
 
@@ -3155,6 +3155,33 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in a nurse and, if realized, is realized by its bearer to act as contact for all matter relating to nursing in the emergency room.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">emergency department nursing liaison</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000846"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000092"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A planned process that has members of an emergency medical service providers as participants and that aims to improve patient outcomes of prehospital care.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">emergency medical services quality improvement process</rdfs:label>
     </owl:Class>
     
 
