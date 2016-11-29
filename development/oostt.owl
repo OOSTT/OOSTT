@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
-     xml:base="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#"
+     xml:base="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -227,7 +227,6 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000075 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000075">
-        <owl:equivalentProperty rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000020"/>
         <obo:IAO_0000118 xml:lang="en">aggregate of</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">aggregate_of</obo:IAO_0000118>
         <rdfs:label xml:lang="en">is aggregate of</rdfs:label>
@@ -266,12 +265,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">has organization member</rdfs:label>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000020 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000020"/>
     
 
 
@@ -2855,7 +2848,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
@@ -2865,7 +2858,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
@@ -3050,7 +3043,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -3060,7 +3053,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
@@ -3127,7 +3120,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
@@ -3137,7 +3130,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
@@ -3240,7 +3233,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -3250,7 +3243,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
@@ -3295,7 +3288,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -3313,7 +3306,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
@@ -3341,7 +3334,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -3359,7 +3352,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000168"/>
@@ -3435,7 +3428,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -3445,7 +3438,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
@@ -3461,7 +3454,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -3479,7 +3472,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
@@ -3496,7 +3489,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -3514,7 +3507,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
@@ -3723,7 +3716,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:allValuesFrom>
+                        <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -3775,7 +3768,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
-                        </owl:allValuesFrom>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3973,7 +3966,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -3991,7 +3984,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
@@ -4019,7 +4012,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -4037,7 +4030,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000194"/>
@@ -4066,7 +4059,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -4080,7 +4073,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
@@ -4100,7 +4093,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:allValuesFrom>
+                        <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -4132,7 +4125,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
-                        </owl:allValuesFrom>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4166,7 +4159,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:allValuesFrom>
+                        <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -4192,7 +4185,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
-                        </owl:allValuesFrom>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4211,7 +4204,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -4229,7 +4222,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
@@ -4246,7 +4239,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -4256,7 +4249,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
@@ -4319,7 +4312,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:allValuesFrom>
+                        <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -4337,7 +4330,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
-                        </owl:allValuesFrom>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4371,7 +4364,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:allValuesFrom>
+                        <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -4389,7 +4382,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
-                        </owl:allValuesFrom>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4449,7 +4442,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:allValuesFrom>
+                        <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -4490,7 +4483,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
-                        </owl:allValuesFrom>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
