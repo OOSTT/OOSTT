@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#"
-     xml:base="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
+     xml:base="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -3040,7 +3040,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000156 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000156">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
                 <owl:someValuesFrom>
@@ -3055,10 +3056,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that only has bearers of an anesthesiologist role as members.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of anesthesiologists</rdfs:label>
     </owl:Class>
     
@@ -3230,7 +3231,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000165">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
                 <owl:someValuesFrom>
@@ -3245,10 +3247,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that only has bearers of an anesthesiologist role as members.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of emergency physicians</rdfs:label>
     </owl:Class>
     
@@ -3285,7 +3287,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000168">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
                 <owl:someValuesFrom>
@@ -3308,10 +3311,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians that has successfully completed the advanced life support course.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of emergency physicians with ATLS training</rdfs:label>
     </owl:Class>
     
@@ -3331,7 +3334,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000170 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000170">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000168"/>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
                 <owl:someValuesFrom>
@@ -3354,10 +3358,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000168"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians with ATLS training for which the training has not been more than three years ago.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of emergency physicians current in ATLS</rdfs:label>
     </owl:Class>
     
@@ -3425,7 +3429,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000174 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000174">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
                 <owl:someValuesFrom>
@@ -3440,9 +3445,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians that only has members, which are board certified in emergency medicine.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of board certified emergency physicians</rdfs:label>
     </owl:Class>
     
@@ -3451,7 +3456,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000175 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000175">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
                 <owl:someValuesFrom>
@@ -3474,10 +3480,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians that fulfil all criteria to sit a board certification exam, but that either have not taken one or have failed.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of board eligible emergency physicians</rdfs:label>
     </owl:Class>
     
@@ -3486,7 +3492,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000176 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000176">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
                 <owl:someValuesFrom>
@@ -3509,10 +3516,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians that all successfully took the board certification exam in emergency medicine and that have had ATLS training no more than three years ago.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of board certified emergency physicians current in ATLS</rdfs:label>
     </owl:Class>
     
@@ -3710,7 +3717,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000184">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
@@ -3772,10 +3780,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that only consists of surgeons that are mentioned in a trauma on call plan specification and that are subject to a performance review by the trauma medical director.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of trauma panel surgeons reviewed by the TMD</rdfs:label>
     </owl:Class>
     
@@ -3963,7 +3971,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000194 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000194">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
                 <owl:someValuesFrom>
@@ -3986,10 +3995,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of general surgeons that has successfully completed the advanced life support course.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of general surgeons with ATLS training</rdfs:label>
     </owl:Class>
     
@@ -4009,7 +4018,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000196">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000194"/>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
                 <owl:someValuesFrom>
@@ -4032,10 +4042,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000194"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of general surgeons with ATLS training for which the training has not been more than three years ago.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of general surgeons current in ATLS</rdfs:label>
     </owl:Class>
     
@@ -4056,7 +4066,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000198 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000198">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
                 <owl:someValuesFrom>
@@ -4075,10 +4086,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a trauma surgeon role that are also bearing a general surgery privileges role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of trauma surgeons with general surgery privileges</rdfs:label>
     </owl:Class>
     
@@ -4087,7 +4098,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000199 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000199">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
@@ -4129,10 +4141,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a trauma surgeon role an that are mentioned in a trauma on call plan specification and that particpates in trauma education verifiable for 18 hours over 3 years.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of trauma surgeons on trauma panel fulfilling CME requirement</rdfs:label>
     </owl:Class>
     
@@ -4153,7 +4165,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000201 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000201">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
@@ -4189,10 +4202,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a trauma surgeon role an that are mentioned in a trauma on call plan specification and that particpates in practice based learning course organized by a trauma program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of trauma surgeons on trauma panel with practice-based learning course</rdfs:label>
     </owl:Class>
     
@@ -4201,7 +4214,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000202">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
                 <owl:someValuesFrom>
@@ -4224,10 +4238,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons that fulfil all criteria to sit a board certification exam, but that either have not taken one or have failed.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of board eligible trauma surgeons</rdfs:label>
     </owl:Class>
     
@@ -4236,7 +4250,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000203 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000203">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
                 <owl:someValuesFrom>
@@ -4251,10 +4266,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons that only has members, which are board certified in trauma surgery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of board certified trauma surgeons</rdfs:label>
     </owl:Class>
     
@@ -4306,7 +4321,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
@@ -4334,10 +4350,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of humans, all of which bear both an orthopedic surgeon role and an orthopedic board eligibility role and participate in a trauma care process</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of board eligible orthopedic surgeons in trauma care</rdfs:label>
     </owl:Class>
     
@@ -4358,7 +4374,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000127">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
@@ -4386,10 +4403,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of humans, all of which bear a neurosurgeon role and are designated as part of the trauma on call plan specification</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of trauma panel neurosurgeons</rdfs:label>
     </owl:Class>
     
@@ -4436,7 +4453,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000131">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
@@ -4487,11 +4505,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of humans, all of which bear a trauma surgeon role and, while on call, participate in emergency health care processes that are not trauma related.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of trauma surgeons providing non-trauma emergency care on call</rdfs:label>
     </owl:Class>
     
