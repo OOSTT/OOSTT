@@ -4105,8 +4105,18 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                                     <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000107"/>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000106"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000107"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
                                     </owl:Restriction>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -4161,35 +4171,16 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                                     <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:intersectionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
-                                                    <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                                        <owl:someValuesFrom>
-                                                            <owl:Restriction>
-                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
-                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000200"/>
-                                                            </owl:Restriction>
-                                                        </owl:someValuesFrom>
-                                                    </owl:Restriction>
-                                                    <owl:Restriction>
-                                                        <owl:onProperty>
-                                                            <rdf:Description>
-                                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000042"/>
-                                                            </rdf:Description>
-                                                        </owl:onProperty>
-                                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000017"/>
-                                                    </owl:Restriction>
-                                                </owl:intersectionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000096"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty>
+                                            <rdf:Description>
+                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                                            </rdf:Description>
+                                        </owl:onProperty>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000204"/>
                                     </owl:Restriction>
                                     <owl:Restriction>
                                         <owl:onProperty>
@@ -4272,6 +4263,49 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons that only has members, which are board certified in trauma surgery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">collection of board certified trauma surgeons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000204">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000205"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is a specific output of a person participating in an internal trauma program course using a practice based learning approach and that certifies successful completion of the course.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">trauma program internal practice-based learning course certificate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000200"/>
+        <obo:IAO_0000115 xml:lang="en">A practice-based learning course plan specification that aims to improve the quality of patient outcomes in trauma medicine.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">practice-based learning trauma care course plan specification</rdfs:label>
     </owl:Class>
     
 
@@ -4503,6 +4537,29 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <dc:source>http://vivoweb.org/sites/vivoweb.org/files/vivo-isf-public-1.6.owl</dc:source>
         <rdfs:label xml:lang="en">Medical Residency</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000206 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000206">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000119"/>
+        <obo:IAO_0000115 xml:lang="en">A professional organization that is the scientific and educational association of surgeons and is dedicated to improving the care of the surgical patient and to safeguarding standards of care in an optimal and ethical practice environment.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://www.facs.org/about-acs</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">american colleage of surgeons</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
