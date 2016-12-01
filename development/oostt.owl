@@ -4747,7 +4747,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of orthopedic surgeons mentioned on the trauma  on call plan specification that fulfil all criteria to sit a board certification exam, but that either have not taken one or have failed.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">collection of board eligible orthopedic surgeons on the trauma panel</rdfs:label>
+        <rdfs:label xml:lang="en">collection of board eligible orthopedic surgeons on trauma panel</rdfs:label>
     </owl:Class>
     
 
