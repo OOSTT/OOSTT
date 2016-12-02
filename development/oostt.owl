@@ -5100,6 +5100,17 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000232">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#MedicalResidency"/>
+        <obo:IAO_0000115 xml:lang="en">A medical residency in the medical speciality that focuses on the administeration of medication for the temporary general or local suppression of sensory or motor nerve function during some health care encounter or on making decisions independently of a supervising physician regarding the adminstration of such medication.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">anesthesiology residency program</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125">
