@@ -5422,6 +5422,28 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000255">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000254"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that realizes the concretization of a trauma system creation plan specification.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">trauma system creation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125">
