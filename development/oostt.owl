@@ -5805,7 +5805,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A professional organization that is the scientific and educational association of surgeons and is dedicated to improving the care of the surgical patient and to safeguarding standards of care in an optimal and ethical practice environment.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://www.facs.org/about-acs</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">american colleage of surgeons</rdfs:label>
+        <rdfs:label xml:lang="en">american college of surgeons</rdfs:label>
     </owl:NamedIndividual>
     
 
