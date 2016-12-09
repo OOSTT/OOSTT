@@ -2032,7 +2032,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000118 xml:lang="en">ambulance service</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">Stedman&apos;s Medical Dictionary for the Health Professions and Nursing. 7th edition.</obo:IAO_0000119>
         <rdfs:comment xml:lang="en">This term class is different from http://purl.obolibrary.org/obo/ARG_2000136 (emergency medical services). The latter seems to be inteded to represent a medical speciality, while this class represents an organization.</rdfs:comment>
-        <rdfs:label xml:lang="en">emergency medical service provider</rdfs:label>
+        <rdfs:label xml:lang="en">emergency medical service agency</rdfs:label>
     </owl:Class>
     
 
