@@ -23,9 +23,9 @@
         <dc:license>http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2016-12-07</owl:versionInfo>
         <dc:contributor xml:lang="en">Rohit Pradhan</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2016-12-12</owl:versionInfo>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
@@ -894,7 +894,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role appointed by a legislature that, if realized, grants the bearer authority to plan, coordinate, and monitor trauma-EMS systems.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">lead agency role</rdfs:label>
+        <rdfs:label xml:lang="en">trauma lead agency role</rdfs:label>
     </owl:Class>
     
 
