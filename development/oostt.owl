@@ -5816,6 +5816,17 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000274"/>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">A government department that manages the government of means to prevent and fight fires and, in some cases, other accidental events and natural disasters.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">department of fire administration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125">
