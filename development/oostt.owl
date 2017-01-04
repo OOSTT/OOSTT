@@ -2526,6 +2526,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000115 xml:lang="en">An organization with a specific responsibility that is a part of a larger organization with a specific responsibility.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Department</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">This class does not contain government departments. Government department is to be found here: http://purl.obolibrary.org/obo/OOSTT_00000274 MB, Jan 4, 2017</rdfs:comment>
         <rdfs:label xml:lang="en">department</rdfs:label>
     </owl:Class>
     
@@ -5748,6 +5749,24 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000273 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000273">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000271"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000274"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000846"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000274"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000271"/>
         <obo:IAO_0000115 xml:lang="en">A government agency that is not reporting to any specific departmental part of government.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
@@ -5769,6 +5788,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000112 xml:lang="en">the US State Department, the German Bundesgesundheitsministerium, the UK Her Mayesty&apos;s Treasury</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An organization that is part of the government and that is responsible for managing a specific sector of government.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">ministry</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Ministry_(government_department)&amp;oldid=755317373</obo:IAO_0000119>
         <rdfs:label xml:lang="en">government department</rdfs:label>
     </owl:Class>
     
