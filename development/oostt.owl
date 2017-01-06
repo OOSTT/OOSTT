@@ -311,7 +311,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000278"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <obo:IAO_0000115 xml:lang="en">&apos;has policy&apos; holds between an organization and a directive information entity, iff the directive information entity is the outcome of a document act is meant to regulate the actions of the organization or its organizational members.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">&apos;has policy&apos; holds between an organization and a directive information entity, iff the directive information entity is the outcome of a document act and it is meant to regulate the actions of the organization or its organizational members.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has policy</rdfs:label>
     </owl:ObjectProperty>
@@ -333,7 +333,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000278 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000278">
-        <obo:IAO_0000115 xml:lang="en">&apos;policy of&apos; holds between a directive information entity and an organization and , iff the directive information entity is the outcome of a document act and the directive information entity is meant to regulate the actions of the organization or its organizational members.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">&apos;policy of&apos; holds between a directive information entity and an organization iff the directive information entity is the outcome of a document act and it is meant to regulate the actions of the organization or its organizational members.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">policy of</rdfs:label>
     </owl:ObjectProperty>
