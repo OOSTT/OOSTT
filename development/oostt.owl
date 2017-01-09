@@ -273,6 +273,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001938">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
         <obo:IAO_0000115>A relation between an information content entity and a value specification that specifies its value.</obo:IAO_0000115>
         <obo:IAO_0000119>OBI</obo:IAO_0000119>
         <rdfs:label xml:lang="en">has value specification</rdfs:label>
@@ -435,6 +436,32 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
         <rdfs:label xml:lang="en">member of</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001937 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001937">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#real"/>
+        <obo:IAO_0000111 xml:lang="en">has specified value</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A relation between a value specification and a number that quantifies it.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A range of &apos;real&apos; might be better than &apos;float&apos;. For now we follow &apos;has measurement value&apos; until we can consider technical issues with SPARQL queries and reasoning.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON: James A. Overton</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OBI</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">has specified value</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
