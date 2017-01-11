@@ -6005,8 +6005,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000285">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000284"/>
+        <obo:IAO_0000115 xml:lang="en">A trauma system plan that has been signed of by the lead health officer of its region.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">signed trauma system plan</rdfs:label>
+        <rdfs:label xml:lang="en">signed-off trauma system plan</rdfs:label>
     </owl:Class>
     
 
