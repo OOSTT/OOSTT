@@ -5989,6 +5989,28 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000284">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies the trauma system design with adopted standards of care for prehospital and hospital personnel and a process to regularly review the plan over time.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://www.facs.org/~/media/files/quality%20programs/trauma/tsepc/pdfs/regionaltraumasystems.ashx</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">trauma system plan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000284"/>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">signed trauma system plan</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125">
