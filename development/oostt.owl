@@ -5978,6 +5978,17 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000010"/>
+        <obo:IAO_0000115 xml:lang="en">A human health care role that, if realized, is realized by its bearer keeping hospitals up-to-date on requirements, health practices, and staff needs to ensure patient safety and provide reports, analyses and benchmarking based on outcome and performance data.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">performance improvement coordinator role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125">
