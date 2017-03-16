@@ -6024,7 +6024,16 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000130"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000094"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000094"/>
+                                    <owl:Class>
+                                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000287"/>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002218"/>
