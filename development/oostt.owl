@@ -6047,10 +6047,33 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000130"/>
+        <obo:IAO_0000115 xml:lang="en">A plan specification approval process that has a trauma system plan as specified input and part of the government or part of the machinery of government as an active agent expressing their agreement with the trauma system plan.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A plan specification approval process that has a trauma system plan as specified input and part of the government or part of the machinery of government as an active agent expressing their agreement with the trauma system plan.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">The part of goverment or part of the government machinery can be national, state, or regional.</rdfs:comment>
         <rdfs:label xml:lang="en">trauma system plan government approval process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000287">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000094"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000286"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000094"/>
+        <obo:IAO_0000115 xml:lang="en">A trauma system plan specification that is the specified output of a government approval process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Approval is given on the appropriate level: national, state, or regional.</rdfs:comment>
+        <rdfs:label xml:lang="en">government-approved trauma system plan specification</rdfs:label>
     </owl:Class>
     
 
