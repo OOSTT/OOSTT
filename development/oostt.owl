@@ -2545,7 +2545,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies procedures to ensure that a general surgeon is available at a healthcare provider organization 24 hours, 7 days a week.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A continuous coverage policy to ensure availability of a general surgeon.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">continuous general surgery coverage policy</rdfs:label>
     </owl:Class>
@@ -2787,7 +2788,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies procedures to ensure that an orthopedic surgeon is available at a healthcare provider organization 24 hours, 7 days a week.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A continuous coverage policy to ensure availability of an orthopedic surgeon.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">continuous orthopedic surgery coverage policy</rdfs:label>
     </owl:Class>
@@ -2809,7 +2811,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies procedures to ensure that a neurosurgeon is available at a healthcare provider organization 24 hours, 7 days a week.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A continuous coverage policy to ensure availability of a neurosurgeon.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">continuous neurosurgery coverage policy</rdfs:label>
     </owl:Class>
