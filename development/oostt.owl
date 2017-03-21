@@ -1266,7 +1266,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The entity given authority by the government to implement rules and financing.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">jurisdictional lead agency&quot;</rdfs:label>
+        <rdfs:label xml:lang="en">jurisdictional lead agency</rdfs:label>
     </owl:Class>
     
 
@@ -1658,7 +1658,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An organization that is part of a trauma program and that has as has those who provide direction to the program and coordinate the activities of the program as organizational members.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An organization that is part of a trauma program and whose members provide direction to the program and coordinate the activities of the program as organizational members.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">trauma program leadership</rdfs:label>
