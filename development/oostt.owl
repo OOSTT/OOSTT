@@ -1262,6 +1262,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000014"/>
+        <obo:IAO_0000115 xml:lang="en">A trauma lead agency responsible for implementing rules and financing.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The entity given authority by the government to implement rules and financing.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">jurisdictional lead agency&quot;</rdfs:label>
