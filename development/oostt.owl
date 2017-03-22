@@ -2471,6 +2471,19 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a role that inheres in a homo sapiens or organization that, if realized, is realized by preparing, keeping, and overseeing records made in a register.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">registrar role</rdfs:label>
