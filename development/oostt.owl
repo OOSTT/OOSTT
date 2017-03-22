@@ -3230,7 +3230,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
-        <obo:IAO_0000115 xml:lang="en">A physician role that inheres a human being and, if it is realized, is realized by diagnosing and managing life-threatening conditions requiring sophisticated organ support and invasive monitoring.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A physician role that, if it is realized, is realized by diagnosing and managing life-threatening conditions requiring sophisticated organ support and invasive monitoring.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">critical care physician role</rdfs:label>
     </owl:Class>
