@@ -2807,6 +2807,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that realizes the concretization of an anesthesia services availability plan specification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">Implementation of an anesthesia services availability plan that includes continuous monitoring to ensure that anesthesia services are readily available 24 hours a day 7 days a week and to identify variations in the plan that need corrective action in a performance improvement process.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">anesthesia services availability plan execution</rdfs:label>
     </owl:Class>
     
