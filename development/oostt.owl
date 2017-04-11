@@ -2694,7 +2694,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A neurosurgeon backup call scheduled that has been approved by the trauma medical director.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A neurosurgeon backup call schedule that has been approved by the trauma medical director.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">TMD-approved neurosurgeon backup call schedule</rdfs:label>
     </owl:Class>
