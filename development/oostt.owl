@@ -4071,7 +4071,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000192">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
-        <obo:IAO_0000115 xml:lang="en">A plan specification that specified the content, methodology, and evaluation of a training course to a brief use the Abbreviated Injury Scale, inform about coding rules and conventions, and discusses methods for assessing the multiply injury patient.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A plan specification that specified the content, methodology, and evaluation of a training course to the Abbreviated Injury Scale, inform about coding rules and conventions, and discusses methods for assessing the multiply injury patient.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">abbreviated injury scale training course plan specification</rdfs:label>
     </owl:Class>
