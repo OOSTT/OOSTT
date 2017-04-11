@@ -813,6 +813,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A  physician with responsibility for managing complex airways, and administering anesthesia or making decisions about anethesthic medications to be administered in collaboration with the attending physician.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">anesthesiologist role</rdfs:label>
     </owl:Class>
     
