@@ -3933,6 +3933,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A plan specification that specifies that content, methodology, and testing of educational programs for nurses teaching standardized diagnostic and therapeutic procedures with trauma patients in a hospital setting.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://de.wikipedia.org/w/index.php?title=Advanced_Trauma_Care_for_Nurse&amp;oldid=148554154</obo:IAO_0000119>
+        <obo:OOSTT_00000030 xml:lang="en">A description of the advanced trauma care for nurses education program that includes content, methodology, and testing processes with emphasis on standardized diagnostic and therapeutic procedures to care for trauma patients in the hospital setting.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">advanced trauma care for nurses course plan specification</rdfs:label>
     </owl:Class>
     
