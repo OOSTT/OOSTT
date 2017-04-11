@@ -3262,6 +3262,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
         <obo:IAO_0000115 xml:lang="en">An aggregate of organizations whose members are all bearer of a level 1 trauma center role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A group of healthcare facilities that are all ACS verified or state designated as level 2 trauma centers.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">aggregate of level 2 trauma centers</rdfs:label>
     </owl:Class>
     
