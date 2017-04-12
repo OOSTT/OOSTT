@@ -848,7 +848,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A physician representing their specialty in the multidisciplinary peer review committee.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A healthcare provider representing their specialty in the multidisciplinary peer review committee.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A physician or other qualified healthcare professional representing their specialty in the multidisciplinary peer review committee.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">specialty liaison</rdfs:label>
