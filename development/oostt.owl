@@ -5040,6 +5040,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An healthcare provider organization&apos;s triage plan specification that specifies which types and severity  of neurologic injury patients should stay in the facility if no neurosurgical coverage is present and that is the specified output of an approval process through the trauma medical director.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A hospital&apos;s neurologic injury triage plan identifying the destination of patients with specified (or based on) injury severity approved by the trauma medical director.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">TMD-approved organization neurological injury triage plan specification</rdfs:label>
     </owl:Class>
     
