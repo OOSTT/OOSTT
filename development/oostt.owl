@@ -1738,7 +1738,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000004"/>
-        <obo:IAO_0000115 xml:lang="en">A specialty liaison role borne by a human being, which is also bearing an emergency medicine physician role, and if realized, is realized by the bearer representing emergency medicine in the multidisciplinary peer review committee.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A specialty liaison role borne by a human being, which is also bearing a health care provider role, and if realized, is realized by the bearer representing emergency medicine in the multidisciplinary peer review committee.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">emergency medicine liaison role</rdfs:label>
     </owl:Class>
