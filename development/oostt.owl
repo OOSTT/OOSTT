@@ -2312,6 +2312,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000058"/>
         <obo:IAO_0000115 xml:lang="en">An authority role that, if realized, is relaized by its bearer participating in a document act that revokes a trauma panel member role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">The power to revoke membership on the trauma panel.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">authority to remove members from the trauma panel</rdfs:label>
     </owl:Class>
     
