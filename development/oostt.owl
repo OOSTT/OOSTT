@@ -5402,6 +5402,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
         <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing diagnosis and treatment of diseases of the heart and the blood vessels.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A physician with speciialized training in cardiology who diagnoses and treats patients with dysrhythmias and diseases of the heart and blood vessels.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">cardiologist role</rdfs:label>
     </owl:Class>
     
