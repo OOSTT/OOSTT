@@ -6282,6 +6282,18 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000015"/>
+        <obo:IAO_0000115 xml:lang="en">A trauma system that is designed to care for all injured patients and that involves all acute care facilities.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">PMID: 16531850</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">inclusive trauma system</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125">
