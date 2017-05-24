@@ -1695,7 +1695,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A role that is borne by a human being and that, if realized, is realized by managing an organization as the final decision maker for day to day operations.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role that is borne by a human being and that, if realized, is realized by managing an organization as the final decision maker for day to day operations and the bearer of which is held accountable for the organizations performance.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">managing director</obo:IAO_0000118>
         <rdfs:label xml:lang="en">chief executive officer role</rdfs:label>
