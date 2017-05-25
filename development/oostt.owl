@@ -17,9 +17,9 @@
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
         <dc:contributor xml:lang="en">Robert T. Maxson</dc:contributor>
         <dc:contributor xml:lang="en">Robert J. Winchell</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2017-05-24</owl:versionInfo>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
         <dc:contributor xml:lang="en">Mihail Eduard Tudoreanu</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2017-05-25</owl:versionInfo>
         <dc:contributor xml:lang="en">John Judkins</dc:contributor>
         <dc:license>http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
@@ -6281,7 +6281,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000292 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000292">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000092"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115 xml:lang="en">An emergency medical service agency that provides transport to the sick and wounded.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">EMS transporting agency</obo:IAO_0000118>
@@ -6370,6 +6370,21 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">An aggregate of emergency medical services agencies that do not provide transport for the sick and injured.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">aggregate of emergency medical services non-transporting agencies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">An organization that has other organizations as parts and that rovides emergency medical care. Once it is activated through the report of  an incident that causes serious illness or injury, the focus of EMS is emergency medical care of the patient.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">EMS</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">ambulance services</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">paramedic services</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">https://www.ems.gov/whatisems.html</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">emergency medical services system</rdfs:label>
     </owl:Class>
     
 
