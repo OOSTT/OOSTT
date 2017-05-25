@@ -2145,9 +2145,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A planned process that involves a physiscian and an organization providing prehospital care and transport of the sick and wounded and the physisican provides input regarding patient care and planning and operation of the service from a medical perspective.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process that involves a physiscian and an agency providing prehospital care or transport of the sick and wounded and the physisican provides input regarding patient care and planning and operation of the service from a medical perspective.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">medical direction to emergency medical service</rdfs:label>
+        <rdfs:label xml:lang="en">medical direction to emergency medical services</rdfs:label>
     </owl:Class>
     
 
