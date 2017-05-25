@@ -3080,6 +3080,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A role that is borne by a human being that is part of an emergency medical service agency, and that is realized by that person serving as the point of contact for a trauma program to the emergency medical service provider.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">EMS liaison to trauma program</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">A formally designated EMS provider that serves as a conduit for two-way information sharing between the EMS agency and the trauma program.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">emergency medical services liaison to trauma program</rdfs:label>
     </owl:Class>
