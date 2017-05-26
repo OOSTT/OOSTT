@@ -6413,6 +6413,19 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000292"/>
+        <obo:IAO_0000115 xml:lang="en">An emergency medical service transporting agency providing air transportation to move patients to and from healthcare facilities or accident scenes.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">air ambulance</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Air_medical_services&amp;oldid=782277605</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">air medical services agency</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125">
