@@ -6432,7 +6432,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000292"/>
         <obo:IAO_0000115 xml:lang="en">An emergency medical service transporting agency that specializes on pediatric patients.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">emergency medical service pediatric transporting agency</rdfs:label>
+        <rdfs:label xml:lang="en">emergency medical service pediatric transportation agency</rdfs:label>
     </owl:Class>
     
 
