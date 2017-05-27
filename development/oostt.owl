@@ -6538,6 +6538,17 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000306"/>
+        <obo:IAO_0000117 xml:lang="en">A healthcare provider organization role that is borne by a hospital and that gets assigned based on an evaluation process. If realized, the role is realized by the hospital providing a burns managment team and providing state-of-the-art specialized pediatric burn treatment and recovery.</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">pediatric burn center role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125">
