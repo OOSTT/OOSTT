@@ -25,9 +25,9 @@
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
         <dc:contributor xml:lang="en">Rohit Pradhan</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2017-05-26</owl:versionInfo>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2017-05-27</owl:versionInfo>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
     </owl:Ontology>
@@ -6480,6 +6480,17 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">An aggregate of organization that consists only of emergencny medical service pediatric ground transportation agencies.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">aggregate of emergency medical services pediatric air transportation agencies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
+        <obo:IAO_0000115 xml:lang="en">A healthcare provider organization role that is borne by a hospital and that gets assigned based on an evaluation process. If realized, the role is realized by the hospital providing a burns managment team and providing state-of-the-art burn treatment and recovery to patients.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">burn center role</rdfs:label>
     </owl:Class>
     
 
