@@ -27,9 +27,9 @@
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2017-05-27</owl:versionInfo>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2017-05-28</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -6545,6 +6545,17 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">A healthcare provider organization role that is borne by a hospital and that gets assigned based on an evaluation process. If realized, the role is realized by the hospital providing a burns managment team and providing state-of-the-art specialized pediatric burn treatment and recovery.</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pediatric burn center role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
+        <obo:IAO_0000115 xml:lang="en">A role borne by a hospital and realized by providing specialized care for patients with traumatic brain injuries.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">center for traumatic brain injury role</rdfs:label>
     </owl:Class>
     
 
