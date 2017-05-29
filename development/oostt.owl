@@ -16,6 +16,7 @@
         <dc:contributor xml:lang="en">Nels D. Sanddal</dc:contributor>
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
         <dc:contributor xml:lang="en">Robert T. Maxson</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2017-05-29</owl:versionInfo>
         <dc:contributor xml:lang="en">Robert J. Winchell</dc:contributor>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
         <dc:contributor xml:lang="en">Mihail Eduard Tudoreanu</dc:contributor>
@@ -29,7 +30,6 @@
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2017-05-28</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -3213,7 +3213,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
-        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies standards and procedures for care provided to emergency patients before they reach the emergecny department.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies standards and procedures for care provided to emergency patients before they reach the emergency department.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">prehospital protocol</rdfs:label>
     </owl:Class>
@@ -6724,6 +6724,17 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A government agency that evaluates healthcare provider organizations, which are candidates for acquiring a trauma center role, and reports as an outcome whether the organization is fit to be a trauma center.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">trauma center verification government agency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies how members of emergency medical services agenies are supposed to acquire medical direction, when direct communication with medical providers is not available.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">emergency medical services offline medical direction protocol</rdfs:label>
     </owl:Class>
     
 
