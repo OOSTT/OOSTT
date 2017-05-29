@@ -6777,7 +6777,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies indirect incentives to motivate trauma centers to participate in a trauma system. Examples of such incentives are additional billing codes, remuneration for trauma team response, and availability of training opportunities.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A trauma system participation incentive plan specification that specifies indirect incentives to motivate trauma centers to participate in a trauma system. Examples of such incentives are additional billing codes, remuneration for trauma team response, and availability of training opportunities.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">trauma system participation indirect incentive plan specification</rdfs:label>
     </owl:Class>
