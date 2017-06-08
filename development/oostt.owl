@@ -6803,6 +6803,18 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000014"/>
+        <obo:IAO_0000115 xml:lang="en">A nurse role that is the specified output of nursing licensing act as specified by a country, state, province or similar licensing body ensureing that the bearer of the role meets the requirements specified in their jursidiction to obtain a nursing license.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Registered_nurse&amp;oldid=783787566</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">registered nurse role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125">
