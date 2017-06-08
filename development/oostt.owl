@@ -3567,7 +3567,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians that only has members, which are board certified in emergency medicine.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians that only has members, which are board certified in emergency medicine or or have met all requirements for that subspecialty in their country of practice.</obo:IAO_0000115>
         <obo:OOSTT_00000030>All emergency physicians credentialed to practice in a healthcare facility who are either board certified or have met all requirements for that subspecialty in their country of practice.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of board certified emergency physicians</rdfs:label>
