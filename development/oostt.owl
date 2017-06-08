@@ -16,7 +16,7 @@
         <dc:contributor xml:lang="en">Nels D. Sanddal</dc:contributor>
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
         <dc:contributor xml:lang="en">Robert T. Maxson</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2017-05-29</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2017-06-08</owl:versionInfo>
         <dc:contributor xml:lang="en">Robert J. Winchell</dc:contributor>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
         <dc:contributor xml:lang="en">Mihail Eduard Tudoreanu</dc:contributor>
@@ -5346,6 +5346,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000235"/>
         <obo:IAO_0000115 xml:lang="en">An advanced practice registered nurse role that is the specified outcome of an accredition process with the Council of Accreditation in the United States of American and depends on graduate level education and board certification in anesthesiology.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030>A nurse with advanced education and training in anesthesiology who has successfully completed a national certification examination process, and is credentialed to practice by a healthcare facility.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">certified registered nurse anesthetist role</rdfs:label>
     </owl:Class>
     
