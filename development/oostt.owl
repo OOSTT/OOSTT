@@ -2450,6 +2450,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">an organization consisting of persons who bear committee member role where that organization is appointed by an organization or members of an organization to realize a role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A group of individuals appointed by an organization or organization leader to complete a specific task or to fulfill a specific set of responsibilities.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">Dec 10, 2016: The definition originally stated that the committee was realizing a function. After review of the BFO definition of function I decided to change it to &quot;role&quot;. M. Brochhausen</rdfs:comment>
         <rdfs:label xml:lang="en">committee</rdfs:label>
     </owl:Class>
