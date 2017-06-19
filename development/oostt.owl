@@ -2040,6 +2040,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">An objective specification that describes the endpoint of processes to  maintain competency and learn new and developing areas in trauma medicine.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">The description of content and expected learning for health professionals participating in the care of injured patients that is necessary for maintain continued competency and to learn new and developing concepts in trauma care management.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">continuing trauma education objective specification</rdfs:label>
     </owl:Class>
     
