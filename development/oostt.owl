@@ -5134,7 +5134,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of neurosurgeons that are part of trauma panel and are exclusively on call for that organization.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A collection of neurosurgeons that are mentionedon the trauma panel of an organizationand are exclusively on call for that organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All neurosurgeons participating on the trauma panel who exclusively serve one trauma center during a specific time period.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">collection of neurosurgeons with on call exclusivity</rdfs:label>
