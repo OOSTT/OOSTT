@@ -1531,6 +1531,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Continuing_medical_education&amp;oldid=708782251</obo:IAO_0000119>
+        <obo:OOSTT_00000030 xml:lang="en">The description of content and expected learning for health professionals that is necessary for maintain continued competency and to learn new and developing concepts in medical care.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">continuing medical education objective specification</rdfs:label>
     </owl:Class>
     
