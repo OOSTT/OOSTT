@@ -5047,7 +5047,19 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
-        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies under which circumstances and with which neurological injuries patients admitted to one hospital will be triaged to another healthcare provider organization when no neurosurgical coverage is available.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000054"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies under which circumstances and with which neurological injuries patients admitted to one hospital will be triaged to another healthcare provider organization when no neurosurgical coverage is available at the first hospital.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">hospital neurological injury triage plan specification</rdfs:label>
     </owl:Class>
