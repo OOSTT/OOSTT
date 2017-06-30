@@ -4379,7 +4379,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000200">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
-        <obo:IAO_0000115 xml:lang="en">A plan specification that specified the content, methodology, and evaluation of a course aims to teach students about a subject through the experience of solving an open-ended problem found in trigger material.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies the content, methodology, and evaluation of a course that aims to teach students about a subject through the experience of solving an open-ended problem found in trigger material.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Problem-based_learning&amp;oldid=751054692</obo:IAO_0000119>
         <rdfs:label xml:lang="en">practice-based learning course plan specification</rdfs:label>
