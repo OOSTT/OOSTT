@@ -1514,7 +1514,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
-        <obo:IAO_0000115 xml:lang="en">A plan specification that has continuing medical education objecte specifications as parts and that when concretized, is realized in processes that help maintain competence and learn about new and developing areas of medicine or the medical speciality of its bearer.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A plan specification that has continuing medical education objective specifications as parts and that when concretized, is realized in processes that help maintain competence and learn about new and developing areas of medicine or the medical speciality of its bearer.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A  description of the continuing medical education offering  that includes content, methodology, and evaluation with emphasis on helping health professionals maintain continued competency or learn new concepts in medical care.</obo:OOSTT_00000030>
