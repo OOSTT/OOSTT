@@ -863,6 +863,18 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000086 -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000086">
+        <rdfs:label xml:lang="en">human role within an organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000085"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A socio-legal human social role that concretizes a socio-legally generically dependent continuat that was created by a declaration performed by an organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000087 -->
 
     <owl:Class rdf:about="&obo;OMRSE_00000087">
