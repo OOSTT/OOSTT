@@ -851,6 +851,18 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000077 -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000077">
+        <rdfs:label xml:lang="en">employee role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000086"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000118>employee</obo:IAO_0000118>
+        <obo:IAO_0000117>Amanda hicks</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000085 -->
 
     <owl:Class rdf:about="&obo;OMRSE_00000085">
