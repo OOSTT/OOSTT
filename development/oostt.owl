@@ -747,6 +747,24 @@ Ditto for its current descendants.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000026 -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000026">
+        <rdfs:label xml:lang="en">organism social role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000024"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A role in human social processes that inheres in an organism.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Defined class that we will ultimately move to an application ontology.  We are leaving here for now until we determine which application ontology: it is likely going to be an ontology that does not currently (2012-06-05) exist.
+
+Ditto for its current descendants.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Includes animals as well as humans.  For example, pet, assistance animal, animal grown for food, work animal, domesticated animal, K-9, etc.  Human roles include gender role, party to legal entities, health care provider roles like doctor, nurse, etc.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Previous definition: A role in human social processes played by an organism.</rdfs:comment>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan
+Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000027 -->
 
     <owl:Class rdf:about="&obo;OMRSE_00000027">
