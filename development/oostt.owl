@@ -636,6 +636,20 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000001 -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000001">
+        <rdfs:label xml:lang="en">human social role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000026"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A social role inhering in a human being.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen
+</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000010 -->
 
     <owl:Class rdf:about="&obo;OMRSE_00000010">
