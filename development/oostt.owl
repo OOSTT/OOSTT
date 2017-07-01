@@ -4205,6 +4205,20 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="&obo;OOSTT_00000190">
         <rdfs:label xml:lang="en">employment contract document act</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OMRSE_00000077"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OMRSE_00000087"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0021002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
