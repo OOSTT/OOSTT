@@ -2774,7 +2774,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117 xml:lang="en">A plan specification that specifies which neurosurgeon to call,  if the primary on-call neurosurgeon is not available due to already taking care of other trauma patients.</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies which neurosurgeon to call,  if the primary on-call neurosurgeon is not available due to already taking care of other trauma patients.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">neurosurgeon backup call schedule</rdfs:label>
