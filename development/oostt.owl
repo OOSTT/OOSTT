@@ -19,7 +19,6 @@
         <dc:contributor xml:lang="en">Robert J. Winchell</dc:contributor>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
         <dc:contributor xml:lang="en">Mihail Eduard Tudoreanu</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2017-06-30</owl:versionInfo>
         <dc:contributor xml:lang="en">John Judkins</dc:contributor>
         <dc:contributor xml:lang="en">Jonathan Bona</dc:contributor>
         <dc:license>http://creativecommons.org/licenses/by/4.0/</dc:license>
@@ -29,6 +28,7 @@
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2017-07-07</owl:versionInfo>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
     </owl:Ontology>
@@ -4094,6 +4094,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
         <obo:IAO_0000115 xml:lang="en">A plan specification that specifies that content, methodology, and testing of educational programs for nurses teaching standardized diagnostic and therapeutic procedures with trauma patients in a hospital setting.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">ATNC course plan specification</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://de.wikipedia.org/w/index.php?title=Advanced_Trauma_Care_for_Nurse&amp;oldid=148554154</obo:IAO_0000119>
         <obo:OOSTT_00000030 xml:lang="en">A description of the advanced trauma care for nurses education program that includes content, methodology, and testing processes with emphasis on standardized diagnostic and therapeutic procedures to care for trauma patients in the hospital setting.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">advanced trauma care for nurses course plan specification</rdfs:label>
