@@ -29,6 +29,7 @@
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <owl:versionInfo xml:lang="en">release version - 2017-01-01</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2017-01-01/oostt.owl"/>
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
     </owl:Ontology>
     
