@@ -35,6 +35,7 @@
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <owl:versionInfo xml:lang="en">development version - 2015-10-16</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2015-10-16/oostt.owl"/>
         <owl:imports rdf:resource="http://purl.obofoundry.org/obo/iao/d-acts/20150916/d-acts.owl"/>
     </owl:Ontology>
     
