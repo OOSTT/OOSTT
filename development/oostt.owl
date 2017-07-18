@@ -5950,6 +5950,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An organization that has emergency medical service agencies as members and that aims to represent the interests of emergency medical service agencies.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">An association of EMS agencies that any agency may join voluntarily to share information or collaborate on issues of state or national importance.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">emergency medical services agency association</rdfs:label>
     </owl:Class>
     
