@@ -3888,6 +3888,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A plan specification that specifies the job requirements for the emergency medicine physician positions in an institution and how those emergency medicine physicians will be used within the organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">An institution-specific job description of an emergency medicine physician.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">institution-specific emergency medicine physician profile</rdfs:label>
     </owl:Class>
     
