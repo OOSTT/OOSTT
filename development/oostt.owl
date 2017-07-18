@@ -1045,7 +1045,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A conditional specification that guides prehospital providers in determining the most appropriate facility to care for the injured patient.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A decision tool that guides &quot;prehospital providers determine the most appropriate facility to care for the injured patient&quot; [PMID: 22626915].</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A decision tool that guides &quot;prehospital providers determine the most appropriate facility to care for the injured patient&quot; developed by a medical direction authority [PMID: 22626915].</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">field triage guideline</rdfs:label>
     </owl:Class>
     
