@@ -5164,6 +5164,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A deontic role that is the specified outcome of a document act between the head of a orthopedic surgery and the bearer of a orthopedic surgeon role that, of realized, is realized by its bearer admitting, evaluating, diagnosing, consulting, and providing pre-, intra and post-operative care, and performing orthopedic surgical procedures, to patients of all ages, to correct or treat various conditions, diseases, disorders, and injuries of the musculoskeletal system.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">An orthopaedic surgeon who is credentialed by a healthcare facility to provide services that include assessment, diagnosis, management, and treatment of various conditions and injuries of the musculosekeletal system.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">general orthopedic surgery privileges role</rdfs:label>
     </owl:Class>
     
