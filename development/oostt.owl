@@ -5676,6 +5676,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing minimally invasive image-guided diagnosis and treatment of diseases in every organ system.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Interventional_radiology&amp;oldid=752183885</obo:IAO_0000119>
+        <obo:OOSTT_00000030 xml:lang="en">A physician radiologist credentialed in providing minimally invasive image-guided diagnosis and treatment of diseases and vascular injuries.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">interventional radiologist role</rdfs:label>
     </owl:Class>
     
