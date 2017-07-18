@@ -6617,6 +6617,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">An organization that intends to provide care or transport to the sick and injured as part of an emergency medical services system.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">EMS agency</obo:IAO_0000118>
+        <obo:OOSTT_00000030 xml:lang="en">An organization that responds to emergency calls to care for the ill and injured that may additionally involve transport to an emergency facility.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">emergency medical services agency</rdfs:label>
     </owl:Class>
     
