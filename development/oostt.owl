@@ -674,6 +674,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen
 </obo:IAO_0000117>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A healthcare provider with responsibility for the care of ill and injured patients.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">William R. Hogan</rdfs:comment>
         <rdfs:label xml:lang="en">health care provider role</rdfs:label>
     </owl:Class>
