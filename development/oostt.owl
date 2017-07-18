@@ -833,6 +833,7 @@ Ditto for its current descendants.</rdfs:comment>
 
 A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">An individual with one or more injuries that requires treatment.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">injured patient role</rdfs:label>
     </owl:Class>
     
