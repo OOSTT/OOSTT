@@ -784,6 +784,7 @@ Ditto for its current descendants.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
         <obo:IAO_0000115 xml:lang="en">A role borne by a human individual or by a collection of humans regarded as possessing rights and duties enforeable at law.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:OOSTT_00000030 xml:lang="en">An individual(s) with authority and rights and duties enforceable by law.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">legal person role</rdfs:label>
     </owl:Class>
     
