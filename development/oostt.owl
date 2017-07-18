@@ -2523,6 +2523,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Government is the means by which policy within a community are enforced, as well as the mechanism for determining the policy of the community.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Government&amp;oldid=727121222</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">the community may be local, regional, state, or national (Comment provided by J. Ball, N. Sanddal, S. Bowman) - 2017-07-18</rdfs:comment>
         <rdfs:label xml:lang="en">government</rdfs:label>
     </owl:Class>
     
