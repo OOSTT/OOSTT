@@ -4225,6 +4225,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A document act that creates a mutally dependent employee and employer role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A contract specifying the relationship between an employee and employer that outlines specific role responsibilities and expectations.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">JPB (20 March 2017): should output employee role and employer role</rdfs:comment>
         <rdfs:label xml:lang="en">employment contract document act</rdfs:label>
     </owl:Class>
