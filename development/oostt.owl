@@ -2976,6 +2976,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000096"/>
         <obo:IAO_0000115 xml:lang="en">A health care process that has as participant a patient who is not scheduled for medical treatment and requires immediate medical treatment</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A healthcare process in which a patient needs and is provided urgent or emergent care.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">emergency health care process</rdfs:label>
     </owl:Class>
     
