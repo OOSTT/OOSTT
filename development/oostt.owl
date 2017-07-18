@@ -3252,6 +3252,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
         <obo:IAO_0000115 xml:lang="en">A physician role that, if it is realized, is realized by providing treatment for undifferentiated and unscheduled  patients with illnesses and injuries requiring immediate medical attention.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A physician who  provides treatment to the ill and injured needing urgent and emergent care.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">emergency physician role</rdfs:label>
     </owl:Class>
     
