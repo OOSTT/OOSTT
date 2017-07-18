@@ -795,6 +795,7 @@ Ditto for its current descendants.</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">A healthcare provider role that inheres in an organization and is realized by providing inpatient and outpatient care.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A healthcare facility that provides inpatient and outpatient care.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">hospital role</rdfs:label>
     </owl:Class>
     
