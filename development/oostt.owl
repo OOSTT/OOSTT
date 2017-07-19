@@ -2125,6 +2125,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">An academic degree in the science and principles of nursing, granted by an accredited tertiary education provider after the successful completion of a master&apos;s of nursing program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">An advanced academic degree in the principles and practices of nursing, with a focus on administration, education, or advanced nursing practice, granted by an accredited college or university after the successful completion of a master&apos;s of nursing program.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">master&apos;s in the science of nursing degree</rdfs:label>
     </owl:Class>
     
