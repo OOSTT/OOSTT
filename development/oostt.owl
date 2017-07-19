@@ -660,6 +660,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000118 xml:lang="en">patient</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">CAFE domain expert working group.</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A person who presents to a healthcare provider for clinical care.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">In order to avoid the presumption of the formal structures and institutions of Western civilization, bearing a patient role does not entail that the organism presents at an official place of business, with an organization formally and legally registered with various gov&apos;t entities, with a person endowed by the gov&apos;t with certain certifications.</rdfs:comment>
         <rdfs:label xml:lang="en">patient role</rdfs:label>
     </owl:Class>
