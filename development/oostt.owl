@@ -5784,6 +5784,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000025"/>
         <obo:IAO_0000115 xml:lang="en">An organizational social role that is the output of an accreditation process and that, if realized, is realized by its bearer providing education and evaluation for students seeking degrees allowing them to work as medical professionals.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">An organizational social role that is the output of an accreditation process and that, if realized, is realized by its bearer providing education and evaluation for students seeking degrees allowing them to work as allopathic or osteopathic physicians.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">medical school role</rdfs:label>
     </owl:Class>
     
