@@ -2208,6 +2208,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
         <obo:IAO_0000115 xml:lang="en">A physician role borne by a human being and that, if realized, is being realized by its bearer using operative manual and instrumental techniques on preadult patients to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
+        <obo:OOSTT_00000030 xml:lang="en">A surgeon who specializes in performing operative manual and instrumental techniques on infants, children, and adolescents to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair ruptured areas.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">term requested in OMRSE. Do not use outside the CAFE application!</rdfs:comment>
         <rdfs:label xml:lang="en">pediatric surgeon role</rdfs:label>
     </owl:Class>
