@@ -5973,6 +5973,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A professional organization consisting of nurses and that aims to represent the interests of nurses.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A professional organization of nurses that focuses its mission on the improvement of nursing care at the national, state, regional, or local level.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">nurses association</rdfs:label>
     </owl:Class>
     
