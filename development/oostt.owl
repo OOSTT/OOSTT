@@ -5669,6 +5669,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
         <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing diagnosis and treatment of diseases of the kidney, including renal replacement therapy (dialysis and renal transplants).</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A physician that specializes in the diagnosis and treatment of diseases of  and injuries to the kidney, including renal replacement therapy (dialysis and renal transplants).</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">nephrologist role</rdfs:label>
     </owl:Class>
     
