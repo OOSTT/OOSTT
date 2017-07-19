@@ -2345,7 +2345,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000097"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117 xml:lang="en">A role that, if realized, is realized by its bearer undergoing an assessment of  its actions carried out by a person or an organization regarding the compliance with specifications and the quality of those actions.</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A role that, if realized, is realized by its bearer undergoing an assessment of  its actions carried out by a person or an organization regarding the compliance with specifications and the quality of those actions.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance evaluatee role</rdfs:label>
     </owl:Class>
