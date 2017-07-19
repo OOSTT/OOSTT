@@ -1291,10 +1291,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000029"/>
-        <obo:IAO_0000115 xml:lang="en">A Level I trauma center role is a trauma center role that is borne by a hospital that provides the highest level of surgical care to trauma patiets. Its bearer has a full range of specialists and equipement available 24 hours a day and admits a minimum required annual volume of severly injured patients. The role is created by a Level I Trauma Center designation.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A Level I trauma center role is a trauma center role that is borne by a hospital that provides the highest level of surgical care to trauma patients. Its bearer has a full range of specialists and equipement available 24 hours a day and admits a minimum required annual volume of severly injured patients. The role is created by a Level I Trauma Center designation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">level I trauma center role</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Trauma_center&amp;oldid=685886443</obo:IAO_0000119>
+        <obo:OOSTT_00000030 xml:lang="en">A Level I trauma center role is a trauma center role that is borne by a hospital that provides the highest level of surgical care to trauma patients. Its bearer has a full range of specialists and equipement available 24 hours a day and admits a minimum required annual volume of severly injured patients established by the designating agency. The facility has transfer agreements with all referring facilities, and provides performance improvement and education outreach to those facilities. The facility also has an ongoing program of research and a physican residency program. The role is created by a Level I Trauma Center designation.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">level 1 trauma center role</rdfs:label>
     </owl:Class>
     
