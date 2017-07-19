@@ -5231,6 +5231,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A plan specification that specifies under which circumstances and with which neurological injuries patients admitted to one hospital will be triaged to another healthcare provider organization when no neurosurgical coverage is available at the first hospital.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A plan specifying the healthcare facility destination of a patient with neurologic injuries  when neurosurgical coverage or resources (e.g, neuro ICU) are not available at the first facility.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">hospital neurological injury triage plan specification</rdfs:label>
     </owl:Class>
     
