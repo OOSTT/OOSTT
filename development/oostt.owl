@@ -2638,6 +2638,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
         <obo:IAO_0000115 xml:lang="en">a disposition realized in process profiles that have participants the biological qualities of patients and the practices and instruments of medical professionals.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">An organizational approach to patient care that reduces or mitigates the risk for untoward patient outcomes.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">patient safety</rdfs:label>
     </owl:Class>
     
