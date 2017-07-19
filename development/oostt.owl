@@ -1986,6 +1986,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
         <obo:IAO_0000115 xml:lang="en">A healthcare provider role borne by a human being and that, if realized, realized by providing assessment and treatment to develop, recover, or maintain the daily living and work skills of people with a physical, mental, or cognitive disorder.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A healthcare professional who specializes in providing assessment and treatment to develop, recover, or maintain the daily living functioning and work-related skills of a person with a disability.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">occupational therapist role</rdfs:label>
     </owl:Class>
     
