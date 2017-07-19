@@ -1517,6 +1517,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000010"/>
         <obo:IAO_0000115 xml:lang="en">A human health care role borne by a nurse and if realized, relized by managing a team of healthcare professionals, provide continuing education or providing input to healthcare policies in their organization</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A qualified nurse leader who has authority to manage and oversee nursing care provided within the healthcare facility, including provision of input to the facility&apos;s healthcare policies.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">nurse executive role</rdfs:label>
     </owl:Class>
     
