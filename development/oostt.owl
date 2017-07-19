@@ -1860,7 +1860,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000004"/>
         <obo:IAO_0000115 xml:lang="en">A specialty liaison role borne by a human being, which is also bearing a health care provider role, and if realized, is realized by the bearer representing orthopedic surgery in the multidisciplinary peer review committee.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">orthopedics surgery liaison role</rdfs:label>
+        <obo:OOSTT_00000030 xml:lang="en">A orthopaedic surgeon who formally represents orthopaedic surgery in the multidisciplinary peer review committee.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">orthopedic surgery liaison role</rdfs:label>
     </owl:Class>
     
 
