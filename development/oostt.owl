@@ -3038,6 +3038,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000140"/>
         <obo:IAO_0000115 xml:lang="en">A medical fellowship that provides education in providing surgical treatment to patients that experienced musculoskeletal trauma.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A planned process that is part of medical training and is aimed at surgeons to provide advanced preparation in the diagnosis and treatment of musculosketel diseases and injury.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">orthopedic surgery fellowship program</rdfs:label>
     </owl:Class>
     
