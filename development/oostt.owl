@@ -5733,7 +5733,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
         <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing diagnosis and treatment, including surgical procedures, on the eyeball.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">ophtamologist role</rdfs:label>
+        <rdfs:label xml:lang="en">ophthalmologist role</rdfs:label>
     </owl:Class>
     
 
