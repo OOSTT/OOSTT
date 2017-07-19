@@ -1387,6 +1387,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">level V trauma center role</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Trauma_center&amp;oldid=685886443</obo:IAO_0000119>
+        <obo:OOSTT_00000030 xml:lang="en">A level V trauma center role is a trauma center role that is borne by a hospital or clinic that provides initial evaluation, stabilization, diagnostic capabilities, and transfer to a higher level of care. If the bearer of the role is not open 24 hours daily, a specific protocol of destination and method of transport would be specified.   The role is created by a Level V Trauma Center designation.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">level 5 trauma center role</rdfs:label>
     </owl:Class>
     
