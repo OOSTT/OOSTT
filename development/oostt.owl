@@ -4706,6 +4706,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000200"/>
         <obo:IAO_0000115 xml:lang="en">A practice-based learning course plan specification that aims to improve the quality of patient outcomes in trauma medicine.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A  description of the education offering  that includes content, methodology, and evaluation with emphasis on practice-based learning techniques for treatment of injured patients.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">practice-based learning trauma care course plan specification</rdfs:label>
     </owl:Class>
     
