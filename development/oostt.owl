@@ -3176,6 +3176,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
         <obo:IAO_0000115 xml:lang="en">A health care provider role that inheres in a human being and, if realized, is realized by a process of providing health care to a patient before and during transport of the patient to the hospital or from the initial hospital to the another healthcare provider organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A healthcare provider who cares for patients with urgent conditions before and during transport to the initial hospital or between the initial hospital and referral facility.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">prehospital care provider role</rdfs:label>
     </owl:Class>
     
