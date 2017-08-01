@@ -701,6 +701,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000118 xml:lang="en">physician</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Physician</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A credentialled health professional graduate of a school of medicine who provides medical care by promoting, maintaining, or restoring human health through the study, diagnosis, and treatment of disease, injury, and other physical and mental impairments.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">physician role</rdfs:label>
     </owl:Class>
     
