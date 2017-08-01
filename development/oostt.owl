@@ -2012,6 +2012,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
         <obo:IAO_0000115 xml:lang="en">A health care provider role borne by a human being and, if realized, is realized by providing assessment and treatment to remediate impairments or promote mobility, function, and quality of by interventions that use mechanical force and movements.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A healthcare professional who specializes in providing assessment and treatment to remediate impairments or promote mobility, function, and quality of life by interventions that use mechanical force, movements, massage, or electrical stimulation.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">physical therapist role</rdfs:label>
     </owl:Class>
     
