@@ -3386,6 +3386,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A plan specification that specifies the content and intended outcome of relying information about best practice in prehospital care to members of a prehospital care provider.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A  description of the prehospital training process that includes content, methodology, and evaluation with emphasis on methods for assessing and managing the patient with an urgent or emergent illness or injury before and during transport to the hospital.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">prehospital training plan specification</rdfs:label>
     </owl:Class>
     
