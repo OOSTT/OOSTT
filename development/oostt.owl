@@ -5774,6 +5774,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
         <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is realized by its bearer using operative manual and instrumental techniques for the restoration, reconstruction, or alteration of the human body.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A surgeon who specializes in performing operative manual and instrumental techniques to remodel body parts to change their appearance or to restore the appearance and sometimes the function of body parts affected by trauma, previous surgery, or congenital defect.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">plastic surgeon role</rdfs:label>
     </owl:Class>
     
