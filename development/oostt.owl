@@ -3368,6 +3368,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <obo:IAO_0000115 xml:lang="en">An objective specification that specifies the intended outcome of educating members of prehospital providers and conducting exercises that apply the learned material.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">The specified outcome of the prehospital training process that includes the practical application of learned material to assess and manage patient care.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">prehospital training objective specification</rdfs:label>
     </owl:Class>
     
