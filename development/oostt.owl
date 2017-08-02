@@ -7155,6 +7155,17 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that is borne by a human being and that, if realized, is realized by its bearer providing direction to the a trauma program and coordinate the activities of the program as organizational members.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">trauma leadership role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000364">
