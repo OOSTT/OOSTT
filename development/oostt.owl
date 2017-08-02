@@ -519,6 +519,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melissa Haendel</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Technique</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ero.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A method or skill used to accomplish a specific activity or task.</obo:OOSTT_00000030>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protocol is added to eagle-i temporarily until a relationship between the informatio entity &quot;protocol&quot; and these planned processes is created. This class refers to the axtual process not the document</rdfs:comment>
         <rdfs:label xml:lang="en">technique</rdfs:label>
     </owl:Class>
