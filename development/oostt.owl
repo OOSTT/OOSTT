@@ -1241,6 +1241,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021002"/>
         <obo:IAO_0000115 xml:lang="en">A document act that creates the role of a trauma center based on meeting the criteria by a designated organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A state or regional recognition process in which a facility is awarded  a trauma center role after a formal review of the hospital&apos;s organization, capacity, personnel, and resources.</obo:OOSTT_00000030>
         <obo:OOSTT_00000030 xml:lang="en">A state or regional recognition process in which a facility is endowed with a trauma center role.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma center designation</rdfs:label>
     </owl:Class>
