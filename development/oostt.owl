@@ -5967,6 +5967,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that realizes the concretization of a trauma system creation plan specification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">The authority and process used to create a trauma system for an area or region.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma system creation</rdfs:label>
     </owl:Class>
     
