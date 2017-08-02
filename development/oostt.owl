@@ -2000,6 +2000,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">trauma QI/PI plan specification</obo:IAO_0000118>
+        <obo:OOSTT_00000030 xml:lang="en">A plan that prescribes the feedback, educational, and administrative processes to identify, monitor, and address potential opportunities to improve trauma care.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma quality improvement and performance improvement plan specification</rdfs:label>
     </owl:Class>
     
