@@ -3129,6 +3129,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques on a patient&apos;s spine to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A group or association of neurosurgical or orthopedic spine surgeons with the role of sharing information and establishing guidelines for the diagnosis, treatment, and surgical techniques on a patient&apos;s spine and spinal cord.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">spinal surgery provider organization role</rdfs:label>
     </owl:Class>
     
