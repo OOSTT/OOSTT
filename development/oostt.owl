@@ -1771,14 +1771,14 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An organization that is part of a trauma program and whose members provide direction to the program and coordinate the activities of the program as organizational members.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An organization that is part of a trauma program (another organization) and whose members provide direction to the program and coordinate the activities of the program as organizational members.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">trauma program leadership</rdfs:label>
