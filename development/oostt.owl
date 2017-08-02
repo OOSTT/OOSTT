@@ -1230,7 +1230,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that comprehensively determines whether a facility meets the established criteria (state or national) regarding procedures, resources, and capabilities for the level of trauma service requested by the facility.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A process that comprehensively determines whether a facility meets the established criteria (state or national) regarding procedures, resources, and capabilities for the level of trauma service requested by the facility.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A process that comprehensively determines whether a facility meets the established criteria of the American College of Surgeons (or similar process in another country ) regarding procedures, resources, and capabilities for the verification level requested by the facility.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma center verification</rdfs:label>
     </owl:Class>
     
