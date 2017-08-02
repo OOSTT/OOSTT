@@ -1561,6 +1561,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A role that is the specified outcome of a social act and that is mutually specifically dependent on a reportee role and that, if realized, is realized by the bearer of the role reporting activities and results to the bearer of the depending reportee role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">An individual who provides key information to another individual.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">reporter role</rdfs:label>
     </owl:Class>
     
