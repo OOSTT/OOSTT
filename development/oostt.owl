@@ -1416,6 +1416,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000019"/>
         <obo:IAO_0000115 xml:lang="en">A trauma center verifcation that has a designated trauma center as specified input. Designated trauma centers need to go through the process of reverification in a specified time interval.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A process  determining that a verified trauma center continues to meet the verification standards of the American College of Surgeons (or similar process in another country) within a specified time period.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma center reverification</rdfs:label>
     </owl:Class>
     
