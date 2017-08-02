@@ -2026,6 +2026,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">trauma QI/PI process</obo:IAO_0000118>
+        <obo:OOSTT_00000030 xml:lang="en">The process for implementing a trauma program&apos;s quality of care and improved performance.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma quality improvement and performance improvement process</rdfs:label>
     </owl:Class>
     
