@@ -1948,6 +1948,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A healthcare process involving a injured patient focusing on their trauma-caused condition.</obo:IAO_0000115>
+        <obo:OOSTT_00000030 xml:lang="en">A healthcare process focused on the assessment and management of an injured patient.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma care process</rdfs:label>
     </owl:Class>
     
