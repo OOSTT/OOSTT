@@ -1077,7 +1077,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">The planned process of alerting the trauma team members that a trauma patient is enroute or has arrived.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">Notification of the appropriate trauma team to treat a patient to match the severity of his/her injuries after notification that the patient is enroute or has arrived.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">Notification of the appropriate pre-defined trauma team, to match the severity of anticipated injuries, to assemble and prepare to evaluate and treat a patient to after notification that the patient is enroute or has arrived at the emergency department.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma team activation</rdfs:label>
     </owl:Class>
     
