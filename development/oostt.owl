@@ -2638,6 +2638,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">a role that inheres in a homo sapiens that, if realized, is realized by preparing, keeping, and overseeing records made in a register.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">An individual who abstract(s) and record(s) data into an electronic registry .</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">registrar role</rdfs:label>
     </owl:Class>
     
