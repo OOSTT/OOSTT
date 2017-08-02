@@ -1444,6 +1444,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
         <obo:IAO_0000115 xml:lang="en">A healthcare provider organization role that is borne by a part of a healthcare provider organization and, if realized, is realized by providing and coordinating care for injured patients.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A program within a healthcare facility that provides and coordinates care for injured patients.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma program role</rdfs:label>
     </owl:Class>
     
