@@ -5864,6 +5864,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A hospital role that, if realized, is realized by its bearer provides clinical education and training for future and current health professionals.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Teaching_hospital&amp;oldid=751897752</obo:IAO_0000119>
+        <obo:OOSTT_00000030 xml:lang="en">A hospital with an academic affiliation that provides clinical education and training for future and current health professionals.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">teaching hospital role</rdfs:label>
     </owl:Class>
     
