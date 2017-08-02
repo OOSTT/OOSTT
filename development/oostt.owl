@@ -7361,6 +7361,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is about a person and that affirms that they have attended at least 50% of trauma peer review committee meetings.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">The record verifying that each specified member participates in the trauma peer review committee and attends the minimum number of meetings as required by the designating agency.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">record of participation in majority of trauma peer review committee meetings</rdfs:label>
     </owl:Class>
     
