@@ -4243,6 +4243,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
         <obo:IAO_0000115 xml:lang="en">A plan specification that specifies the content, methodology, evaluation of a course aimed at nurses and providing cognitive knowledge and psychomotoric skills that help optimizing trauma patient care in a hospital setting.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A  description of the Trauma Nurse Core Curriculum course that includes content, methodology, and evaluation with emphasis on providing nurses with cognitive knowledge and psychomotor skills that focus on assessing and managing the patient with serious or life-threatening injuries.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma nursing core course plan specification</rdfs:label>
     </owl:Class>
     
