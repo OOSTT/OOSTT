@@ -3175,6 +3175,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in a human being and, if realized, is realized by representing an emergency department in the quality improvement program of organization providing pre-hospital care and services.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">The health professional who represents the emergency department at a prehospital provider agency QI program.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">representative from emergency department to pre-hospital provider QI program</rdfs:label>
     </owl:Class>
     
