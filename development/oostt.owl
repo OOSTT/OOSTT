@@ -1516,6 +1516,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that realizes the concretization of a trauma peer review committee meeting plan specification. This meeting is inteded to to review the performance from a representatives of all medical specialities involved in trauma care by their peers.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">The scheduled time at which the authorized members of the trauma peer review committee meet to evaluate and provide feedback to individual care providers regarding provided trauma care.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma peer review committee meeting</rdfs:label>
     </owl:Class>
     
