@@ -1146,7 +1146,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000115 xml:lang="en">An organization of organizations and healthcare providers to facilitate and coordinate a multidisciplinary response to severe injury.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">An organized approach to facilitating and coordinating a multidisciplinary system response to severely injured patients. A trauma system encompasses a continuum of care provision and is inclusive of injury prevention and control, public health, EMS field intervention, ED care, surgical interventions, intensive and general surgical in-hospital care, and rehabilitative services, along with the social services and the support groups that assist injured people and their significant others with their return to society at the most productive level possible.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">An organized local, regional, or state approach to facilitating and coordinating a multidisciplinary medical system response to severely injured patients.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma system</rdfs:label>
     </owl:Class>
     
