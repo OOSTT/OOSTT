@@ -2809,6 +2809,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A plan specification that specifies which surgeon to call,  if the on-call trauma surgeons is not available due to already taking care of other trauma patients.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">The identification of the surgeon scheduled to respond to a trauma patient when the primary oncall surgeon is unavailable due to extenuating circumstances.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma surgeon backup call schedule</rdfs:label>
     </owl:Class>
     
