@@ -1023,7 +1023,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A performance improvement committee that is part of a trauma program and reviews the system of care within that trauma center.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A performance improvement committee to reviews the system of care within a trauma center.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A performance improvement committee that reviews the system, processes, and efficiencies of care within a trauma service.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma program operational review committee</rdfs:label>
     </owl:Class>
     
