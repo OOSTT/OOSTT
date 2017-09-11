@@ -3674,30 +3674,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000168">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000153"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty>
-                                    <rdf:Description>
-                                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                    </rdf:Description>
-                                </owl:onProperty>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000166"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians that has successfully completed the advanced life support course.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
@@ -3746,7 +3722,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians with ATLS training for which the training has not been more than three years ago.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians with ATLS training for which the training has not been more than the time specified before their knowledge is no longer deemed current.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of emergency physicians current in ATLS</rdfs:label>
