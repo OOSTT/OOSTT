@@ -3189,6 +3189,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques to join or repair blood vessels too small to view unaided by microscopy, in order to provide blood circulation to a body part that is being surgically attached or reconstructed</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">An organization that provides specialized operative manual and instrumental techniques to join or repair blood vessels too small to view unaided by microscopy, in order to provide blood circulation to a body part that is being surgically attached or reconstructed</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">This is not a representation of a professional organization of microvascular sugery providers, but an organization that provides microvascular surgery.</rdfs:comment>
         <rdfs:label xml:lang="en">microvascular surgery provider organization role</rdfs:label>
     </owl:Class>
