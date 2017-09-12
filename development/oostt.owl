@@ -2565,7 +2565,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A role that is borne by a member of an emergency department and that, if realized, is realized by its bearer representing the emergency department.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role that is borne by a member of an emergency department that has been authorized by department leadership and that, if realized, is realized by its bearer representing the emergency department.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">emergency department representative role</rdfs:label>
     </owl:Class>
