@@ -2559,7 +2559,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A planned process that is scattered over multiple temporal regions within a three year time frame, and that is realizing some plan specification of trauma care education and that is sufficient to receive 18 credit hours.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">trauma education verifiable for 18 hours of 3 years</rdfs:label>
+        <rdfs:label xml:lang="en">trauma education verifiable for continuing medical education requirement</rdfs:label>
     </owl:Class>
     
 
