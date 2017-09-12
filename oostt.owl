@@ -12,7 +12,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2017-09-11/oostt.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2017-09-12oostt.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl"/>
         <dc:contributor xml:lang="en">Nels D. Sanddal</dc:contributor>
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
@@ -24,12 +24,12 @@
         <dc:contributor xml:lang="en">Jonathan Bona</dc:contributor>
         <dc:license>http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
-        <owl:versionInfo xml:lang="en">release version - 2017-09-11</owl:versionInfo>
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
         <dc:contributor xml:lang="en">Rohit Pradhan</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
+        <owl:versionInfo xml:lang="en">release version - 2017-09-12</owl:versionInfo>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
     </owl:Ontology>
@@ -347,7 +347,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000145">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/GEO_000000151"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/GEO_000000372"/>
         <obo:IAO_0000115 xml:lang="en">&apos;services area&apos; holds iff a an organization performing or organizing paid or unpaid planned processes that benefit 3rd parties and b is a geographical region and a performs or organizes said planned process in the site of b.</obo:IAO_0000115>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">services geographical region</rdfs:label>
@@ -542,21 +542,39 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GEO_000000102 -->
+    <!-- http://purl.obolibrary.org/obo/GEO_000000370 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <obo:IAO_0000412 xml:lang="en">http://purl.obolibrary.org/obo/geo.owl</obo:IAO_0000412>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000111 xml:lang="en">geographical entity of astronomical body</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A material entity that is (1) a bona fide or fiat object part of the crust, any bodies of liquid on or contained within the crust, or planetary boundary layer (if present) of a terrestrial planet (including Earth), dwarf planet, exoplanet, natural satellite, planetesimal, or small Solar System body, and that (2) overlaps the planetary surface (including having a boundary that coincides with part of the planetary surface).</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Matt Diller</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/dev/geo.owl</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">Includes atmosphere, crust, geographical regions (e.g., the geographical region over which the state of Florida has jurisdiction), bodies of water, mountains, etc.
+
+Generally, an individual organism is a distinct object that is not a part of the Earth, although this requires more thought.  But the intent is definitely for this class to NOT subsume organism universally.  Human beings are contained within, but not part of, the Earth, for example.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Note that despite the word &apos;planetary&apos; in &apos;planetary surface&apos;, it refers generally to surface of dwarf planets, asteroids, moons, etc.</rdfs:comment>
+        <rdfs:comment xml:lang="en">We note that not all planets have a surface per se (e.g., gas giants such as Jupiter and Saturn).  So only planets, natural satellites, etc. with a planetary surface (with or without a planetary boundary layer) have geographical entities.</rdfs:comment>
+        <rdfs:comment xml:lang="en">We note that the term &apos;geography&apos; is also applied to the Earth&apos;s moon, Mars, Venus, and possibly even other moons and planets in our own solar system and beyond.  
+
+Thus, we are attempting to define things generally enough that they could be reused for the geographical entities/features on the Moon, Mars, other planets, exoplanets, other natural satellites (a.k.a moons), asteroids, etc.</rdfs:comment>
         <rdfs:label xml:lang="en">geographical entity</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GEO_000000151 -->
+    <!-- http://purl.obolibrary.org/obo/GEO_000000372 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000151">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000102"/>
-        <obo:IAO_0000412 xml:lang="en">http://purl.obolibrary.org/obo/geo.owl</obo:IAO_0000412>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000370"/>
+        <obo:IAO_0000115 xml:lang="en">A geographical entity that is demarcated at least in part by one or more closed fiat boundaries all of whose lines are part of the planetary surface.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">François Modave</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Matt Diller</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/dev/geo.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">geographical region</rdfs:label>
     </owl:Class>
     
@@ -1723,6 +1741,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000115 xml:lang="en">An organization that is part of the bearer of a health care provider organization role and that has members that all bearer of a healthcare provider role within that organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">All healtcare providers who have been credentialed by a healthcare organization to provide care to patients or to perform administrative functions, including oversight of patient care.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">medical staff</rdfs:label>
     </owl:Class>
     
@@ -1944,6 +1963,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000004"/>
         <obo:IAO_0000115 xml:lang="en">A specialty liaison role borne by a human being, which is also bearing an health care provider role, and if realized, is realized by the bearer representing critical care in the multidisciplinary peer review committee.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030>An critical care physician who serves as the formal representative for the critical care process on the multidisciplinary peer review committee.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">critical care liaison role</rdfs:label>
     </owl:Class>
     
@@ -2517,8 +2537,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021006"/>
-        <obo:IAO_0000115>An obligee role that, if realized, is realized by its bearer participating in continuing trauma eduction to amount to 18 hours in three years.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">trauma education obligee role for eighteen hours in three years</rdfs:label>
+        <obo:IAO_0000115>An obligee role that, if realized, is realized by its bearer participating in continuing trauma eduction amounting an amount of time specified in their program or country.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">continuing trauma education obligee role</rdfs:label>
     </owl:Class>
     
 
@@ -2538,9 +2558,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A planned process that is scattered over multiple temporal regions within a three year time frame, and that is realizing some plan specification of trauma care education and that is sufficient to receive 18 credit hours.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process that is scattered over multiple temporal regions that fulfills an obligation for continuing medical education in the area of trauma care.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">trauma education verifiable for 18 hours of 3 years</rdfs:label>
+        <rdfs:label xml:lang="en">trauma education verifiable for continuing medical education requirement</rdfs:label>
     </owl:Class>
     
 
@@ -2565,7 +2585,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A role that is borne by a member of an emergency department and that, if realized, is realized by its bearer representing the emergency department.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role that is borne by a member of an emergency department that has been authorized by department leadership and that, if realized, is realized by its bearer representing the emergency department.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">emergency department representative role</rdfs:label>
     </owl:Class>
@@ -2851,6 +2871,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000115 xml:lang="en">An organization with a specific responsibility that is a part of a larger organization with a specific responsibility.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Department</obo:IAO_0000119>
+        <obo:OOSTT_00000030>A formal subdivision of an organization with a specific responsibility.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">This class does not contain government departments. Government department is to be found here: http://purl.obolibrary.org/obo/OOSTT_00000274 MB, Jan 4, 2017</rdfs:comment>
         <rdfs:label xml:lang="en">department</rdfs:label>
     </owl:Class>
@@ -3131,7 +3152,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000140">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A planned process that is part of medical training and is aimed at physicians and dentists to provide training in one of the medical specialities.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process that is part of medical training and is aimed at physicians to provide training in one of the medical specialities.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Fellowship_(medicine)&amp;oldid=748253626</obo:IAO_0000119>
         <rdfs:label xml:lang="en">medical fellowship program</rdfs:label>
@@ -3169,6 +3190,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques to join or repair blood vessels too small to view unaided by microscopy, in order to provide blood circulation to a body part that is being surgically attached or reconstructed</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">An organization that provides specialized operative manual and instrumental techniques to join or repair blood vessels too small to view unaided by microscopy, in order to provide blood circulation to a body part that is being surgically attached or reconstructed</obo:OOSTT_00000030>
+        <rdfs:comment xml:lang="en">This is not a representation of a professional organization of microvascular sugery providers, but an organization that provides microvascular surgery.</rdfs:comment>
         <rdfs:label xml:lang="en">microvascular surgery provider organization role</rdfs:label>
     </owl:Class>
     
@@ -3687,9 +3710,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000169">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000166"/>
-        <obo:IAO_0000115 xml:lang="en">A successful completion of ATLS course information that is not older than 3 years.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A successful completion of ATLS course information that is not older than specified time before their knowledge is no longer deemed current.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A successful completion of the ATLS course within the past 3 years.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A successful completion of the ATLS course that is not older than specified time before their knowledge is no longer deemed current.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">current successful ATLS completion information</rdfs:label>
     </owl:Class>
     
@@ -4813,8 +4836,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000208">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021006"/>
-        <obo:IAO_0000115 xml:lang="en">An obligee role that inheres in a human being mentioned in an on call plan specification and that, if realized, is realized by its bearer participating a planned process realizing the concretization of the plan specification and being on call exclusively for the organization that is the contractual partner in the document act that created this role.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An obligee role that inheres in a human being mentioned in an on call plan specification and that, if realized, is realized by its bearer participating a planned process realizing the concretization of the plan specification and being on call exclusively for the organization at specified times that is the contractual partner in the document act that created this role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A healthcare professional who has a primary obligation to a single facility while on call, however, in certain subspecialty instances, the individual may be on call at more than one facility, in which case a back up call schedule is required.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">on call exclusivity obligee role</rdfs:label>
     </owl:Class>
     
@@ -5821,6 +5845,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A physician role that, if it is realized, is realized by providing treatment for diseases of and injuries to the female reproductive system.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A  physician or surgeon with specialty in obstretrics and gynecology with responsibility for managing diseases and injuries to the female reproductive tract.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">gynecologist role</rdfs:label>
     </owl:Class>
     
@@ -6178,6 +6203,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000115 xml:lang="en">An organization that consists of organizations and human beings bearing specific roles in the process of enforcing policies within a community. The members of the machinery of government receive their authority through the government.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A network of organizations enforcing policies within a local, regional, state or national jurisdiction by authorized members of the government.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">machinery of government</rdfs:label>
     </owl:Class>
     
