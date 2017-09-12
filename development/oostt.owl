@@ -2557,7 +2557,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A planned process that is scattered over multiple temporal regions within a three year time frame, and that is realizing some plan specification of trauma care education and that is sufficient to receive 18 credit hours.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process that is scattered over multiple temporal regions that fulfills an obligation for continuing medical education in the area of trauma care.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">trauma education verifiable for continuing medical education requirement</rdfs:label>
     </owl:Class>
