@@ -6198,6 +6198,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000115 xml:lang="en">An organization that consists of organizations and human beings bearing specific roles in the process of enforcing policies within a community. The members of the machinery of government receive their authority through the government.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A network of organizations enforcing policies within a local, regional, state or national jurisdiction by authorized members of the government.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">machinery of government</rdfs:label>
     </owl:Class>
     
