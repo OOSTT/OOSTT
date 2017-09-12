@@ -19,12 +19,12 @@
         <dc:contributor xml:lang="en">Robert J. Winchell</dc:contributor>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
         <dc:contributor xml:lang="en">Mihail Eduard Tudoreanu</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2017-09-11</owl:versionInfo>
         <dc:contributor xml:lang="en">John Judkins</dc:contributor>
         <dc:contributor xml:lang="en">Jonathan Bona</dc:contributor>
         <dc:license>http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2017-09-12</owl:versionInfo>
         <dc:contributor xml:lang="en">Rohit Pradhan</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
@@ -1943,6 +1943,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000004"/>
         <obo:IAO_0000115 xml:lang="en">A specialty liaison role borne by a human being, which is also bearing an health care provider role, and if realized, is realized by the bearer representing critical care in the multidisciplinary peer review committee.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030>An critical care physician who serves as the formal representative for the critical care process on the multidisciplinary peer review committee.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">critical care liaison role</rdfs:label>
     </owl:Class>
     
