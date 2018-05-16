@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
-     xml:base="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#"
+     xml:base="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -24,13 +24,13 @@
         <dc:license>http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2017-09-12</owl:versionInfo>
         <dc:contributor xml:lang="en">Rohit Pradhan</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2018-05-16</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -5905,6 +5905,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <obo:IAO_0000115 xml:lang="en">An objective specification to bring about the existence of an organization of organizations and healthcare providers to facilitate and coordinate a multidisciplinary response to severe injury.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118>trauma system creation objective</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">The authority and process used for creation of a trauma system with the objective to bring together participating organizations to coordinate a multidisciplinary response for patients with severe injury.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma system creation objective specification</rdfs:label>
     </owl:Class>
