@@ -2257,6 +2257,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A plan specification that has a continuing trauma education objective specification as parts.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">continuing trauma education plan</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">A  description of the continuing medical education offering  that includes content, methodology, and evaluation with emphasis on helping health professionals participating in the care of injured patients to maintain continued competency or learn new concepts in trauma care.</obo:OOSTT_00000030>
         <obo:OOSTT_00000324>continuing trauma education plan</obo:OOSTT_00000324>
         <rdfs:label xml:lang="en">continuing trauma education plan specification</rdfs:label>
