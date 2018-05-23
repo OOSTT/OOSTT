@@ -4626,6 +4626,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000118 xml:lang="en">practice-based learning course plan</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Problem-based_learning&amp;oldid=751054692</obo:IAO_0000119>
         <obo:OOSTT_00000030 xml:lang="en">A  description of the education offering  that includes content, methodology, and evaluation with emphasis on practice-based learning techniques.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000324 xml:lang="en">practice-based learning course plan</obo:OOSTT_00000324>
         <rdfs:label xml:lang="en">practice-based learning course plan specification</rdfs:label>
     </owl:Class>
     
