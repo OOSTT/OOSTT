@@ -17,9 +17,9 @@
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
         <dc:contributor xml:lang="en">Robert T. Maxson</dc:contributor>
         <dc:contributor xml:lang="en">Robert J. Winchell</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2018-05-23</owl:versionInfo>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
         <dc:contributor xml:lang="en">Mihail Eduard Tudoreanu</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2018-05-24</owl:versionInfo>
         <dc:contributor xml:lang="en">John Judkins</dc:contributor>
         <dc:contributor xml:lang="en">Jonathan Bona</dc:contributor>
         <dc:license>http://creativecommons.org/licenses/by/4.0/</dc:license>
@@ -1439,7 +1439,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000019"/>
         <obo:IAO_0000115 xml:lang="en">A trauma center verifcation that has a designated trauma center as specified input. Designated trauma centers need to go through the process of reverification in a specified time interval.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A process  determining that a verified trauma center continues to meet the verification standards of the American College of Surgeons (or similar process in another country) within a specified time period.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A process  to determine whether a verified trauma center continues to meet the verification standards of the American College of Surgeons or a similar process in a particular trauma system or jurisdiction within a specified time period.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma center reverification</rdfs:label>
     </owl:Class>
     
