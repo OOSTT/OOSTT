@@ -4010,6 +4010,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118>institution-specific emergency medicine physician job description</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">An institution-specific job description of an emergency medicine physician.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000324>institution-specific emergency medicine physician job description</obo:OOSTT_00000324>
         <rdfs:label xml:lang="en">institution-specific emergency medicine physician role description</rdfs:label>
     </owl:Class>
     
