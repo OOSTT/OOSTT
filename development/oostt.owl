@@ -1549,7 +1549,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role that is borne by a person that also bears a emergency medicine physician role and, if realized, is realized by providing management and leadership for a emergency medicine department.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role that is borne by a person that also bears a emergency medicine physician role and, if realized, is realized by providing management and leadership for the clinical department that providie emergency care to ill and injured patients.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">director of emergency medicine</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">head of emergency medicine department role</obo:IAO_0000118>
