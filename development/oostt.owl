@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#"
-     xml:base="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
+     xml:base="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -1554,6 +1555,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">http://www.acep.org/workarea/DownloadAsset.aspx?id=29878</obo:IAO_0000119>
         <obo:OOSTT_00000030 xml:lang="en">A emergency physician who provides management and leadership for the physicians providing emergency care to  ill and injured patients.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">head of emergency medicine department role</rdfs:label>
+        <rdfs:label xml:lang="en">head of emergency medicine role</rdfs:label>
     </owl:Class>
     
 
