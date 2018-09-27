@@ -3941,6 +3941,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">An institution-specific job description of a trauma surgeon</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">institute-specific trauma surgeon job description</rdfs:label>
         <rdfs:label xml:lang="en">institution-specific trauma surgeon profile</rdfs:label>
     </owl:Class>
     
