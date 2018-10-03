@@ -20,12 +20,12 @@
         <dc:contributor xml:lang="en">Robert J. Winchell</dc:contributor>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
         <dc:contributor xml:lang="en">Mihail Eduard Tudoreanu</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2018-05-24</owl:versionInfo>
         <dc:contributor xml:lang="en">John Judkins</dc:contributor>
         <dc:contributor xml:lang="en">Jonathan Bona</dc:contributor>
         <dc:license>http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2018-10-03</owl:versionInfo>
         <dc:contributor xml:lang="en">Rohit Pradhan</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
@@ -3266,6 +3266,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A health care provider role that inheres in a human being and, if realized, is realized by a process of providing health care to a patient before and during transport of the patient to the hospital or from the initial hospital to the another healthcare provider organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A healthcare provider who cares for patients with urgent conditions before and during transport to the initial hospital or between the initial hospital and referral facility.</obo:OOSTT_00000030>
+        <rdfs:comment xml:lang="en">based on the comments from our expert team, this class is modeled to include air medical provides (not to include pilots) and not to include dispatchers.</rdfs:comment>
         <rdfs:label xml:lang="en">prehospital care provider role</rdfs:label>
     </owl:Class>
     
