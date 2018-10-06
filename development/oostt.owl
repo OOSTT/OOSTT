@@ -15,6 +15,7 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl"/>
         <dc:contributor xml:lang="en">Nels D. Sanddal</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2018-10-06</owl:versionInfo>
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
         <dc:contributor xml:lang="en">Robert T. Maxson</dc:contributor>
         <dc:contributor xml:lang="en">Robert J. Winchell</dc:contributor>
@@ -25,7 +26,6 @@
         <dc:license>http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2018-10-03</owl:versionInfo>
         <dc:contributor xml:lang="en">Rohit Pradhan</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
@@ -6174,7 +6174,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000267">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A planned process in which a group of individuals or an individual assess whether another individual&apos;s or an organization&apos;s actions are in accordance with the plan specifications or roles for the latter.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process by an individual or organization to assess and ensure that a facility or person is compliant with policies, procedures, or guidelines, and that outcomes are comparable to established benchmarks.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A planned process by an individual or organization to assess and ensure that a facility or person is compliant with policies, procedures, or guidelines.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">performance review process</rdfs:label>
