@@ -17,8 +17,8 @@
         <dc:contributor xml:lang="en">Nels D. Sanddal</dc:contributor>
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
         <dc:contributor xml:lang="en">Robert T. Maxson</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2018-10-11</owl:versionInfo>
         <dc:contributor xml:lang="en">Robert J. Winchell</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2018-10-12</owl:versionInfo>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
         <dc:contributor xml:lang="en">Mihail Eduard Tudoreanu</dc:contributor>
         <dc:contributor xml:lang="en">John Judkins</dc:contributor>
@@ -976,7 +976,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000115 xml:lang="en">An organization that is the bearer of a trauma center role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A specialized hospital or clinic with the immediately or promptly availability of  specially trained health care personnel who provide emergency care on a 24-hour–7-day/week basis for injured people. These specially trained personnel are immediately or promptly available to treat patients with ready operating rooms, special equipment, and necessary supplies. The American College of Surgeons defines certain standards for each of the 4 levels of trauma centers that it identifies. Trauma centers are created by some kind of official recognition (e.g. ACS Trauma Center Verification).</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma center</rdfs:label>
     </owl:Class>
     
