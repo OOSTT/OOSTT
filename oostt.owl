@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/oostt.owl/"
      xml:base="http://purl.obolibrary.org/obo/oostt.owl/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -12,7 +13,6 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2017-09-12/oostt.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl"/>
         <dc:contributor xml:lang="en">Nels D. Sanddal</dc:contributor>
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
@@ -29,7 +29,7 @@
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
-        <owl:versionInfo xml:lang="en">release version - 2017-09-12</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release version - 2018-12-17</owl:versionInfo>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
     </owl:Ontology>
@@ -976,7 +976,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000115 xml:lang="en">An organization that is the bearer of a trauma center role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A specialized hospital or clinic with the immediately or promptly availability of  specially trained health care personnel who provide emergency care on a 24-hour–7-day/week basis for injured people. These specially trained personnel are immediately or promptly available to treat patients with ready operating rooms, special equipment, and necessary supplies. The American College of Surgeons defines certain standards for each of the 4 levels of trauma centers that it identifies. Trauma centers are created by some kind of official recognition (e.g. ACS Trauma Center Verification).</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma center</rdfs:label>
     </owl:Class>
     
@@ -1108,7 +1107,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">The planned process of trauma team members arriving to treat the patient.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">Assembling of the appropriate trauma team (surgeon, nurses, emergency physician, anesthesia specialist, X-ray technicians, and others as indicated)  to match the severity of a patient&apos;s injuries  while the patient is enroute or has arrived at the emergency department.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">Assembling of the appropriate trauma team (surgeon, nurses, emergency physician, anesthesia specialist, X-ray technicians, and others as indicated)  to match the patient&apos;s injury or physiological severity.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma team response</rdfs:label>
     </owl:Class>
     
@@ -1251,7 +1250,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that comprehensively determines whether a facility meets the established criteria (state or national) regarding procedures, resources, and capabilities for the level of trauma service requested by the facility.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A process that comprehensively determines whether a facility meets the established criteria of the American College of Surgeons (or similar process in another country ) regarding procedures, resources, and capabilities for the verification level requested by the facility.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A process that comprehensively determines whether a facility meets the established criteria of a verification body (e.g. the American College of Surgeons) regarding procedures, resources, personnel and capabilities required to be a designated trauma facility.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma center verification</rdfs:label>
     </owl:Class>
     
@@ -1318,9 +1317,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <obo:IAO_0000115 xml:lang="en">An organization of healthcare professionals from multiple disciplines who collectively work together on the assessment and treatment of those who are severely injured.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An organization of healthcare professionals from multiple disciplines who collectively work together on the assessment and treatment of those who are potentially severely injured.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A multidisciplinary team of healthcare professionals who collectively work together on the initial assessment and treatment of individuals who are severely injured.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A multidisciplinary team of healthcare professionals who collectively work together on the initial assessment and treatment of individuals who are potentially severely injured.</obo:OOSTT_00000030>
+        <rdfs:comment xml:lang="en">The term &quot;potentially&quot; was added both to the definition and the OOSTT user-centered description to acount for overtriage. Trauma resiscitation teams assess patients that are deemed to be severly injured by prehsopital healthcare providers.</rdfs:comment>
         <rdfs:label xml:lang="en">trauma resuscitation team</rdfs:label>
     </owl:Class>
     
@@ -1387,7 +1387,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
         <obo:IAO_0000115 xml:lang="en">A role that is borne by a hospital or clinic and, if realized, is realized by its bearer providing emergency trauma care through specially trained personnel. The role is the specified outcome of a trauma center designation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A hospital or clinic that is able to provide immediate emergency trauma care by specially trained personnel in accordance with established guidelines required for trauma center designation.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A formally recognized acute care hospital or clinic that meets the standards and established criteria for trauma center designation and provides stabilization or definitive care to trauma patients.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma center role</rdfs:label>
     </owl:Class>
     
@@ -1440,7 +1440,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000019"/>
         <obo:IAO_0000115 xml:lang="en">A trauma center verifcation that has a designated trauma center as specified input. Designated trauma centers need to go through the process of reverification in a specified time interval.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A process  determining that a verified trauma center continues to meet the verification standards of the American College of Surgeons (or similar process in another country) within a specified time period.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A process  to determine whether a verified trauma center continues to meet the verification standards of the American College of Surgeons or a similar process in a particular trauma system or jurisdiction within a specified time period.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma center reverification</rdfs:label>
     </owl:Class>
     
@@ -1491,7 +1491,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A trauma professional organization focusing its mission on a specified region within a nation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A professional organization focusing its mission on the improvement of trauma care within the region that will have impact at the local level.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A professional organization focusing its mission on the improvement of trauma care within the region.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">regional trauma professional organization</rdfs:label>
     </owl:Class>
     
@@ -1539,7 +1539,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that realizes the concretization of a trauma peer review committee meeting plan specification. This meeting is inteded to to review the performance from a representatives of all medical specialities involved in trauma care by their peers.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">The scheduled time at which the authorized members of the trauma peer review committee meet to evaluate and provide feedback to individual care providers regarding provided trauma care.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">The scheduled time at which the members of the trauma peer review committee meet to evaluate and provide feedback to individual care providers regarding provided trauma care.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma peer review committee meeting</rdfs:label>
     </owl:Class>
     
@@ -1549,12 +1549,13 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role that is borne by a person that also bears a emergency medicine physician role and, if realized, is realized by providing management and leadership for a emergency medicine department.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role that is borne by a person that also bears a emergency medicine physician role and, if realized, is realized by providing management and leadership for the clinical department that providie emergency care to ill and injured patients.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">director of emergency medicine</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">head of emergency medicine department role</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">http://www.acep.org/workarea/DownloadAsset.aspx?id=29878</obo:IAO_0000119>
         <obo:OOSTT_00000030 xml:lang="en">A emergency physician who provides management and leadership for the physicians providing emergency care to  ill and injured patients.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">head of emergency medicine department role</rdfs:label>
+        <rdfs:label xml:lang="en">head of emergency medicine role</rdfs:label>
     </owl:Class>
     
 
@@ -2258,7 +2259,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A plan specification that has a continuing trauma education objective specification as parts.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">continuing trauma education plan</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">A  description of the continuing medical education offering  that includes content, methodology, and evaluation with emphasis on helping health professionals participating in the care of injured patients to maintain continued competency or learn new concepts in trauma care.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000324>continuing trauma education plan</obo:OOSTT_00000324>
         <rdfs:label xml:lang="en">continuing trauma education plan specification</rdfs:label>
     </owl:Class>
     
@@ -3263,6 +3266,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A health care provider role that inheres in a human being and, if realized, is realized by a process of providing health care to a patient before and during transport of the patient to the hospital or from the initial hospital to the another healthcare provider organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A healthcare provider who cares for patients with urgent conditions before and during transport to the initial hospital or between the initial hospital and referral facility.</obo:OOSTT_00000030>
+        <rdfs:comment xml:lang="en">based on the comments from our expert team, this class is modeled to include air medical provides (not to include pilots) and not to include dispatchers.</rdfs:comment>
         <rdfs:label xml:lang="en">prehospital care provider role</rdfs:label>
     </owl:Class>
     
@@ -3278,9 +3282,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000127"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A continuous coverage policy that specifies that a board-certified emergency physician is present in the emergency department 24 hours, 7 days a week.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A coverage policy that specifies that a emergency physician who is certified by an official agency or correspondent authority is present in the emergency department 24 hours, 7 days a week.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A healthcare facility policy that specifies the requirement for board certified emergency physician availability 24 hours a day, 7 days a week.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A healthcare facility policy that specifies the requirement for an emergency physician who is certified by an official agency or correspondent authority availability 24 hours a day, 7 days a week.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">continuous board certified emergency physician staffing policy</rdfs:label>
     </owl:Class>
     
@@ -3455,6 +3459,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <obo:IAO_0000115 xml:lang="en">An objective specification that specifies the intended outcome of educating members of prehospital providers and conducting exercises that apply the learned material.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">prehospital training objective</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">The specified outcome of the prehospital training process that includes the practical application of learned material to assess and manage patient care.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">prehospital training objective specification</rdfs:label>
     </owl:Class>
@@ -3936,8 +3941,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A plan specification that specifies the job requirements for the trauma surgeon positions in an institution and how those trauma surgeons will be used within the organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">An institution-specific job description of a trauma surgeon</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">institution-specific trauma surgeon profile</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">institution-specific trauma surgeon profile</obo:IAO_0000118>
+        <obo:OOSTT_00000030 xml:lang="en">Position description that is custom tailored to a particular medical facility and the role expected for trauma surgeon at that location.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">institute-specific trauma surgeon job description</rdfs:label>
     </owl:Class>
     
 
@@ -3983,8 +3989,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000177"/>
         <obo:IAO_0000115 xml:lang="en">An institution-specific trauma surgeon profile that has been approved by the trauma medical director.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">TMD approved institution-specific trauma surgeon profile</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">Institution-specific trauma surgeon qualification criteria approved by the trauma medical director.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">TMD approved institution-specific trauma surgeon profile</rdfs:label>
+        <rdfs:label xml:lang="en">TMD-approved institution-specific trauma surgeon job description</rdfs:label>
     </owl:Class>
     
 
@@ -4007,8 +4014,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A plan specification that specifies the job requirements for the emergency medicine physician positions in an institution and how those emergency medicine physicians will be used within the organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118>institution-specific emergency medicine physician job description</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">An institution-specific job description of an emergency medicine physician.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">institution-specific emergency medicine physician profile</rdfs:label>
+        <obo:OOSTT_00000324>institution-specific emergency medicine physician job description</obo:OOSTT_00000324>
+        <rdfs:label xml:lang="en">institution-specific emergency medicine physician role description</rdfs:label>
     </owl:Class>
     
 
@@ -4052,9 +4061,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000179"/>
-        <obo:IAO_0000115 xml:lang="en">An institution-specific emergency medicine physician profile that has been approved by the trauma medical director.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The qualification criteria for a physician to become a member of the emergency department that have been approved by the trauma medical director of the institution the department is a part of.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">Institution-specific emergency medicine physician qualification criteria approved by the trauma medical director.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">TMD approved institution-specific emergency medicine physician profile</rdfs:label>
     </owl:Class>
     
@@ -4622,8 +4630,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
         <obo:IAO_0000115 xml:lang="en">A plan specification that specifies the content, methodology, and evaluation of a course that aims to teach students about a subject through the experience of solving an open-ended problem found in trigger material.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">practice-based learning course plan</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Problem-based_learning&amp;oldid=751054692</obo:IAO_0000119>
-        <obo:OOSTT_00000030 xml:lang="en">A  description of the education offering  that includes content, methodology, and evaluation with emphasis on practice-based learning techniques.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A  description of the education offering  that includes content, methodology, evaluation, and definition of competencies with emphasis on training on open-ended problems.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000324 xml:lang="en">practice-based learning course plan</obo:OOSTT_00000324>
         <rdfs:label xml:lang="en">practice-based learning course plan specification</rdfs:label>
     </owl:Class>
     
@@ -5138,7 +5148,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000090"/>
         <obo:IAO_0000115 xml:lang="en">An orthopedic surgeon role that is the outcome of fullfilling all obligations to be allowed to take a board certification exam in orthopedic surgery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">An orthopeadic surgeon who has completed all training requirements and is eligible to take the board certification examination in the country of intended practice.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">An orthopeadic surgeon who has completed all requisite training requirements and is eligible to take the board certification examination in the country of intended practice.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">board eligible orthopedic surgeon role</rdfs:label>
     </owl:Class>
     
@@ -5906,7 +5916,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <obo:IAO_0000115 xml:lang="en">An objective specification to bring about the existence of an organization of organizations and healthcare providers to facilitate and coordinate a multidisciplinary response to severe injury.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">The authority and process used for creation of a trauma system with the objective to bring together participating organizations to coordinate a multidisciplinary response for patients with severe injury.</obo:OOSTT_00000030>
+        <obo:IAO_0000118>trauma system creation objective</obo:IAO_0000118>
+        <obo:OOSTT_00000030 xml:lang="en">An information item specifying the aim to bring together participating organizations to coordinate a multidisciplinary response for patients with severe injury.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma system creation objective specification</rdfs:label>
     </owl:Class>
     
@@ -6163,9 +6174,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000267">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A planned process in which a group of individuals or an individual assess whether another individual&apos;s or an organization&apos;s actions are in accordance with the plan specifications or roles for the latter.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process by an individual or organization to assess and ensure that a facility or person is compliant with policies, procedures, or guidelines, and that outcomes are comparable to established benchmarks.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A planned process by an individual or organization to assess and ensure that a facility or person is compliant with policies, procedures, or guidelines.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">performance review process</rdfs:label>
     </owl:Class>
     
@@ -6757,6 +6767,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">An organization that intends to provide care or transport to the sick and injured as part of an emergency medical services system.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">EMS agency</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">emergency medical services</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">An organization that responds to emergency calls to care for the ill and injured that may additionally involve transport to an emergency facility.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">emergency medical services agency</rdfs:label>
     </owl:Class>
@@ -7521,10 +7532,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a person and that affirms that they have attended at least 50% of trauma peer review committee meetings.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a person and that affirms that they have attended at the number of meeting of the trauma peer review committee meetings as required by the designating agency.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">The record verifying that each specified member participates in the trauma peer review committee and attends the minimum number of meetings as required by the designating agency.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">The record verifying that each specified member participates in the trauma quality improvement committee and attends the majority of meetings as required by the designating agency.</obo:OOSTT_00000030>
+        <rdfs:comment xml:lang="en">Whether this requirement is fulfilled depends on the PIPS attendance record.</rdfs:comment>
         <rdfs:label xml:lang="en">record of participation in majority of trauma peer review committee meetings</rdfs:label>
     </owl:Class>
     
