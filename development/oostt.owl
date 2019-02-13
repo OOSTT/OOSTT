@@ -2513,6 +2513,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A document that is about a trauma registrar role and specifies the extent of work and the rights and obligations that are associated with that role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The description of job requirements and expectations of the individual assigned to abstract and record patient data and run reports for the trauma registry.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">It is important to note that this is not the rights and obligations or the professional role itself. This is a descriptive information content entity, not a directive one or a conglomerate of socio=legal entities.</rdfs:comment>
         <rdfs:label xml:lang="en">trauma registrar job description</rdfs:label>
@@ -4936,6 +4937,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000288"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is the specified output of a critical care certificate course.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">Recognition awarded after successful completion of education and training in any aspect of critical care meeting standards established under the authority of a governing board or agency.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">critical care certificate</rdfs:label>
     </owl:Class>
