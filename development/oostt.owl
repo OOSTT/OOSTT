@@ -2511,7 +2511,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A document that is about a trauma registrar role and specifies the extend of of work and the rights and obligations that are associated with that role.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A document that is about a trauma registrar role and specifies the extent of work and the rights and obligations that are associated with that role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The description of job requirements and expectations of the individual assigned to abstract and record patient data and run reports for the trauma registry.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">It is important to note that this is not the rights and obligations or the professional role itself. This is a descriptive information content entity, not a directive one or a conglomerate of socio=legal entities.</rdfs:comment>
