@@ -31,7 +31,7 @@
         <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2019-01-30</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2019-02-13</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -4936,7 +4936,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000288"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is the specified output of a critical care certificate course.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">Recognition awarded after successful completion of education and training in critical care.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">Recognition awarded after successful completion of education and training in any aspect of critical care meeting standards established under the authority of a governing board or agency.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">critical care certificate</rdfs:label>
     </owl:Class>
     
