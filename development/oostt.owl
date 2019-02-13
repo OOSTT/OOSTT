@@ -4992,7 +4992,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000140"/>
         <obo:IAO_0000115 xml:lang="en">A medical fellowship that provides education in using operative manual or instrumental techniques on a patient to investigate or treat an injury or other pathological situation that are caused by an injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A planned process that is part of medical training and is aimed at surgeons to provide advanced preparation in trauma surgery, critical care, and management of injured patients.</obo:OOSTT_00000030>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A credentialed program of medical training for general surgeons to provide advanced preparation and certification in trauma surgery and management of injured patients. Some programs also include critical care.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma surgery fellowship program</rdfs:label>
     </owl:Class>
     
