@@ -2766,8 +2766,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#MedicalResidency"/>
         <obo:IAO_0000115 xml:lang="en">A medical residency in the medical speciality that focuses on the care for undifferentiated and unscheduled  patients with illnesses and injuries requiring immediate medical attention.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Emergency_medicine&amp;oldid=746479802</obo:IAO_0000119>
-        <obo:OOSTT_00000030 xml:lang="en">A formal process for new physicians who choose emergency medicine as a specialty to obtain practice experience under the supervision of a board-certified emergency physician.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A formal process for new physicians who choose emergency medicine as a specialty to obtain education, training, and practical experience under the supervision of a board-certified emergency physician.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">emergency medicine residency program</rdfs:label>
     </owl:Class>
     
