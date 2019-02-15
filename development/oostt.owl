@@ -2791,7 +2791,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#MedicalResidency"/>
         <obo:IAO_0000115 xml:lang="en">A medical residency in the medical specialty that focuses on using operative manual and instrumental techniques on the nervous system of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A formal process for new physicians who choose neurosurgery as a specialty to obtain practice experience under the supervision of a board-certified neurosurgeon.</obo:OOSTT_00000030>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A formal process for new physicians who choose neurosurgery as a specialty to obtain education, training, and practical experience under the supervision of a board-certified neurosurgeon.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">neurosurgery residency program</rdfs:label>
     </owl:Class>
     
