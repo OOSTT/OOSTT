@@ -1049,7 +1049,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role appointed by a legislature that, if realized, grants the bearer authority to plan, coordinate, and monitor trauma systems.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">The agency legally responsible for trauma systems planning, program coordination, and monitoring within the state, region or county.</obo:OOSTT_00000030>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">The agency statutorily responsible for trauma systems planning, program coordination, and monitoring within the state, region or county.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma lead agency role</rdfs:label>
     </owl:Class>
     
