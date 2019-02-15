@@ -6164,7 +6164,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A professional organization consisting of emergency medical service providers  and that aims to represent the interests of emergency medical service providers.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">An association of EMS providers that any provider may join voluntarily to share information or to collaborate on issues of local, state, or national importance.</obo:OOSTT_00000030>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">An association of EMS providers that any provider may join voluntarily to share information or to collaborate on or advocate for issues of local, state, or national importance.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">emergency medical services provider association</rdfs:label>
     </owl:Class>
     
