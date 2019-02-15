@@ -31,7 +31,7 @@
         <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2019-02-13</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2019-02-15</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1291,9 +1291,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A registrar role borne by a human being that, if realized,  is realized by preparing, keeping, and overseeing records in a trauma registry.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An individual who abstracts, records, and validates data in an electronic trauma registry; assists with data analysis; and runs reports.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">An individual who abstracts and records data into an electronic trauma registry and runs reports.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma registrar role</rdfs:label>
     </owl:Class>
