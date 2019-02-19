@@ -25,13 +25,14 @@
         <dc:contributor xml:lang="en">Robert T. Maxson</dc:contributor>
         <dc:contributor xml:lang="en">Rohit Pradhan</dc:contributor>
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
         <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2019-02-15</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2019-02-19</owl:versionInfo>
     </owl:Ontology>
     
 
