@@ -1418,8 +1418,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000029"/>
         <obo:IAO_0000115 xml:lang="en">A pediatric trauma center role is a trauma center role borne by a hospital that provides trauma care for children, including the availability of a pediatric trauma surgeon. The role is created through a Pediatric Trauma Center designation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Trauma_center&amp;oldid=685886443</obo:IAO_0000119>
-        <obo:OOSTT_00000030 xml:lang="en">A trauma center role that is borne by a hospital that is organized to provide trauma care to injured infants, children, and adolescents.  Its bearer has a full range of pediatric specialists and equipment available 24 hours a day and admits a minimum required annual volume of severely injured patients established by the designating agency. The facility has transfer agreements with all referring facilities, and provides performance improvement and education outreach to those facilities. The facility may have a physican residency program and an ongoing program of research. The role is created by a pediatric Trauma Center designation.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A trauma center role that is borne by a hospital that is organized to provide trauma care to injured infants, children, and adolescents.  Its bearer has a full range of pediatric specialists and equipment available 24 hours a day and admits a minimum required annual volume of severely injured patients established by the designating agency. The facility has transfer agreements with referring facilities, and provides performance improvement and education outreach to those facilities. The role is created by a pediatric Trauma Center designation.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">pediatric trauma center role</rdfs:label>
     </owl:Class>
     
