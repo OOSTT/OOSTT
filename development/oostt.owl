@@ -7404,9 +7404,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000366">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000367"/>
-        <obo:IAO_0000115 xml:lang="en">A neurosurgeon role that is the outcome of fullfilling all obligations to be allowed to take a board certification exam in orthopedic surgery.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A neurosurgeon role that is the outcome of fullfilling all obligations to be allowed to take a board certification exam in neurosurgery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Joseph Utecht</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">An neurosurgeon who has completed all training requirements and is eligible to take the board certification examination in the country of intended practice.</obo:OOSTT_00000030>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A neurosurgeon who has completed all training requirements and is eligible to take the board certification examination in the country of intended practice.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">board eligible neurosurgeon role</rdfs:label>
     </owl:Class>
     
