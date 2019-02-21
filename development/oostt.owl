@@ -4093,9 +4093,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000096"/>
-        <obo:IAO_0000115 xml:lang="en">An trauma surgeon role that is the outcome of fullfilling all obligations to be allowed to take a board certification exam in trauma surgery.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An trauma surgeon role that is the outcome of fullfilling all obligations to be allowed to take a board certification exam in surgical critical care.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A surgeon who has completed all training requirements and is eligible to take the acute care and trauma surgery board certification examination in the country of intended practice.</obo:OOSTT_00000030>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A surgeon who has completed all training requirements and is eligible to take the surgical critical care board certification examination in the country of intended practice.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">board eligible trauma surgeon role</rdfs:label>
     </owl:Class>
     
