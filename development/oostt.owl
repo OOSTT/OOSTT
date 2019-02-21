@@ -32,7 +32,7 @@
         <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2019-02-19</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2019-02-20</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -3089,7 +3089,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A continuous coverage policy to ensure availability of an orthopedic surgeon.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A healthcare facility policy that specifies the requirement for orthopaedic surgeon availability 24 hours a day, 7 days a week.</obo:OOSTT_00000030>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A healthcare facility policy that specifies the requirement for orthopedic surgeon availability 24 hours a day, 7 days a week.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">continuous orthopedic surgery coverage policy</rdfs:label>
     </owl:Class>
     
