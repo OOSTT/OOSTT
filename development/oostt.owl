@@ -5992,7 +5992,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000115 xml:lang="en">An organization that brings together human beings or organizations from different backgrounds with and shared idealistic or financial interest in some process and its outcomes to counsel and evaluate that process and its outcomes.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">An organization of individuals and organization representatives with different perspectives and responsibilities who colloborate to improve the trauma care process and its outcomes.</obo:OOSTT_00000030>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">An assembly of individuals and organization representatives with different perspectives and responsibilities who collaborate to improve the trauma care process and its outcomes.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">multidisciplinary stakeholder group</rdfs:label>
     </owl:Class>
     
