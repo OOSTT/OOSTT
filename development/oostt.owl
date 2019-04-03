@@ -32,7 +32,7 @@
         <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2019-02-20</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2019-04-03</owl:versionInfo>
     </owl:Ontology>
     
 
