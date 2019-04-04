@@ -2553,7 +2553,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000106">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021032"/>
         <obo:IAO_0000115>An obligee role that, if realized, is realized by its bearer participating in continuing trauma eduction amounting an amount of time specified in their program or country.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">continuing trauma education obligee role</rdfs:label>
     </owl:Class>
