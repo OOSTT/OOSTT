@@ -32,7 +32,7 @@
         <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2019-04-03</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2019-04-04</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -4245,7 +4245,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000185 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000185">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021032"/>
         <obo:IAO_0000115 xml:lang="en">An obligee role that is realized by its bearer organizing and managing a trauma quality improvement and patient safety program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The obligation to organize and managing the formal process to ensure performance improvement and patient safety in a facility.</obo:OOSTT_00000030>
