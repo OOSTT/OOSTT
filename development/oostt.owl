@@ -3436,7 +3436,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000155 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000155">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021032"/>
         <obo:IAO_0000115 xml:lang="en">An obligee role that, if realized, is realized by its bearer organizing and overseeing the trauma quality improvement and patient safety program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A health professional role that results in the oversight and management of the trauma center&apos;s quality improvement and patient safety program as specified by the American College of Surgeons.</obo:OOSTT_00000030>
