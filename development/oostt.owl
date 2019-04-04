@@ -4164,6 +4164,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is about the bearer of a healthcare provider role and that affirms that they fulfilled all requirements to receive state licensure in their healthcare provider role for the state they practice in.</obo:IAO_0000115>
         <obo:OOSTT_00000030 xml:lang="en">The assurance that a healthcare provider is licensed for their health care role.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000324 xml:lang="en">documentation of compliance with state licensure requirement</obo:OOSTT_00000324>
         <rdfs:label xml:lang="en">compliance with state licensure requirement information content entity</rdfs:label>
     </owl:Class>
     
