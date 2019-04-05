@@ -5468,9 +5468,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of orthopedic surgeons that are mentioned on a trauma panel of an organization and are exclusively on call for that organization.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A collection of orthopedic surgeons who are members of the trauma service of an organization and are exclusively on call for that organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">All orthopaedic surgeons participating on the trauma panel who exclusively serve one trauma center during a specific time period.</obo:OOSTT_00000030>
+        <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">All orthopedic surgeons who are members of the trauma service and exclusively serve one trauma center during a specific time period.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">collection of orthopedic surgeons with on call exclusivity</rdfs:label>
     </owl:Class>
     
