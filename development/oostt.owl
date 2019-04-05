@@ -17,10 +17,10 @@
         <dc:contributor xml:lang="en">Nels D. Sanddal</dc:contributor>
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
         <dc:contributor xml:lang="en">Robert T. Maxson</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2019-04-04</owl:versionInfo>
         <dc:contributor xml:lang="en">Robert J. Winchell</dc:contributor>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
         <dc:contributor xml:lang="en">Mihail Eduard Tudoreanu</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version - 2019-03-27</owl:versionInfo>
         <dc:contributor xml:lang="en">John Judkins</dc:contributor>
         <dc:contributor xml:lang="en">Jonathan Bona</dc:contributor>
         <dc:license>http://creativecommons.org/licenses/by/4.0/</dc:license>
@@ -7292,6 +7292,19 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label xml:lang="en">obsolete_collection of board certified neurosurgeons</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000235"/>
+        <obo:IAO_0000115 xml:lang="en">An advanced practice registered nurse role that if realized is realized by its bearer assessing patient needs, ordering and interpreting diagnostic and laboratory tests, diagnosing illness and disease, prescribing medication and formulating treatment plans.</obo:IAO_0000115>
+        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">NP role</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Nurse_practitioner&amp;oldid=889394537</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">nurse practitioner role</rdfs:label>
     </owl:Class>
     
 
