@@ -32,7 +32,7 @@
         <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2019-04-04</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2019-04-05</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -7570,10 +7570,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a person and that affirms that they have attended at the number of meeting of the trauma peer review committee meetings as required by the designating agency.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a person and that affirms that they have attended at the number of meeting of the trauma peer review committee meetings as required by the designating or verifying agency.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">The record verifying that each specified member participates in the trauma quality improvement committee and attends the majority of meetings as required by the designating agency.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">The record verifying that each specified member participates in the trauma quality improvement committee and attends the majority of meetings as required by the designating or verifying agency.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">Whether this requirement is fulfilled depends on the PIPS attendance record.</rdfs:comment>
         <rdfs:label xml:lang="en">record of participation in majority of trauma peer review committee meetings</rdfs:label>
     </owl:Class>
