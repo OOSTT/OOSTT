@@ -918,6 +918,17 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
+        <obo:IAO_0000115 xml:lang="en">A human health care provider role that inheres in a human being that is created by state licensing and that is realized by taking patient histories, performing physical exams, diagnosing illnesses, developing treatment plans, ordering lab tests, prescribing medications, counselling and educating patients, suturing wounds, and assisting in surgery under the supervision of a physician or a surgeon.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">US physician assistant role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000130 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000130">
@@ -3431,6 +3442,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">An obligee role that if realized is realized by its bearer evaluating the nursing care provided to trauma patients.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The individual with authority and responsibility for evaluating the nursing care provided to trauma patients.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000324 xml:lang="en">trauma nursing evaluator</obo:OOSTT_00000324>
         <rdfs:label xml:lang="en">trauma nursing evaluator obligee role</rdfs:label>
     </owl:Class>
     
@@ -7334,6 +7346,19 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label xml:lang="en">obsolete_collection of board certified neurosurgeons</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000235"/>
+        <obo:IAO_0000115 xml:lang="en">An advanced practice registered nurse role that if realized is realized by its bearer assessing patient needs, ordering and interpreting diagnostic and laboratory tests, diagnosing illness and disease, prescribing medication and formulating treatment plans.</obo:IAO_0000115>
+        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">NP role</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Nurse_practitioner&amp;oldid=889394537</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">nurse practitioner role</rdfs:label>
     </owl:Class>
     
 
