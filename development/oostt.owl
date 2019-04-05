@@ -4268,7 +4268,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021032"/>
         <obo:IAO_0000115 xml:lang="en">An obligee role that is realized by its bearer organizing and managing a trauma quality improvement and patient safety program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The obligation to organize and managing the formal process to ensure performance improvement and patient safety in a facility.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000324>coordination of trauma quality improvement and patient safety</obo:OOSTT_00000324>
         <rdfs:label xml:lang="en">coordination of trauma quality improvement and patient safety obligee role</rdfs:label>
     </owl:Class>
     
