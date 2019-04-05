@@ -1018,8 +1018,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
         <obo:IAO_0000115 xml:lang="en">A plan specification specifying the monitoring, evaluating, and improving of the quality of care for trauma patients and of a trauma service as whole.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">trauma performance improvement/patient safety process</obo:IAO_0000118>
-        <obo:OOSTT_00000030 xml:lang="en">A plan that promotes the improvement and quality of care by monitoring and evaluating care and  patient safety for individual trauma patients and the trauma service overall.</obo:OOSTT_00000030>
+        <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A plan aiming towards the improvement of quality of care by monitoring and evaluating care and patient safety for individual trauma patients and the trauma service overall.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma quality improvement and patient safety program</rdfs:label>
     </owl:Class>
     
