@@ -2154,10 +2154,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A planned process that realizes a plan that concretizes a prehospital training plan specification and that relays information to member of the prehospital care providers and exercises the application of that information.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process that realizes a plan that concretizes a prehospital training plan specification and that relays information to members of the prehospital care providers and exercises the application of that information.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A training process with the primary objective of teaching prehospital care providers the assessment and management of care for patients with urgent and emergent conditions before and during transport to the hospital.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">prehospital training</rdfs:label>
+        <rdfs:label xml:lang="en">prehospital provider training</rdfs:label>
     </owl:Class>
     
 
