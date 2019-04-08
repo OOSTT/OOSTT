@@ -3173,7 +3173,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A continuous coverage policy that specifies procedures to ensure that anesthesiology services are available at a healthcare provider organization 24 hours, 7 days a week.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A healthcare facility policy that specifies the requirement for anesthesiology-credentialed members availability 24 hours a day, 7 days a week.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A healthcare facility policy that specifies the requirement for availability of anesthesiology services 24 hours a day, 7 days a week.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">continuous anesthesiology coverage policy</rdfs:label>
     </owl:Class>
     
