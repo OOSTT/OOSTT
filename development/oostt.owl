@@ -7588,6 +7588,20 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021033"/>
+        <obo:IAO_0000115 xml:lang="en">An obligor role that inheres in a human being mentioned in an on call plan specification and that, if realized, is realized by its bearer participating a planned process realizing the concretization of the plan specification and being on call exclusively for the organization at specified times that is the contractual partner in the document act that created this role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A healthcare professional who has a primary obligation to a single facility while on call, however, in certain subspecialty instances, the individual may be on call at more than one facility, in which case a back up call schedule is required.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000324>on call exclusivity</obo:OOSTT_00000324>
+        <rdfs:label xml:lang="en">on call exclusivity obligor role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125">
