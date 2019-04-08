@@ -5647,7 +5647,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A medical residency in the medical speciality that focuses on the administration of medication for the temporary general or local suppression of sensory or motor nerve function during some health care encounter or on making decisions regarding the administration of such medication.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A medical residency in anesthesiology required for board certification as an anesthesiologist.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A formal process for new physicians who choose anesthesiology as a specialty to obtain education, training, and practice experience under the supervision of a board-certified anesthesiologist.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">anesthesiology residency program</rdfs:label>
     </owl:Class>
     
