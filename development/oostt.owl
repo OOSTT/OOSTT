@@ -2405,7 +2405,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
         <obo:IAO_0000115 xml:lang="en">A healthcare provider role that, if realized, is realized by planning, organizing and overseeing planned processes that realize the concretization of a trauma quality improvement and patient safety program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">The role of an authorized group of healthcare providers that ensures trauma quality improvement and patient safety within the trauma program.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">The role of a healthcare provider that ensures trauma quality improvement and patient safety within the trauma program.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma quality improvement and patient safety program lead role</rdfs:label>
     </owl:Class>
     
