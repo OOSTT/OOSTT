@@ -2570,12 +2570,14 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000106">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021032"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115>An obligee role that, if realized, is realized by its bearer participating in continuing trauma eduction for an amount of time specified in their program or country.</obo:IAO_0000115>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
+        <obo:IAO_0100001>continuing trauma education obligor role</obo:IAO_0100001>
         <obo:OOSTT_00000030>The obligation to participate in continuing trauma eduction for an amount of time specified in the partcipant&apos;s program or country.</obo:OOSTT_00000030>
         <obo:OOSTT_00000324>continuing trauma education</obo:OOSTT_00000324>
         <rdfs:label xml:lang="en">continuing trauma education obligee role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
