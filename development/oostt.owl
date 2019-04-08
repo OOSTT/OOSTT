@@ -6696,7 +6696,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A healthcare provider representing their specialty in the multidisciplinary peer review committee.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A physician or other qualified healthcare professional representing their specialty in the multidisciplinary peer review committee.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">A physician or other qualified healthcare professional representing their specialty in the multidisciplinary peer review committee who is also responsible for providing specialty input on issues, carrying opportunities for improvement back to their specialty, and assisting with formation,  implementation, and auditing of corrective action plans.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">specialty liaison</rdfs:label>
     </owl:Class>
     
