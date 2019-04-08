@@ -6193,7 +6193,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
         <obo:IAO_0000115 xml:lang="en">A healthcare provider role that, if realized, is realized by its bearer providing out-of-hospital acute care and transport to definitive care, to patients with illnesses and injuries which the patient believes constitute a medical emergency.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">http://doh.dc.gov/service/what-ems</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://web.archive.org/web/20170312202826/http://doh.dc.gov/service/what-ems</obo:IAO_0000119>
         <obo:OOSTT_00000030 xml:lang="en">A healthcare provider who is credentialed by the state to provide emergency prehospital care to the ill and injured, and in many cases transports the patient to the emergency care facility.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">emergency medical service provider role</rdfs:label>
     </owl:Class>
