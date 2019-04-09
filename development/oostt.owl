@@ -7620,6 +7620,20 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000374">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021033"/>
+        <obo:IAO_0000115 xml:lang="en">An obligor role that if realized is realized by its bearer evaluating the nursing care provided to trauma patients.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">The individual with authority and responsibility for evaluating the nursing care provided to trauma patients.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000324 xml:lang="en">trauma nursing evaluator</obo:OOSTT_00000324>
+        <rdfs:label xml:lang="en">trauma nursing evaluator obligor role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125">
