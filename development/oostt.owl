@@ -2576,7 +2576,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0100001>continuing trauma education obligor role</obo:IAO_0100001>
         <obo:OOSTT_00000030>The obligation to participate in continuing trauma eduction for an amount of time specified in the partcipant&apos;s program or country.</obo:OOSTT_00000030>
         <obo:OOSTT_00000324>continuing trauma education</obo:OOSTT_00000324>
-        <rdfs:label xml:lang="en">continuing trauma education obligee role</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_continuing trauma education obligee role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -3453,7 +3453,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0100001>trauma nursing evaluator obligor role</obo:IAO_0100001>
         <obo:OOSTT_00000030 xml:lang="en">The individual with authority and responsibility for evaluating the nursing care provided to trauma patients.</obo:OOSTT_00000030>
         <obo:OOSTT_00000324 xml:lang="en">trauma nursing evaluator</obo:OOSTT_00000324>
-        <rdfs:label xml:lang="en">trauma nursing evaluator obligee role</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_trauma nursing evaluator obligee role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -3469,7 +3469,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0100001>tqip coordinator obligor role</obo:IAO_0100001>
         <obo:OOSTT_00000030 xml:lang="en">A health professional role that results in the oversight and management of the trauma center&apos;s quality improvement and patient safety program as specified by the American College of Surgeons.</obo:OOSTT_00000030>
         <obo:OOSTT_00000324>tqip coordinator</obo:OOSTT_00000324>
-        <rdfs:label xml:lang="en">tqip coordinator obligee role</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_tqip coordinator obligee role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -4286,7 +4286,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0100001>coordination of trauma quality improvement and patient safety obligor role</obo:IAO_0100001>
         <obo:OOSTT_00000030 xml:lang="en">The obligation to organize and managing the formal process to ensure performance improvement and patient safety in a facility.</obo:OOSTT_00000030>
         <obo:OOSTT_00000324>coordination of trauma quality improvement and patient safety</obo:OOSTT_00000324>
-        <rdfs:label xml:lang="en">coordination of trauma quality improvement and patient safety obligee role</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_coordination of trauma quality improvement and patient safety obligee role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -4912,7 +4912,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0100001>on call exclusivity obligor role</obo:IAO_0100001>
         <obo:OOSTT_00000030 xml:lang="en">A healthcare professional who has a primary obligation to a single facility while on call, however, in certain subspecialty instances, the individual may be on call at more than one facility, in which case a back up call schedule is required.</obo:OOSTT_00000030>
         <obo:OOSTT_00000324>on call exclusivity</obo:OOSTT_00000324>
-        <rdfs:label xml:lang="en">on call exclusivity obligee role</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_on call exclusivity obligee role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
