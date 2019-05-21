@@ -2562,7 +2562,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The power to revoke membership on the trauma service.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">authority to remove members from the trauma panel</rdfs:label>
+        <rdfs:label xml:lang="en">authority to remove members from the trauma service</rdfs:label>
     </owl:Class>
     
 
