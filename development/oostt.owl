@@ -4884,7 +4884,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists exclusively of trauma surgeons that are listed on the trauma on call plan specification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">All trauma surgeons participating on the trauma panel.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">All trauma surgeons participating on the trauma service.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">This class already follows the strategy of not fully defining collections (using universal restrictions) due to the reasoning load it creates. We only represent which properties the affirmed members of this class have using a necessary existential restriction</rdfs:comment>
         <rdfs:label xml:lang="en">collection of trauma surgeons on a trauma service</rdfs:label>
     </owl:Class>
