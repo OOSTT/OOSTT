@@ -5593,7 +5593,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a neurosurgeon role that are mentioned in a trauma on call plan specification and that particpates in trauma education verifiable for 18 hours over 3 years.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">All neurosurgeons participating on the trauma panel who are current in fulfilling requirements for trauma-related continuing medical education</obo:OOSTT_00000030>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">All neurosurgeons participating in the trauma service who are current in fulfilling requirements for trauma-related continuing medical education.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">collection of neurosurgeons on trauma service fulfilling CME requirement</rdfs:label>
     </owl:Class>
     
