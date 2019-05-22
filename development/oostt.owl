@@ -5635,7 +5635,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of an anesthesiologist role that are mentioned in a trauma on call plan specification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">collection of anesthesiologists on trauma panel</rdfs:label>
+        <rdfs:label xml:lang="en">collection of anesthesiologists on trauma service</rdfs:label>
     </owl:Class>
     
 
