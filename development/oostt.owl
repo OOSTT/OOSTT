@@ -5194,7 +5194,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All orthopaedic surgeons participating on the trauma panel who are current in fulfilling requirements for trauma-related continuing medical education.</obo:OOSTT_00000030>
         <obo:OOSTT_00000030 xml:lang="en">All trauma surgeons participating on the trauma panel who are current in fulfilling requirements for trauma-related continuing medical education.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">collection of orthopedic surgeons on trauma panel fulfilling CME requirement</rdfs:label>
+        <rdfs:label xml:lang="en">collection of orthopedic surgeons on trauma service fulfilling CME requirement</rdfs:label>
     </owl:Class>
     
 
