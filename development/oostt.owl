@@ -5283,10 +5283,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of orthopedic surgeons mentioned on the trauma  on call plan specification that fulfil all criteria to sit a board certification exam, but that either have not taken one or have failed.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A collection of orthopedic surgeons mentioned on the trauma on call plan specification that fulfil all criteria to sit a board certification exam, but that either have not taken one or have failed.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">All orthopaedic surgeons who have completed all training requirements, are eligible to sit for the orthopaedic surgery board certification exam, practicing in a healthcare facility, and participating on the trauma panel.</obo:OOSTT_00000030>
+        <obo:OOSTT_00000030 xml:lang="en">All orthopedic surgeons who have completed all training requirements, are eligible to sit for the orthopedic surgery board certification exam, practicing in a healthcare facility, and participating in the trauma service.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">collection of board eligible orthopedic surgeons on trauma service</rdfs:label>
     </owl:Class>
     
