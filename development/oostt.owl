@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
-     xml:base="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#"
+     xml:base="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -32,7 +32,7 @@
         <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2019-05-22</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2019-05-23</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -5459,7 +5459,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a neurosurgeon role that are mentioned in a trauma on call plan specification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">collection of neurosurgeons on trauma panel</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">collection of neurosurgeons on trauma service</rdfs:label>
     </owl:Class>
     
 
