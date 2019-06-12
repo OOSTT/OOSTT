@@ -1446,7 +1446,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000029"/>
-        <obo:IAO_0000115 xml:lang="en">A level V trauma center role is a trauma center role that is borne by a hospital or clinic that provides initial evaluation, stabilization, diagnostic capabilities, and transfer to a higher level of care. If the bearer of the role is not open 24 hours daily, the facility must have an after-hours trauma response protocol. The role is created by a Level V Trauma Center designation.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A Level V trauma center role is a trauma center role that is borne by a hospital and that is the specified output of a Level V trauma center designation. If realized, it is realized by providing trauma care and education in accordance with the requirements for Level V trauma centers by the designating organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">level V trauma center role</obo:IAO_0000118>
