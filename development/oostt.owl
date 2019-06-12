@@ -1417,8 +1417,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000029"/>
-        <obo:IAO_0000115 xml:lang="en">A Level IV trauma center role is a trauma center role that is borne by a hospital or clinic that provides evaluation, stabilization, diagnostic capabilities, and transfer to a higher level of care. The role is created by a Level IV Trauma Center designation.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A Level IV trauma center role is a trauma center role that is borne by a hospital and that is the specified output of a Level IV trauma center designation. If realized, it is realized by providing trauma care and education in accordance with the requirements for Level IV trauma centers by the designating organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">level IV trauma center role</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Trauma_center&amp;oldid=685886443</obo:IAO_0000119>
         <obo:OOSTT_00000030 xml:lang="en">A Level IV trauma center role is a trauma center role that is borne by a hospital or clinic that provides evaluation, stabilization, diagnostic capabilities, and transfer to a higher level of care. The facility provides care 24 hours a day. The role is created by a Level IV Trauma Center designation.</obo:OOSTT_00000030>
