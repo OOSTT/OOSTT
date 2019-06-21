@@ -1352,6 +1352,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">level I trauma center role</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Trauma_center&amp;oldid=685886443</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">An example of the requirements for a Level I trauma center can be found on page 17 in Resources for Optimal Care of the Injured Patient, 6th edition: https://www.facs.org/~/media/files/quality%20programs/trauma/vrc%20resources/resources%20for%20optimal%20care.ashx</rdfs:comment>
         <rdfs:label xml:lang="en">level 1 trauma center role</rdfs:label>
     </owl:Class>
     
