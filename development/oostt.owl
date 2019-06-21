@@ -1382,7 +1382,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">level III trauma center role</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Trauma_center&amp;oldid=685886443</obo:IAO_0000119>
-        <obo:OOSTT_00000030 xml:lang="en">A Level III trauma center role is a trauma center role that is borne by a hospital that while  not having the full availability of specialists, has resources for emergency resuscitation, surgery, and intensive care of many trauma patients. The bearer of this role has transfer agreements with Level I or Level II trauma centers. The role is created by a Level III Trauma Center designation.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">An example of the requirements for a Level III trauma center can be found on page 19 in Resources for Optimal Care of the Injured Patient, 6th edition: https://www.facs.org/~/media/files/quality%20programs/trauma/vrc%20resources/resources%20for%20optimal%20care.ashx</rdfs:comment>
         <rdfs:label xml:lang="en">level 3 trauma center role</rdfs:label>
     </owl:Class>
