@@ -32,7 +32,7 @@
         <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2019-06-12</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2019-06-21</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1347,12 +1347,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000029"/>
-        <obo:IAO_0000115 xml:lang="en">A Level I trauma center role is a trauma center role that is borne by a hospital and that is the specified output of a  Level I trauma center designation. If realized, it is realized by providing trauma care and education in  accordance with the requirements for Level I trauma centers by the designating organization.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A Level I trauma center role is a trauma center role that is borne by a hospital and that is the specified output of a Level I trauma center designation. If realized, it is realized by providing trauma care and education in accordance with the requirements for Level I trauma centers by the designating organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">level I trauma center role</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Trauma_center&amp;oldid=685886443</obo:IAO_0000119>
-        <obo:OOSTT_00000030 xml:lang="en">A Level I trauma center role is borne by a hospital that provides the highest level of surgical care to trauma patients. Its bearer has a full range of specialists and equipment available 24 hours a day and admits a minimum required annual volume of severely injured patients established by the verifying agency. The facility has transfer agreements with referring facilities, and provides performance improvement and education outreach to those facilities. The facility also has an ongoing program of research and a physician residency program. The role is created by a Level I Trauma Center designation.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">level 1 trauma center role</rdfs:label>
     </owl:Class>
     
