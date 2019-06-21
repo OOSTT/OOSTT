@@ -1368,6 +1368,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000118 xml:lang="en">level II trauma center role</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Trauma_center&amp;oldid=685886443</obo:IAO_0000119>
         <obo:OOSTT_00000030 xml:lang="en">A Level II trauma center role is a trauma center role that is borne by a hospital that provides 24-hour availability of all essential specialities, personnel, and equipment. Minimum volume requirements are established by the designating agency. The facility has transfer agreements with all referring facilities and may have a transfer agreement with the Level I trauma center or burn center for specialized care. The facility provides education outreach to referring facilities. The bearers of this role do not necessarily have an ongoing program of research or a physician residency program. The role is created by a Level II Trauma Center designation.</obo:OOSTT_00000030>
+        <rdfs:comment xml:lang="en">An example of the requirements for a Level II trauma center can be found on page 18 in Resources for Optimal Care of the Injured Patient, 6th edition: https://www.facs.org/~/media/files/quality%20programs/trauma/vrc%20resources/resources%20for%20optimal%20care.ashx</rdfs:comment>
         <rdfs:label xml:lang="en">level 2 trauma center role</rdfs:label>
     </owl:Class>
     
