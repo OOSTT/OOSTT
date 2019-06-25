@@ -1,38 +1,38 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
      xml:base="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl"/>
-        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
-        <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
+        <dc:contributor xml:lang="en">Nels D. Sanddal</dc:contributor>
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
+        <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
+        <dc:contributor xml:lang="en">Robert T. Maxson</dc:contributor>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">Robert J. Winchell</dc:contributor>
+        <dc:contributor xml:lang="en">Mihail Eduard Tudoreanu</dc:contributor>
+        <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
         <dc:contributor xml:lang="en">John Judkins</dc:contributor>
         <dc:contributor xml:lang="en">Jonathan Bona</dc:contributor>
-        <dc:contributor xml:lang="en">Mihail Eduard Tudoreanu</dc:contributor>
-        <dc:contributor xml:lang="en">Nels D. Sanddal</dc:contributor>
-        <dc:contributor xml:lang="en">Robert J. Winchell</dc:contributor>
-        <dc:contributor xml:lang="en">Robert T. Maxson</dc:contributor>
-        <dc:contributor xml:lang="en">Rohit Pradhan</dc:contributor>
-        <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
-        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
-        <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
-        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
-        <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
+        <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
+        <dc:contributor xml:lang="en">Rohit Pradhan</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version - 2019-06-25</owl:versionInfo>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
-        <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2019-06-21</owl:versionInfo>
+        <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
     </owl:Ontology>
     
 
@@ -1446,7 +1446,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000029"/>
-        <obo:IAO_0000115 xml:lang="en">A Level V trauma center role is a trauma center role that is borne by a hospital and that is the specified output of a Level V trauma center designation. If realized, it is realized by providing trauma care and education in accordance with the requirements for Level V trauma centers by the designating organization.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A Level V trauma center role is a trauma center role that is borne by a hospital or clinic and that is the specified output of a Level V trauma center designation. If realized, it is realized by providing trauma care and education in accordance with the requirements for Level V trauma centers by the designating organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">level V trauma center role</obo:IAO_0000118>
@@ -7904,5 +7904,5 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
 
 
-<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
