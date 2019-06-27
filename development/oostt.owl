@@ -7424,6 +7424,32 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000332 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000332">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000172"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000333"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000195"/>
         <obo:IAO_0000115 xml:lang="en">An general surgeon role that is the specified output of a board certification process and that, if realized, is realized by its bearer using operative manual and instrumental techniques on a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas without the bearer of the role specializing into any particular field of surgery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
