@@ -7451,8 +7451,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000195"/>
-        <obo:IAO_0000115 xml:lang="en">An general surgeon role that is the specified output of a board certification process and that, if realized, is realized by its bearer using operative manual and instrumental techniques on a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas without the bearer of the role specializing into any particular field of surgery.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A general surgeon role that is the specified output of a board certification process and that, if realized, is realized by its bearer using operative manual and instrumental techniques on a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas without the bearer of the role specializing into any particular field of surgery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A physician who has completed a general surgery residency program and achieved board certification.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">board certified general surgeon role</rdfs:label>
     </owl:Class>
     
