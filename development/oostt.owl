@@ -7454,7 +7454,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000334">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">board certified trauma surgeon with additional training in trauma surgery</rdfs:label>
+        <rdfs:label xml:lang="en">board certified general surgeon with additional training in trauma surgery</rdfs:label>
     </owl:Class>
     
 
