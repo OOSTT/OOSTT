@@ -32,7 +32,7 @@
         <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2019-06-27</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2019-07-02</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -7455,7 +7455,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <obo:IAO_0000115>A board certified general surgeon who has completed a trauma-focused post-residency training that lasts a minimum of one year and provides additional knowledge and experience in the management of injured patients.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">board certified general surgeon with additional training in trauma surgery</rdfs:label>
+        <rdfs:label xml:lang="en">board certified general surgeon with trauma concentration</rdfs:label>
     </owl:Class>
     
 
