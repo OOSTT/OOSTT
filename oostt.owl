@@ -12,7 +12,8 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt//2020-01-23/oostt.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt//2021-01-08/oostt.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl"/>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
@@ -32,7 +33,7 @@
         <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">release version - 2020-01-23</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release version - 2021-01-08</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1797,8 +1798,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000058">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:label xml:lang="en">authority role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
+        <rdfs:label xml:lang="en">obsolete_authority role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1863,8 +1866,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000058"/>
-        <obo:IAO_0000115 xml:lang="en">An authority role borne by the bearer of a healthcare provider role that, if realized, is realized by developing, overseeing and improving medical care for injured patients in a healthcare provider organization.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic role borne by the bearer of a healthcare provider role that, if realized, is realized by developing, overseeing and improving medical care for injured patients in a healthcare provider organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
@@ -2478,8 +2481,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000099 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000099">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000058"/>
-        <obo:IAO_0000115 xml:lang="en">An authority role that, if realized, is realized by its bearer providing a document that lists the minimum qualifications of a person to become a member of the trauma service.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic role that, if realized, is realized by its bearer providing a document that lists the minimum qualifications of a person to become a member of the trauma service.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The power to establish minimum qualifications to be a member of the trauma service.</obo:OOSTT_00000030>
@@ -2514,8 +2517,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000058"/>
-        <obo:IAO_0000115 xml:lang="en">An authority role that, if realized, is realized by its bearer actively participating in a document act that has a trauma service member role as its specified output.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic role that, if realized, is realized by its bearer actively participating in a document act that has a trauma service member role as its specified output.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The power to appoint members to the trauma service.</obo:OOSTT_00000030>
@@ -2559,8 +2562,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000105 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000105">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000058"/>
-        <obo:IAO_0000115 xml:lang="en">An authority role that, if realized, is realized by its bearer participating in a document act that revokes a trauma service member role.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic role that, if realized, is realized by its bearer participating in a document act that revokes a trauma service member role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The power to revoke membership on the trauma service.</obo:OOSTT_00000030>
@@ -6466,8 +6469,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000280">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000058"/>
-        <obo:IAO_0000115 xml:lang="en">An authority role that if realised is realised by its bearer being the active participant in a document act ratifying regulations for trauma systems.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic role that if realised is realised by its bearer being the active participant in a document act ratifying regulations for trauma systems.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">authority to create regulation for trauma system</rdfs:label>
     </owl:Class>
