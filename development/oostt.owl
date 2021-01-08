@@ -6466,7 +6466,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000280">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000058"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
         <obo:IAO_0000115 xml:lang="en">An authority role that if realised is realised by its bearer being the active participant in a document act ratifying regulations for trauma systems.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">authority to create regulation for trauma system</rdfs:label>
