@@ -2515,7 +2515,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
-        <obo:IAO_0000115 xml:lang="en">An authority role that, if realized, is realized by its bearer actively participating in a document act that has a trauma service member role as its specified output.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A deontic role that, if realized, is realized by its bearer actively participating in a document act that has a trauma service member role as its specified output.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The power to appoint members to the trauma service.</obo:OOSTT_00000030>
