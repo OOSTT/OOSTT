@@ -33,7 +33,7 @@
         <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">release version - 2021-01-08</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release version - 2021-01-11</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -7470,6 +7470,28 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115>A board certified general surgeon with additional training, experience, and career focus in the care of injured patients.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <rdfs:label xml:lang="en">board certified general surgeon with trauma concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000335">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies which anesthesiologist to call,  if the primary on-call anesthesiologist is not available due to already taking care of other trauma patients.</obo:IAO_0000115>
+        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">anesthesiologist backup call schedule</rdfs:label>
     </owl:Class>
     
 
