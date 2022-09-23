@@ -7678,8 +7678,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000370 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000370">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021033"/>
-        <obo:IAO_0000115>An obligor role that, if realized, is realized by its bearer participating in continuing trauma eduction for an amount of time specified in their program or country.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021016"/>
+        <obo:IAO_0000115>A duty holder role that, if realized, is realized by its bearer participating in continuing trauma eduction for an amount of time specified in their program or country.</obo:IAO_0000115>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030>The obligation to participate in continuing trauma eduction for an amount of time specified in the partcipant&apos;s program or country.</obo:OOSTT_00000030>
         <obo:OOSTT_00000324>continuing trauma education</obo:OOSTT_00000324>
@@ -7691,8 +7691,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000371 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000371">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021033"/>
-        <obo:IAO_0000115 xml:lang="en">An obligor role that is realized by its bearer organizing and managing a trauma quality improvement and patient safety program.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021016"/>
+        <obo:IAO_0000115 xml:lang="en">A duty holder role that is realized by its bearer organizing and managing a trauma quality improvement and patient safety program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The obligation to organize and managing the formal process to ensure performance improvement and patient safety in a facility.</obo:OOSTT_00000030>
@@ -7705,8 +7705,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000372 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000372">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021033"/>
-        <obo:IAO_0000115 xml:lang="en">An obligor role that inheres in a human being mentioned in an on call plan specification and that, if realized, is realized by its bearer participating a planned process realizing the concretization of the plan specification and being on call exclusively for the organization at specified times that is the contractual partner in the document act that created this role.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021016"/>
+        <obo:IAO_0000115 xml:lang="en">A duty holder role that inheres in a human being mentioned in an on call plan specification and that, if realized, is realized by its bearer participating a planned process realizing the concretization of the plan specification and being on call exclusively for the organization at specified times that is the contractual partner in the document act that created this role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A healthcare professional who has a primary obligation to a single facility while on call, however, in certain subspecialty instances, the individual may be on call at more than one facility, in which case a back up call schedule is required.</obo:OOSTT_00000030>
@@ -7719,8 +7719,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000373 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000373">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021033"/>
-        <obo:IAO_0000115 xml:lang="en">An obligor role that, if realized, is realized by its bearer organizing and overseeing the trauma quality improvement and patient safety program.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021016"/>
+        <obo:IAO_0000115 xml:lang="en">A duty holder role that, if realized, is realized by its bearer organizing and overseeing the trauma quality improvement and patient safety program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A health professional role that results in the oversight and management of the trauma center&apos;s quality improvement and patient safety program as specified by the American College of Surgeons.</obo:OOSTT_00000030>
@@ -7733,8 +7733,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000374 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000374">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021033"/>
-        <obo:IAO_0000115 xml:lang="en">An obligor role that if realized is realized by its bearer evaluating the nursing care provided to trauma patients.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021016"/>
+        <obo:IAO_0000115 xml:lang="en">A duty holder role that if realized is realized by its bearer evaluating the nursing care provided to trauma patients.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The individual with authority and responsibility for evaluating the nursing care provided to trauma patients.</obo:OOSTT_00000030>
