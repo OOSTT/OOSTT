@@ -346,7 +346,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000145">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/GEO_000000372"/>
-        <obo:IAO_0000115 xml:lang="en">&apos;services area&apos; holds iff a an organization performing or organizing paid or unpaid planned processes that benefit 3rd parties and b is a geographical region and a performs or organizes said planned process in the site of b.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">&apos;Services area&apos; holds iff a an organization performing or organizing paid or unpaid planned processes that benefit 3rd parties and b is a geographical region and a performs or organizes said planned process in the site of b.</obo:IAO_0000115>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">services geographical region</rdfs:label>
     </owl:ObjectProperty>
