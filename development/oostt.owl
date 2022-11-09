@@ -4669,6 +4669,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000201 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
