@@ -6419,7 +6419,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000277">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000274"/>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">A government department that manages the government of means to prevent and fight fires and, in some cases, other accidental events and natural disasters.</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A government department that manages the government of means to prevent and fight fires and, in some cases, other accidental events and natural disasters.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">department of fire administration</rdfs:label>
     </owl:Class>
     
@@ -6507,7 +6507,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000282">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000117 xml:lang="en">A role borne by a human healthcare provider that, if realized is realized by managing and coordinating the operations a trauma system and its evaluation.</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A role borne by a human healthcare provider that, if realized is realized by managing and coordinating the operations a trauma system and its evaluation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">trauma system manager role</rdfs:label>
     </owl:Class>
@@ -6891,7 +6891,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000303">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000301"/>
-        <obo:IAO_0000117 xml:lang="en">An emergency medical services pediatric transportation agency that provides air transportation.</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An emergency medical services pediatric transportation agency that provides air transportation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">emergency medical services pediatric air transportation agency</rdfs:label>
     </owl:Class>
@@ -6996,7 +6996,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000308">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000306"/>
-        <obo:IAO_0000117 xml:lang="en">A healthcare provider organization role that is borne by a hospital and that gets assigned based on an evaluation process. If realized, the role is realized by the hospital providing a burns managment team and providing state-of-the-art specialized pediatric burn treatment and recovery.</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A healthcare provider organization role that is borne by a hospital and that gets assigned based on an evaluation process. If realized, the role is realized by the hospital providing a burns managment team and providing state-of-the-art specialized pediatric burn treatment and recovery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pediatric burn center role</rdfs:label>
     </owl:Class>
@@ -7061,7 +7061,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000311">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
-        <obo:IAO_0000117 xml:lang="en">A role borne by an organization and realized by providing specialized rehabilitation for patients with traumatic brain injuries.</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A role borne by an organization and realized by providing specialized rehabilitation for patients with traumatic brain injuries.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">traumatic brain injury rehabilitation organization role</rdfs:label>
     </owl:Class>
@@ -7099,7 +7099,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000313">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
-        <obo:IAO_0000117 xml:lang="en">A role borne by a hospital and realized by providing specialized care for patients with spinal cord injuries.</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A role borne by a hospital and realized by providing specialized care for patients with spinal cord injuries.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">spinal cord injury center role</rdfs:label>
     </owl:Class>
@@ -7588,6 +7588,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000367"/>
         <obo:IAO_0000117 xml:lang="en">Joseph Utecht</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A physician who has completed an neurosurgery residency program and achieved board certification.</obo:IAO_0000115>
         <obo:OOSTT_00000030 xml:lang="en">A physician who has completed an neurosurgery residency program and achieved board certification.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">board certified neurosurgeon role</rdfs:label>
     </owl:Class>
