@@ -6443,7 +6443,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0021032"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0021013"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                         <owl:someValuesFrom>
