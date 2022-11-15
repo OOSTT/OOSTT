@@ -4914,7 +4914,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000208"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000372"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -5482,7 +5482,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000208"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000372"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -5522,7 +5522,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000208"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000372"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
