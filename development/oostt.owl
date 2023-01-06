@@ -1271,7 +1271,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021001"/>
-        <obo:IAO_0000115 xml:lang="en">A document act that creates the role of a trauma center based on meeting the criteria by a designated organization.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A deontic document act that creates the role of a trauma center based on meeting the criteria by a designated organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A state, regional, provincial, or national recognition process in which a facility is awarded a trauma center role after a formal review of the hospital&apos;s organization, capacity, personnel, and resources by a verifying agency.</obo:OOSTT_00000030>
@@ -4395,7 +4395,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A document act that creates a mutally dependent employee and employer role.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A deontic document act that creates a mutally dependent employee and employer role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A contract specifying the relationship between an employee and employer that outlines specific role responsibilities and expectations.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">JPB (20 March 2017): should output employee role and employer role</rdfs:comment>
