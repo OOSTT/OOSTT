@@ -167,6 +167,7 @@
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000030 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000030">
+        <obo:IAO_0000115 xml:lang="en">A description of an OOSTT class that is aimed at the OOSTT user community and not meant to be definition for use in ontology development, curation or maintenance.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">OOSTT user-centered description</rdfs:label>
     </owl:AnnotationProperty>
@@ -314,6 +315,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000113">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <obo:IAO_0000115 xml:lang="en">A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Prescribing is what happens when an information content entity created, ratified, or issued by an entity with authority over the domain the ICE targets states actions or specifications or the omission of actions that are expected to be adhered to.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">prescribes</rdfs:label>
     </owl:ObjectProperty>
