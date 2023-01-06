@@ -6461,7 +6461,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0021013"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0021016"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                         <owl:someValuesFrom>
@@ -6484,7 +6484,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021001"/>
-        <obo:IAO_0000115 xml:lang="en">A document act that has as specified its output obligor roles that are borne a trauma system or its organizational members and that are specified in a directive information content entity that is policy of that trauma system.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A deontic document act that has as specified its output duty holder roles that are borne a trauma system or its organizational members and that are specified in a directive information content entity that is policy of that trauma system.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">ratifying regulations for trauma system</rdfs:label>
     </owl:Class>
