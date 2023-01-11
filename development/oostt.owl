@@ -2681,7 +2681,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000846"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000112"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -6414,8 +6414,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">the US State Department, the German Bundesgesundheitsministerium, the UK Her Mayesty&apos;s Treasury</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An organization that is part of the government and that is responsible for managing a specific sector of government.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">ministry</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">government department</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">ministry</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Ministry_(government_department)&amp;oldid=755317373</obo:IAO_0000119>
         <rdfs:label xml:lang="en">governmental department</rdfs:label>
     </owl:Class>
