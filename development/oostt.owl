@@ -2673,8 +2673,22 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000111">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000846"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000112"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000272"/>
+        <obo:IAO_0000115 xml:lang="en">An organization that is a part of some government.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000119>Derived from 18 U.S. Code § 2711. Accessed 12.4.2022 at https://www.law.cornell.edu/uscode/text/18/2711#4</obo:IAO_0000119>
         <rdfs:label xml:lang="en">governmental organization</rdfs:label>
     </owl:Class>
     
@@ -6280,7 +6294,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000271 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000271">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000111"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -6360,7 +6374,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000274 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000274">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000111"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000126"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000846"/>
