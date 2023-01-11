@@ -2690,6 +2690,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000272"/>
         <obo:IAO_0000115 xml:lang="en">An organization that is a part of some government.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">government organization</obo:IAO_0000118>
         <obo:IAO_0000119>Derived from 18 U.S. Code § 2711. Accessed 12.4.2022 at https://www.law.cornell.edu/uscode/text/18/2711#4</obo:IAO_0000119>
         <rdfs:label xml:lang="en">governmental organization</rdfs:label>
     </owl:Class>
@@ -2937,7 +2938,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">An organization with a specific responsibility that is a part of a larger organization with a specific responsibility.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Department</obo:IAO_0000119>
         <obo:OOSTT_00000030>A formal subdivision of an organization with a specific responsibility.</obo:OOSTT_00000030>
-        <rdfs:comment xml:lang="en">This class does not contain government departments. Government department is to be found here: http://purl.obolibrary.org/obo/OOSTT_00000274 MB, Jan 4, 2017</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class does not contain governmental departments. Governmental department is to be found here: http://purl.obolibrary.org/obo/OOSTT_00000274 MB, Jan 4, 2017</rdfs:comment>
         <rdfs:label xml:lang="en">department</rdfs:label>
     </owl:Class>
     
@@ -6327,8 +6328,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000270"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An organization that is part of the machinery of government and that is responsible for the oversight and administration of specific functions. The government agencies are given the authority to fulfill those responsibilities by the government.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">government agency</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An organization that is part of the machinery of government and that is responsible for the oversight and administration of specific functions. The governmental agencies are given the authority to fulfill those responsibilities by the government.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">government agency</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">governmental agency</rdfs:label>
     </owl:Class>
     
 
@@ -6361,9 +6363,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <obo:IAO_0000115 xml:lang="en">An organization that is not a government agency, not an organizational member of the machinery of government, and not part of the government.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An organization that is not a governmental agency, not an organizational member of the machinery of government, and not part of the government.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">non-government organization</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">non-government organization</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">non-governmental organization</rdfs:label>
     </owl:Class>
     
 
@@ -6390,9 +6393,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000271"/>
-        <obo:IAO_0000115 xml:lang="en">A government agency that is not reporting to any specific departmental part of government.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A governmental agency that is not reporting to any specific departmental part of government.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">free-standing government agency</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">free-standing government agency</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">free-standing governmental agency</rdfs:label>
     </owl:Class>
     
 
@@ -6411,8 +6415,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000112 xml:lang="en">the US State Department, the German Bundesgesundheitsministerium, the UK Her Mayesty&apos;s Treasury</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An organization that is part of the government and that is responsible for managing a specific sector of government.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">ministry</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">government department</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Ministry_(government_department)&amp;oldid=755317373</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">government department</rdfs:label>
+        <rdfs:label xml:lang="en">governmental department</rdfs:label>
     </owl:Class>
     
 
@@ -6421,7 +6426,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000275">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000274"/>
-        <obo:IAO_0000115 xml:lang="en">A government department that manages aspects of prevention, healthcare, healthcare administration, and public health.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A governmental department that manages aspects of prevention, healthcare, healthcare administration, and public health.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">department of health</rdfs:label>
     </owl:Class>
@@ -6432,7 +6437,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000276">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000274"/>
-        <obo:IAO_0000115 xml:lang="en">A government department that manages the government of the travel of goods and people in the governed area and the infrastructure related to travel.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A governmental department that manages the government of the travel of goods and people in the governed area and the infrastructure related to travel.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">department of transportation</rdfs:label>
     </owl:Class>
@@ -6443,7 +6448,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000277">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000274"/>
-        <obo:IAO_0000115 xml:lang="en">A government department that manages the government of means to prevent and fight fires and, in some cases, other accidental events and natural disasters.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A governmental department that manages the government of means to prevent and fight fires and, in some cases, other accidental events and natural disasters.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">department of fire administration</rdfs:label>
     </owl:Class>
@@ -6620,8 +6625,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000130"/>
         <obo:IAO_0000115 xml:lang="en">A plan specification approval process that has a trauma system plan as specified input and part of the government or part of the machinery of government as an active agent expressing their agreement with the trauma system plan.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">The part of goverment or part of the government machinery can be national, state, or regional.</rdfs:comment>
-        <rdfs:label xml:lang="en">trauma system plan government approval process</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">trauma system plan government approval process</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The part of goverment or part of the governmental machinery can be national, state, or regional.</rdfs:comment>
+        <rdfs:label xml:lang="en">trauma system plan governmental approval process</rdfs:label>
     </owl:Class>
     
 
@@ -6641,7 +6647,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000094"/>
-        <obo:IAO_0000115 xml:lang="en">A trauma system plan specification that is the specified output of a government approval process.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A trauma system plan specification that is the specified output of a governmental approval process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Approval is given on the appropriate level: national, state, or regional.</rdfs:comment>
         <rdfs:label xml:lang="en">government-approved trauma system plan specification</rdfs:label>
@@ -7206,9 +7212,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000317">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000271"/>
-        <obo:IAO_0000115 xml:lang="en">A government agency that evaluates healthcare provider organizations, which are candidates for acquiring a trauma center role, and reports as an outcome whether the organization is fit to be a trauma center.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A governmental agency that evaluates healthcare provider organizations, which are candidates for acquiring a trauma center role, and reports as an outcome whether the organization is fit to be a trauma center.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">trauma center verification government agency</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">trauma center verification government agency</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">trauma center verification governmental agency</rdfs:label>
     </owl:Class>
     
 
