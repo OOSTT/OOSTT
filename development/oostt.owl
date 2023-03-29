@@ -32,7 +32,7 @@
         <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2021-01-11</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2023-03-29</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -629,6 +629,23 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A process involving a patient and a healthcare professional that focuses on the assessment, diagnosis, treatment and consultation for  a disease or injury, or for prevention of a subsequent injury.</obo:OOSTT_00000030>
         <rdfs:label>health care process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000096"/>
+        <obo:IAO_0000115 xml:lang="en">TODO</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6</obo:IAO_0000119>
+        <obo:IAO_0000232>creation date: 2011-02-21T09:57:44Z</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
+        <rdfs:comment>09/16/2020
+Is this same as admission? 
+Is this the same as inpatient encounter?</rdfs:comment>
+        <rdfs:label>hospitalization</rdfs:label>
     </owl:Class>
     
 
