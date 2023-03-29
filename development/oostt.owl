@@ -7604,6 +7604,18 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000337">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115 xml:lang="en">A clinical finding that occurs during the course of, or because of, another disease, treatment, or procedure. [Definition Source: NCI]</obo:IAO_0000115>
+        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C2959</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">complication finding</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000364">
