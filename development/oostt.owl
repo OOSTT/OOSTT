@@ -11,7 +11,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl"/>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
@@ -33,7 +34,7 @@
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2021-01-11</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2023-03-29</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -101,6 +102,7 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <rdfs:label>definition editor</rdfs:label>
         <rdfs:label xml:lang="en">definition editor</rdfs:label>
+        <rdfs:label>term editor</rdfs:label>
         <rdfs:label xml:lang="en">term editor</rdfs:label>
     </rdf:Description>
     
@@ -144,6 +146,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000424">
         <rdfs:label xml:lang="en">expand expression to</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
+        <rdfs:label xml:lang="en">elucidation</rdfs:label>
     </rdf:Description>
     
 
@@ -192,6 +202,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/apollo_sv.owl/APOLLO_SV_0000040 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/apollo_sv.owl/APOLLO_SV_0000040">
+        <rdfs:label xml:lang="en">Unique Apollo Label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
@@ -204,6 +222,7 @@
 
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:label>label</rdfs:label>
+        <rdfs:label xml:lang="en">label</rdfs:label>
     </rdf:Description>
     
 
@@ -502,6 +521,20 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum that quantifies a temporal region that is occupied by a processual entity.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/apollo_sv/releases/v2023-01-10/apollo_sv.owl</obo:IAO_0000412>
+        <obo:IAO_0000600 xml:lang="en">A measurement datum that quantifies a temporal region that is occupied by a processual entity.</obo:IAO_0000600>
+        <apollo_sv:APOLLO_SV_0000040 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duration</apollo_sv:APOLLO_SV_0000040>
+        <rdfs:label xml:lang="en">duration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ERO_0000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000007">
@@ -613,6 +646,20 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">A representation that is either the output of a clinical history taking or a physical examination or an image finding, or some combination thereof.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
+        <obo:IAO_0000232>creation date: 2010-07-19T10:18:02Z</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
+        <rdfs:label>clinical finding</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGMS_0000096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000096">
@@ -624,6 +671,23 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A process involving a patient and a healthcare professional that focuses on the assessment, diagnosis, treatment and consultation for  a disease or injury, or for prevention of a subsequent injury.</obo:OOSTT_00000030>
         <rdfs:label>health care process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000096"/>
+        <obo:IAO_0000115 xml:lang="en">TODO</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6</obo:IAO_0000119>
+        <obo:IAO_0000232>creation date: 2011-02-21T09:57:44Z</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
+        <rdfs:comment>09/16/2020
+Is this same as admission? 
+Is this the same as inpatient encounter?</rdfs:comment>
+        <rdfs:label>hospitalization</rdfs:label>
     </owl:Class>
     
 
@@ -640,6 +704,18 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">Damage to a person&apos;s tissues, bones, or organ systems with the potential for dysfunction and caused by mechanical, thermal, or radiation mechanisms</obo:OOSTT_00000030>
         <rdfs:label>injury</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115>A data item that is about a patient and is the specified output of a health care process assay or diagnostic process</obo:IAO_0000115>
+        <obo:IAO_0000232>creation date: 2018-11-27</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">clinical data item</rdfs:label>
     </owl:Class>
     
 
@@ -7558,6 +7634,36 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000243"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A duration that specifies the temporal extension of a hospital stay.</obo:IAO_0000115>
+        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">length of stay</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">hospitalization duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000337">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115 xml:lang="en">A clinical finding that occurs during the course of, or because of, another disease, treatment, or procedure. [Definition Source: NCI]</obo:IAO_0000115>
+        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C2959</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">complication finding</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000364">
@@ -7808,6 +7914,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000375 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000375">
@@ -7816,6 +7923,39 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A plan that specifies the schedule for ensuring adequate numbers of  anesthesia care providers are readily available 24 hours a day 7 days a week within a trauma center.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">anesthesia services availability plan specification</rdfs:label>
+    </owl:Class>
+    
+    
+    
+    <!-- http://purl.obolibrary.org/obo/STATO_0000184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A ratio is a data item which is formed with two numbers r and s is written r/s, where r is the numerator and s is the denominator. The ratio of r to s is equivalent to the quotient r/s. 
+</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">review formal definition as both numerator and denominator should be of the same type, not just some data item</obo:IAO_0000116>
+        <obo:IAO_0000117>Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">adapted from Wolfram Alpha:
+https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig76g7</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/stato.owl</obo:IAO_0000412>
+        <rdfs:label>ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">mortality is a ratio  formed by the number of deaths due to a disease divided by the total population size.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">adapted from: https://www.health.ny.gov/diseases/chronic/basicstat.htm</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/stato.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">mortality</rdfs:label>
     </owl:Class>
     
 
