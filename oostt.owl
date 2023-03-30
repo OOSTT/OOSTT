@@ -11,9 +11,10 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2022-10-27/oostt.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2023-03-30/oostt.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts.owl"/>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
@@ -30,10 +31,11 @@
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
-        <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
+        <dc:description>The Ontology of Organizational Structures of Trauma centers and Trauma systems (OOSTT) is a representation of the components of trauma centers and trauma systems coded in Web Ontology Language (OWL2).</dc:description>
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">release version - 2022-09-23</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release version - 2023-03-30</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -101,6 +103,7 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <rdfs:label>definition editor</rdfs:label>
         <rdfs:label xml:lang="en">definition editor</rdfs:label>
+        <rdfs:label>term editor</rdfs:label>
         <rdfs:label xml:lang="en">term editor</rdfs:label>
     </rdf:Description>
     
@@ -148,6 +151,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
+        <rdfs:label xml:lang="en">elucidation</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0001847 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001847">
@@ -167,6 +178,7 @@
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000030 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000030">
+        <obo:IAO_0000115 xml:lang="en">A description of an OOSTT class that is aimed at the OOSTT user community and not meant to be definition for use in ontology development, curation or maintenance.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">OOSTT user-centered description</rdfs:label>
     </owl:AnnotationProperty>
@@ -191,6 +203,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/apollo_sv.owl/APOLLO_SV_0000040 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/apollo_sv.owl/APOLLO_SV_0000040">
+        <rdfs:label xml:lang="en">Unique Apollo Label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
@@ -203,6 +223,7 @@
 
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:label>label</rdfs:label>
+        <rdfs:label xml:lang="en">label</rdfs:label>
     </rdf:Description>
     
 
@@ -240,14 +261,6 @@
         <obo:IAO_0000118 xml:lang="en">aggregate of</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">aggregate_of</obo:IAO_0000118>
         <rdfs:label xml:lang="en">is aggregate of</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0020012 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0020012">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
     </owl:ObjectProperty>
     
 
@@ -322,6 +335,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000113">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <obo:IAO_0000115 xml:lang="en">A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Prescribing is what happens when an information content entity created, ratified, or issued by an entity with authority over the domain the ICE targets states actions or specifications or the omission of actions that are expected to be adhered to.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">prescribes</rdfs:label>
     </owl:ObjectProperty>
@@ -508,6 +522,20 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum that quantifies a temporal region that is occupied by a processual entity.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/apollo_sv/releases/v2023-01-10/apollo_sv.owl</obo:IAO_0000412>
+        <obo:IAO_0000600 xml:lang="en">A measurement datum that quantifies a temporal region that is occupied by a processual entity.</obo:IAO_0000600>
+        <apollo_sv:APOLLO_SV_0000040 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duration</apollo_sv:APOLLO_SV_0000040>
+        <rdfs:label xml:lang="en">duration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ERO_0000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000007">
@@ -619,6 +647,20 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">A representation that is either the output of a clinical history taking or a physical examination or an image finding, or some combination thereof.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
+        <obo:IAO_0000232>creation date: 2010-07-19T10:18:02Z</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
+        <rdfs:label>clinical finding</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGMS_0000096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000096">
@@ -630,6 +672,23 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A process involving a patient and a healthcare professional that focuses on the assessment, diagnosis, treatment and consultation for  a disease or injury, or for prevention of a subsequent injury.</obo:OOSTT_00000030>
         <rdfs:label>health care process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000096"/>
+        <obo:IAO_0000115 xml:lang="en">TODO</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6</obo:IAO_0000119>
+        <obo:IAO_0000232>creation date: 2011-02-21T09:57:44Z</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
+        <rdfs:comment>09/16/2020
+Is this same as admission? 
+Is this the same as inpatient encounter?</rdfs:comment>
+        <rdfs:label>hospitalization</rdfs:label>
     </owl:Class>
     
 
@@ -646,6 +705,18 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">Damage to a person&apos;s tissues, bones, or organ systems with the potential for dysfunction and caused by mechanical, thermal, or radiation mechanisms</obo:OOSTT_00000030>
         <rdfs:label>injury</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115>A data item that is about a patient and is the specified output of a health care process assay or diagnostic process</obo:IAO_0000115>
+        <obo:IAO_0000232>creation date: 2018-11-27</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">clinical data item</rdfs:label>
     </owl:Class>
     
 
@@ -1277,7 +1348,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021001"/>
-        <obo:IAO_0000115 xml:lang="en">A document act that creates the role of a trauma center based on meeting the criteria by a designated organization.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A deontic document act that creates the role of a trauma center based on meeting the criteria by a designated organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A state, regional, provincial, or national recognition process in which a facility is awarded a trauma center role after a formal review of the hospital&apos;s organization, capacity, personnel, and resources by a verifying agency.</obo:OOSTT_00000030>
@@ -1723,11 +1794,14 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000114"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A committee with members from multiple specialties that engages in case review of trauma cases.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A committee with members from multiple specialties that engages in case review of trauma care.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">trauma peer review committee</rdfs:label>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
+        <obo:IAO_0100001>trauma multidisciplinary peer review committee (OOSTT_00000006)</obo:IAO_0100001>
+        <obo:OOSTT_00000030 xml:lang="en">A committee with members from multiple specialties that engages in case review of trauma cases.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">obsolete_trauma peer review committee</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1747,10 +1821,15 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000054">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000159"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000159"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that has prehospital protocols as its specified output.</obo:IAO_0000115>
@@ -2304,7 +2383,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
         <obo:IAO_0000115 xml:lang="en">A physician role borne by a human being and that, if realized, is being realized by its bearer using operative manual and instrumental techniques on a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">general surgeon role</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">A physician who specializes in performing operative manual and instrumental techniques on a patient to investigate or treat a pathological condition such as disease or injury or congenital defect, to help improve bodily function or appearance, or to repair ruptured areas.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">term requested in OMRSE. Do not use outside the CAFE application!</rdfs:comment>
         <rdfs:label xml:lang="en">surgeon role</rdfs:label>
@@ -2495,7 +2573,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021004"/>
-        <obo:IAO_0000115 xml:lang="en">a socio-legal generically dependent continuant that is concretized in a role within an organizational context and which legally, normatively, or ethically permits some action.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A socio-legal generically dependent continuant that is concretized in a role within an organizational context and which legally, normatively, or ethically permits some action.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">authority</rdfs:label>
     </owl:Class>
@@ -2506,7 +2584,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000100"/>
-        <obo:IAO_0000115 xml:lang="en">authority prescribed by some enabling legislation</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Authority prescribed by some enabling legislation</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">Authority prescribed by enabling legislation, rules, or regulations</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">statutory authority</rdfs:label>
@@ -2664,7 +2742,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000111"/>
-        <obo:IAO_0000115 xml:lang="en">a governmental organization that has the authority to create, amend, fund, and repeal laws.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A governmental organization that has the authority to create, amend, fund, and repeal laws.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">legislature</rdfs:label>
     </owl:Class>
@@ -2680,7 +2758,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000846"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000112"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -2689,6 +2767,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000272"/>
         <obo:IAO_0000115 xml:lang="en">An organization that is a part of some government.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">government organization</obo:IAO_0000118>
         <obo:IAO_0000119>Derived from 18 U.S. Code § 2711. Accessed 12.4.2022 at https://www.law.cornell.edu/uscode/text/18/2711#4</obo:IAO_0000119>
         <rdfs:label xml:lang="en">governmental organization</rdfs:label>
     </owl:Class>
@@ -2698,12 +2777,14 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">Government is the means by which policy within a community are enforced, as well as the mechanism for determining the policy of the community.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Government&amp;oldid=727121222</obo:IAO_0000119>
+        <obo:IAO_0100001>government (http://www.ontologyrepository.com/CommonCoreOntologies/Government)</obo:IAO_0100001>
         <rdfs:comment xml:lang="en">the community may be local, regional, state, or national (Comment provided by J. Ball, N. Sanddal, S. Bowman) - 2017-07-18</rdfs:comment>
-        <rdfs:label xml:lang="en">government</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_government</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -2728,7 +2809,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">an organization consisting of persons who bear committee member role where that organization is appointed by an organization or members of an organization to realize a role.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An organization consisting of persons who bear committee member role where that organization is appointed by an organization or members of an organization to realize a role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A group of individuals appointed by an organization or organization leader to complete a specific task or to fulfill a specific set of responsibilities.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">Dec 10, 2016: The definition originally stated that the committee was realizing a function. After review of the BFO definition of function I decided to change it to &quot;role&quot;. M. Brochhausen</rdfs:comment>
@@ -2741,7 +2822,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000114"/>
-        <obo:IAO_0000115 xml:lang="en">a committee whose function is to evaluate the system of care within a trauma center.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A committee whose function is to evaluate the system of care within a trauma center.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A committee whose function is to evaluate and recommend improvements to the quality of the system of care within a trauma center or trauma system.</obo:OOSTT_00000030>
@@ -2767,7 +2848,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a role that inheres in a homo sapiens that, if realized, is realized by preparing, keeping, and overseeing records made in a register.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in a homo sapiens that, if realized, is realized by preparing, keeping, and overseeing records made in a register.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">An individual who abstract(s) and record(s) data into an electronic registry .</obo:OOSTT_00000030>
@@ -2780,7 +2861,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000117">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">a role that, if realized, is realized in the organization context of a committee.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role that, if realized, is realized in the organization context of a committee.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Neil J Otte</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The duties and responsibilities assigned to the member(s) of a committee.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">committee member role</rdfs:label>
@@ -2792,7 +2873,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000118">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-        <obo:IAO_0000115 xml:lang="en">a disposition realized in process profiles that have participants the biological qualities of patients and the practices and instruments of medical professionals.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disposition realized in process profiles that have participants the biological qualities of patients and the practices and instruments of medical professionals.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">An organizational approach to patient care that reduces or mitigates the risk for untoward patient outcomes.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">patient safety</rdfs:label>
@@ -2934,7 +3015,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">An organization with a specific responsibility that is a part of a larger organization with a specific responsibility.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Department</obo:IAO_0000119>
         <obo:OOSTT_00000030>A formal subdivision of an organization with a specific responsibility.</obo:OOSTT_00000030>
-        <rdfs:comment xml:lang="en">This class does not contain government departments. Government department is to be found here: http://purl.obolibrary.org/obo/OOSTT_00000274 MB, Jan 4, 2017</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class does not contain governmental departments. Governmental department is to be found here: http://purl.obolibrary.org/obo/OOSTT_00000274 MB, Jan 4, 2017</rdfs:comment>
         <rdfs:label xml:lang="en">department</rdfs:label>
     </owl:Class>
     
@@ -3085,6 +3166,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A plan specification that specifies on which schedule and to which extent anesthesia services are provided within a healthcare provider organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0100001>anesthesia services availability plan specification (OOSTT_00000375)</obo:IAO_0100001>
         <obo:OOSTT_00000030 xml:lang="en">A plan that specifies the schedule for ensuring adequate numbers of  anesthesia care providers are readily available 24 hours a day 7 days a week within a trauma center.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">obsolete_anesthesia services availability plan specification</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -3101,7 +3183,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000133"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000375"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
             </owl:Restriction>
@@ -3581,7 +3663,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
-        <obo:IAO_0000115 xml:lang="en">An aggregate of organizations whose members are all bearer of a level 1 trauma center role.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An aggregate of organizations whose members are all bearer of a level 2 trauma center role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A group of healthcare facilities that are all ACS verified or state designated as level 2 trauma centers.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">aggregate of level 2 trauma centers</rdfs:label>
@@ -3710,10 +3792,15 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000166">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000167"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000167"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf>
@@ -4400,7 +4487,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A document act that creates a mutally dependent employee and employer role.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A deontic document act that creates a mutally dependent employee and employer role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A contract specifying the relationship between an employee and employer that outlines specific role responsibilities and expectations.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">JPB (20 March 2017): should output employee role and employer role</rdfs:comment>
@@ -4725,6 +4812,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a trauma surgeon role that are mentioned in a trauma on call plan specification and that particpates in practice based training course organized by a trauma program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
@@ -4930,7 +5018,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000208"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000372"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4983,10 +5071,15 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000212">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000211"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000288"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000211"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000288"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is the specified output of a critical care certificate course.</obo:IAO_0000115>
@@ -5057,10 +5150,15 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000215">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000214"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000214"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf>
@@ -5492,7 +5590,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000208"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000372"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -5532,7 +5630,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000208"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000372"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -5659,10 +5757,15 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000233">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000232"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000232"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf>
@@ -6302,8 +6405,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000270"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An organization that is part of the machinery of government and that is responsible for the oversight and administration of specific functions. The government agencies are given the authority to fulfill those responsibilities by the government.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">government agency</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An organization that is part of the machinery of government and that is responsible for the oversight and administration of specific functions. The governmental agencies are given the authority to fulfill those responsibilities by the government.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">government agency</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">governmental agency</rdfs:label>
     </owl:Class>
     
 
@@ -6322,7 +6426,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000271"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000112"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
                                     </owl:Restriction>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000846"/>
@@ -6336,9 +6440,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <obo:IAO_0000115 xml:lang="en">An organization that is not a government agency, not an organizational member of the machinery of government, and not part of the government.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An organization that is not a governmental agency, not an organizational member of the machinery of government, and not part of the government.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">non-government organization</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">non-government organization</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">non-governmental organization</rdfs:label>
     </owl:Class>
     
 
@@ -6365,9 +6470,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000271"/>
-        <obo:IAO_0000115 xml:lang="en">A government agency that is not reporting to any specific departmental part of government.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A governmental agency that is not reporting to any specific departmental part of government.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">free-standing government agency</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">free-standing government agency</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">free-standing governmental agency</rdfs:label>
     </owl:Class>
     
 
@@ -6380,14 +6486,15 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000846"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000112"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">the US State Department, the German Bundesgesundheitsministerium, the UK Her Mayesty&apos;s Treasury</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An organization that is part of the government and that is responsible for managing a specific sector of government.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">government department</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">ministry</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Ministry_(government_department)&amp;oldid=755317373</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">government department</rdfs:label>
+        <rdfs:label xml:lang="en">governmental department</rdfs:label>
     </owl:Class>
     
 
@@ -6396,7 +6503,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000275">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000274"/>
-        <obo:IAO_0000115 xml:lang="en">A government department that manages aspects of prevention, healthcare, healthcare administration, and public health.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A governmental department that manages aspects of prevention, healthcare, healthcare administration, and public health.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">department of health</rdfs:label>
     </owl:Class>
@@ -6407,7 +6514,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000276">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000274"/>
-        <obo:IAO_0000115 xml:lang="en">A government department that manages the government of the travel of goods and people in the governed area and the infrastructure related to travel.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A governmental department that manages the government of the travel of goods and people in the governed area and the infrastructure related to travel.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">department of transportation</rdfs:label>
     </owl:Class>
@@ -6418,8 +6525,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000277">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000274"/>
+        <obo:IAO_0000115 xml:lang="en">A governmental department that manages the government of means to prevent and fight fires and, in some cases, other accidental events and natural disasters.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">A government department that manages the government of means to prevent and fight fires and, in some cases, other accidental events and natural disasters.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">department of fire administration</rdfs:label>
     </owl:Class>
     
@@ -6451,7 +6558,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0021032"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0021016"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                         <owl:someValuesFrom>
@@ -6474,7 +6581,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021001"/>
-        <obo:IAO_0000115 xml:lang="en">A document act that has as specified its output obligor roles that are borne a trauma system or its organizational members and that are specified in a directive information content entity that is policy of that trauma system.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A deontic document act that has as specified its output duty holder roles that are borne a trauma system or its organizational members and that are specified in a directive information content entity that is policy of that trauma system.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">ratifying regulations for trauma system</rdfs:label>
     </owl:Class>
@@ -6507,7 +6614,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000282">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000117 xml:lang="en">A role borne by a human healthcare provider that, if realized is realized by managing and coordinating the operations a trauma system and its evaluation.</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A role borne by a human healthcare provider that, if realized is realized by managing and coordinating the operations a trauma system and its evaluation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">trauma system manager role</rdfs:label>
     </owl:Class>
@@ -6579,11 +6686,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                                 <owl:unionOf rdf:parseType="Collection">
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000112"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000270"/>
                                     </owl:Restriction>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000270"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
                                     </owl:Restriction>
                                 </owl:unionOf>
                             </owl:Class>
@@ -6595,8 +6702,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000130"/>
         <obo:IAO_0000115 xml:lang="en">A plan specification approval process that has a trauma system plan as specified input and part of the government or part of the machinery of government as an active agent expressing their agreement with the trauma system plan.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">The part of goverment or part of the government machinery can be national, state, or regional.</rdfs:comment>
-        <rdfs:label xml:lang="en">trauma system plan government approval process</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">trauma system plan government approval process</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The part of goverment or part of the governmental machinery can be national, state, or regional.</rdfs:comment>
+        <rdfs:label xml:lang="en">trauma system plan governmental approval process</rdfs:label>
     </owl:Class>
     
 
@@ -6616,7 +6724,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000094"/>
-        <obo:IAO_0000115 xml:lang="en">A trauma system plan specification that is the specified output of a government approval process.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A trauma system plan specification that is the specified output of a governmental approval process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Approval is given on the appropriate level: national, state, or regional.</rdfs:comment>
         <rdfs:label xml:lang="en">government-approved trauma system plan specification</rdfs:label>
@@ -6781,10 +6889,15 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000296">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000292"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000292"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
         <obo:IAO_0000115 xml:lang="en">An aggregate of emergency medical services agencies that provide transport for the sick and injured.</obo:IAO_0000115>
@@ -6888,7 +7001,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000303">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000301"/>
-        <obo:IAO_0000117 xml:lang="en">An emergency medical services pediatric transportation agency that provides air transportation.</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An emergency medical services pediatric transportation agency that provides air transportation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">emergency medical services pediatric air transportation agency</rdfs:label>
     </owl:Class>
@@ -6899,13 +7012,18 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000304">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000302"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000302"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
-        <obo:IAO_0000115 xml:lang="en">An aggregate of organization that consists only of emergencny medical service pediatric ground transportation agencies.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An aggregate of organization that consists only of emergency medical service pediatric ground transportation agencies.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">aggregate of emergency medical services pediatric ground transportation agencies</rdfs:label>
     </owl:Class>
@@ -6916,13 +7034,18 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000305">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000303"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000303"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
-        <obo:IAO_0000115 xml:lang="en">An aggregate of organization that consists only of emergencny medical service pediatric ground transportation agencies.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An aggregate of organization that consists only of emergency medical service pediatric air transportation agencies.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">aggregate of emergency medical services pediatric air transportation agencies</rdfs:label>
     </owl:Class>
@@ -6987,7 +7110,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000308">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000306"/>
-        <obo:IAO_0000117 xml:lang="en">A healthcare provider organization role that is borne by a hospital and that gets assigned based on an evaluation process. If realized, the role is realized by the hospital providing a burns managment team and providing state-of-the-art specialized pediatric burn treatment and recovery.</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A healthcare provider organization role that is borne by a hospital and that gets assigned based on an evaluation process. If realized, the role is realized by the hospital providing a burns managment team and providing state-of-the-art specialized pediatric burn treatment and recovery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pediatric burn center role</rdfs:label>
     </owl:Class>
@@ -7052,7 +7175,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000311">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
-        <obo:IAO_0000117 xml:lang="en">A role borne by an organization and realized by providing specialized rehabilitation for patients with traumatic brain injuries.</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A role borne by an organization and realized by providing specialized rehabilitation for patients with traumatic brain injuries.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">traumatic brain injury rehabilitation organization role</rdfs:label>
     </owl:Class>
@@ -7090,7 +7213,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000313">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
-        <obo:IAO_0000117 xml:lang="en">A role borne by a hospital and realized by providing specialized care for patients with spinal cord injuries.</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A role borne by a hospital and realized by providing specialized care for patients with spinal cord injuries.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">spinal cord injury center role</rdfs:label>
     </owl:Class>
@@ -7166,9 +7289,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000317">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000271"/>
-        <obo:IAO_0000115 xml:lang="en">A government agency that evaluates healthcare provider organizations, which are candidates for acquiring a trauma center role, and reports as an outcome whether the organization is fit to be a trauma center.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A governmental agency that evaluates healthcare provider organizations, which are candidates for acquiring a trauma center role, and reports as an outcome whether the organization is fit to be a trauma center.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">trauma center verification government agency</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">trauma center verification government agency</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">trauma center verification governmental agency</rdfs:label>
     </owl:Class>
     
 
@@ -7511,6 +7635,36 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000243"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A duration that specifies the temporal extension of a hospital stay.</obo:IAO_0000115>
+        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">length of stay</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">hospitalization duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000337">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115 xml:lang="en">A clinical finding that occurs during the course of, or because of, another disease, treatment, or procedure. [Definition Source: NCI]</obo:IAO_0000115>
+        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C2959</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">complication finding</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000364">
@@ -7578,6 +7732,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000367"/>
+        <obo:IAO_0000115 xml:lang="en">A physician who has completed an neurosurgery residency program and achieved board certification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Joseph Utecht</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A physician who has completed an neurosurgery residency program and achieved board certification.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">board certified neurosurgeon role</rdfs:label>
@@ -7760,6 +7915,52 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000375">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies on which schedule and to which extent anesthesia services are provided within a healthcare provider organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">A plan that specifies the schedule for ensuring adequate numbers of  anesthesia care providers are readily available 24 hours a day 7 days a week within a trauma center.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">anesthesia services availability plan specification</rdfs:label>
+    </owl:Class>
+    
+    
+    
+    <!-- http://purl.obolibrary.org/obo/STATO_0000184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A ratio is a data item which is formed with two numbers r and s is written r/s, where r is the numerator and s is the denominator. The ratio of r to s is equivalent to the quotient r/s. 
+</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">review formal definition as both numerator and denominator should be of the same type, not just some data item</obo:IAO_0000116>
+        <obo:IAO_0000117>Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">adapted from Wolfram Alpha:
+https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig76g7</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/stato.owl</obo:IAO_0000412>
+        <rdfs:label>ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">mortality is a ratio  formed by the number of deaths due to a disease divided by the total population size.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">adapted from: https://www.health.ny.gov/diseases/chronic/basicstat.htm</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/stato.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">mortality</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125">
@@ -7929,6 +8130,26 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">A part of graduate education where the graduate from a medical program practices medicine under the supervision of an attending physician. (OOSTT editor comment created by M. Brochhausen, Nov 9, 2016)</obo:IAO_0000116>
         <dc:source>http://vivoweb.org/sites/vivoweb.org/files/vivo-isf-public-1.6.owl</dc:source>
         <rdfs:label xml:lang="en">Medical Residency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Government -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Government">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">An Organization that exercises executive, legislative, or judicial authority over a Geopolitical Entity.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">https://en.wikipedia.org/wiki/Government</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">is curated in ontology: http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <dc:license xml:lang="en">BSD 3-Clause License
+
+Copyright (c) 2017, CUBRC, Inc.
+All rights reserved.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
+        <rdfs:label xml:lang="en">government</rdfs:label>
     </owl:Class>
     
 
