@@ -16,6 +16,7 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl"/>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <dc:contributor xml:lang="en">Diya Mehta</dc:contributor>
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
         <dc:contributor xml:lang="en">John Judkins</dc:contributor>
@@ -34,7 +35,7 @@
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2023-03-29</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2023-10-31</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -169,7 +170,7 @@
     <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB alternative term</rdfs:label>
+        <rdfs:label>IEDB alternative term</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -213,7 +214,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+        <rdfs:label>in_subset</rdfs:label>
     </rdf:Description>
     
 
@@ -280,11 +281,11 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <obo:IAO_0000111 xml:lang="en">has organization member</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relating an organization to a legal person or organization.</obo:IAO_0000115>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">See tracker:
+        <obo:IAO_0000115>Relating an organization to a legal person or organization.</obo:IAO_0000115>
+        <obo:IAO_0000116>See tracker:
 https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_id=177891&amp;atid=886178</obo:IAO_0000116>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">has organization member</rdfs:label>
     </owl:ObjectProperty>
     
@@ -386,7 +387,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000112 xml:lang="en">this investigator participates in this investigation</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a relation between a continuant and a process, in which the continuant is somehow involved in the process</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">participates_in</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">participates in</rdfs:label>
     </owl:ObjectProperty>
     
@@ -416,7 +417,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002323"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115>x overlaps y if and only if there exists some z such that x has part z and z part of y</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
         <obo:IAO_0000424>http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)</obo:IAO_0000424>
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
@@ -440,7 +441,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000115>A mereological relationship or a topological relationship</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000232>Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships</obo:IAO_0000232>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
         <rdfs:label xml:lang="en">mereotopologically related to</rdfs:label>
     </owl:ObjectProperty>
@@ -455,7 +456,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000118>is member of</obo:IAO_0000118>
         <obo:IAO_0000118>member part of</obo:IAO_0000118>
         <obo:IAO_0000119>SIO</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
         <rdfs:label xml:lang="en">member of</rdfs:label>
     </owl:ObjectProperty>
@@ -515,7 +516,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115>A planned process that computes the totality of some material entity.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obib.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/obib.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">counting</rdfs:label>
     </owl:Class>
     
@@ -527,9 +528,9 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
         <obo:IAO_0000115 xml:lang="en">A measurement datum that quantifies a temporal region that is occupied by a processual entity.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/apollo_sv/releases/v2023-01-10/apollo_sv.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/apollo_sv/releases/v2023-01-10/apollo_sv.owl</obo:IAO_0000412>
         <obo:IAO_0000600 xml:lang="en">A measurement datum that quantifies a temporal region that is occupied by a processual entity.</obo:IAO_0000600>
-        <apollo_sv:APOLLO_SV_0000040 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duration</apollo_sv:APOLLO_SV_0000040>
+        <apollo_sv:APOLLO_SV_0000040>Duration</apollo_sv:APOLLO_SV_0000040>
         <rdfs:label xml:lang="en">duration</rdfs:label>
     </owl:Class>
     
@@ -539,14 +540,14 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flow cytometry is a technique.</obo:IAO_0000112>
+        <obo:IAO_0000112>Flow cytometry is a technique.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A technique is a planned process used to accomplish a specific activity or task.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melissa Haendel</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Technique</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ero.owl</obo:IAO_0000412>
+        <obo:IAO_0000115>A technique is a planned process used to accomplish a specific activity or task.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Melissa Haendel</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Technique</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ero.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A method or skill used to accomplish a specific activity or task.</obo:OOSTT_00000030>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protocol is added to eagle-i temporarily until a relationship between the informatio entity &quot;protocol&quot; and these planned processes is created. This class refers to the axtual process not the document</rdfs:comment>
+        <rdfs:comment>Protocol is added to eagle-i temporarily until a relationship between the informatio entity &quot;protocol&quot; and these planned processes is created. This class refers to the axtual process not the document</rdfs:comment>
         <rdfs:label xml:lang="en">technique</rdfs:label>
     </owl:Class>
     
@@ -556,13 +557,13 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001327">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000007"/>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rehabilitation for alcohol abuse.</obo:IAO_0000112>
+        <obo:IAO_0000112>Rehabilitation for alcohol abuse.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A technique that is performed to restore some or all of the patient&apos;s physical, sensory, and mental capabilities that were lost due to injury, illness, or disease.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Nicole Vasilevsky</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://medical-dictionary.thefreedictionary.com/rehabilitation</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ero.owl</obo:IAO_0000412>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rehabilitation</rdfs:label>
+        <obo:IAO_0000115>A technique that is performed to restore some or all of the patient&apos;s physical, sensory, and mental capabilities that were lost due to injury, illness, or disease.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Nicole Vasilevsky</obo:IAO_0000117>
+        <obo:IAO_0000119>http://medical-dictionary.thefreedictionary.com/rehabilitation</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ero.owl</obo:IAO_0000412>
+        <rdfs:label>rehabilitation</rdfs:label>
     </owl:Class>
     
 
@@ -576,7 +577,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Matt Diller</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/dev/geo.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/dev/geo.owl</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">Includes atmosphere, crust, geographical regions (e.g., the geographical region over which the state of Florida has jurisdiction), bodies of water, mountains, etc.
 
 Generally, an individual organism is a distinct object that is not a part of the Earth, although this requires more thought.  But the intent is definitely for this class to NOT subsume organism universally.  Human beings are contained within, but not part of, the Earth, for example.</rdfs:comment>
@@ -599,7 +600,7 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Matt Diller</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/dev/geo.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/dev/geo.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">geographical region</rdfs:label>
     </owl:Class>
     
@@ -610,7 +611,7 @@ Thus, we are attempting to define things generally enough that they could be reu
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000111 xml:lang="en">assay</obo:IAO_0000111>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assay the wavelength of light emitted by excited Neon atoms. Count of geese flying over a house.</obo:IAO_0000112>
+        <obo:IAO_0000112>Assay the wavelength of light emitted by excited Neon atoms. Count of geese flying over a house.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies.</obo:IAO_0000115>
         <obo:IAO_0000116>12/3/12: BP: the reference to the &apos;physical examination&apos; is included to point out that a prediction is not an assay, as that does not require physical examiniation. </obo:IAO_0000116>
@@ -618,9 +619,9 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000118 xml:lang="en">measuring</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">scientific observation</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
-        <obo:OBI_0001847 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study assay</obo:OBI_0001847>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">any method</obo:OBI_9991118>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:OBI_0001847>study assay</obo:OBI_0001847>
+        <obo:OBI_9991118>any method</obo:OBI_9991118>
         <rdfs:label xml:lang="en">assay</rdfs:label>
     </owl:Class>
     
@@ -654,7 +655,7 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
         <obo:IAO_0000232>creation date: 2010-07-19T10:18:02Z</obo:IAO_0000232>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
         <rdfs:label>clinical finding</rdfs:label>
     </owl:Class>
     
@@ -668,7 +669,7 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000119>http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6</obo:IAO_0000119>
         <obo:IAO_0000232>creation date: 2011-02-21T09:57:44Z</obo:IAO_0000232>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A process involving a patient and a healthcare professional that focuses on the assessment, diagnosis, treatment and consultation for  a disease or injury, or for prevention of a subsequent injury.</obo:OOSTT_00000030>
         <rdfs:label>health care process</rdfs:label>
     </owl:Class>
@@ -683,7 +684,7 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000119>http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6</obo:IAO_0000119>
         <obo:IAO_0000232>creation date: 2011-02-21T09:57:44Z</obo:IAO_0000232>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
         <rdfs:comment>09/16/2020
 Is this same as admission? 
 Is this the same as inpatient encounter?</rdfs:comment>
@@ -701,7 +702,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000119>http://groups.google.com/group/ogms-discuss/browse_thread/thread/ca0ad373f27774c5</obo:IAO_0000119>
         <obo:IAO_0000232>creation date: 2011-09-20T09:57:44Z</obo:IAO_0000232>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">Damage to a person&apos;s tissues, bones, or organ systems with the potential for dysfunction and caused by mechanical, thermal, or radiation mechanisms</obo:OOSTT_00000030>
         <rdfs:label>injury</rdfs:label>
     </owl:Class>
@@ -714,7 +715,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>A data item that is about a patient and is the specified output of a health care process assay or diagnostic process</obo:IAO_0000115>
         <obo:IAO_0000232>creation date: 2018-11-27</obo:IAO_0000232>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">clinical data item</rdfs:label>
     </owl:Class>
     
@@ -728,7 +729,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen
 </obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">human social role</rdfs:label>
     </owl:Class>
     
@@ -741,7 +742,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">A role in human social processes that is realized by health care processes such as seeking or providing treatment for disease and injury, diagnosing disease and injury, and undergoing diagnosis.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">health care role</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:comment>Mathias Brochhausen</rdfs:comment>
         <rdfs:label xml:lang="en">human health care role</rdfs:label>
     </owl:Class>
@@ -757,7 +758,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">patient</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">CAFE domain expert working group.</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A person who presents to a healthcare provider for clinical care.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">In order to avoid the presumption of the formal structures and institutions of Western civilization, bearing a patient role does not entail that the organism presents at an official place of business, with an organization formally and legally registered with various gov&apos;t entities, with a person endowed by the gov&apos;t with certain certifications.</rdfs:comment>
         <rdfs:label xml:lang="en">patient role</rdfs:label>
@@ -772,7 +773,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">A human health care role inhering in an organization or human being that is realized by a process of providing health care services to an organism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen
 </obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A healthcare provider with responsibility for the care of ill and injured patients.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">William R. Hogan</rdfs:comment>
         <rdfs:label xml:lang="en">health care provider role</rdfs:label>
@@ -788,7 +789,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">physician</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Physician</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A credentialled health professional graduate of a school of medicine who provides medical care by promoting, maintaining, or restoring human health through the study, diagnosis, and treatment of disease, injury, and other physical and mental impairments.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">physician role</rdfs:label>
     </owl:Class>
@@ -803,7 +804,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">nurse</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">based on: http://en.wikipedia.org/wiki/Nursing</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A health professional graduate of a school of nursing who provides nursing care to promote the attainment, maintenance, or recovery of optimal health and quality of life for individuals, families, and communities.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">nurse role</rdfs:label>
     </owl:Class>
@@ -814,7 +815,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000027"/>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">Definition needed, but the idea is that we want to differentiate between provider and payer organizations.  Some organizaitons have both roles (e.g., UPMC has a Hospital Division, a Physician Divison, and an Insurance Division).</rdfs:comment>
         <rdfs:label xml:lang="en">health care provider organization role</rdfs:label>
     </owl:Class>
@@ -827,7 +828,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role inhering in an entity realized by social interactions in human society.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">Previous definition: A role played by an entity in human social processes.</rdfs:comment>
         <rdfs:label xml:lang="en">role in human social processes</rdfs:label>
     </owl:Class>
@@ -840,7 +841,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
         <obo:IAO_0000115 xml:lang="en">A role in human social processes that inheres in an organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">Defined class that we will ultimately move to an application ontology.  We are leaving here for now until we determine which application ontology: it is likely going to be an ontology that does not currently (2012-06-05) exist.
 
 Ditto for its current descendants.</rdfs:comment>
@@ -856,7 +857,7 @@ Ditto for its current descendants.</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">A role in human social processes that inheres in an organism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan
 Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">Defined class that we will ultimately move to an application ontology.  We are leaving here for now until we determine which application ontology: it is likely going to be an ontology that does not currently (2012-06-05) exist.
 
 Ditto for its current descendants.</rdfs:comment>
@@ -872,7 +873,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000025"/>
         <obo:IAO_0000115 xml:lang="en">An organization social role that is realized by a health care process.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">An organization that has a role in the healthcare delivery process.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">Previous definition: An organization social role played by an organization in health care processes.</rdfs:comment>
         <rdfs:label xml:lang="en">organization health care role</rdfs:label>
@@ -898,7 +899,7 @@ Ditto for its current descendants.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
         <obo:IAO_0000115 xml:lang="en">A healthcare provider role that inheres in an organization and is realized by providing inpatient and outpatient care.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A healthcare facility that provides inpatient and outpatient care.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">hospital role</rdfs:label>
     </owl:Class>
@@ -936,7 +937,7 @@ Ditto for its current descendants.</rdfs:comment>
         <obo:IAO_0000119 xml:lang="en">The following definition for &apos;injured patient&apos; was approved by the CAFE team of domain experts (experts in trauma care) May 29, 2015.
 
 A patient suffering one or more injuries.</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">An individual with one or more injuries that requires treatment.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">injured patient role</rdfs:label>
     </owl:Class>
@@ -949,7 +950,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000086"/>
         <obo:IAO_0000117>Amanda hicks</obo:IAO_0000117>
         <obo:IAO_0000118>employee</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">employee role</rdfs:label>
     </owl:Class>
     
@@ -961,7 +962,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000001"/>
         <obo:IAO_0000117 xml:lang="en">A role that concretizes a socio-lega generically dependent continuant</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">socio-legal human social role</rdfs:label>
     </owl:Class>
     
@@ -973,7 +974,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000085"/>
         <obo:IAO_0000115 xml:lang="en">A socio-legal human social role that concretizes a socio-legally generically dependent continuat that was created by a declaration performed by an organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">human role within an organization</rdfs:label>
     </owl:Class>
     
@@ -983,7 +984,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">employer role</rdfs:label>
     </owl:Class>
     
@@ -994,7 +995,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
         <obo:IAO_0000115 xml:lang="en">A human health care provider role that inheres in a human being that is created by state licensing and that is realized by taking patient histories, performing physical exams, diagnosing illnesses, developing treatment plans, ordering lab tests, prescribing medications, counselling and educating patients, suturing wounds, and assisting in surgery under the supervision of a physician or a surgeon.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">US physician assistant role</rdfs:label>
     </owl:Class>
     
@@ -1007,7 +1008,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A physician role that, if it is realized, is realized either by administering medication for the temporary general or local suppression of sensory or motor nerve function during some health care encounter or providing airway management or by making decisions independently of a supervising physician regarding the adminstration of such medication.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A  physician with responsibility for managing complex airways, and administering anesthesia or making decisions about anethesthic medications to be administered in collaboration with the attending physician.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">anesthesiologist role</rdfs:label>
     </owl:Class>
@@ -7664,6 +7665,139 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is a measurement of time used to describe a lifetime.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">age unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115 xml:lang="en">A disposition that is borne by an organism and, if realized, is realized by the formation of a blood clot in the veins.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">deep vein thrombosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that results in a drug report about an individual.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">drug screening</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <obo:IAO_0000115 xml:lang="en">A zero-dimensional temporal region that specifies when an individual is released from the emergency department of a hospital.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">emergency department discharge date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000342">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that describes if an individual does not have a zip/postal code specifying their place of residence.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">homeless status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000343">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is the outcome of an oxygen saturation measurement process that takes place no more than 30 minutes after admission to the ED or hospital.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">initial oxygen saturation information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000344">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is the outcome of a temperature measurement process that takes place no more than 30 minutes after admission to the ED or hospital.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">initial temperature information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000345">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about an injury borne by a patient and that has an ICD code as a part.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">ICD-10 injury diagnosis</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">internal classification of diseases tenth revision injury diagnosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is the outcome of a person stating how they wish to compensate a due amount.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">primary payment method information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a residence a person is living in for a short period of time.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">temporary address</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000348">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <obo:IAO_0000115 xml:lang="en">A zero dimensional temporal region that specifies when a trauma surgeon arrived at the patient&apos;s bedside.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">trauma surgeon arrival time</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000364">
@@ -7914,7 +8048,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000375 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000375">
@@ -7925,8 +8058,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">anesthesia services availability plan specification</rdfs:label>
     </owl:Class>
     
-    
-    
+
+
     <!-- http://purl.obolibrary.org/obo/STATO_0000184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000184">
@@ -7940,7 +8073,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">adapted from Wolfram Alpha:
 https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig76g7</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/stato.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/stato.owl</obo:IAO_0000412>
         <rdfs:label>ratio</rdfs:label>
     </owl:Class>
     
@@ -7954,7 +8087,7 @@ https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig
         <obo:IAO_0000115 xml:lang="en">mortality is a ratio  formed by the number of deaths due to a disease divided by the total population size.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">adapted from: https://www.health.ny.gov/diseases/chronic/basicstat.htm</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/stato.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/stato.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">mortality</rdfs:label>
     </owl:Class>
     
