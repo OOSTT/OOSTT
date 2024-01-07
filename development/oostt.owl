@@ -27,8 +27,8 @@
         <dc:contributor xml:lang="en">Robert T. Maxson</dc:contributor>
         <dc:contributor xml:lang="en">Rohit Pradhan</dc:contributor>
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
-        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
         <dc:contributor xml:lang="en">S. Clint Dowland</dc:contributor>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
@@ -36,7 +36,7 @@
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2023-10-31</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2024-01-07</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -7735,6 +7735,20 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">trauma surgeon arrival time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that provides the cumulative amount of time a patient spent in the ICU during one hospitalization measured in whole day increments.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary. 2024 Admissions. American College of Surgeons (ACS), Chicago, IL, 2023.</obo:IAO_0000119>
+        <obo:OOSTT_00000324 xml:lang="en">Total ICU length of stay</obo:OOSTT_00000324>
+        <rdfs:comment xml:lang="en">Each partial or full day must be measured as one calendar day.</rdfs:comment>
+        <rdfs:label xml:lang="en">total intensive care unit length of stay data item</rdfs:label>
     </owl:Class>
     
 
