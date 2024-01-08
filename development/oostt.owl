@@ -765,6 +765,19 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>All manners of treatment to relieve illness and injury of a particular body site or system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/maxo/releases/2023-12-01/maxo.owl</obo:IAO_0000412>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-20T19:58:58Z</dc:date>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-7941-2961"/>
+        <rdfs:label xml:lang="en">therapeutic procedure by site</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001">
