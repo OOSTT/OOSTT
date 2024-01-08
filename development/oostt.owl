@@ -8888,6 +8888,18 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+        <obo:IAO_0000115 xml:lang="en">An admission process through which a patient is admitted to the intensive care unit.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000324 xml:lang="en">ICU admission</obo:OOSTT_00000324>
+        <rdfs:label xml:lang="en">intensive care unit admission process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000364">
