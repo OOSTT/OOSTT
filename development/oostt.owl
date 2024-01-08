@@ -1143,6 +1143,29 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0007263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0007263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005267"/>
+        <obo:IAO_0000115>Any variation from the normal rate or rhythm (which may include the origin of the impulse and/or its subsequent propagation) in the heart.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>EFO:0004269</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:427.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2881</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:P378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:698247007</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>arrhythmia</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0007263</oboInOwl:id>
+        <oboInOwl:source>EFO:0004269</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <rdfs:label>cardiac rhythm disease</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/698247007"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2881"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0021113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0021113">
