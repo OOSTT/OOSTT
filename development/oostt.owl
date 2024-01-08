@@ -1172,6 +1172,47 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000473"/>
+        <obo:IAO_0000115>The obstruction of the pulmonary artery or one of its branches by an embolus, sometimes associated with infarction of the lung.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <obo:IAO_0000589>pulmonary embolism (disease)</obo:IAO_0000589>
+        <oboInOwl:hasDbXref>DOID:9477</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0003827</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HP:0002204</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:415.19</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D011655</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:ambiguous</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C50713</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:P378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:59282003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0034065</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>embolism, pulmonary</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary artery embolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary embolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary embolism (disease)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary embolus</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005279</oboInOwl:id>
+        <oboInOwl:source>DOID:9477</oboInOwl:source>
+        <oboInOwl:source>EFO:0003827</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>MONDO:otherHierarchy</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C50713</oboInOwl:source>
+        <rdfs:label>pulmonary embolism</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D011655"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/59282003"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0034065"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_9477"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C50713"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0005385 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005385">
