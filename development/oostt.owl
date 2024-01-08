@@ -274,6 +274,14 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType">
+        <rdfs:label>has_synonym_type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
@@ -300,6 +308,12 @@
         <rdfs:label>label</rdfs:label>
         <rdfs:label xml:lang="en">label</rdfs:label>
     </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
     
 
 
@@ -911,6 +925,45 @@ Thus, we are attempting to define things generally enough that they could be reu
         <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/19829001"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_850"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3198"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0006502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0006502">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001208"/>
+        <obo:IAO_0000115>Progressive and life-threatening pulmonary distress in the absence of an underlying pulmonary condition, usually following major trauma or surgery. Cases of neonatal respiratory distress syndrome are not included in this definition.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>DOID:11394</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:1000637</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GARD:0005698</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:J80</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10001052</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3353</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>ARDS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>acute respiratory distress syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>shock lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>ALI</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Stiff lung</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acute lung injury</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>increased-permeability pulmonary edema</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>increased-permeability pulmonary oedema</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>non-cardiogenic pulmonary edema</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>non-cardiogenic pulmonary oedema</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003005"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#ABBREVIATION"/>
+        <oboInOwl:id>MONDO:0006502</oboInOwl:id>
+        <oboInOwl:source>DOID:11394</oboInOwl:source>
+        <oboInOwl:source>EFO:1000637</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>Orphanet:70578</oboInOwl:source>
+        <oboInOwl:source>Orphanet:70578/e</oboInOwl:source>
+        <rdfs:comment>This disease can present as a mild ARDS (PaO2/FiO2 of 201–300 mmHg) moderate ARDS (PaO2/FiO2 of 101–200 mmHg) and severe ARDS (PaO2/FiO2 ≤100 mmHg). [PMID:30872586]</rdfs:comment>
+        <rdfs:label>acute respiratory distress syndrome</rdfs:label>
+        <skos:closeMatch rdf:resource="http://identifiers.org/meddra/10001052"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/J80"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3353"/>
     </owl:Class>
     
 
