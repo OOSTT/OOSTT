@@ -1618,6 +1618,19 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000112 xml:lang="en">mastectomy / craniotomy / liver resection e.t.c.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A planned process that uses operative manual and instrumental techniques on a patient to investigate and/or treat a pathological condition such as disease or injury, or to help improve bodily function or appearance.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Surgery</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obib/2023-04-05/obib.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">surgical procedure</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070">
