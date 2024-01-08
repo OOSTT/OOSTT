@@ -138,6 +138,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
+        <rdfs:label xml:lang="en">term tracker item</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
@@ -206,11 +214,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002175 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002175">
+        <rdfs:label xml:lang="en">present in taxon</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/apollo_sv.owl/APOLLO_SV_0000040 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/apollo_sv.owl/APOLLO_SV_0000040">
         <rdfs:label xml:lang="en">Unique Apollo Label</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
     
 
 
@@ -701,6 +723,23 @@ Thus, we are attempting to define things generally enough that they could be reu
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2991"/>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_377788"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0700096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0700096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/5858</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5208-3432</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>human disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0700096</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#rare_grouping"/>
+        <rdfs:label>human disease</rdfs:label>
     </owl:Class>
     
 
