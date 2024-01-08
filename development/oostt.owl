@@ -813,6 +813,43 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0000473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000473">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005385"/>
+        <obo:IAO_0000115>An impairment of the structure or function of the blood vessels which carry blood away from the heart.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml"/>
+        <oboInOwl:hasDbXref>DOID:0050828</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:447.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:447.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location_top</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C35317</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:359557001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0852949</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>arterial disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>arterial disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>arteriopathy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>artery disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>artery disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of artery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of artery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of artery</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0000473</oboInOwl:id>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C35317</oboInOwl:source>
+        <rdfs:label>arterial disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/359557001"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0852949"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_0050828"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35317"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0000745 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000745">
