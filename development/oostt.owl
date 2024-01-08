@@ -230,6 +230,12 @@
     
 
 
+    <!-- http://purl.org/dc/terms/conformsTo -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/conformsTo"/>
+    
+
+
     <!-- http://purl.org/dc/terms/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
@@ -723,6 +729,70 @@ Thus, we are attempting to define things generally enough that they could be reu
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2991"/>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_377788"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <obo:IAO_0000115>A non-neoplastic or neoplastic disorder that affects the respiratory system. Representative examples include pneumonia, chronic obstructive pulmonary disease, pulmonary failure, lung adenoma, lung carcinoma, and tracheal carcinoma.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <oboInOwl:hasDbXref>DOID:1579</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000684</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:J00-J99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:460-519.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:500-508.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:503</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:508</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:508.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:508.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:508.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:510-519.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:516</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:516.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:516.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:517</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:517.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:519</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:519.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:519.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:519.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:519.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:V12.60</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:V47.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D012140</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location_top</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C26871</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:50043002</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease of respiratory system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of respiratory system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of respiratory system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory system disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory system disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005087</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#rare_grouping"/>
+        <oboInOwl:source>DOID:1579</oboInOwl:source>
+        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <oboInOwl:source>https://github.com/monarch-initiative/mondo/issues/4536</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0001-5208-3432</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
+        <rdfs:label>respiratory system disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D012140"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/50043002"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/J00-J99"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1579"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26871"/>
     </owl:Class>
     
 
