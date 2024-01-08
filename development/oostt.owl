@@ -782,6 +782,31 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0001208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0001208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021113"/>
+        <obo:IAO_0000115>Life-threatening respiratory failure that develops rapidly. Causes include injury, sepsis, drug overdose, and pancreatitis. It manifests with dyspnea and cyanosis and may lead to cardiovascular shock.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>ICD9:518.81</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/acute</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C27043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:65710008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0264490</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>acute respiratory failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory failure, acute</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0001208</oboInOwl:id>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>NCIT:C27043</oboInOwl:source>
+        <rdfs:label>acute respiratory failure</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/65710008"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0264490"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27043"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0005087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005087">
