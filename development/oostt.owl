@@ -1328,6 +1328,55 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0011057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0011057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0043218"/>
+        <obo:IAO_0000115>A disorder resulting from inadequate blood flow in the vessels that supply the brain. Representative examples include cerebrovascular ischemia, cerebral embolism, and cerebral infarction.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000473"/>
+        <oboInOwl:hasDbXref>DOID:6713</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0003763</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I60-I69</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:430-438.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:434.91</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:437.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:437.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ISBN-13:978-1-259-64403-0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002561</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2938</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:601367</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:62914000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0007820</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cerebrovascular disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cerebrovascular disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>CVA</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>CVA (cerebral vascular accident)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>cerebral infarction</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>cerebrovascular accident</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>stroke</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#ABBREVIATION"/>
+        <oboInOwl:id>MONDO:0011057</oboInOwl:id>
+        <oboInOwl:source>DOID:6713</oboInOwl:source>
+        <oboInOwl:source>EFO:0003763</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C2938</oboInOwl:source>
+        <oboInOwl:source>https://github.com/monarch-initiative/mondo/issues/4536</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0001-5208-3432</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
+        <rdfs:label>cerebrovascular disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D002561"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/62914000"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0007820"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/I60-I69"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_6713"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2938"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0021113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0021113">
