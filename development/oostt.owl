@@ -816,6 +816,24 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000502">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000500"/>
+        <obo:IAO_0000115>A procedure involving placement of a tube into the trachea through the mouth or nose in order to provide a patient with oxygen and anesthesia.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/maxo/releases/2023-12-01/maxo.owl</obo:IAO_0000412>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-23T16:16:19Z</dc:date>
+        <terms:creator rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <oboInOwl:hasDbXref>MeSH:D007442</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C116648</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>airway intubation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>intratracheal intubation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tracheal intubation</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">endotracheal intubation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001">
