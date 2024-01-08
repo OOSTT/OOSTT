@@ -813,6 +813,37 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0000745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000745">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0007263"/>
+        <obo:IAO_0000115>Cessation of breathing and/or cardiac function.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005009"/>
+        <oboInOwl:hasDbXref>DOID:0060319</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I46</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:427.5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006323</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:P378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:410429000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0018790</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cardiopulmonary arrest</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>circulatory arrest</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0000745</oboInOwl:id>
+        <oboInOwl:source>DOID:0060319</oboInOwl:source>
+        <oboInOwl:source>MONDO:MEDGEN</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <rdfs:label>cardiac arrest</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D006323"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/410429000"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0018790"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/I46"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_0060319"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0001208 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0001208">
