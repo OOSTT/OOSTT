@@ -7795,6 +7795,19 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000350">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
+        <obo:IAO_0000115 xml:lang="en">A value specification that specifies the situation to which a patient is discharged after hospilaization, including the information that the patient passed away during hospitalization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary. 2024 Admissions. American College of Surgeons (ACS), Chicago, IL, 2023.</obo:IAO_0000119>
+        <obo:OOSTT_00000324 xml:lang="en">hospital discharge disposition</obo:OOSTT_00000324>
+        <rdfs:label xml:lang="en">patient discharge disposition information</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000364">
