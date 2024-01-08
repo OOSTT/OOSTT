@@ -751,6 +751,20 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IDO_0000637 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000637">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000636"/>
+        <obo:IAO_0000115 xml:lang="en">A sepsis that results in organ dysfunction, hypotension, or hypofusion of at least one organ.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ido/2017-11-03/ido.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">severe sepsis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001">
