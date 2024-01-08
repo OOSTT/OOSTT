@@ -1395,6 +1395,30 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0043218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0043218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005385"/>
+        <obo:IAO_0000115>A disorder of the nervous system related to a vascular etiology.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C117007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C3898144</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease of nervous system vasculature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nervous system disorder of vasculature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neurovascular disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vasculature nervous system disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0043218</oboInOwl:id>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C117007</oboInOwl:source>
+        <rdfs:label>neurovascular disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C3898144"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C117007"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0700096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0700096">
