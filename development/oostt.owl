@@ -801,6 +801,21 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000500">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000499"/>
+        <obo:IAO_0000115>A set of maneuvers or medical procedures performed to prevent and relieve airway obstruction. This ensures an open pathway for gas exchange between a patient&apos;s lungs and the atmosphere.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/maxo/releases/2023-12-01/maxo.owl</obo:IAO_0000412>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-23T15:56:57Z</dc:date>
+        <terms:creator rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <oboInOwl:hasDbXref>MeSH:D058109</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18675024</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">airway management</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001">
