@@ -1074,6 +1074,42 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0011057"/>
+        <obo:IAO_0000115>A sudden loss of neurological function secondary to hemorrhage or ischemia in the brain parenchyma due to a vascular event.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>EFO:0000712</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HP:0001297</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D020521</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3390</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NIFSTD:birnlex_12783</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:230690007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5208-3432</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.epilepsydiagnosis.org/etiology/stroke-overview.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CVA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CVA, cerebrovascular accident</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cerebrovascular accident</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cerebrovascular accident, (CVA)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stroke</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stroke syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>syndrome, stroke</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>undetermined stroke</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>cerebral infarction</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#ABBREVIATION"/>
+        <oboInOwl:id>MONDO:0005098</oboInOwl:id>
+        <oboInOwl:source>EFO:0000712</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <rdfs:comment>Stroke includes two main types, hemorrhagic and ischemic. Both types of stroke can cause acute seizures at the time of the acute event, as well as epilepsy as a long-term complication. In the elderly, cerebrovascular disease and stroke are the most common cause of acute seizures and epilepsy.</rdfs:comment>
+        <rdfs:label>stroke disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D020521"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/230690007"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3390"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0005267 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005267">
