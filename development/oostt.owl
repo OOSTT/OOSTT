@@ -8839,6 +8839,18 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000502"/>
+        <obo:IAO_0000115 xml:lang="en">An endotracheal intubation that was not part of the original treatment plan.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000324 xml:lang="en">unplanned intubation</obo:OOSTT_00000324>
+        <rdfs:label xml:lang="en">unplanned endotracheal intubation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000364">
