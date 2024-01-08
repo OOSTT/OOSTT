@@ -258,6 +258,22 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
@@ -870,6 +886,43 @@ Thus, we are attempting to define things generally enough that they could be reu
         <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/19829001"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_850"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3198"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0021113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0021113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005275"/>
+        <obo:IAO_0000115>The significant impairment of gas exchange within the lungs resulting in hypoxia, hypercarbia, or both, to the extent that organ tissue perfusion is severely compromised. Causes include chronic obstructive pulmonary disease, asthma, emphysema, acute respiratory distress syndrome, pneumonia, pulmonary edema, pneumothorax, and congestive heart failure. Treatment requires intubation and mechanical ventilation until the time the lungs recover sufficient function.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>DOID:11162</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:518.81</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:518.83</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:518.84</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D012131</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C26872</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C27043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:39871006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C1145670</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>failure, respiratory</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory insufficiency/failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>acute respiratory failure</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>chronic respiratory failure</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym>acute and chronic respiratory failure</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acute-on-chronic respiratory failure</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MONDO:0021113</oboInOwl:id>
+        <oboInOwl:source>DOID:11162</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>NCIT:C26872</oboInOwl:source>
+        <rdfs:label>respiratory failure</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D012131"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/39871006"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C1145670"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_11162"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26872"/>
     </owl:Class>
     
 
