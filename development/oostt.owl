@@ -1135,6 +1135,59 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005385">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <obo:IAO_0000115>A general term used to describe any disease affecting blood vessels]. It includes vascular abnormalities caused by degenerative, metabolic and inflammatory conditions, embolic diseases, coagulative disorders, and functional disorders such as posteri or reversible encephalopathy syndrome.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/3602</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml"/>
+        <oboInOwl:hasDbXref>DOID:178</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0004264</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I00-I99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I70-I79</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:442.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D014652</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location_top</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C35117</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:27550009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0042373</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://doi.org/10.1007/978-3-540-78785-3_7</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0736-9199</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease of vasculature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of vasculature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of vasculature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vascular disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vascular tissue disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vasculature disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vasculature disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>vasculopathy</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MONDO:0005385</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#rare_grouping"/>
+        <oboInOwl:source>DOID:178</oboInOwl:source>
+        <oboInOwl:source>EFO:0004264</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C35117</oboInOwl:source>
+        <oboInOwl:source>https://github.com/monarch-initiative/mondo/issues/4536</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0001-5208-3432</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
+        <rdfs:comment>The etiology of vasculopathy is generally unknown and the condition is frequently not pathologically proven. Vasculitis, on the other hand, is a more specific term and is defined as inflammation of the wall of a blood vessel. However, the term vasculopathy is also used for “vasculitis” that has not been pathologically established.</rdfs:comment>
+        <rdfs:label>vascular disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D014652"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/27550009"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0042373"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/I00-I99"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/I70-I79"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_178"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35117"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0006502 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0006502">
