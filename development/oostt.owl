@@ -10,6 +10,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -162,6 +163,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
+        <rdfs:label xml:lang="en">OBO foundry unique label</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
@@ -226,6 +235,14 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/apollo_sv.owl/APOLLO_SV_0000040">
         <rdfs:label xml:lang="en">Unique Apollo Label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#excluded_subClassOf -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#excluded_subClassOf">
+        <rdfs:label>excluded subClassOf</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -876,6 +893,51 @@ Thus, we are attempting to define things generally enough that they could be reu
         <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0007222"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1287"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2931"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0024643"/>
+        <obo:IAO_0000115>Gross necrosis of the myocardium, as a result of interruption of the blood supply to the area, as in coronary thrombosis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <obo:IAO_0000589>myocardial infarction (disease)</obo:IAO_0000589>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005010"/>
+        <oboInOwl:hasDbXref>DOID:5844</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000612</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HP:0001658</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I21</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D009203</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:ambiguous</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C27996</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:22298006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0027051</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>MI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>MI, myocardial infarction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart attack</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>infarction (MI), myocardial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>myocardial infarct</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>myocardial infarction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>myocardial infarction (disease)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>myocardial infarction, (MI)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#ABBREVIATION"/>
+        <oboInOwl:id>MONDO:0005068</oboInOwl:id>
+        <oboInOwl:source>DOID:5844</oboInOwl:source>
+        <oboInOwl:source>EFO:0000612</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:otherHierarchy</oboInOwl:source>
+        <oboInOwl:source>NCIT:C27996</oboInOwl:source>
+        <oboInOwl:source>https://doi.org/10.1186/1472-6963-13-468</oboInOwl:source>
+        <rdfs:label>myocardial infarction</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D009203"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/22298006"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0027051"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/I21"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_5844"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27996"/>
     </owl:Class>
     
 
