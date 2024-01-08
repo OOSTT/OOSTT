@@ -668,6 +668,21 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_1110122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000111>pathologic process</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">abnormal, harmful processes caused by or associated with a disease</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">IEDB</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi/2023-09-20/obi.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">pathologic process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGMS_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000014">
