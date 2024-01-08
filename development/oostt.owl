@@ -9,6 +9,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -213,11 +214,39 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
         <rdfs:label>in_subset</rdfs:label>
     </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#source -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#source"/>
     
 
 
@@ -227,6 +256,12 @@
         <rdfs:label>label</rdfs:label>
         <rdfs:label xml:lang="en">label</rdfs:label>
     </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
     
 
 
@@ -623,6 +658,49 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000115>A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi/2023-09-20/obi.owl</obo:IAO_0000412>
         <rdfs:label>biological_process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115>A disease is a disposition to undergo pathological processes that exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>DOID:4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000408</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:799.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D004194</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2991</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OGMS:0000031</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Orphanet:377788</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:64572001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0012634</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>condition</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder, non-neoplastic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>diseases</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>diseases and disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>medical condition</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>other disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0000001</oboInOwl:id>
+        <oboInOwl:source>DOID:4</oboInOwl:source>
+        <oboInOwl:source>EFO:0000408</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C2991</oboInOwl:source>
+        <rdfs:label>disease</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D004194"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/64572001"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0012634"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2991"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_377788"/>
     </owl:Class>
     
 
