@@ -9,14 +9,17 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2023-03-30/oostt.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2024-01-25/oostt.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts.owl"/>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <dc:contributor xml:lang="en">Diya Mehta</dc:contributor>
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
         <dc:contributor xml:lang="en">John Judkins</dc:contributor>
@@ -27,6 +30,7 @@
         <dc:contributor xml:lang="en">Robert T. Maxson</dc:contributor>
         <dc:contributor xml:lang="en">Rohit Pradhan</dc:contributor>
         <dc:contributor xml:lang="en">Rosemary Nabaweesi</dc:contributor>
+        <dc:contributor xml:lang="en">S. Clint Dowland</dc:contributor>
         <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
         <dc:contributor xml:lang="en">Stephen M. Bowman</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
@@ -35,7 +39,7 @@
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">release version - 2023-03-30</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release version - 2024-01-25</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -112,6 +116,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label xml:lang="en">alternative label</rdfs:label>
         <rdfs:label xml:lang="en">alternative term</rdfs:label>
     </rdf:Description>
     
@@ -135,6 +140,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
+        <rdfs:label xml:lang="en">term tracker item</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
@@ -147,6 +160,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000424">
         <rdfs:label xml:lang="en">expand expression to</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
+        <rdfs:label xml:lang="en">OBO foundry unique label</rdfs:label>
     </rdf:Description>
     
 
@@ -170,7 +191,7 @@
     <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB alternative term</rdfs:label>
+        <rdfs:label>IEDB alternative term</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -203,6 +224,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002175 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002175">
+        <rdfs:label xml:lang="en">present in taxon</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dcterms_creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/dcterms_creator"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/apollo_sv.owl/APOLLO_SV_0000040 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/apollo_sv.owl/APOLLO_SV_0000040">
@@ -211,11 +246,84 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/mondo#excluded_subClassOf -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#excluded_subClassOf">
+        <rdfs:label>excluded subClassOf</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/conformsTo -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/conformsTo"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label xml:lang="en">has exact synonym</rdfs:label>
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType">
+        <rdfs:label>has_synonym_type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+        <rdfs:label>in_subset</rdfs:label>
     </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#source -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#source"/>
     
 
 
@@ -225,6 +333,18 @@
         <rdfs:label>label</rdfs:label>
         <rdfs:label xml:lang="en">label</rdfs:label>
     </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
     
 
 
@@ -281,11 +401,11 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <obo:IAO_0000111 xml:lang="en">has organization member</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relating an organization to a legal person or organization.</obo:IAO_0000115>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">See tracker:
+        <obo:IAO_0000115>Relating an organization to a legal person or organization.</obo:IAO_0000115>
+        <obo:IAO_0000116>See tracker:
 https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_id=177891&amp;atid=886178</obo:IAO_0000116>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">has organization member</rdfs:label>
     </owl:ObjectProperty>
     
@@ -307,12 +427,12 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000042 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000042">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">&apos;organize&apos; holds between an independent continuant and a planned process, iff the independent continuant particpates in the planned process and also participated in the creation of the plan specification that the planned process realizes.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+        <obo:IAO_0000115 xml:lang="en">OBSOLETE &apos;organize&apos; holds between an independent continuant and a planned process, iff the independent continuant particpates in the planned process and also participated in the creation of the plan specification that the planned process realizes.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">organize</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It would need further development, but it is not used by any other terms.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete organize</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     
 
@@ -320,13 +440,15 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000045 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000045">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <obo:IAO_0000115 xml:lang="en">This relation holds between two specifically dependent continuants, a and b, where b is of its nature such that it cannot exist unless a exists and where a is of its nature such that it cannot exist unless b exists.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+        <obo:IAO_0000115 xml:lang="en">OBSOLETE This relation holds between two specifically dependent continuants, a and b, where b is of its nature such that it cannot exist unless a exists and where a is of its nature such that it cannot exist unless b exists.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://ncor.buffalo.edu/2016/deontic-gainesville.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">mutually specifically depends on</rdfs:label>
+        <obo:IAO_0000231 xml:lang="en">It would need further development, but it is no longer used by any other terms.</obo:IAO_0000231>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It would need further development, but it is no longer used by any other terms.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete mutually specifically depends on</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     
 
@@ -334,10 +456,12 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000113 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000113">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-        <obo:IAO_0000115 xml:lang="en">A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Prescribing is what happens when an information content entity created, ratified, or issued by an entity with authority over the domain the ICE targets states actions or specifications or the omission of actions that are expected to be adhered to.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+        <obo:IAO_0000115 xml:lang="en">OBSOLETE A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Prescribing is what happens when an information content entity created, ratified, or issued by an entity with authority over the domain the ICE targets states actions or specifications or the omission of actions that are expected to be adhered to.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Neil J. Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">prescribes</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It would need further development, but it is not used by any other terms.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete prescribes</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     
 
@@ -348,8 +472,9 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000278"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <obo:IAO_0000115 xml:lang="en">&apos;has policy&apos; holds between an organization and a directive information entity, iff the directive information entity is the outcome of a document act and it is meant to regulate the actions of the organization or its organizational members.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">x has policy y if x is an organization, y is a directive information entity that is the outcome of a document act, and y is meant to regulate the actions of either x or x’s members.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">S. Clint Dowland</dc:contributor>
         <rdfs:label xml:lang="en">has policy</rdfs:label>
     </owl:ObjectProperty>
     
@@ -360,8 +485,9 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000145">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/GEO_000000372"/>
-        <obo:IAO_0000115 xml:lang="en">&apos;services area&apos; holds iff a an organization performing or organizing paid or unpaid planned processes that benefit 3rd parties and b is a geographical region and a performs or organizes said planned process in the site of b.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">x services geographical region y if x is an organization and y is a geographical region in which x is performing or organizing planned processes that benefit third parties.</obo:IAO_0000115>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">S. Clint Dowland</dc:contributor>
         <rdfs:label xml:lang="en">services geographical region</rdfs:label>
     </owl:ObjectProperty>
     
@@ -370,8 +496,9 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000278 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000278">
-        <obo:IAO_0000115 xml:lang="en">&apos;policy of&apos; holds between a directive information entity and an organization iff the directive information entity is the outcome of a document act and it is meant to regulate the actions of the organization or its organizational members.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Inverse of &apos;has policy&apos;.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">S. Clint Dowland</dc:contributor>
         <rdfs:label xml:lang="en">policy of</rdfs:label>
     </owl:ObjectProperty>
     
@@ -387,7 +514,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000112 xml:lang="en">this investigator participates in this investigation</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a relation between a continuant and a process, in which the continuant is somehow involved in the process</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">participates_in</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">participates in</rdfs:label>
     </owl:ObjectProperty>
     
@@ -417,7 +544,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002323"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115>x overlaps y if and only if there exists some z such that x has part z and z part of y</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
         <obo:IAO_0000424>http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)</obo:IAO_0000424>
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
@@ -441,7 +568,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000115>A mereological relationship or a topological relationship</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000232>Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships</obo:IAO_0000232>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
         <rdfs:label xml:lang="en">mereotopologically related to</rdfs:label>
     </owl:ObjectProperty>
@@ -456,7 +583,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000118>is member of</obo:IAO_0000118>
         <obo:IAO_0000118>member part of</obo:IAO_0000118>
         <obo:IAO_0000119>SIO</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
         <rdfs:label xml:lang="en">member of</rdfs:label>
     </owl:ObjectProperty>
@@ -516,7 +643,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115>A planned process that computes the totality of some material entity.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obib.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/obib.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">counting</rdfs:label>
     </owl:Class>
     
@@ -528,9 +655,9 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
         <obo:IAO_0000115 xml:lang="en">A measurement datum that quantifies a temporal region that is occupied by a processual entity.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/apollo_sv/releases/v2023-01-10/apollo_sv.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/apollo_sv/releases/v2023-01-10/apollo_sv.owl</obo:IAO_0000412>
         <obo:IAO_0000600 xml:lang="en">A measurement datum that quantifies a temporal region that is occupied by a processual entity.</obo:IAO_0000600>
-        <apollo_sv:APOLLO_SV_0000040 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duration</apollo_sv:APOLLO_SV_0000040>
+        <apollo_sv:APOLLO_SV_0000040>Duration</apollo_sv:APOLLO_SV_0000040>
         <rdfs:label xml:lang="en">duration</rdfs:label>
     </owl:Class>
     
@@ -540,14 +667,14 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flow cytometry is a technique.</obo:IAO_0000112>
+        <obo:IAO_0000112>Flow cytometry is a technique.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A technique is a planned process used to accomplish a specific activity or task.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melissa Haendel</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Technique</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ero.owl</obo:IAO_0000412>
+        <obo:IAO_0000115>A technique is a planned process used to accomplish a specific activity or task.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Melissa Haendel</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Technique</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ero.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A method or skill used to accomplish a specific activity or task.</obo:OOSTT_00000030>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protocol is added to eagle-i temporarily until a relationship between the informatio entity &quot;protocol&quot; and these planned processes is created. This class refers to the axtual process not the document</rdfs:comment>
+        <rdfs:comment>Protocol is added to eagle-i temporarily until a relationship between the informatio entity &quot;protocol&quot; and these planned processes is created. This class refers to the axtual process not the document</rdfs:comment>
         <rdfs:label xml:lang="en">technique</rdfs:label>
     </owl:Class>
     
@@ -557,13 +684,13 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001327">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000007"/>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rehabilitation for alcohol abuse.</obo:IAO_0000112>
+        <obo:IAO_0000112>Rehabilitation for alcohol abuse.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A technique that is performed to restore some or all of the patient&apos;s physical, sensory, and mental capabilities that were lost due to injury, illness, or disease.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Nicole Vasilevsky</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://medical-dictionary.thefreedictionary.com/rehabilitation</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ero.owl</obo:IAO_0000412>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rehabilitation</rdfs:label>
+        <obo:IAO_0000115>A technique that is performed to restore some or all of the patient&apos;s physical, sensory, and mental capabilities that were lost due to injury, illness, or disease.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Nicole Vasilevsky</obo:IAO_0000117>
+        <obo:IAO_0000119>http://medical-dictionary.thefreedictionary.com/rehabilitation</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ero.owl</obo:IAO_0000412>
+        <rdfs:label>rehabilitation</rdfs:label>
     </owl:Class>
     
 
@@ -577,7 +704,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Matt Diller</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/dev/geo.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/dev/geo.owl</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">Includes atmosphere, crust, geographical regions (e.g., the geographical region over which the state of Florida has jurisdiction), bodies of water, mountains, etc.
 
 Generally, an individual organism is a distinct object that is not a part of the Earth, although this requires more thought.  But the intent is definitely for this class to NOT subsume organism universally.  Human beings are contained within, but not part of, the Earth, for example.</rdfs:comment>
@@ -600,8 +727,907 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Matt Diller</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/dev/geo.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/dev/geo.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">geographical region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000111>biological_process</obo:IAO_0000111>
+        <obo:IAO_0000115>A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi/2023-09-20/obi.owl</obo:IAO_0000412>
+        <rdfs:label>biological_process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000636">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A process that is a systemic inflammatory response to infection.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ido/2017-11-03/ido.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">sepsis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000637 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000637">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000636"/>
+        <obo:IAO_0000115 xml:lang="en">A sepsis that results in organ dysfunction, hypotension, or hypofusion of at least one organ.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ido/2017-11-03/ido.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">severe sepsis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>All manners of treatment to relieve illness and injury of a particular body site or system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/maxo/releases/2023-12-01/maxo.owl</obo:IAO_0000412>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-20T19:58:58Z</dc:date>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-7941-2961"/>
+        <rdfs:label xml:lang="en">therapeutic procedure by site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000499">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000034"/>
+        <obo:IAO_0000115>All manners of treatment to bring respiratory system back to its normal state.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/maxo/releases/2023-12-01/maxo.owl</obo:IAO_0000412>
+        <obo:dcterms_creator>http://orcid.org/0000-0001-7941-2961</obo:dcterms_creator>
+        <dc:date>2020-01-23T15:55:17Z</dc:date>
+        <oboInOwl:hasDbXref>NCIT:C15322</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>respiratory system therapeutic procedure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory therapy</oboInOwl:hasExactSynonym>
+        <rdfs:label>therapeutic procedure of respiratory system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000500">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000499"/>
+        <obo:IAO_0000115>A set of maneuvers or medical procedures performed to prevent and relieve airway obstruction. This ensures an open pathway for gas exchange between a patient&apos;s lungs and the atmosphere.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/maxo/releases/2023-12-01/maxo.owl</obo:IAO_0000412>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-23T15:56:57Z</dc:date>
+        <terms:creator rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <oboInOwl:hasDbXref>MeSH:D058109</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18675024</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">airway management</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000502">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000500"/>
+        <obo:IAO_0000115>A procedure involving placement of a tube into the trachea through the mouth or nose in order to provide a patient with oxygen and anesthesia.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/maxo/releases/2023-12-01/maxo.owl</obo:IAO_0000412>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-23T16:16:19Z</dc:date>
+        <terms:creator rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <oboInOwl:hasDbXref>MeSH:D007442</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C116648</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>airway intubation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>intratracheal intubation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tracheal intubation</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">endotracheal intubation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115>A disease is a disposition to undergo pathological processes that exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>DOID:4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000408</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:799.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D004194</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2991</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OGMS:0000031</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Orphanet:377788</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:64572001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0012634</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>condition</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder, non-neoplastic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>diseases</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>diseases and disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>medical condition</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>other disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0000001</oboInOwl:id>
+        <oboInOwl:source>DOID:4</oboInOwl:source>
+        <oboInOwl:source>EFO:0000408</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C2991</oboInOwl:source>
+        <rdfs:label>disease</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D004194"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/64572001"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0012634"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2991"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_377788"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0000270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005087"/>
+        <obo:IAO_0000115>A disease involving the lower respiratory tract.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml"/>
+        <oboInOwl:hasDbXref>DOID:0050161</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:478.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:478.19</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location_top</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:128272009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C1290325</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease of lower respiratory tract</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of lower respiratory tract</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of lower respiratory tract</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lower respiratory tract disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lower respiratory tract disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0000270</oboInOwl:id>
+        <oboInOwl:source>DOID:0050161</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <rdfs:label>lower respiratory tract disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/128272009"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C1290325"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_0050161"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0000473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000473">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005385"/>
+        <obo:IAO_0000115>An impairment of the structure or function of the blood vessels which carry blood away from the heart.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml"/>
+        <oboInOwl:hasDbXref>DOID:0050828</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:447.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:447.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location_top</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C35317</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:359557001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0852949</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>arterial disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>arterial disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>arteriopathy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>artery disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>artery disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of artery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of artery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of artery</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0000473</oboInOwl:id>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C35317</oboInOwl:source>
+        <rdfs:label>arterial disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/359557001"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0852949"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_0050828"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35317"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0000745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000745">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0007263"/>
+        <obo:IAO_0000115>Cessation of breathing and/or cardiac function.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005009"/>
+        <oboInOwl:hasDbXref>DOID:0060319</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I46</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:427.5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006323</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:P378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:410429000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0018790</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cardiopulmonary arrest</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>circulatory arrest</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0000745</oboInOwl:id>
+        <oboInOwl:source>DOID:0060319</oboInOwl:source>
+        <oboInOwl:source>MONDO:MEDGEN</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <rdfs:label>cardiac arrest</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D006323"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/410429000"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0018790"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/I46"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_0060319"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0001208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0001208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021113"/>
+        <obo:IAO_0000115>Life-threatening respiratory failure that develops rapidly. Causes include injury, sepsis, drug overdose, and pancreatitis. It manifests with dyspnea and cyanosis and may lead to cardiovascular shock.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>ICD9:518.81</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/acute</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C27043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:65710008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0264490</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>acute respiratory failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory failure, acute</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0001208</oboInOwl:id>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>NCIT:C27043</oboInOwl:source>
+        <rdfs:label>acute respiratory failure</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/65710008"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0264490"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27043"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004995">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <obo:IAO_0000115>A disease involving the cardiovascular system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <oboInOwl:hasDbXref>DOID:1287</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000319</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:390-459.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:420-429.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:423</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:423.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:424</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:429</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:429.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:429.7</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:429.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:429.81</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:429.89</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:459.89</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:459.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002318</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:cjm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location_top</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2931</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:49601007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0007222</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cardiovascular disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cardiovascular disease (CVD)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cardiovascular disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cardiovascular system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cardiovascular system disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of cardiovascular system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of subdivision of hemolymphoid system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of cardiovascular system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of cardiovascular system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>circulatory system disease</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MONDO:0004995</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#rare_grouping"/>
+        <oboInOwl:source>DOID:1287</oboInOwl:source>
+        <oboInOwl:source>EFO:0000319</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C2931</oboInOwl:source>
+        <rdfs:label>cardiovascular disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D002318"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/49601007"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0007222"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1287"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2931"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0024643"/>
+        <obo:IAO_0000115>Gross necrosis of the myocardium, as a result of interruption of the blood supply to the area, as in coronary thrombosis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <obo:IAO_0000589>myocardial infarction (disease)</obo:IAO_0000589>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005010"/>
+        <oboInOwl:hasDbXref>DOID:5844</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000612</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HP:0001658</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I21</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D009203</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:ambiguous</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C27996</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:22298006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0027051</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>MI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>MI, myocardial infarction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart attack</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>infarction (MI), myocardial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>myocardial infarct</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>myocardial infarction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>myocardial infarction (disease)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>myocardial infarction, (MI)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#ABBREVIATION"/>
+        <oboInOwl:id>MONDO:0005068</oboInOwl:id>
+        <oboInOwl:source>DOID:5844</oboInOwl:source>
+        <oboInOwl:source>EFO:0000612</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:otherHierarchy</oboInOwl:source>
+        <oboInOwl:source>NCIT:C27996</oboInOwl:source>
+        <oboInOwl:source>https://doi.org/10.1186/1472-6963-13-468</oboInOwl:source>
+        <rdfs:label>myocardial infarction</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D009203"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/22298006"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0027051"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/I21"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_5844"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27996"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <obo:IAO_0000115>A non-neoplastic or neoplastic disorder that affects the respiratory system. Representative examples include pneumonia, chronic obstructive pulmonary disease, pulmonary failure, lung adenoma, lung carcinoma, and tracheal carcinoma.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <oboInOwl:hasDbXref>DOID:1579</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000684</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:J00-J99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:460-519.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:500-508.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:503</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:508</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:508.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:508.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:508.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:510-519.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:516</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:516.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:516.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:517</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:517.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:519</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:519.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:519.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:519.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:519.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:V12.60</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:V47.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D012140</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location_top</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C26871</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:50043002</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease of respiratory system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of respiratory system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of respiratory system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory system disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory system disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005087</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#rare_grouping"/>
+        <oboInOwl:source>DOID:1579</oboInOwl:source>
+        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <oboInOwl:source>https://github.com/monarch-initiative/mondo/issues/4536</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0001-5208-3432</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
+        <rdfs:label>respiratory system disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D012140"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/50043002"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/J00-J99"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1579"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26871"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0011057"/>
+        <obo:IAO_0000115>A sudden loss of neurological function secondary to hemorrhage or ischemia in the brain parenchyma due to a vascular event.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>EFO:0000712</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HP:0001297</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D020521</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3390</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NIFSTD:birnlex_12783</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:230690007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5208-3432</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.epilepsydiagnosis.org/etiology/stroke-overview.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CVA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CVA, cerebrovascular accident</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cerebrovascular accident</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cerebrovascular accident, (CVA)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stroke</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stroke syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>syndrome, stroke</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>undetermined stroke</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>cerebral infarction</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#ABBREVIATION"/>
+        <oboInOwl:id>MONDO:0005098</oboInOwl:id>
+        <oboInOwl:source>EFO:0000712</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <rdfs:comment>Stroke includes two main types, hemorrhagic and ischemic. Both types of stroke can cause acute seizures at the time of the acute event, as well as epilepsy as a long-term complication. In the elderly, cerebrovascular disease and stroke are the most common cause of acute seizures and epilepsy.</rdfs:comment>
+        <rdfs:label>stroke disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D020521"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/230690007"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3390"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <obo:IAO_0000115>A disease involving the heart and/or pericardium.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml"/>
+        <oboInOwl:hasDbXref>DOID:114</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0003777</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:429.89</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:429.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:V47.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006331</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location_top</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3079</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:56265001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0018799</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://github.com/monarch-initiative/mondo/issues/1189</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cardiac disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of heart</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of heart</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of heart</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of heart/pericardium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart trouble</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart/pericardial disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart/pericardial disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart/pericardial disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart/pericardial trouble</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005267</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#rare_grouping"/>
+        <oboInOwl:source>DOID:114</oboInOwl:source>
+        <oboInOwl:source>EFO:0003777</oboInOwl:source>
+        <oboInOwl:source>MONDO:MEDGEN</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C3079</oboInOwl:source>
+        <rdfs:label>heart disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D006331"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/56265001"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0018799"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_114"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3079"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000270"/>
+        <obo:IAO_0000115>A disease involving the lung.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml"/>
+        <oboInOwl:hasDbXref>DOID:850</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0003818</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:518.89</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D008171</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location_top</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3198</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:19829001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lung disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lung disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lung disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lung disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary diseases</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005275</oboInOwl:id>
+        <oboInOwl:source>DOID:850</oboInOwl:source>
+        <oboInOwl:source>EFO:0003818</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <rdfs:label>lung disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D008171"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/19829001"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_850"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3198"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000473"/>
+        <obo:IAO_0000115>The obstruction of the pulmonary artery or one of its branches by an embolus, sometimes associated with infarction of the lung.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <obo:IAO_0000589>pulmonary embolism (disease)</obo:IAO_0000589>
+        <oboInOwl:hasDbXref>DOID:9477</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0003827</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HP:0002204</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:415.19</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D011655</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:ambiguous</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C50713</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:P378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:59282003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0034065</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>embolism, pulmonary</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary artery embolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary embolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary embolism (disease)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary embolus</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005279</oboInOwl:id>
+        <oboInOwl:source>DOID:9477</oboInOwl:source>
+        <oboInOwl:source>EFO:0003827</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>MONDO:otherHierarchy</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C50713</oboInOwl:source>
+        <rdfs:label>pulmonary embolism</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D011655"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/59282003"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0034065"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_9477"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C50713"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005385">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <obo:IAO_0000115>A general term used to describe any disease affecting blood vessels]. It includes vascular abnormalities caused by degenerative, metabolic and inflammatory conditions, embolic diseases, coagulative disorders, and functional disorders such as posteri or reversible encephalopathy syndrome.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/3602</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml"/>
+        <oboInOwl:hasDbXref>DOID:178</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0004264</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I00-I99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I70-I79</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:442.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D014652</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location_top</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C35117</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:27550009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0042373</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://doi.org/10.1007/978-3-540-78785-3_7</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0736-9199</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease of vasculature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of vasculature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of vasculature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vascular disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vascular tissue disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vasculature disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vasculature disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>vasculopathy</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MONDO:0005385</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#rare_grouping"/>
+        <oboInOwl:source>DOID:178</oboInOwl:source>
+        <oboInOwl:source>EFO:0004264</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C35117</oboInOwl:source>
+        <oboInOwl:source>https://github.com/monarch-initiative/mondo/issues/4536</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0001-5208-3432</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
+        <rdfs:comment>The etiology of vasculopathy is generally unknown and the condition is frequently not pathologically proven. Vasculitis, on the other hand, is a more specific term and is defined as inflammation of the wall of a blood vessel. However, the term vasculopathy is also used for “vasculitis” that has not been pathologically established.</rdfs:comment>
+        <rdfs:label>vascular disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D014652"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/27550009"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0042373"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/I00-I99"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/I70-I79"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_178"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35117"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0006502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0006502">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001208"/>
+        <obo:IAO_0000115>Progressive and life-threatening pulmonary distress in the absence of an underlying pulmonary condition, usually following major trauma or surgery. Cases of neonatal respiratory distress syndrome are not included in this definition.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>DOID:11394</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:1000637</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GARD:0005698</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:J80</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10001052</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3353</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>ARDS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>acute respiratory distress syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>shock lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>ALI</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Stiff lung</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acute lung injury</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>increased-permeability pulmonary edema</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>increased-permeability pulmonary oedema</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>non-cardiogenic pulmonary edema</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>non-cardiogenic pulmonary oedema</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003005"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#ABBREVIATION"/>
+        <oboInOwl:id>MONDO:0006502</oboInOwl:id>
+        <oboInOwl:source>DOID:11394</oboInOwl:source>
+        <oboInOwl:source>EFO:1000637</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>Orphanet:70578</oboInOwl:source>
+        <oboInOwl:source>Orphanet:70578/e</oboInOwl:source>
+        <rdfs:comment>This disease can present as a mild ARDS (PaO2/FiO2 of 201–300 mmHg) moderate ARDS (PaO2/FiO2 of 101–200 mmHg) and severe ARDS (PaO2/FiO2 ≤100 mmHg). [PMID:30872586]</rdfs:comment>
+        <rdfs:label>acute respiratory distress syndrome</rdfs:label>
+        <skos:closeMatch rdf:resource="http://identifiers.org/meddra/10001052"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/J80"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3353"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0007263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0007263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005267"/>
+        <obo:IAO_0000115>Any variation from the normal rate or rhythm (which may include the origin of the impulse and/or its subsequent propagation) in the heart.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>EFO:0004269</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:427.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2881</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:P378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:698247007</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>arrhythmia</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0007263</oboInOwl:id>
+        <oboInOwl:source>EFO:0004269</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <rdfs:label>cardiac rhythm disease</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/698247007"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2881"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0011057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0011057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0043218"/>
+        <obo:IAO_0000115>A disorder resulting from inadequate blood flow in the vessels that supply the brain. Representative examples include cerebrovascular ischemia, cerebral embolism, and cerebral infarction.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000473"/>
+        <oboInOwl:hasDbXref>DOID:6713</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0003763</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I60-I69</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:430-438.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:434.91</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:437.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:437.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ISBN-13:978-1-259-64403-0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002561</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2938</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:601367</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:62914000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0007820</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cerebrovascular disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cerebrovascular disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>CVA</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>CVA (cerebral vascular accident)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>cerebral infarction</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>cerebrovascular accident</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>stroke</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#ABBREVIATION"/>
+        <oboInOwl:id>MONDO:0011057</oboInOwl:id>
+        <oboInOwl:source>DOID:6713</oboInOwl:source>
+        <oboInOwl:source>EFO:0003763</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C2938</oboInOwl:source>
+        <oboInOwl:source>https://github.com/monarch-initiative/mondo/issues/4536</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0001-5208-3432</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
+        <rdfs:label>cerebrovascular disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D002561"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/62914000"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0007820"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/I60-I69"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_6713"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2938"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0021113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0021113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005275"/>
+        <obo:IAO_0000115>The significant impairment of gas exchange within the lungs resulting in hypoxia, hypercarbia, or both, to the extent that organ tissue perfusion is severely compromised. Causes include chronic obstructive pulmonary disease, asthma, emphysema, acute respiratory distress syndrome, pneumonia, pulmonary edema, pneumothorax, and congestive heart failure. Treatment requires intubation and mechanical ventilation until the time the lungs recover sufficient function.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>DOID:11162</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:518.81</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:518.83</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:518.84</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D012131</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C26872</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C27043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:39871006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C1145670</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>failure, respiratory</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory insufficiency/failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>acute respiratory failure</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>chronic respiratory failure</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym>acute and chronic respiratory failure</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acute-on-chronic respiratory failure</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MONDO:0021113</oboInOwl:id>
+        <oboInOwl:source>DOID:11162</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>NCIT:C26872</oboInOwl:source>
+        <rdfs:label>respiratory failure</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D012131"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/39871006"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C1145670"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_11162"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26872"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0024643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0024643">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005267"/>
+        <obo:IAO_0000115>A disorder that affects the muscle tissue of the heart. Representative examples include myocardial infarction, myocarditis, and cardiomyopathy.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml"/>
+        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location_top</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C35544</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:57809008</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease of myocardium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of myocardium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of myocardium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>myocardial disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>myocardial disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>myocardium disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>myocardium disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>disorder of heart muscle</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MONDO:0024643</oboInOwl:id>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <rdfs:label>myocardial disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/57809008"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35544"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0043218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0043218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005385"/>
+        <obo:IAO_0000115>A disorder of the nervous system related to a vascular etiology.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C117007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C3898144</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease of nervous system vasculature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nervous system disorder of vasculature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neurovascular disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vasculature nervous system disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0043218</oboInOwl:id>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C117007</oboInOwl:source>
+        <rdfs:label>neurovascular disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C3898144"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C117007"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0700096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0700096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/5858</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-01-03/mondo.owl</obo:IAO_0000412>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5208-3432</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>human disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0700096</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#rare_grouping"/>
+        <rdfs:label>human disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000112 xml:lang="en">mastectomy / craniotomy / liver resection e.t.c.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A planned process that uses operative manual and instrumental techniques on a patient to investigate and/or treat a pathological condition such as disease or injury, or to help improve bodily function or appearance.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Surgery</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obib/2023-04-05/obib.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">surgical procedure</rdfs:label>
     </owl:Class>
     
 
@@ -611,7 +1637,7 @@ Thus, we are attempting to define things generally enough that they could be reu
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000111 xml:lang="en">assay</obo:IAO_0000111>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assay the wavelength of light emitted by excited Neon atoms. Count of geese flying over a house.</obo:IAO_0000112>
+        <obo:IAO_0000112>Assay the wavelength of light emitted by excited Neon atoms. Count of geese flying over a house.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies.</obo:IAO_0000115>
         <obo:IAO_0000116>12/3/12: BP: the reference to the &apos;physical examination&apos; is included to point out that a prediction is not an assay, as that does not require physical examiniation. </obo:IAO_0000116>
@@ -619,10 +1645,45 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000118 xml:lang="en">measuring</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">scientific observation</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
-        <obo:OBI_0001847 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study assay</obo:OBI_0001847>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">any method</obo:OBI_9991118>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:OBI_0001847>study assay</obo:OBI_0001847>
+        <obo:OBI_9991118>any method</obo:OBI_9991118>
         <rdfs:label xml:lang="en">assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000111 xml:lang="en">population</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">PMID12564891. Environ Sci Technol. 2003 Jan 15;37(2):223-8. Effects of historic PCB exposures on the reproductive success of the Hudson River striped bass population.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">a population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area</obo:IAO_0000115>
+        <obo:IAO_0000116>1/28/2013, BP, on the call it was raised that we may want to switch to an external ontology for all populatin terms: 
+http://code.google.com/p/popcomm-ontology/</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">adapted from Oxford English Dictionnary</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">rem1: collection somehow always involve a selection process</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi/2023-09-20/obi.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000679">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000111>average value</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A  data item that is produced as the output of an averaging data transformation and represents the average value of the input data.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Monnie McGee</obo:IAO_0000117>
+        <obo:IAO_0000118>arithmetic mean</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi/2023-09-20/obi.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">average value</rdfs:label>
     </owl:Class>
     
 
@@ -647,6 +1708,21 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_1110122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000111>pathologic process</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">abnormal, harmful processes caused by or associated with a disease</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">IEDB</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi/2023-09-20/obi.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">pathologic process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGMS_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000014">
@@ -655,7 +1731,7 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
         <obo:IAO_0000232>creation date: 2010-07-19T10:18:02Z</obo:IAO_0000232>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
         <rdfs:label>clinical finding</rdfs:label>
     </owl:Class>
     
@@ -669,9 +1745,23 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000119>http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6</obo:IAO_0000119>
         <obo:IAO_0000232>creation date: 2011-02-21T09:57:44Z</obo:IAO_0000232>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A process involving a patient and a healthcare professional that focuses on the assessment, diagnosis, treatment and consultation for  a disease or injury, or for prevention of a subsequent injury.</obo:OOSTT_00000030>
         <rdfs:label>health care process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000096"/>
+        <obo:IAO_0000115 xml:lang="en">A temporally-connected health care process that has as participants an organization or person realizing the health care provider role and a person realizing the patient role.  The health care provider role and patient are realized during the health care encounter</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6</obo:IAO_0000119>
+        <obo:IAO_0000232>creation date: 2011-02-21T09:57:44Z</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
+        <rdfs:label>health care encounter</rdfs:label>
     </owl:Class>
     
 
@@ -684,11 +1774,25 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000119>http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6</obo:IAO_0000119>
         <obo:IAO_0000232>creation date: 2011-02-21T09:57:44Z</obo:IAO_0000232>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
         <rdfs:comment>09/16/2020
 Is this same as admission? 
 Is this the same as inpatient encounter?</rdfs:comment>
         <rdfs:label>hospitalization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000097"/>
+        <obo:IAO_0000115 xml:lang="en">A health care encounter involving a patient who has been admitted to a health care facility and remains in a hospital facility for at least one night.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6</obo:IAO_0000119>
+        <obo:IAO_0000232>creation date: 2011-02-21T09:57:44Z</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
+        <rdfs:label>inpatient encounter</rdfs:label>
     </owl:Class>
     
 
@@ -702,7 +1806,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000119>http://groups.google.com/group/ogms-discuss/browse_thread/thread/ca0ad373f27774c5</obo:IAO_0000119>
         <obo:IAO_0000232>creation date: 2011-09-20T09:57:44Z</obo:IAO_0000232>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">Damage to a person&apos;s tissues, bones, or organ systems with the potential for dysfunction and caused by mechanical, thermal, or radiation mechanisms</obo:OOSTT_00000030>
         <rdfs:label>injury</rdfs:label>
     </owl:Class>
@@ -715,7 +1819,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>A data item that is about a patient and is the specified output of a health care process assay or diagnostic process</obo:IAO_0000115>
         <obo:IAO_0000232>creation date: 2018-11-27</obo:IAO_0000232>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">clinical data item</rdfs:label>
     </owl:Class>
     
@@ -729,7 +1833,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen
 </obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">human social role</rdfs:label>
     </owl:Class>
     
@@ -742,7 +1846,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">A role in human social processes that is realized by health care processes such as seeking or providing treatment for disease and injury, diagnosing disease and injury, and undergoing diagnosis.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">health care role</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:comment>Mathias Brochhausen</rdfs:comment>
         <rdfs:label xml:lang="en">human health care role</rdfs:label>
     </owl:Class>
@@ -758,7 +1862,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">patient</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">CAFE domain expert working group.</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A person who presents to a healthcare provider for clinical care.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">In order to avoid the presumption of the formal structures and institutions of Western civilization, bearing a patient role does not entail that the organism presents at an official place of business, with an organization formally and legally registered with various gov&apos;t entities, with a person endowed by the gov&apos;t with certain certifications.</rdfs:comment>
         <rdfs:label xml:lang="en">patient role</rdfs:label>
@@ -773,7 +1877,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">A human health care role inhering in an organization or human being that is realized by a process of providing health care services to an organism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen
 </obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A healthcare provider with responsibility for the care of ill and injured patients.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">William R. Hogan</rdfs:comment>
         <rdfs:label xml:lang="en">health care provider role</rdfs:label>
@@ -789,7 +1893,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">physician</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Physician</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A credentialled health professional graduate of a school of medicine who provides medical care by promoting, maintaining, or restoring human health through the study, diagnosis, and treatment of disease, injury, and other physical and mental impairments.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">physician role</rdfs:label>
     </owl:Class>
@@ -804,7 +1908,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">nurse</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">based on: http://en.wikipedia.org/wiki/Nursing</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A health professional graduate of a school of nursing who provides nursing care to promote the attainment, maintenance, or recovery of optimal health and quality of life for individuals, families, and communities.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">nurse role</rdfs:label>
     </owl:Class>
@@ -815,7 +1919,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000027"/>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">Definition needed, but the idea is that we want to differentiate between provider and payer organizations.  Some organizaitons have both roles (e.g., UPMC has a Hospital Division, a Physician Divison, and an Insurance Division).</rdfs:comment>
         <rdfs:label xml:lang="en">health care provider organization role</rdfs:label>
     </owl:Class>
@@ -828,7 +1932,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role inhering in an entity realized by social interactions in human society.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">Previous definition: A role played by an entity in human social processes.</rdfs:comment>
         <rdfs:label xml:lang="en">role in human social processes</rdfs:label>
     </owl:Class>
@@ -841,7 +1945,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
         <obo:IAO_0000115 xml:lang="en">A role in human social processes that inheres in an organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">Defined class that we will ultimately move to an application ontology.  We are leaving here for now until we determine which application ontology: it is likely going to be an ontology that does not currently (2012-06-05) exist.
 
 Ditto for its current descendants.</rdfs:comment>
@@ -857,7 +1961,7 @@ Ditto for its current descendants.</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">A role in human social processes that inheres in an organism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan
 Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">Defined class that we will ultimately move to an application ontology.  We are leaving here for now until we determine which application ontology: it is likely going to be an ontology that does not currently (2012-06-05) exist.
 
 Ditto for its current descendants.</rdfs:comment>
@@ -873,7 +1977,7 @@ Ditto for its current descendants.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000025"/>
         <obo:IAO_0000115 xml:lang="en">An organization social role that is realized by a health care process.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">An organization that has a role in the healthcare delivery process.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">Previous definition: An organization social role played by an organization in health care processes.</rdfs:comment>
         <rdfs:label xml:lang="en">organization health care role</rdfs:label>
@@ -899,7 +2003,7 @@ Ditto for its current descendants.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
         <obo:IAO_0000115 xml:lang="en">A healthcare provider role that inheres in an organization and is realized by providing inpatient and outpatient care.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A healthcare facility that provides inpatient and outpatient care.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">hospital role</rdfs:label>
     </owl:Class>
@@ -937,7 +2041,7 @@ Ditto for its current descendants.</rdfs:comment>
         <obo:IAO_0000119 xml:lang="en">The following definition for &apos;injured patient&apos; was approved by the CAFE team of domain experts (experts in trauma care) May 29, 2015.
 
 A patient suffering one or more injuries.</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">An individual with one or more injuries that requires treatment.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">injured patient role</rdfs:label>
     </owl:Class>
@@ -950,7 +2054,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000086"/>
         <obo:IAO_0000117>Amanda hicks</obo:IAO_0000117>
         <obo:IAO_0000118>employee</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">employee role</rdfs:label>
     </owl:Class>
     
@@ -962,7 +2066,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000001"/>
         <obo:IAO_0000117 xml:lang="en">A role that concretizes a socio-lega generically dependent continuant</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">socio-legal human social role</rdfs:label>
     </owl:Class>
     
@@ -974,7 +2078,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000085"/>
         <obo:IAO_0000115 xml:lang="en">A socio-legal human social role that concretizes a socio-legally generically dependent continuat that was created by a declaration performed by an organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">human role within an organization</rdfs:label>
     </owl:Class>
     
@@ -984,8 +2088,21 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">employer role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021001"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic document act that concludes an inpatient encounter.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">discharge process</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse/releases/2023-10-08/omrse.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">patient discharge</rdfs:label>
     </owl:Class>
     
 
@@ -995,7 +2112,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
         <obo:IAO_0000115 xml:lang="en">A human health care provider role that inheres in a human being that is created by state licensing and that is realized by taking patient histories, performing physical exams, diagnosing illnesses, developing treatment plans, ordering lab tests, prescribing medications, counselling and educating patients, suturing wounds, and assisting in surgery under the supervision of a physician or a surgeon.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">US physician assistant role</rdfs:label>
     </owl:Class>
     
@@ -1008,9 +2125,21 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A physician role that, if it is realized, is realized either by administering medication for the temporary general or local suppression of sensory or motor nerve function during some health care encounter or providing airway management or by making decisions independently of a supervising physician regarding the adminstration of such medication.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">A  physician with responsibility for managing complex airways, and administering anesthesia or making decisions about anethesthic medications to be administered in collaboration with the attending physician.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">anesthesiologist role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021001"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic document act in which a patient is registered with a health care provider for the purpose of receiving care in an inpatient encounter.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse/releases/2023-10-08/omrse.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">admission process</rdfs:label>
     </owl:Class>
     
 
@@ -1670,22 +2799,13 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000046">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000045"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000047"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A role that is the specified outcome of a social act and that is mutually specifically dependent on a reportee role and that, if realized, is realized by the bearer of the role reporting activities and results to the bearer of the depending reportee role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
@@ -1698,22 +2818,13 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000047">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000045"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000046"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A role that is the specified outcome of a social act and that is mutually specifically dependent on a reporter role and that, if realized, is realized by the bearer of the role receiving reports on activities and results by the bearer of the depending reporter role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
@@ -2513,12 +3624,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000045"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000098"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -2542,12 +3647,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000045"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000097"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A role that, if realized, is realized by its bearer undergoing an assessment of  its actions carried out by a person or an organization regarding the compliance with specifications and the quality of those actions.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The individual or facility being assessed by an individual, committee, or external organzation.</obo:OOSTT_00000030>
@@ -4272,67 +5371,30 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000184">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:intersectionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000098"/>
-                                                    <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000045"/>
-                                                        <owl:someValuesFrom>
-                                                            <owl:Class>
-                                                                <owl:intersectionOf rdf:parseType="Collection">
-                                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000097"/>
-                                                                    <owl:Restriction>
-                                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                                                                        <owl:someValuesFrom>
-                                                                            <owl:Class>
-                                                                                <owl:intersectionOf rdf:parseType="Collection">
-                                                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                                                                    <owl:Restriction>
-                                                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                                                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000021"/>
-                                                                                    </owl:Restriction>
-                                                                                </owl:intersectionOf>
-                                                                            </owl:Class>
-                                                                        </owl:someValuesFrom>
-                                                                    </owl:Restriction>
-                                                                </owl:intersectionOf>
-                                                            </owl:Class>
-                                                        </owl:someValuesFrom>
-                                                    </owl:Restriction>
-                                                </owl:intersectionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000098"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000143"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that only consists of surgeons that are mentioned in a trauma on call plan specification and that are subject to a performance review by the trauma medical director.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
@@ -7665,6 +8727,249 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is a measurement of time used to describe a lifetime.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">age unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115 xml:lang="en">A disposition that is borne by an organism and, if realized, is realized by the formation of a blood clot in the veins.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">deep vein thrombosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that results in a drug report about an individual.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">drug screening</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <obo:IAO_0000115 xml:lang="en">A zero-dimensional temporal region that specifies when an individual is released from the emergency department of a hospital.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">emergency department discharge date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000342">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that describes if an individual does not have a zip/postal code specifying their place of residence.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">homeless status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000343">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is the outcome of an oxygen saturation measurement process that takes place no more than 30 minutes after admission to the ED or hospital.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">initial oxygen saturation information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000344">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is the outcome of a temperature measurement process that takes place no more than 30 minutes after admission to the ED or hospital.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">initial temperature information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000345">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about an injury borne by a patient and that has an ICD code as a part.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">ICD-10 injury diagnosis</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">internal classification of diseases tenth revision injury diagnosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is the outcome of a person stating how they wish to compensate a due amount.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">primary payment method information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a residence a person is living in for a short period of time.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">temporary address</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000348">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <obo:IAO_0000115 xml:lang="en">A zero dimensional temporal region that specifies when a trauma surgeon arrived at the patient&apos;s bedside.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">trauma surgeon arrival time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that provides the cumulative amount of time a patient spent in the ICU during one hospitalization measured in whole day increments.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary. 2024 Admissions. American College of Surgeons (ACS), Chicago, IL, 2023.</obo:IAO_0000119>
+        <obo:OOSTT_00000324 xml:lang="en">Total ICU length of stay</obo:OOSTT_00000324>
+        <rdfs:comment xml:lang="en">Each partial or full day must be measured as one calendar day.</rdfs:comment>
+        <rdfs:label xml:lang="en">total intensive care unit length of stay data item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000350">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
+        <obo:IAO_0000115 xml:lang="en">A value specification that specifies the situation to which a patient is discharged after hospilaization, including the information that the patient passed away during hospitalization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary. 2024 Admissions. American College of Surgeons (ACS), Chicago, IL, 2023.</obo:IAO_0000119>
+        <obo:OOSTT_00000324 xml:lang="en">hospital discharge disposition</obo:OOSTT_00000324>
+        <rdfs:label xml:lang="en">patient discharge disposition information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process consisting of chest compressions often combined with artificial ventilation, or mouth to mouth in an effort to manually preserve intact brain function until further measures are taken to restore spontaneous blood circulation and breathing in a person who is in cardiac arrest.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">CPR</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Cardiopulmonary_resuscitation&amp;oldid=1193977417</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">cardiopulmonary resuscitation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000502"/>
+        <obo:IAO_0000115 xml:lang="en">An endotracheal intubation that was not part of the initial treatment plan.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000324 xml:lang="en">unplanned intubation</obo:OOSTT_00000324>
+        <rdfs:label xml:lang="en">unplanned endotracheal intubation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000353">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
+        <obo:IAO_0000115 xml:lang="en">An surgical procedure that was not part of the initial treatment plan.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000324 xml:lang="en">unplanned visit to the OR</obo:OOSTT_00000324>
+        <rdfs:label xml:lang="en">unplanned surgical procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+        <obo:IAO_0000115 xml:lang="en">An admission process through which a patient is admitted to the intensive care unit.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000324 xml:lang="en">ICU admission</obo:OOSTT_00000324>
+        <rdfs:label xml:lang="en">intensive care unit admission process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000355">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000354"/>
+        <obo:IAO_0000115 xml:lang="en">An intensive care unit admission process that was not part of the initial treatment plan.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000324 xml:lang="en">unplanned ICU admission</obo:OOSTT_00000324>
+        <rdfs:label xml:lang="en">unplanned intensive care unit admission process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000356">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115 xml:lang="en">A population of all human beings receiving healthcare from one healthcare provider during a specified time.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">patient population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000357">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000679"/>
+        <obo:IAO_0000115 xml:lang="en">The average value (arithmetic mean) of the length of stay data of the patient population of an inpatient healthcare provider.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">mean length of stay</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000364">
@@ -7915,7 +9220,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000375 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000375">
@@ -7926,8 +9230,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">anesthesia services availability plan specification</rdfs:label>
     </owl:Class>
     
-    
-    
+
+
     <!-- http://purl.obolibrary.org/obo/STATO_0000184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000184">
@@ -7941,7 +9245,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">adapted from Wolfram Alpha:
 https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig76g7</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/stato.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/stato.owl</obo:IAO_0000412>
         <rdfs:label>ratio</rdfs:label>
     </owl:Class>
     
