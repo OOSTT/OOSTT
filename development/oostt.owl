@@ -8765,8 +8765,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000341 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000341">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
-        <obo:IAO_0000115 xml:lang="en">A zero-dimensional temporal region that specifies when an individual is released from the emergency department of a hospital.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that specifies when an individual is released from the emergency department of a hospital.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">emergency department discharge date</rdfs:label>
