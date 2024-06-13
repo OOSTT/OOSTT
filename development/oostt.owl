@@ -8820,7 +8820,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">ICD-10 injury diagnosis</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">internal classification of diseases tenth revision injury diagnosis</rdfs:label>
+        <rdfs:label xml:lang="en">international classification of diseases tenth revision injury diagnosis</rdfs:label>
     </owl:Class>
     
 
