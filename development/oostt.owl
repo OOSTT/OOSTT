@@ -38,7 +38,7 @@
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2024-01-07</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2024-06-13</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -8741,8 +8741,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000339 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000339">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-        <obo:IAO_0000115 xml:lang="en">A disposition that is borne by an organism and, if realized, is realized by the formation of a blood clot in the veins.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <obo:IAO_0000115 xml:lang="en">A human disease that is borne by an organism and, if realized, is realized by the formation of a blood clot in the veins.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">deep vein thrombosis</rdfs:label>
