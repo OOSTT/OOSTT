@@ -1003,6 +1003,70 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <obo:IAO_0000115>A disease involving the renal system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-06-04/mondo.owl</obo:IAO_0000412>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <oboInOwl:hasDbXref>DOID:18</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0009690</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:V47.4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D014570</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/location_top</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C27599</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3430</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:128606002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0042075</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease of renal system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of renal system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease, urinary tract</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease, urologic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease, urological</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>diseases, urinary tract</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>diseases, urologic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>diseases, urological</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of renal system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of the urinary system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of urinary system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>non-neoplastic urinary tract disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>renal system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>renal system disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>urinary disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>urinary system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>urinary system disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>urinary tract disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>urinary tract diseases</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>urinary tract disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>urologic disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>urologic disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>urological disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>urological diseases</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>urological disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>urological disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0002118</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#rare_grouping"/>
+        <oboInOwl:source>MONDO:EFO</oboInOwl:source>
+        <oboInOwl:source>MONDO:MEDGEN</oboInOwl:source>
+        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
+        <oboInOwl:source>MONDO:RelatedTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <rdfs:label>urinary system disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D014570"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/128606002"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0042075"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_18"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3430"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0004995 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004995">
@@ -8967,6 +9031,17 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">The average value (arithmetic mean) of the length of stay data of the patient population of an inpatient healthcare provider.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">mean length of stay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000358">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a person that is living in a  country they are not a citizen of without legal immigration or VISA paperwork.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">undocumented person status</rdfs:label>
     </owl:Class>
     
 
