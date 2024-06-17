@@ -978,6 +978,47 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0001106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0001106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005240"/>
+        <obo:IAO_0000115>An acute or chronic condition that is characterized by the inability of the kidneys to adequately filter the blood.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-06-04/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>DOID:1074</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:1002048</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:404.12</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:404.13</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:586</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D051437</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C4376</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:P378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:42399005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0035078</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C1565489</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>failure, renal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>renal failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>renal failure syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>renal insufficiency</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0001106</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
+        <oboInOwl:source>DOID:1074</oboInOwl:source>
+        <oboInOwl:source>MONDO:EFO</oboInOwl:source>
+        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C4376</oboInOwl:source>
+        <rdfs:label>kidney failure</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D051437"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/42399005"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0035078"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C1565489"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1074"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4376"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0001208 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0001208">
@@ -1063,6 +1104,36 @@ Thus, we are attempting to define things generally enough that they could be reu
         <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0042075"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_18"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3430"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002492 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002492">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001106"/>
+        <obo:IAO_0000115>Sudden and sustained deterioration of the kidney function characterized by decreased glomerular filtration rate, increased serum creatinine or oliguria.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-06-04/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>DOID:3021</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:N17</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D058186</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:patterns/acute</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C26808</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>AKI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ARF</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>acute kidney injury</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>acute renal failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>kidney failure, acute</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#ABBREVIATION"/>
+        <oboInOwl:id>MONDO:0002492</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
+        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <rdfs:label>acute kidney failure</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D058186"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/N17"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_3021"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26808"/>
     </owl:Class>
     
 
