@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+this is a nonsense change
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
      xml:base="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -38,7 +39,7 @@
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2024-06-13</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2024-01-07</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -978,47 +979,6 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MONDO_0001106 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0001106">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005240"/>
-        <obo:IAO_0000115>An acute or chronic condition that is characterized by the inability of the kidneys to adequately filter the blood.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-06-04/mondo.owl</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DOID:1074</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EFO:1002048</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD9:404.12</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD9:404.13</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD9:586</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MESH:D051437</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C4376</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:P378</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SCTID:42399005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS:C0035078</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS:C1565489</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>failure, renal</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>renal failure</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>renal failure syndrome</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>renal insufficiency</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>MONDO:0001106</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
-        <oboInOwl:source>DOID:1074</oboInOwl:source>
-        <oboInOwl:source>MONDO:EFO</oboInOwl:source>
-        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
-        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
-        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
-        <oboInOwl:source>NCIT:C4376</oboInOwl:source>
-        <rdfs:label>kidney failure</rdfs:label>
-        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D051437"/>
-        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/42399005"/>
-        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0035078"/>
-        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C1565489"/>
-        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1074"/>
-        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4376"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MONDO_0001208 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0001208">
@@ -1040,100 +1000,6 @@ Thus, we are attempting to define things generally enough that they could be reu
         <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/65710008"/>
         <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0264490"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27043"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MONDO_0002118 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002118">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
-        <obo:IAO_0000115>A disease involving the renal system.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-06-04/mondo.owl</obo:IAO_0000412>
-        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
-        <oboInOwl:hasDbXref>DOID:18</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EFO:0009690</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD9:V47.4</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MESH:D014570</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MONDO:patterns/location_top</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C27599</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C3430</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SCTID:128606002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS:C0042075</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>disease of renal system</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>disease or disorder of renal system</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>disease, urinary tract</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>disease, urologic</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>disease, urological</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>diseases, urinary tract</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>diseases, urologic</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>diseases, urological</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>disorder of renal system</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>disorder of the urinary system</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>disorder of urinary system</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>non-neoplastic urinary tract disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>renal system disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>renal system disease or disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>urinary disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>urinary system disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>urinary system disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>urinary tract disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>urinary tract diseases</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>urinary tract disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>urologic disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>urologic disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>urological disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>urological diseases</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>urological disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>urological disorders</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>MONDO:0002118</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#rare_grouping"/>
-        <oboInOwl:source>MONDO:EFO</oboInOwl:source>
-        <oboInOwl:source>MONDO:MEDGEN</oboInOwl:source>
-        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
-        <oboInOwl:source>MONDO:RelatedTo</oboInOwl:source>
-        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
-        <rdfs:label>urinary system disorder</rdfs:label>
-        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D014570"/>
-        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/128606002"/>
-        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0042075"/>
-        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_18"/>
-        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3430"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MONDO_0002492 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002492">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001106"/>
-        <obo:IAO_0000115>Sudden and sustained deterioration of the kidney function characterized by decreased glomerular filtration rate, increased serum creatinine or oliguria.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-06-04/mondo.owl</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DOID:3021</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD10CM:N17</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MESH:D058186</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MONDO:patterns/acute</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C26808</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>AKI</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>ARF</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>acute kidney injury</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>acute renal failure</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>kidney failure, acute</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#ABBREVIATION"/>
-        <oboInOwl:id>MONDO:0002492</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
-        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
-        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
-        <rdfs:label>acute kidney failure</rdfs:label>
-        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D058186"/>
-        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/N17"/>
-        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_3021"/>
-        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26808"/>
     </owl:Class>
     
 
@@ -1338,53 +1204,6 @@ Thus, we are attempting to define things generally enough that they could be reu
         <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D020521"/>
         <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/230690007"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3390"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MONDO_0005240 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005240">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002118"/>
-        <obo:IAO_0000115>A disease involving the kidney.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2024-06-04/mondo.owl</obo:IAO_0000412>
-        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
-        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml"/>
-        <oboInOwl:hasDbXref>DOID:557</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EFO:0003086</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD9:583.81</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MESH:D007674</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MONDO:design_pattern</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MONDO:patterns/location</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MONDO:patterns/location_top</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C3149</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SCTID:90708001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS:C0022658</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>disease of kidney</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>disease or disorder of kidney</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>disorder of kidney</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>kidney disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>kidney disease or disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>kidney disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>renal disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>renal disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>nephropathy</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>MONDO:0005240</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
-        <oboInOwl:source>DOID:557</oboInOwl:source>
-        <oboInOwl:source>EFO:0003086</oboInOwl:source>
-        <oboInOwl:source>MONDO:EFO</oboInOwl:source>
-        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
-        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
-        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
-        <rdfs:label>kidney disorder</rdfs:label>
-        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D007674"/>
-        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/90708001"/>
-        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0022658"/>
-        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_557"/>
-        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3149"/>
     </owl:Class>
     
 
@@ -8912,7 +8731,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000338">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is a measurement of time used to describe a lifetime.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is a measurement of time used to describe a lifetime.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">age unit</rdfs:label>
@@ -8923,8 +8742,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000339 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000339">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
-        <obo:IAO_0000115 xml:lang="en">A human disease that is borne by an organism and, if realized, is realized by the formation of a blood clot in the veins.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115 xml:lang="en">A disposition that is borne by an organism and, if realized, is realized by the formation of a blood clot in the veins.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">deep vein thrombosis</rdfs:label>
@@ -8947,8 +8766,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000341 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000341">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115 xml:lang="en">A data item that specifies when an individual is released from the emergency department of a hospital.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <obo:IAO_0000115 xml:lang="en">A zero-dimensional temporal region that specifies when an individual is released from the emergency department of a hospital.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">emergency department discharge date</rdfs:label>
@@ -8971,12 +8790,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000343 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000343">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115 xml:lang="en">An data item that is the outcome of an oxygen saturation measurement process that takes place no more than 30 minutes after admission to a healthcare provider.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is the outcome of an oxygen saturation measurement process that takes place no more than 30 minutes after admission to the ED or hospital.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">initial oxygen saturation</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">initial oxygen saturation information after admission</rdfs:label>
+        <rdfs:label xml:lang="en">initial oxygen saturation information</rdfs:label>
     </owl:Class>
     
 
@@ -8984,12 +8802,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000344 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000344">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115 xml:lang="en">A data item that is the outcome of a temperature measurement process that takes place no more than 30 minutes after admission to a healthcare provider.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is the outcome of a temperature measurement process that takes place no more than 30 minutes after admission to the ED or hospital.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">initial temperature</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">initial temperature at admission</rdfs:label>
+        <rdfs:label xml:lang="en">initial temperature information</rdfs:label>
     </owl:Class>
     
 
@@ -9002,7 +8819,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">ICD-10 injury diagnosis</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">international classification of diseases tenth revision injury diagnosis</rdfs:label>
+        <rdfs:label xml:lang="en">internal classification of diseases tenth revision injury diagnosis</rdfs:label>
     </owl:Class>
     
 
@@ -9022,8 +8839,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000347 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000347">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000422"/>
-        <obo:IAO_0000115 xml:lang="en">A postal address that is about a residence a person is living in for a short period of time.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a residence a person is living in for a short period of time.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">temporary address</rdfs:label>
@@ -9034,8 +8851,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000348 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000348">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115 xml:lang="en">A data item that specifies when a trauma surgeon arrived at the patient&apos;s bedside.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <obo:IAO_0000115 xml:lang="en">A zero dimensional temporal region that specifies when a trauma surgeon arrived at the patient&apos;s bedside.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2021. Accessed July 7, 2023 https://www.facs.org/media/ouzftbad/ntds_data_dictionary_2021.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">trauma surgeon arrival time</rdfs:label>
@@ -9149,17 +8966,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">The average value (arithmetic mean) of the length of stay data of the patient population of an inpatient healthcare provider.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">mean length of stay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000358 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000358">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a person that is living in a  country they are not a citizen of without legal immigration or VISA paperwork.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Diya Mehta</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">undocumented person status</rdfs:label>
     </owl:Class>
     
 
