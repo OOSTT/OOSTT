@@ -9463,10 +9463,22 @@ https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#age">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>age at injury is an information content identity that denotes how many years the patient has lived at the time of the injury</obo:IAO_0000115>
-        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
-        <dc:source>American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</dc:source>
-        <rdfs:label>age at injury</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">age at injury is an information content identity that denotes how many years the patient has lived at the time of the injury</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
+        <dc:source xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</dc:source>
+        <rdfs:label xml:lang="en">age at injury</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#race_role -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#race_role">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">race role is a role that is self-identified by an individual based on shared social experiences and cultural upbringing</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
+        <dc:source xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</dc:source>
+        <rdfs:label xml:lang="en">race role</rdfs:label>
     </owl:Class>
     
 
