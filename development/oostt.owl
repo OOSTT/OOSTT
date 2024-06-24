@@ -732,6 +732,24 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GEO_000000396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000396">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">A governmental organization with a defined territory on which it exercises internal and external sovereignty, a permanent population, a government, and the capacity to enter into relations with other sovereign states.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">de facto sovereign state</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">de facto state</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">nation</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">nation state</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Sovereign_state</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/geo.owl</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">Per Wikipedia, the word &apos;nation&apos; does not always refer to soverign states.  For example, the &quot;nation of Islam&quot;.</rdfs:comment>
+        <rdfs:label xml:lang="en">sovereign state</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
