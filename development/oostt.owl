@@ -9495,6 +9495,18 @@ https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig
     
 
 
+    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#international_classification_of_diseases_tenth_revision_place_of_occurrence_external_cause_code -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#international_classification_of_diseases_tenth_revision_place_of_occurrence_external_cause_code">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">The international classification of diseases tenth revision place of occurrence external cause code is an information content entity that denotes the location of the trauma incident</obo:IAO_0000115>
+        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">international classification of diseases tenth revision place of occurrence external cause code</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#international_classification_of_diseases_tenth_revision_primary_external_cause_code -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#international_classification_of_diseases_tenth_revision_primary_external_cause_code">
