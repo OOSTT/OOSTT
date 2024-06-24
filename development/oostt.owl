@@ -694,6 +694,20 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GEO_000000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">A subnational entity that is the primary organizational member of a nation, is subject to the full set of laws of the nation, enjoys all the privileges established under the laws of the nation, is not a member of any other geopolitical entity, and itself governs a part of the geographical region governed by the nation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/geo.owl</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">examples: Northern Ireland, Florida</rdfs:comment>
+        <rdfs:label xml:lang="en">major administrative subdivision</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GEO_000000370 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000370">
