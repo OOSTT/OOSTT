@@ -865,6 +865,20 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GSSO_007232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_007232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An ethnic identity is the identification with a certain ethnicity, usually on the basis of a presumed common genealogy or ancestry. Recognition by others as a distinct ethnic group is often a contributing factor to developing this bond of identification. Ethnic groups are also often united by common cultural, behavioral, linguistic, ritualistic, or religious traits.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/gaz.owl</obo:IAO_0000412>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20200721053627/https://sacred.omeka.net/glossary"/>
+        <oboInOwl:hasBroadSynonym xml:lang="en">racial and ethnic identity</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">ethnic identity</rdfs:label>
+        <schema:alternateName xml:lang="en">ethnic identities</schema:alternateName>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IDO_0000636 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000636">
