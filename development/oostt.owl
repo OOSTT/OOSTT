@@ -9326,6 +9326,17 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000361">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115>An organization that is governed by a higher government and is inhibited by a designated grouping of people</obo:IAO_0000115>
+        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">city</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000362 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000362">
