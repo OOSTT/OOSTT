@@ -9315,14 +9315,13 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000361 -->
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000360 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000361">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is typically tied to a background in a geographic region and involves some shared cultural practices</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115>An organization that exists within a major administrative subdivision that is occupied by other territories and governs those territories while following the governing from their respective major administrative subdivision</obo:IAO_0000115>
         <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">ethnicity</rdfs:label>
+        <rdfs:label xml:lang="en">county</rdfs:label>
     </owl:Class>
     
 
