@@ -10,9 +10,12 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:wiki="https://www.wikidata.org/wiki/"
      xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://schema.org/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:Property="https://www.wikidata.org/wiki/Property:"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl">
@@ -265,6 +268,12 @@
     
 
 
+    <!-- http://purl.org/dc/terms/isReferencedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isReferencedBy"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
@@ -295,6 +304,12 @@
     <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
         <rdfs:label>has_related_synonym</rdfs:label>
     </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
     
 
 
@@ -344,6 +359,30 @@
     <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- https://schema.org/alternateName -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/alternateName"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q1823134 -->
+
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Q1823134"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Property:P1748 -->
+
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P1748"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Property:P5806 -->
+
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P5806"/>
     
 
 
@@ -772,6 +811,35 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000115>A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/obi/2023-09-20/obi.owl</obo:IAO_0000412>
         <rdfs:label>biological_process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_002199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_002199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A grouping of humans based on shared physical or social qualities into categories generally viewed as distinct by society. The term was first used to refer to speakers of a common language and then to denote national affiliations. By the 17th century the term began to refer to physical (phenotypical) traits. Modern scholarship regards race as a social construct, an identity which is assigned based on rules made by society. While partially based on physical similarities within groups, race does not have an inherent physical or biological meaning.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Race is a characteristic of an individual defined by some culturally-defined combination of heritable phenotypic characteristics, geographic ancestry, physical appearance, ethnicity, and social status.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/aeo.owl</obo:IAO_0000412>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://mamoura.eci.ufmg.br/tematres/vocab/index.php?tema=1</dc:identifier>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20200721053627/https://sacred.omeka.net/glossary"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20210619072006/https://epi.washington.edu/sites/default/files/website_documents/DEI%20Glossary_Formatted_20190711.pdf"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20211201210025/https://lgbtqia.ucdavis.edu/educated/glossary"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20220131044449/https://www.ama-assn.org/system/files/ama-aamc-equity-guide.pdf"/>
+        <terms:isReferencedBy rdf:resource="https://www.worldcat.org/oclc/940437564"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Race_(human_categorization)</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q3254959</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">racial</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">racial category</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">racial group</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">racialized group</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">race</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+        <schema:alternateName xml:lang="en">races</schema:alternateName>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85110232</wiki:Q1823134>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C17049</Property:P1748>
+        <Property:P5806 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/SNOMEDCT/103579009</Property:P5806>
     </owl:Class>
     
 
@@ -9196,6 +9264,66 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content identity that denotes how many years the patient has lived at the time of the injury</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">age at injury</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">race role is a role that is self-identified by an individual based on shared social experiences and cultural upbringing</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">race role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000361">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">ethncity role is a role that is self-identified by an individual that is typically tied to a background in a geographic region and involves some shared cultural practices</obo:IAO_0000115>
+        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">ethnicity role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content identity that is the biological qualities and characteristics most commonly found between the female and male categories</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">sex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000363">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that denotes the year, month, and day that an individual was born</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">date of birth</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000364">
@@ -9458,6 +9586,150 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content identity that indicates if an individual is injured while they are being compensated for their service</obo:IAO_0000115>
+        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">work related injury</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content identity that denotes the field where an individual is compensated for their service</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">occupational industry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content identity that describes an individual&apos;s primary method of obtaining money</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">occupation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that denotes the external factor that caused injury and the main reason a patient is admitted to the hospital</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">international classification of diseases tenth revision primary external cause code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000380">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that denotes the location of the trauma incident through a code</obo:IAO_0000115>
+        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">international classification of diseases tenth revision place of occurrence external cause code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000381">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that denotes the multiple international classification of diseases tenth revision primary external cause code required to classifiy the trauma incident</obo:IAO_0000115>
+        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">international classification of diseases tenth revision additional external cause code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000382">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An object used in order to prevent injury to a child</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">child protective device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000383">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that indicates if the safety device that inflates rapidly was utilized during a motor vehicle crash</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">deployed airbag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000384">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that classifies each injury by the respective body region on a six point scale</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">abbreviated injury scale code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000385">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000594"/>
+        <obo:IAO_0000115 xml:lang="en">A software that calculates abbreviated injury scale codes</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">abbreviated injury scale version</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000386">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that denotes the total amount of time a patient has spent on a machine that moves oxygen in and out of their lungs</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">total ventilator length of use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000387">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A process that occurs when an intense physical injury happens to the body</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">trauma incident</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/STATO_0000184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000184">
@@ -9487,210 +9759,6 @@ https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig
         <obo:IAO_0000119 xml:lang="en">adapted from: https://www.health.ny.gov/diseases/chronic/basicstat.htm</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/stato.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">mortality</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#abbreviated_injury_scale_code -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#abbreviated_injury_scale_code">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">The abbreviated injury scale code is an information content entity that classifies each injury by the respective body region on a six point scale</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">abbreviated injury scale code</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#abbreviated_injury_scale_version -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#abbreviated_injury_scale_version">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000594"/>
-        <obo:IAO_0000115 xml:lang="en">The abbreviated injury scale version is a software that calculates abbreviated injury scale codes</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">abbreviated injury scale version</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#age -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#age">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">age at injury is an information content identity that denotes how many years the patient has lived at the time of the injury</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">age at injury</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#child_protective_device -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#child_protective_device">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">A child protective device is an object used in order to prevent injury to a child</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">child protective device</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#date_of_birth -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#date_of_birth">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115 xml:lang="en">The date of birth is a data item that denotes the year, month, and day that an individual was born</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">date of birth</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#deployed_airbag -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#deployed_airbag">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">A deployed airbag is an information content entity that indicates if the safety device that inflates rapidly was utilized during a motor vehicle crash</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">deployed airbag</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#ethnicity_role -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#ethnicity_role">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">ethncity role is a role that is self-identified by an individual that is typically tied to a background in a geographic region and involves some shared cultural practices</obo:IAO_0000115>
-        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">ethnicity role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#international_classification_of_diseases_tenth_revision_additional_external_cause_code -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#international_classification_of_diseases_tenth_revision_additional_external_cause_code">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">The international classification of diseases tenth revision additional external cause code is an information content entity that denotes the multiple international classification of diseases tenth revision primary external cause code required to classifiy the trauma incident</obo:IAO_0000115>
-        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">international classification of diseases tenth revision additional external cause code</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#international_classification_of_diseases_tenth_revision_place_of_occurrence_external_cause_code -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#international_classification_of_diseases_tenth_revision_place_of_occurrence_external_cause_code">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">The international classification of diseases tenth revision place of occurrence external cause code is an information content entity that denotes the location of the trauma incident</obo:IAO_0000115>
-        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">international classification of diseases tenth revision place of occurrence external cause code</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#international_classification_of_diseases_tenth_revision_primary_external_cause_code -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#international_classification_of_diseases_tenth_revision_primary_external_cause_code">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">The international classification of dieseases tenth revision primary external cause code is an information content entity that denotes the external factor that caused injury and the main reason a patient is admitted to the hospital</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">international classification of diseases tenth revision primary external cause code</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#occupation -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#occupation">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">Occupation is an information content identity that describes the patient&apos;s primary method of obtaining money</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">occupation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#occupational_industry -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#occupational_industry">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">Occupational industry is an information content identity that denotes the field where an individual is compensated for their service</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">occupational industry</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#race_role -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#race_role">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">race role is a role that is self-identified by an individual based on shared social experiences and cultural upbringing</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">race role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#sex -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#sex">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">sex is an information content identity that is the biological qualities and characteristics most commonly found between the female and male categories</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">sex</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#total_ventilator_length_of_use -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#total_ventilator_length_of_use">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">The total ventilator length of use is a data item that denotes the total amount of time a patient has spent on a machine that moves oxygen in and out of their lungs</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">total ventilator length of use</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#trauma_incident -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#trauma_incident">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115 xml:lang="en">The trauma incident is a process that occurs when an intense physical injury happens to the body</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">trauma incident</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#work_related_injury -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl#work_related_injury">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">Work-related injury is an information content identity that indicates if an individual is injured while they are being compensated for their service</obo:IAO_0000115>
-        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">work related injury</rdfs:label>
     </owl:Class>
     
 
@@ -9864,6 +9932,16 @@ https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig
         <obo:IAO_0000116 xml:lang="en">A part of graduate education where the graduate from a medical program practices medicine under the supervision of an attending physician. (OOSTT editor comment created by M. Brochhausen, Nov 9, 2016)</obo:IAO_0000116>
         <dc:source>http://vivoweb.org/sites/vivoweb.org/files/vivo-isf-public-1.6.owl</dc:source>
         <rdfs:label xml:lang="en">Medical Residency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001799 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001799">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000338"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/aeo.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">ethnic group</rdfs:label>
     </owl:Class>
     
 
