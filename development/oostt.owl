@@ -835,7 +835,6 @@ Thus, we are attempting to define things generally enough that they could be reu
         <oboInOwl:hasSynonym xml:lang="en">racial group</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">racialized group</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">race</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
         <schema:alternateName xml:lang="en">races</schema:alternateName>
         <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85110232</wiki:Q1823134>
         <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C17049</Property:P1748>
@@ -9276,26 +9275,14 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000360 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000360">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">race role is a role that is self-identified by an individual based on shared social experiences and cultural upbringing</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">race role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000361 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000361">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">ethncity role is a role that is self-identified by an individual that is typically tied to a background in a geographic region and involves some shared cultural practices</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is typically tied to a background in a geographic region and involves some shared cultural practices</obo:IAO_0000115>
         <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">ethnicity role</rdfs:label>
+        <rdfs:label xml:lang="en">ethnicity</rdfs:label>
     </owl:Class>
     
 
@@ -9932,16 +9919,6 @@ https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig
         <obo:IAO_0000116 xml:lang="en">A part of graduate education where the graduate from a medical program practices medicine under the supervision of an attending physician. (OOSTT editor comment created by M. Brochhausen, Nov 9, 2016)</obo:IAO_0000116>
         <dc:source>http://vivoweb.org/sites/vivoweb.org/files/vivo-isf-public-1.6.owl</dc:source>
         <rdfs:label xml:lang="en">Medical Residency</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0001799 -->
-
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001799">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/aeo.owl</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">ethnic group</rdfs:label>
     </owl:Class>
     
 
