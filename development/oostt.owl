@@ -821,34 +821,6 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GSSO_002199 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_002199">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">A grouping of humans based on shared physical or social qualities into categories generally viewed as distinct by society. The term was first used to refer to speakers of a common language and then to denote national affiliations. By the 17th century the term began to refer to physical (phenotypical) traits. Modern scholarship regards race as a social construct, an identity which is assigned based on rules made by society. While partially based on physical similarities within groups, race does not have an inherent physical or biological meaning.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">Race is a characteristic of an individual defined by some culturally-defined combination of heritable phenotypic characteristics, geographic ancestry, physical appearance, ethnicity, and social status.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/aeo.owl</obo:IAO_0000412>
-        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://mamoura.eci.ufmg.br/tematres/vocab/index.php?tema=1</dc:identifier>
-        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20200721053627/https://sacred.omeka.net/glossary"/>
-        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20210619072006/https://epi.washington.edu/sites/default/files/website_documents/DEI%20Glossary_Formatted_20190711.pdf"/>
-        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20211201210025/https://lgbtqia.ucdavis.edu/educated/glossary"/>
-        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20220131044449/https://www.ama-assn.org/system/files/ama-aamc-equity-guide.pdf"/>
-        <terms:isReferencedBy rdf:resource="https://www.worldcat.org/oclc/940437564"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Race_(human_categorization)</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q3254959</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">racial</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">racial category</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">racial group</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">racialized group</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">race</rdfs:label>
-        <schema:alternateName xml:lang="en">races</schema:alternateName>
-        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85110232</wiki:Q1823134>
-        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C17049</Property:P1748>
-        <Property:P5806 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/SNOMEDCT/103579009</Property:P5806>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GSSO_003411 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003411">
