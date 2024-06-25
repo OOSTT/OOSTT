@@ -2331,11 +2331,15 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000086"/>
+        <obo:IAO_0000115 xml:lang="en">A role in human social processes that, if realized, is realized when the bearer provides labor or services in exchange for a wage or salary as specified by some deontic declaration.</obo:IAO_0000115>
         <obo:IAO_0000117>Amanda hicks</obo:IAO_0000117>
         <obo:IAO_0000118>employee</obo:IAO_0000118>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/gaz.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">employee role</rdfs:label>
+        <rdfs:label xml:lang="en">job role</rdfs:label>
     </owl:Class>
     
 
