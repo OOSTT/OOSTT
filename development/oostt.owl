@@ -374,6 +374,12 @@
     
 
 
+    <!-- https://www.wikidata.org/wiki/Property:P1149 -->
+
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P1149"/>
+    
+
+
     <!-- https://www.wikidata.org/wiki/Property:P1748 -->
 
     <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P1748"/>
@@ -839,6 +845,22 @@ Thus, we are attempting to define things generally enough that they could be reu
         <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85110232</wiki:Q1823134>
         <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C17049</Property:P1748>
         <Property:P5806 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/SNOMEDCT/103579009</Property:P5806>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_003411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003411">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">Collective human activities involved in the production of goods and services; or the physical or mental exertion of individuals to produce or accomplish something.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/gaz.owl</obo:IAO_0000412>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://homosaurus.org/terms/labour</dc:identifier>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Labor</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">labour</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">labor</rdfs:label>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh90004091</wiki:Q1823134>
+        <Property:P1149>HD4801-HD8942</Property:P1149>
     </owl:Class>
     
 
