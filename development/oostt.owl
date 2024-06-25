@@ -9939,7 +9939,7 @@ https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig
     <!-- http://www.ebi.ac.uk/efo/EFO_0001799 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001799">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000338"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/aeo.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">ethnic group</rdfs:label>
     </owl:Class>
