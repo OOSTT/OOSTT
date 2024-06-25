@@ -374,12 +374,6 @@
     
 
 
-    <!-- https://www.wikidata.org/wiki/Property:P1149 -->
-
-    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P1149"/>
-    
-
-
     <!-- https://www.wikidata.org/wiki/Property:P1748 -->
 
     <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P1748"/>
@@ -817,22 +811,6 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000115>A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/obi/2023-09-20/obi.owl</obo:IAO_0000412>
         <rdfs:label>biological_process</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GSSO_003411 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003411">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">Collective human activities involved in the production of goods and services; or the physical or mental exertion of individuals to produce or accomplish something.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/gaz.owl</obo:IAO_0000412>
-        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://homosaurus.org/terms/labour</dc:identifier>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Labor</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">labour</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">labor</rdfs:label>
-        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh90004091</wiki:Q1823134>
-        <Property:P1149>HD4801-HD8942</Property:P1149>
     </owl:Class>
     
 
@@ -2318,22 +2296,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:OOSTT_00000030 xml:lang="en">An individual with one or more injuries that requires treatment.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">injured patient role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000077 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000086"/>
-        <obo:IAO_0000115 xml:lang="en">A role in human social processes that, if realized, is realized when the bearer provides labor or services in exchange for a wage or salary as specified by some deontic declaration.</obo:IAO_0000115>
-        <obo:IAO_0000117>Amanda hicks</obo:IAO_0000117>
-        <obo:IAO_0000118>employee</obo:IAO_0000118>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/gaz.owl</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">employee role</rdfs:label>
-        <rdfs:label xml:lang="en">job role</rdfs:label>
     </owl:Class>
     
 
@@ -5806,20 +5768,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000190">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000077"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000087"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -5832,32 +5780,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:OOSTT_00000030 xml:lang="en">A contract specifying the relationship between an employee and employer that outlines specific role responsibilities and expectations.</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">JPB (20 March 2017): should output employee role and employer role</rdfs:comment>
         <rdfs:label xml:lang="en">employment contract document act</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000191 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000191">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000077"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000190"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An employee role that is the specified output of an employment contract document act and that, if realized, is realized by its bearer providing services for the amount of type regarded full time under the specific labor administration.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">An employee who provides services full time as specified in the employment agreement.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">full time employee role</rdfs:label>
     </owl:Class>
     
 
