@@ -9657,6 +9657,18 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity that is typically tied to having a background in a geographic region and involves some shared cultural practices</obo:IAO_0000115>
+        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000119></obo:IAO_0000119>
+        <rdfs:label xml:lang="en">ethnic identity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/STATO_0000184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000184">
