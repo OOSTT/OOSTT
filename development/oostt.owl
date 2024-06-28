@@ -5788,9 +5788,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content identity that describes a social categorization of people by their believed physical appearence or their lineage</obo:IAO_0000115>
+        <obo:IAO_0000115>An information content identity that describes a social categorization of people by assumptions based on physical characteristics or their assumed lineage</obo:IAO_0000115>
         <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">racial identity</rdfs:label>
+        <rdfs:label xml:lang="en">racial category</rdfs:label>
     </owl:Class>
     
 
