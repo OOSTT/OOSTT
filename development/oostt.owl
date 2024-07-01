@@ -423,6 +423,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GEO_000000329 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GEO_000000329">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000115 xml:lang="en">A governing organization G1 is subordinate to another governing organization G2 iff there is some authority possessed by G2 that is not possessed by G1 and G1&apos;s jurisdiction falls within the relevant jurisdiction of G2.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/geo.owl</obo:IAO_0000412>
+        <rdfs:comment>
+&apos;is subordinate authority of&apos;
+Domain: governing organization
+Range: governing organization
+Formal properties: transitive, anti-symmetric, irreflexive
+Natural language definition: A governing organization G1 is subordinate to another governing organization G2 iff there is some authority possessed by G2 that is not possessed by G1 and G1 falls within the relevant jurisdiction of G2.</rdfs:comment>
+        <rdfs:label xml:lang="en">is subordinate authority of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000846 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000846">
@@ -9662,7 +9679,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000388">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity that is typically tied to having a background in a geographic region and involves some shared cultural practices</obo:IAO_0000115>
+        <obo:IAO_0000115>An information content entity that is described as an individual having a background in a geographic region and involves some shared cultural practices of that region</obo:IAO_0000115>
         <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
         <obo:IAO_0000119></obo:IAO_0000119>
         <rdfs:label xml:lang="en">ethnic identity</rdfs:label>
