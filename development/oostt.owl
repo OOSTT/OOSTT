@@ -1477,6 +1477,68 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <obo:IAO_0000115>An acute or chronic inflammation of the bone and its structures due to infection with pyogenic bacteria.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/mondo/releases/2024-07-02/mondo.owl</obo:IAO_0000412>
+        <obo:IAO_0000589>osteomyelitis (disease)</obo:IAO_0000589>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005113"/>
+        <oboInOwl:hasDbXref>DOID:1019</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0003102</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GARD:7286</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HP:0002754</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:730.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:730.01</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:730.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:730.10</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:730.11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:730.20</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:730.28</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:730.92</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:730.93</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:730.94</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:730.96</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:730.97</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDGEN:10497</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D010019</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:ambiguous</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C27577</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:P378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:60168000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0029443</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>osteomyelitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>osteomyelitis (disease)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005246</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#gard_rare"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#rare"/>
+        <oboInOwl:source>DOID:1019</oboInOwl:source>
+        <oboInOwl:source>EFO:0003102</oboInOwl:source>
+        <oboInOwl:source>GARD:7286</oboInOwl:source>
+        <oboInOwl:source>MEDGEN:10497</oboInOwl:source>
+        <oboInOwl:source>MONDO:EFO</oboInOwl:source>
+        <oboInOwl:source>MONDO:GARD</oboInOwl:source>
+        <oboInOwl:source>MONDO:MEDGEN</oboInOwl:source>
+        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>MONDO:otherHierarchy</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0001-5208-3432</oboInOwl:source>
+        <rdfs:label>osteomyelitis</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/10497"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D010019"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/60168000"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0029443"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1019"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27577"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0005267 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005267">
