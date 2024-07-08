@@ -274,6 +274,14 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
+        <rdfs:label>creation date</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
@@ -323,7 +331,9 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -828,6 +838,30 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000115>A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/obi/2023-09-20/obi.owl</obo:IAO_0000412>
         <rdfs:label>biological_process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <obo:IAO_0000115>A type of ulcer that is caused when an area of skin is subject to pressure over a prolonged period of time, ranging in range in severity from patches of discolored skin to open wounds that expose the underlying bone or muscle. The most common sites are the sacrum, coccyx, heels and the hips.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/hp/releases/2024-07-01/hp.owl</obo:IAO_0000412>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+        <oboInOwl:creation_date>2013-11-08T08:49:52Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:399912005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:420226006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0011127</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Bedsore</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Decubitus Ulcer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Pressure Sore</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Pressure ulcer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <oboInOwl:id>HP:0012399</oboInOwl:id>
+        <rdfs:comment>Pressure ulcers tend to affect persons with reduced mobility who are bedridden or wheelchair-bound.</rdfs:comment>
+        <rdfs:label>Pressure ulcer</rdfs:label>
     </owl:Class>
     
 
