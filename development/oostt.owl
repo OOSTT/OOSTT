@@ -1871,6 +1871,39 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0045057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0045057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <obo:IAO_0000115>A disorder characterized by confusion; inattentiveness; disorientation; illusions; hallucinations; agitation; and in some instances autonomic nervous system overactivity. It may result from toxic/metabolic conditions or structural brain lesions. (From Adams et al., Principles of Neurology, 6th ed, pp411-2)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/mondo/releases/2024-07-02/mondo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>EFO:0009267</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:293.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDGEN:41445</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D003693</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2981</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15876360</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:2776000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0011206</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>OBS syndrome</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>organic brain syndrome</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MONDO:0045057</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
+        <oboInOwl:source>MEDGEN:41445</oboInOwl:source>
+        <oboInOwl:source>MONDO:EFO</oboInOwl:source>
+        <oboInOwl:source>MONDO:MEDGEN</oboInOwl:source>
+        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <rdfs:label>delirium</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/41445"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D003693"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/2776000"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0011206"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2981"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0700096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0700096">
