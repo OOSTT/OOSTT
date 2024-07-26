@@ -1768,6 +1768,52 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <obo:IAO_0000115>A substance-specific organic brain syndrome that follows the discontinuation of administration or use, or reduction in intake of a substance (including alcohol, prescribed medications and recreational drugs). Syndrome manifests with diverse, often painful physical and psychological symptoms, which include but not limited to intense drug craving, anxiety, depression, insomnia, nausea, perspiration, body aches, tremors, hallucinations, and convulsions.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/5544</obo:IAO_0000233>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/mondo/releases/2024-07-02/mondo.owl</obo:IAO_0000412>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005084"/>
+        <oboInOwl:hasDbXref>DOID:0060001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0005800</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:292.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDGEN:20990</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D013375</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:0000566</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C35046</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:363101005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0038587</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>drug withdrawal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>drug withdrawal syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>substance withdrawal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>substance withdrawal disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>substance withdrawal syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>withdrawal syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>withdrawal disorder</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MONDO:0005567</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
+        <oboInOwl:source>EFO:0005800</oboInOwl:source>
+        <oboInOwl:source>MEDGEN:20990</oboInOwl:source>
+        <oboInOwl:source>MONDO:EFO</oboInOwl:source>
+        <oboInOwl:source>MONDO:MEDGEN</oboInOwl:source>
+        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0001-5208-3432</oboInOwl:source>
+        <rdfs:label>substance withdrawal syndrome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/20990"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D013375"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/363101005"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0038587"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_0060001"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35046"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0006502 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0006502">
