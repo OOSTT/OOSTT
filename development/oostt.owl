@@ -896,6 +896,7 @@ Thus, we are attempting to define things generally enough that they could be reu
     <!-- http://purl.obolibrary.org/obo/HP_0012399 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0200042"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
         <obo:IAO_0000115>A type of ulcer that is caused when an area of skin is subject to pressure over a prolonged period of time, ranging in range in severity from patches of discolored skin to open wounds that expose the underlying bone or muscle. The most common sites are the sacrum, coccyx, heels and the hips.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/hp/releases/2024-07-01/hp.owl</obo:IAO_0000412>
