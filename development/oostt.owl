@@ -1175,6 +1175,42 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <obo:IAO_0000115>A disorder characterized by behavioral and/or psychological abnormalities, often accompanied by physical symptoms. The symptoms may cause clinically significant distress or impairment in social and occupational areas of functioning. Representative examples include anxiety disorders, cognitive disorders, mood disorders and schizophrenia.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/mondo/releases/2024-07-02/mondo.owl</obo:IAO_0000412>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005071"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/specific_disease_by_disrupted_process.yaml"/>
+        <oboInOwl:hasDbXref>DOID:150</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001523</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MFOMD:0000004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2893</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:74732009</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Psychiatric disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Psychiatric disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>disease of mental health</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>mental disorder</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>mental dysfunction</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>mental illness</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:id>MONDO:0002025</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#rare_grouping"/>
+        <oboInOwl:source>DOID:150</oboInOwl:source>
+        <oboInOwl:source>ISBN-13:978-1-259-64403-0</oboInOwl:source>
+        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0001-5208-3432</oboInOwl:source>
+        <rdfs:label>psychiatric disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D001523"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_150"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2893"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0002118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002118">
@@ -2068,7 +2104,7 @@ Thus, we are attempting to define things generally enough that they could be reu
     <!-- http://purl.obolibrary.org/obo/MONDO_0045057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0045057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002025"/>
         <obo:IAO_0000115>A disorder characterized by confusion; inattentiveness; disorientation; illusions; hallucinations; agitation; and in some instances autonomic nervous system overactivity. It may result from toxic/metabolic conditions or structural brain lesions. (From Adams et al., Principles of Neurology, 6th ed, pp411-2)</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/mondo/releases/2024-07-02/mondo.owl</obo:IAO_0000412>
         <oboInOwl:hasDbXref>EFO:0009267</oboInOwl:hasDbXref>
