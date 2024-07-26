@@ -2449,6 +2449,20 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">A material entity that has as parts one or more sites large enough to contain humans, has as part one or more material entities that separates it from other sites, and bears a residence function.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/ufbmi/OMRSE/wiki/Housing-unit-and-Household</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/aeo.owl</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">Housing units are individuated by their residence functions.</rdfs:comment>
+        <rdfs:label xml:lang="en">housing unit</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000085">
@@ -9379,6 +9393,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000118>city</obo:IAO_0000118>
         <obo:IAO_0000118>town</obo:IAO_0000118>
         <obo:IAO_0000118>village</obo:IAO_0000118>
+        <rdfs:comment>This term includes cities of any population, not limited to large or urban cities</rdfs:comment>
         <rdfs:label xml:lang="en">municipality</rdfs:label>
     </owl:Class>
     
