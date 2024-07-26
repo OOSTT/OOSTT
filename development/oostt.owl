@@ -917,6 +917,29 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0200042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0200042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011355"/>
+        <obo:IAO_0000115>A discontinuity of the skin exhibiting complete loss of the epidermis and often portions of the dermis and even subcutaneous fat.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/hp/releases/2024-07-01/hp.owl</obo:IAO_0000412>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-5316-1399"/>
+        <oboInOwl:creation_date>2010-06-18T02:17:00Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0001-5208-3432"/>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0002-5316-1399"/>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0002-6548-5200"/>
+        <oboInOwl:hasDbXref>MEDDRA:10040943</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:46742003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0037299</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Open skin sore</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <oboInOwl:id>HP:0200042</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hp#hposlim_core"/>
+        <rdfs:label>skin ulcer</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IDO_0000636 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000636">
