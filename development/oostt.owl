@@ -4245,6 +4245,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000111"/>
                     <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/GEO_000000329"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GEO_000000396"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000846"/>
                         <owl:someValuesFrom rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
                     </owl:Restriction>
@@ -9372,7 +9376,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000111"/>
         <obo:IAO_0000115>A governmental organization that is a settlement of human beings with defined boundaries</obo:IAO_0000115>
         <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">city</rdfs:label>
+        <obo:IAO_0000118>city</obo:IAO_0000118>
+        <obo:IAO_0000118>town</obo:IAO_0000118>
+        <obo:IAO_0000118>village</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">municipality</rdfs:label>
     </owl:Class>
     
 
