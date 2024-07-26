@@ -851,6 +851,28 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0011121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67165"/>
+        <obo:IAO_0000115>Any morphological abnormality of the skin.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/hp/releases/2024-07-01/hp.owl</obo:IAO_0000412>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+        <oboInOwl:creation_date>2011-06-12T10:03:23Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0001-5208-3432"/>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+        <oboInOwl:hasDbXref>Fyler:4133</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C4023528</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Abnormal skin morphology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Abnormal skin structure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Abnormality of skin morphology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <oboInOwl:id>HP:0011121</oboInOwl:id>
+        <rdfs:label>abnormal skin morphology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0012399 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012399">
