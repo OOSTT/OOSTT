@@ -873,6 +873,26 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0011355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011355">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011121"/>
+        <obo:IAO_0000115>A lesion of the skin that is located in a specific region rather than being generalized.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/hp/releases/2024-07-01/hp.owl</obo:IAO_0000412>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+        <oboInOwl:creation_date>2012-03-01T02:37:43Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0003-1773-4011"/>
+        <oboInOwl:hasDbXref>UMLS:C0850826</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Localised skin lesion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Localized skin lesion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#uk_spelling"/>
+        <oboInOwl:id>HP:0011355</oboInOwl:id>
+        <rdfs:label>localized skin lesion</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0012399 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012399">
