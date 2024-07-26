@@ -1211,6 +1211,46 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002025"/>
+        <obo:IAO_0000115>A disease affects cognitive processes.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/mondo/releases/2024-07-02/mondo.owl</obo:IAO_0000412>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/specific_disease_by_disrupted_process.yaml"/>
+        <oboInOwl:hasDbXref>DOID:1561</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:294.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDGEN:40371</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D019965</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C34870</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C92196</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:443265004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0009241</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cognitive disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cognitive disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>organic mental disorder</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MONDO:0002039</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
+        <oboInOwl:source>DOID:1561</oboInOwl:source>
+        <oboInOwl:source>MEDGEN:40371</oboInOwl:source>
+        <oboInOwl:source>MONDO:MEDGEN</oboInOwl:source>
+        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:exact-label-match</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <rdfs:label>cognitive disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/40371"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D019965"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/443265004"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0009241"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1561"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92196"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0002118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002118">
@@ -2104,7 +2144,7 @@ Thus, we are attempting to define things generally enough that they could be reu
     <!-- http://purl.obolibrary.org/obo/MONDO_0045057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0045057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002025"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002039"/>
         <obo:IAO_0000115>A disorder characterized by confusion; inattentiveness; disorientation; illusions; hallucinations; agitation; and in some instances autonomic nervous system overactivity. It may result from toxic/metabolic conditions or structural brain lesions. (From Adams et al., Principles of Neurology, 6th ed, pp411-2)</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/mondo/releases/2024-07-02/mondo.owl</obo:IAO_0000412>
         <oboInOwl:hasDbXref>EFO:0009267</oboInOwl:hasDbXref>
