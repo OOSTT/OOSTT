@@ -248,6 +248,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/mondo#excluded_from_qc_check -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#excluded_from_qc_check"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/mondo#excluded_subClassOf -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#excluded_subClassOf">
@@ -1849,6 +1855,49 @@ Thus, we are attempting to define things generally enough that they could be reu
         <skos:closeMatch rdf:resource="http://identifiers.org/meddra/10001052"/>
         <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/J80"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3353"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0006642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0006642">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005567"/>
+        <obo:IAO_0000115>An acute organic mental disorder induced by cessation or reduction in chronic alcohol consumption. Clinical characteristics include confusion; delusions; vivid hallucinations; tremor; agitation; insomnia; and signs of autonomic hyperactivity (e.g., elevated blood pressure and heart rate, dilated pupils, and diaphoresis). This condition may occasionally be fatal. It was formerly called delirium tremens. (From Adams et al., Principles of Neurology, 6th ed, p1175)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/mondo/releases/2024-07-02/mondo.owl</obo:IAO_0000412>
+        <mondo:excluded_from_qc_check rdf:resource="http://purl.obolibrary.org/obo/mondo/sparql/qc/general/qc-single-child.sparql"/>
+        <oboInOwl:hasDbXref>EFO:1000800</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:291.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDGEN:1398</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D000430</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10001610</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:8635005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0001957</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>alcohol withdrawal associated autonomic hyperactivity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>alcohol withdrawal hallucinosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>alcohol withdrawal induced delirium Tremens</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>alcohol withdrawal-induced delirium Tremens</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>autonomic hyperactivity, alcohol withdrawal associated</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>delirium Tremens</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>delirium Tremens, alcohol withdrawal induced</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>delirium, alcohol withdrawal</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hallucinosis, alcohol withdrawal</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#DEPRECATED"/>
+        <oboInOwl:id>MONDO:0006642</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
+        <oboInOwl:source>EFO:1000800</oboInOwl:source>
+        <oboInOwl:source>MEDGEN:1398</oboInOwl:source>
+        <oboInOwl:source>MONDO:EFO</oboInOwl:source>
+        <oboInOwl:source>MONDO:MEDGEN</oboInOwl:source>
+        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <rdfs:label>alcohol withdrawal delirium</rdfs:label>
+        <skos:closeMatch rdf:resource="http://identifiers.org/meddra/10001610"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/1398"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D000430"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/8635005"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0001957"/>
     </owl:Class>
     
 
