@@ -288,6 +288,14 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
@@ -1720,6 +1728,47 @@ Thus, we are attempting to define things generally enough that they could be reu
         <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0029443"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1019"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27577"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002118"/>
+        <obo:IAO_0000115>A bacterial infectious process affecting any part of the urinary tract, most commonly the bladder and the urethra. Symptoms include urinary urgency and frequency, burning sensation during urination, lower abdominal discomfort, and cloudy urine.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/mondo/releases/2024-07-02/mondo.owl</obo:IAO_0000412>
+        <obo:IAO_0000589>bacterial urinary tract infection (disease)</obo:IAO_0000589>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <oboInOwl:hasBroadSynonym>UTI</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>infection, urinary tract</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>tract, infection of urinary</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>urinary tract infection</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>urinary tract infection (disease)</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>urinary tract infectious disease</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>ICD9:599.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDGEN:675826</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:ambiguous</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C50791</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:P378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:68566005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0729524</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>bacterial urinary tract infection (disease)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#ABBREVIATION"/>
+        <oboInOwl:id>MONDO:0005247</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
+        <oboInOwl:source>EFO:0003103</oboInOwl:source>
+        <oboInOwl:source>MEDGEN:675826</oboInOwl:source>
+        <oboInOwl:source>MONDO:MEDGEN</oboInOwl:source>
+        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <rdfs:label>bacterial urinary tract infection</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/675826"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/68566005"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0729524"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C50791"/>
     </owl:Class>
     
 
@@ -10417,9 +10466,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0021018">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
-        <rdfs:label>has_broad_synonym</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
