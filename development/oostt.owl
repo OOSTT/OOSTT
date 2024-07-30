@@ -1014,6 +1014,24 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000001"/>
+        <obo:IAO_0000115>All manners of treatment, be they pharmaceuticals, invasive procedures, etc. to relieve illness and injury in attempts to bring the body back to its normal state.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/hp.owl</obo:IAO_0000412>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-16T20:08:29Z</dc:date>
+        <terms:creator rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <oboInOwl:hasDbXref>NCIT:C25218</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C49236</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OAE:0000094</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OGMS:0000112</oboInOwl:hasDbXref>
+        <rdfs:comment>An action or administration of therapeutic agents to produce an effect that is intended to alter or stop a pathologic process.</rdfs:comment>
+        <rdfs:label xml:lang="en">therapeutic procedure</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MAXO_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000034">
