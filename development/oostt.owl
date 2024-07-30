@@ -999,6 +999,21 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115>A clinically prescribed procedure, therapy, intervention, or recommendation.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/hp.owl</obo:IAO_0000412>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-16T20:07:28Z</dc:date>
+        <terms:creator rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <oboInOwl:hasDbXref>OGMS:0000096</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>health care process</oboInOwl:hasNarrowSynonym>
+        <rdfs:label xml:lang="en">medical action</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MAXO_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000034">
