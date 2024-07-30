@@ -386,6 +386,12 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#relatedMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+    
+
+
     <!-- https://schema.org/alternateName -->
 
     <owl:AnnotationProperty rdf:about="https://schema.org/alternateName"/>
@@ -731,6 +737,23 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <obo:IAO_0000115 xml:lang="en">A reproduction of a pathogen organism of a particular biological taxon in a tissue of a host organism from another taxon.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">infection process</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">process of infection</obo:IAO_0000118>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/hp.owl</obo:IAO_0000412>
+        <obo:IAO_0000600 xml:lang="en">A process of reproduction of a particular pathogen species inside some tissue of a particular host species.</obo:IAO_0000600>
+        <dc:creator xml:lang="en">M. Brochhausen</dc:creator>
+        <rdfs:comment xml:lang="en">infection is reproduction of a pathogen inside some tissue of a host.  By associating infection with the classes latent period and infectious period, which are associated with specific pathogen species and host species, Apollo-SV defines infection further as reproduction of a particular pathogen taxon inside some tissue of a particular host taxon.</rdfs:comment>
+        <rdfs:label xml:lang="en">infection</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000243 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000243">
@@ -905,7 +928,6 @@ Thus, we are attempting to define things generally enough that they could be reu
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012399">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0200042"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
         <obo:IAO_0000115>A type of ulcer that is caused when an area of skin is subject to pressure over a prolonged period of time, ranging in range in severity from patches of discolored skin to open wounds that expose the underlying bone or muscle. The most common sites are the sacrum, coccyx, heels and the hips.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/hp/releases/2024-07-01/hp.owl</obo:IAO_0000412>
         <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
@@ -1769,6 +1791,57 @@ Thus, we are attempting to define things generally enough that they could be reu
         <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/68566005"/>
         <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0729524"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C50791"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0043905"/>
+        <obo:IAO_0000115>An acute, acute and chronic, or chronic inflammation focally or diffusely affecting the lung parenchyma, caused by an infection in one or both of the lungs (by bacteria, viruses, fungi, or mycoplasma.). Symptoms include cough, shortness of breath, fevers, chills, chest pain, headache, sweating, and weakness.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/3790</obo:IAO_0000233>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/mondo/releases/2024-07-02/mondo.owl</obo:IAO_0000412>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005275"/>
+        <oboInOwl:hasDbXref>DOID:552</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0003106</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:J15</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:J18.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:483</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:483.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:484.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:486</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDGEN:10813</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D011014</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3333</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:P378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:233604007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0032285</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>acute pneumonia</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:id>MONDO:0005249</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
+        <oboInOwl:source>DOID:552</oboInOwl:source>
+        <oboInOwl:source>EFO:0003106</oboInOwl:source>
+        <oboInOwl:source>MEDGEN:10813</oboInOwl:source>
+        <oboInOwl:source>MESH:D011014</oboInOwl:source>
+        <oboInOwl:source>MONDO:EFO</oboInOwl:source>
+        <oboInOwl:source>MONDO:MEDGEN</oboInOwl:source>
+        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
+        <oboInOwl:source>MONDO:Redundant</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>MONDO:relatedTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C3333/inferred</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0001-5208-3432</oboInOwl:source>
+        <rdfs:label>pneumonia</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/10813"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D011014"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/233604007"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0032285"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/J18.9"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_552"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3333"/>
+        <skos:relatedMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/J15"/>
     </owl:Class>
     
 
