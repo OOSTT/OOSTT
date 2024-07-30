@@ -1078,6 +1078,21 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000503 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000503">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000500"/>
+        <obo:IAO_0000115>Any method of artificial breathing that employs mechanical or non-mechanical means to force the air into and out of the lungs. Artificial respiration or ventilation is used in individuals who have stopped breathing or have respiratory insufficiency to increase their intake of oxygen (O2) and excretion of carbon dioxide (CO2).</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/hp.owl</obo:IAO_0000412>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-23T16:34:17Z</dc:date>
+        <terms:creator rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <oboInOwl:hasExactSynonym>artificial ventilation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mechanical ventilation</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">artificial respiration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001">
