@@ -182,6 +182,72 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_A23 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A23"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A29 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A29"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A34 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A34"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A38 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A38"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A39 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A39"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0001847 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001847">
@@ -740,7 +806,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000114">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
         <obo:IAO_0000115 xml:lang="en">A reproduction of a pathogen organism of a particular biological taxon in a tissue of a host organism from another taxon.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">infection process</obo:IAO_0000118>
@@ -1038,8 +1104,8 @@ Thus, we are attempting to define things generally enough that they could be reu
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000002"/>
         <obo:IAO_0000115>All manners of treatment to relieve illness and injury of a particular body site or system.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/maxo/releases/2023-12-01/maxo.owl</obo:IAO_0000412>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/hp.owl</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/maxo/releases/2023-12-01/maxo.owl</obo:IAO_0000412>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-20T19:58:58Z</dc:date>
         <terms:creator rdf:resource="https://orcid.org/0000-0001-7941-2961"/>
         <rdfs:label xml:lang="en">therapeutic procedure by site</rdfs:label>
@@ -2442,6 +2508,332 @@ Thus, we are attempting to define things generally enough that they could be reu
         <oboInOwl:id>MONDO:0700096</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#rare_grouping"/>
         <rdfs:label>human disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C122590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C122590">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002830"/>
+        <obo:IAO_0000115>A hollow tube that is inserted into a vein.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
+        <obo:NCIT_NHC0>C122590</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Medical Device</obo:NCIT_P106>
+        <obo:NCIT_P108>Venous Catheter</obo:NCIT_P108>
+        <obo:NCIT_P207>C0745442</obo:NCIT_P207>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Venous Catheter</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C122636"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Venous Catheter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C13717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C13717">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:IAO_0000115>Named locations of or within the body.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/hp.owl</obo:IAO_0000412>
+        <obo:NCIT_NHC0>C13717</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Body Location or Region</obo:NCIT_P106>
+        <obo:NCIT_P108>Anatomic Site</obo:NCIT_P108>
+        <obo:NCIT_P207>C1515974</obo:NCIT_P207>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>ICDC</obo:NCIT_P322>
+        <obo:NCIT_P366>Anatomic_Sites</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Anatomic Location</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anatomic Site</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anatomic Sites</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anatomical Location</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anatomical_Location</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CDISC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Location</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Site</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Topographic (Anatomic) Site</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Topographic Site</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C100096"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156954"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156955"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159328"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159336"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159412"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165451"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C166372"/>
+        <rdfs:label>Anatomic Site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C164323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C164323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13717"/>
+        <obo:IAO_0000115>The anatomical site on which surgery was performed.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/hp.owl</obo:IAO_0000412>
+        <obo:NCIT_A23 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25162"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12290"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12298"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12392"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12415"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12418"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12431"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12438"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12439"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12464"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12468"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12492"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12664"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12671"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12674"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12688"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12693"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12695"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12696"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12711"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12717"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12718"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12731"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12742"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12744"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12745"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12748"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12751"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12752"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12757"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12766"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12767"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12777"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12782"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12783"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12789"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12790"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12793"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12796"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12797"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12798"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12800"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12809"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12998"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13063"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13071"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C176778"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25203"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25389"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26470"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32042"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32078"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32141"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32250"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32497"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32608"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32622"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32628"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32635"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32712"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32719"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32765"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32884"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32898"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32906"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32974"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33157"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33282"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33508"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33763"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33894"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33897"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43234"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C52799"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62484"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64193"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77608"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89806"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89807"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12298"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12392"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12398"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12404"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12407"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12412"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12418"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12459"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12464"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12748"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17649"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177357"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177764"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177766"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177767"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177768"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33506"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43234"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C102955"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12263"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12290"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12298"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12328"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12347"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12348"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12377"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12380"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12382"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12386"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12389"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12390"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12391"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12392"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12393"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12400"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12403"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12404"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12405"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12407"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12408"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12409"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12410"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12412"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12414"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12415"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12416"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12418"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12420"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12421"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12423"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12426"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12428"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12432"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12433"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12439"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12468"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12469"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12666"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12671"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12674"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12683"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12695"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12696"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12711"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12717"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12718"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12726"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12727"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12731"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12742"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12745"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12751"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12752"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12763"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12767"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12770"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12777"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12782"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12783"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12789"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12793"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12796"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12797"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12799"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12800"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12802"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12809"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12971"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12998"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13039"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13063"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13068"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13071"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13316"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C162491"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17649"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C180372"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26470"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28287"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32078"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32141"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32472"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32497"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32608"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32622"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32628"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32712"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32898"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32974"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33160"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33282"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33508"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33547"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33548"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33682"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33763"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33788"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33839"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33894"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34082"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43234"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43362"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C52771"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C52772"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62484"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C63706"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C69313"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C69314"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77608"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89806"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89807"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94547"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C102330"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C103429"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C103818"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120322"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12366"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12392"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12431"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12432"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12468"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12748"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12903"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12904"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32298"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C32801"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C33600"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43234"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C53146"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C63705"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65166"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C73468"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77641"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77643"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98182"/>
+        <obo:NCIT_NHC0>C164323</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Spatial Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Surgical Site</obo:NCIT_P108>
+        <obo:NCIT_P207>C0332850</obo:NCIT_P207>
+        <obo:NCIT_P322>ICDC</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>PROCEDURE_SITE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Surgical Site</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>anatomical site of surgery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>anatomical_site_of_surgery</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165451"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C166373"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C174239"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C174241"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177384"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177402"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179482"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186321"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186342"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186764"/>
+        <rdfs:label>Surgical Site</rdfs:label>
     </owl:Class>
     
 
@@ -10304,7 +10696,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000389">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110122"/>
-        <obo:IAO_0000115 xml:lang="en">A pathological process that is the realization of cardiac arrest after hospital arrival and the indivual undergoing cardiact arrest receives cardiopulminary resuscitation</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A pathological process that is the realization of cardiac arrest after hospital arrival and the individual undergoing cardiact arrest receives cardiopulminary resuscitation</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">cardiac arrest with cardiopulminary resuscitation</rdfs:label>
@@ -10328,6 +10720,12 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000391">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000114"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C164323"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An infection that occurs at a surgical site within a specified period of time</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
