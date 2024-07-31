@@ -242,6 +242,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366"/>
@@ -2834,6 +2840,34 @@ Thus, we are attempting to define things generally enough that they could be reu
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186342"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186764"/>
         <rdfs:label>Surgical Site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17612">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C122590"/>
+        <obo:IAO_0000115>A venous catheter positioned with the tip in the proximal third of the superior vena cava, the right atrium, or the inferior vena cava.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
+        <obo:NCIT_NHC0>C17612</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Medical Device</obo:NCIT_P106>
+        <obo:NCIT_P108>Central Venous Access Catheter</obo:NCIT_P108>
+        <obo:NCIT_P207>C1145640</obo:NCIT_P207>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>A tube surgically placed into a blood vessel for the purpose of giving intravenous fluid and drugs. It also can be used to obtain blood samples. This device avoids the need for separate needle insertions for each infusion or blood test. Examples of these devices include Hickman catheters, which require clamps to make sure the valve is closed, and Groshong catheters, which have a valve that opens as fluid is withdrawn or infused and remains closed when not in use.</obo:NCIT_P325>
+        <obo:NCIT_P366>Central_Venous_Access_Catheter</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Central Line Catheter</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Central Venous Access Catheter</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Central Venous Access Catheters</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>central venous access catheter</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C122636"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158037"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158520"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Central Venous Access Catheter</rdfs:label>
     </owl:Class>
     
 
