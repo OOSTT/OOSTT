@@ -997,6 +997,24 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0008015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003013"/>
+        <obo:IAO_0000115>The flow of blood through the body of an animal, enabling the transport of nutrients to the tissues and the removal of waste products.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/go/releases/2024-06-17/go.owl</obo:IAO_0000412>
+        <oboInOwl:hasAlternativeId>GO:0070261</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GOC:mtg_heart</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ISBN:0192800825</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>hemolymph circulation</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0008015</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
+        <rdfs:label>blood circulation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
