@@ -145,6 +145,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
+        <rdfs:label>term tracker item</rdfs:label>
         <rdfs:label xml:lang="en">term tracker item</rdfs:label>
     </rdf:Description>
     
@@ -298,6 +299,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002161 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002161"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002175 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002175">
@@ -360,6 +367,14 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
     <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
@@ -389,6 +404,14 @@
 
     <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
         <rdfs:label>has_narrow_synonym</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
     </rdf:Description>
     
 
@@ -950,6 +973,37 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:IAO_0000115>A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/obi/2023-09-20/obi.owl</obo:IAO_0000412>
         <rdfs:label>biological_process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any biological process, occurring at the level of a multicellular organism, pertinent to its function.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/27189</obo:IAO_0000233>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/go/releases/2024-06-17/go.owl</obo:IAO_0000412>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2157"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4896"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4932"/>
+        <oboInOwl:created_by>jl</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-09-19T16:07:47Z</oboInOwl:creation_date>
+        <oboInOwl:hasAlternativeId>GO:0044707</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0050874</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GOC:curators</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:dph</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:isa_complete</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:tb</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>organismal physiological process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>single-multicellular organism process</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0032501</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.</rdfs:comment>
+        <rdfs:label>multicellular organismal process</rdfs:label>
     </owl:Class>
     
 
@@ -1861,7 +1915,7 @@ Thus, we are attempting to define things generally enough that they could be reu
     <!-- http://purl.obolibrary.org/obo/MONDO_0005247 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005247">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002118"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000114"/>
         <obo:IAO_0000115>A bacterial infectious process affecting any part of the urinary tract, most commonly the bladder and the urethra. Symptoms include urinary urgency and frequency, burning sensation during urination, lower abdominal discomfort, and cloudy urine.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/mondo/releases/2024-07-02/mondo.owl</obo:IAO_0000412>
         <obo:IAO_0000589>bacterial urinary tract infection (disease)</obo:IAO_0000589>
