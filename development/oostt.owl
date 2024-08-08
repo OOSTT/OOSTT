@@ -12,6 +12,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:wiki="https://www.wikidata.org/wiki/"
      xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
+     xmlns:sssom="https://w3id.org/sssom/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="https://schema.org/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
@@ -309,6 +310,7 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002175">
         <rdfs:label xml:lang="en">present in taxon</rdfs:label>
+        <rdfs:label>present_in_taxon</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -359,6 +361,14 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by">
+        <rdfs:label>created by</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
     <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
@@ -404,6 +414,14 @@
 
     <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
         <rdfs:label>has_narrow_synonym</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
     </rdf:Description>
     
 
@@ -482,6 +500,24 @@
     <!-- https://schema.org/alternateName -->
 
     <owl:AnnotationProperty rdf:about="https://schema.org/alternateName"/>
+    
+
+
+    <!-- https://w3id.org/sssom/author_id -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/sssom/author_id"/>
+    
+
+
+    <!-- https://w3id.org/sssom/mapping_justification -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/sssom/mapping_justification"/>
+    
+
+
+    <!-- https://w3id.org/sssom/mapping_provider -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/sssom/mapping_provider"/>
     
 
 
@@ -10895,6 +10931,28 @@ https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_8450002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_8450002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67135"/>
+        <obo:IAO_0000115>An anatomical system that eliminates waste products that arise as a result of metabolic activity.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/uberon/releases/2024-08-07/uberon.owl</obo:IAO_0000412>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <oboInOwl:created_by>http://orcid.org/0000-0002-6095-8718</oboInOwl:created_by>
+        <oboInOwl:creation_date>2022-05-25T18:21:29Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>BTO:0006338</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0007588</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:8450002</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <rdfs:label>excretory system</rdfs:label>
+        <sssom:author_id rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+        <sssom:mapping_provider>https://github.com/biopragmatics/biomappings</sssom:mapping_provider>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000125">
@@ -11144,9 +11202,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0021018">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label>has_obo_namespace</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
