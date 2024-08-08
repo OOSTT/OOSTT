@@ -302,7 +302,10 @@
 
     <!-- http://purl.obolibrary.org/obo/RO_0002161 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002161"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002161">
+        <rdfs:label>never in taxon</rdfs:label>
+        <rdfs:label>never_in_taxon</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -311,6 +314,30 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002175">
         <rdfs:label xml:lang="en">present in taxon</rdfs:label>
         <rdfs:label>present_in_taxon</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000001">
+        <rdfs:label>external_definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000003 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000003">
+        <rdfs:label>homology_notes</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000008 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000008">
+        <rdfs:label>taxon_notes</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -377,6 +404,18 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#date_retrieved -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date_retrieved"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#external_class -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#external_class"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
@@ -388,6 +427,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
     <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label xml:lang="en">has broad synonym</rdfs:label>
         <rdfs:label>has_broad_synonym</rdfs:label>
     </rdf:Description>
     
@@ -429,6 +469,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
     <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label xml:lang="en">has related synonym</rdfs:label>
         <rdfs:label>has_related_synonym</rdfs:label>
     </rdf:Description>
     
@@ -461,6 +502,12 @@
     <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
         <rdfs:label>in_subset</rdfs:label>
     </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#ontology -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#ontology"/>
     
 
 
@@ -10927,6 +10974,84 @@ https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig
         <obo:IAO_0000119 xml:lang="en">adapted from: https://www.health.ny.gov/diseases/chronic/basicstat.htm</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/stato.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">mortality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_8450002"/>
+        <obo:IAO_0000115>The renal system in an anatomical system that maintains fluid balance and contributes to electrolyte balance, acid/base balance, and disposal of nitrogenous waste products.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/uberon/releases/2024-08-07/uberon.owl</obo:IAO_0000412>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_110815"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147099"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:UBPROP_0000001>An anatomical system which consists of organs and tissues which produce, store, and excrete urine.[AAO]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000003>Evolution of vertebrate renal anatomy appears quite conservative when compared, for example, to evolution of respiratory and cardiovascular systems in vertebrates. Major anatomical changes in vertebrates kidneys separate those of birds and mammals from kidneys of lower vertebrates. General increase in animal size from fish to mammals is reflected by an increase in total number of nephrons per kidney, rather than by constant change in tubular dimensions.[well established][VHOG]</obo:UBPROP_0000003>
+        <obo:UBPROP_0000008>In humans, the renal system comprises a pair of kidneys, a pair of ureters, urinary bladder, urethra, sphincter muscle and associated blood vessels</obo:UBPROP_0000008>
+        <obo:UBPROP_0000008>This definition is inclusive of the organs of the vertebrate renal system, as well as the Malpighian tubules of insects, and allows for future incorporation of structures such as the antennal glands of crustaceans</obo:UBPROP_0000008>
+        <oboInOwl:date_retrieved>2012-06-20</oboInOwl:date_retrieved>
+        <oboInOwl:date_retrieved>2012-09-17</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>AAO:0010257</oboInOwl:external_class>
+        <oboInOwl:external_class>VHOG:0000723</oboInOwl:external_class>
+        <oboInOwl:hasBroadSynonym>excretory system</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>AAO:0010257</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BILA:0000015</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0001244</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0003092</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-1323</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1371/journal.pone.0099864</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000803</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA2:0001601</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA:5901</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:17366</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EV:0100095</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FBbt:00005056</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:7159</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:391</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0072001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0000325</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MAT:0000027</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D014551</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIAA:0000027</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12413</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:362204003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TADS:0000162</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TAO:0000163</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C1508753</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0000723</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>WBbt:0005736</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Excretory_system</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0000143</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0000163</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:UrinaryTract</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>systema urinaria</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>systema urinarium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>urinary system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>urinary tract</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>renal or urinary system</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>renal/urinary system</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0001008</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#vertebrate_core"/>
+        <oboInOwl:ontology>AAO</oboInOwl:ontology>
+        <oboInOwl:ontology>VHOG</oboInOwl:ontology>
+        <oboInOwl:source>AAO:BJB</oboInOwl:source>
+        <oboInOwl:source>DOI:10.1371/journal.pone.0099864</oboInOwl:source>
+        <oboInOwl:source>GO</oboInOwl:source>
+        <oboInOwl:source>ISBN:978-3540428541 Kapoor BG, Bhavna Khanna, Ichthyology Handbook (2004) p.406</oboInOwl:source>
+        <oboInOwl:source>Wikipedia</oboInOwl:source>
+        <oboInOwl:source>Wikipedia:Acoelomorpha</oboInOwl:source>
+        <oboInOwl:source>http://bgee.unil.ch/</oboInOwl:source>
+        <oboInOwl:source>ncithesaurus:Urinary_System</oboInOwl:source>
+        <rdfs:comment>EDITOR_NOTE In various sources such as Encyclopedia Britannica, the excretory and urinary systems are indeed the same system (see wikipedia talk page); we merge two BTO classes here</rdfs:comment>
+        <rdfs:label>renal system</rdfs:label>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
     </owl:Class>
     
 
