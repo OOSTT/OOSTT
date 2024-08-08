@@ -334,6 +334,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000007 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000007">
+        <rdfs:label>has_relational_adjective</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBPROP_0000008 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000008">
@@ -973,7 +981,21 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/GEO_000000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000111"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000111"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/GEO_000000329"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GEO_000000396"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000846"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A subnational entity that is the primary organizational member of a nation, is subject to the full set of laws of the nation, enjoys all the privileges established under the laws of the nation, is not a member of any other geopolitical entity, and itself governs a part of the geographical region governed by the nation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
@@ -5249,21 +5271,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000111">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000111"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/GEO_000000329"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GEO_000000396"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000846"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000272"/>
         <obo:IAO_0000115 xml:lang="en">An organization that is a part of some government.</obo:IAO_0000115>
@@ -10372,7 +10379,21 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000360 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000360">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000111"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000111"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/GEO_000000329"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GEO_000000396"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000846"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A governmental organization that exists within a major administrative subdivision that is occupied by other settlements and governs those settlements while also being governed by their respective major administrative subdivision</obo:IAO_0000115>
         <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
         <rdfs:label xml:lang="en">minor administrative subdivision</rdfs:label>
@@ -10383,7 +10404,21 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000361 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000361">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000111"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000111"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/GEO_000000329"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GEO_000000396"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000846"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A governmental organization that is a settlement of human beings with defined boundaries</obo:IAO_0000115>
         <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
         <obo:IAO_0000118>city</obo:IAO_0000118>
@@ -11052,6 +11087,68 @@ https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig
         <rdfs:comment>EDITOR_NOTE In various sources such as Encyclopedia Britannica, the excretory and urinary systems are indeed the same system (see wikipedia talk page); we merge two BTO classes here</rdfs:comment>
         <rdfs:label>renal system</rdfs:label>
         <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002390">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67135"/>
+        <obo:IAO_0000115>Anatomical system that is involved in the production of hematopoietic cells.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/uberon/releases/2024-08-07/uberon.owl</obo:IAO_0000412>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:UBPROP_0000001>Anatomical system that consists of the blood and blood forming tissues.[AAO]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000003>Zebrafish developmental hematopoiesis shows close correspondence to the development of the mammalian hematopoietic system and is regulated by conserved molecular pathways.[well established][VHOG]</obo:UBPROP_0000003>
+        <obo:UBPROP_0000007>hematopoietic</obo:UBPROP_0000007>
+        <obo:UBPROP_0000008>In humans this is primarily the bone marrow, spleen, tonsils, and lymph nodes</obo:UBPROP_0000008>
+        <oboInOwl:date_retrieved>2012-06-20</oboInOwl:date_retrieved>
+        <oboInOwl:date_retrieved>2012-09-17</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>AAO:0011002</oboInOwl:external_class>
+        <oboInOwl:external_class>VHOG:0001624</oboInOwl:external_class>
+        <oboInOwl:hasDbXref>AAO:0011002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000570</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0449</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000798</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:35402</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EV:0100045</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:9667</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:1008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0002434</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MAT:0000022</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006413</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIAA:0000022</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12909</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:362587009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TAO:0005023</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0018957</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001624</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Haematopoiesis</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0000122</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0005023</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>haematological system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>haemopoietic system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>organa haemopoietica</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Blutbildungssystem</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>haematopoietic system</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hematological system</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hematolymphoid system</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hemopoietic system</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0002390</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#vertebrate_core"/>
+        <oboInOwl:ontology>AAO</oboInOwl:ontology>
+        <oboInOwl:ontology>VHOG</oboInOwl:ontology>
+        <oboInOwl:source>AAO:EJS</oboInOwl:source>
+        <oboInOwl:source>DOI:10.1016/j.coph.2010.05.004 Ellett F, Lieschke GJ, Zebrafish as a model for vertebrate hematopoiesis. Current Opinion in Pharmacology (2010)</oboInOwl:source>
+        <oboInOwl:source>WP</oboInOwl:source>
+        <oboInOwl:source>http://bgee.unil.ch/</oboInOwl:source>
+        <oboInOwl:source>ncithesaurus:Hematopoietic_System</oboInOwl:source>
+        <rdfs:label>hematopoietic system</rdfs:label>
     </owl:Class>
     
 
