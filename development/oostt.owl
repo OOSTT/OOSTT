@@ -139,6 +139,7 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
         <rdfs:label>curator note</rdfs:label>
         <rdfs:label xml:lang="en">curator note</rdfs:label>
+        <rdfs:label>curator notes</rdfs:label>
     </rdf:Description>
     
 
@@ -322,6 +323,14 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000001">
         <rdfs:label>external_definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000002 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000002">
+        <rdfs:label>axiom_lost_from_external_ontology</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -11009,6 +11018,73 @@ https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig
         <obo:IAO_0000119 xml:lang="en">adapted from: https://www.health.ny.gov/diseases/chronic/basicstat.htm</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/stato.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">mortality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002390"/>
+        <obo:IAO_0000115>A fluid that is composed of blood plasma and erythrocytes.</obo:IAO_0000115>
+        <obo:IAO_0000232>This class excludes blood analogues, such as the insect analog of blood. See UBERON:0000179 haemolymphatic fluid.</obo:IAO_0000232>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/uberon/releases/2024-08-07/uberon.owl</obo:IAO_0000412>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:UBPROP_0000001>A complex mixture of cells suspended in a liquid matrix that delivers nutrients to cells and removes wastes. (Source: BioGlossary, www.Biology-Text.com)[TAO]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000001>Highly specialized circulating tissue consisting of several types of cells suspended in a fluid medium known as plasma.[AAO]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000002>relationship loss: subclass specialized connective tissue (AAO:0000571)[AAO]</obo:UBPROP_0000002>
+        <obo:UBPROP_0000003>Recent findings strongly suggest that the molecular pathways involved in the development and function of blood cells are highly conserved among vertebrates and various invertebrates phyla. (...) There is now good reason to believe that, in vertebrates and invertebrates alike, blood cell lineages diverge from a common type of progenitor cell, the hemocytoblast.[well established][VHOG]</obo:UBPROP_0000003>
+        <dc:contributor rdf:resource="https://github.com/cmungall"/>
+        <dc:contributor rdf:resource="https://github.com/tmeehan"/>
+        <oboInOwl:date_retrieved>2012-06-20</oboInOwl:date_retrieved>
+        <oboInOwl:date_retrieved>2012-08-14</oboInOwl:date_retrieved>
+        <oboInOwl:date_retrieved>2012-09-17</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>AAO:0000046</oboInOwl:external_class>
+        <oboInOwl:external_class>TAO:0000007</oboInOwl:external_class>
+        <oboInOwl:external_class>VHOG:0000224</oboInOwl:external_class>
+        <oboInOwl:hasDbXref>AAO:0000046</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000089</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0079</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000296</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA2:0000176</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA:418</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:16332</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ENVO:02000027</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EV:0100047</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:9670</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:965</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0000059</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001769</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIAA:0000315</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12434</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TAO:0000007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0005767</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0000224</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Blood</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0000124</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0000007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:Blood</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://github.com/obophenotype/uberon/issues/9</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>portion of blood</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vertebrate blood</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>whole blood</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0000178</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#vertebrate_core"/>
+        <oboInOwl:ontology>AAO</oboInOwl:ontology>
+        <oboInOwl:ontology>TAO</oboInOwl:ontology>
+        <oboInOwl:ontology>VHOG</oboInOwl:ontology>
+        <oboInOwl:source>AAO:LAP</oboInOwl:source>
+        <oboInOwl:source>DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) </oboInOwl:source>
+        <oboInOwl:source>ZFIN:curator</oboInOwl:source>
+        <oboInOwl:source>http://bgee.unil.ch/</oboInOwl:source>
+        <oboInOwl:source>ncithesaurus:Blood</oboInOwl:source>
+        <rdfs:label>blood</rdfs:label>
     </owl:Class>
     
 
