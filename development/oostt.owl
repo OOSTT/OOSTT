@@ -894,6 +894,17 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0003310 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003310">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <obo:IAO_0000115>A relationship between a condition (a phenotype or disease) and an entity (e.g. a chemical, environmental exposure, or some form of genetic variation) where some or all aspects of the condition are reduced or eliminated by the presence of the entity.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro/releases/2024-04-24/ro.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">condition ameliorated by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
