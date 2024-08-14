@@ -23,6 +23,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl"/>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <dc:contributor xml:lang="en">Diya Mehta</dc:contributor>
+        <dc:contributor xml:lang="en">Emma Chappell</dc:contributor>
         <dc:contributor xml:lang="en">J. Neil Otte</dc:contributor>
         <dc:contributor xml:lang="en">Jane Ball</dc:contributor>
         <dc:contributor xml:lang="en">John Judkins</dc:contributor>
@@ -7008,13 +7009,13 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An information content identity that describes a social categorization of human beings by assumptions based on physical characteristics or their assumed lineage</obo:IAO_0000115>
         <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">racial category</rdfs:label>
+        <rdfs:label xml:lang="en">racial category information</rdfs:label>
     </owl:Class>
     
 
@@ -10497,14 +10498,14 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is about the biological qualities and characteristics most commonly found between the female, male, and intersex categories</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">sex</rdfs:label>
+        <rdfs:label xml:lang="en">sex information</rdfs:label>
     </owl:Class>
     
 
@@ -10789,14 +10790,14 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000387"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content identity that indicates if an individual is injured while they are being compensated for their service</obo:IAO_0000115>
         <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">work related injury</rdfs:label>
+        <rdfs:label xml:lang="en">work related injury information</rdfs:label>
     </owl:Class>
     
 
@@ -10809,11 +10810,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000378"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -10822,7 +10823,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">An information content identity that denotes the field where an individual is compensated for their service</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">occupational industry</rdfs:label>
+        <rdfs:label xml:lang="en">occupational industry information</rdfs:label>
     </owl:Class>
     
 
@@ -10833,14 +10834,14 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content identity that describes an individuals method of receiving an income by their contributions of labor or services to society or themselves</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">occupation</rdfs:label>
+        <rdfs:label xml:lang="en">occupation information</rdfs:label>
     </owl:Class>
     
 
@@ -10959,13 +10960,13 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An information content entity that is about the categorization of an individual&apos;s background as it is connected to a geographic region and the shared cultural practices of that region</obo:IAO_0000115>
         <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">ethnic category</rdfs:label>
+        <rdfs:label xml:lang="en">ethnic category information</rdfs:label>
     </owl:Class>
     
 
