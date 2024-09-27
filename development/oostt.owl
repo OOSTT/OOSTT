@@ -43,7 +43,7 @@
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2024-06-13</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2024-09-27</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -10479,7 +10479,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A governmental organization that is a settlement of human beings with defined boundaries</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A governmental organization administers a settlement of human beings with defined boundaries.</obo:IAO_0000115>
         <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
         <obo:IAO_0000118>city</obo:IAO_0000118>
         <obo:IAO_0000118>town</obo:IAO_0000118>
