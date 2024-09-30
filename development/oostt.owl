@@ -10860,9 +10860,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000380 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000380">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that denotes the location of the trauma incident through a code</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <obo:IAO_0000115 xml:lang="en">An iidentifier that denotes the location of the traumatic injury through a code</obo:IAO_0000115>
         <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">ICD-10 place of occurrence external cause code</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">international classification of diseases tenth revision place of occurrence external cause code</rdfs:label>
     </owl:Class>
