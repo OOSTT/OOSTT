@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
-     xml:base="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/oostt.owl/"
+     xml:base="http://purl.obolibrary.org/obo/oostt.owl/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -19,7 +19,7 @@
      xmlns:Property="https://www.wikidata.org/wiki/Property:"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/oostt.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2024-09-30/oostt.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl"/>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
