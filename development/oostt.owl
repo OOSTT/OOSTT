@@ -10778,10 +10778,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000387"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An information content identity that indicates if an individual is injured while they are being compensated for their service</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that indicates whether an individual is injured while they are being compensated for their service</obo:IAO_0000115>
         <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">work related injury information</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">American College of Surgions TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">work related injury information</rdfs:label>
+        <rdfs:label xml:lang="en">work related injury information content entity</rdfs:label>
     </owl:Class>
     
 
