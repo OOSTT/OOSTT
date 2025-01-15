@@ -2312,6 +2312,39 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005433 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005433">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005567"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2025-01-07/mondo.owl</obo:IAO_0000412>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005303"/>
+        <oboInOwl:hasDbXref>EFO:0004777</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:291.81</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDGEN:536543</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:191480000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0236663</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>icd11.foundation:998231424</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>alcohol withdrawal syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005433</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
+        <oboInOwl:source>EFO:0004777</oboInOwl:source>
+        <oboInOwl:source>MEDGEN:536543</oboInOwl:source>
+        <oboInOwl:source>MONDO:EFO</oboInOwl:source>
+        <oboInOwl:source>MONDO:MEDGEN</oboInOwl:source>
+        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0001-5208-3432</oboInOwl:source>
+        <rdfs:label>alcohol withdrawal</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/536543"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/191480000"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0236663"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/mondo/sources/icd11foundation/998231424"/>
+        <skos:exactMatch rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004777"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0005567 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005567">
