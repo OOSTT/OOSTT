@@ -10522,6 +10522,17 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000363">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000386"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that specified the total number of days a patient has spent on a machine that moves oxygen in and out of their lungs.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">total days of ventilator use</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000364">
