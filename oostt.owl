@@ -20,7 +20,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2024-09-30/oostt.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2025-01-24/oostt.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl"/>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <dc:contributor xml:lang="en">Diya Mehta</dc:contributor>
@@ -44,7 +44,7 @@
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">release version - 2024-09-30</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release version - 2025-01-24</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -7003,22 +7003,29 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     </owl:Class>
     
 
-
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000191 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000191">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000077"/>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000190"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An information content identity that describes a social categorization of human beings by assumptions based on physical characteristics or their assumed lineage</obo:IAO_0000115>
-        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">racial category information</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An employee role that is the specified output of an employment contract document act and that, if realized, is realized by its bearer providing services for the amount of type regarded full time under the specific labor administration.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">An employee who provides services full time as specified in the employment agreement.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">full time employee role</rdfs:label>
     </owl:Class>
-    
 
 
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000192 -->
@@ -11086,6 +11093,21 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">ventilator associated pneumonia</rdfs:label>
     </owl:Class>
     
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000398">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An information content identity that describes a social categorization of human beings by assumptions based on physical characteristics or their assumed lineage</obo:IAO_0000115>
+        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">racial category information</rdfs:label>
+    </owl:Class>
 
 
     <!-- http://purl.obolibrary.org/obo/STATO_0000184 -->

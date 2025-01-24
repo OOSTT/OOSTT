@@ -7026,22 +7026,29 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     </owl:Class>
     
 
-
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000191 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000191">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000077"/>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000190"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An information content identity that describes a social categorization of human beings by assumptions based on physical characteristics or their assumed lineage</obo:IAO_0000115>
-        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">racial category information</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An employee role that is the specified output of an employment contract document act and that, if realized, is realized by its bearer providing services for the amount of type regarded full time under the specific labor administration.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:OOSTT_00000030 xml:lang="en">An employee who provides services full time as specified in the employment agreement.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">full time employee role</rdfs:label>
     </owl:Class>
-    
 
 
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000192 -->
@@ -11160,7 +11167,21 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">unplanned endotracheal intubation</rdfs:label>
     </owl:Class>
-    
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000398">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An information content identity that describes a social categorization of human beings by assumptions based on physical characteristics or their assumed lineage</obo:IAO_0000115>
+        <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">racial category information</rdfs:label>
+    </owl:Class>
 
 
     <!-- http://purl.obolibrary.org/obo/STATO_0000184 -->
