@@ -3773,7 +3773,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000015"/>
-        <obo:IAO_0000115 xml:lang="en">An organization in a defined geographic area that ensures optimal trauma care, which includes injury prevention, access to care, prehospital care, acute hospital care, and rehabilitation.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A trauma system in a defined geographic area that ensures optimal trauma care, which includes injury prevention, access to care, prehospital care, acute hospital care, and rehabilitation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A systematic approach within a geographic region to assure and improve the process of trauma care, including prehospital care and rehabilitation, by establishing guidelines and monitoring performance and outcomes of care for the region&apos;s population and visitors.</obo:OOSTT_00000030>
