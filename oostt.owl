@@ -20,7 +20,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2025-01-24/oostt.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2025-07-31/oostt.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl"/>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <dc:contributor xml:lang="en">Diya Mehta</dc:contributor>
@@ -44,7 +44,7 @@
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">release version - 2025-01-24</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release version - 2025-07-31</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1321,6 +1321,24 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000502">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000517"/>
+        <obo:IAO_0000115>A procedure involving placement of a tube into the trachea through the mouth or nose in order to provide a patient with oxygen and anesthesia.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/maxo/releases/2024-07-29/maxo.owl</obo:IAO_0000412>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-23T16:16:19Z</dc:date>
+        <terms:creator rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <oboInOwl:hasDbXref>MeSH:D007442</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C116648</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>airway intubation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>intratracheal intubation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tracheal intubation</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">endotracheal intubation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MAXO_0000503 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000503">
@@ -1332,6 +1350,22 @@ Thus, we are attempting to define things generally enough that they could be reu
         <oboInOwl:hasExactSynonym>artificial ventilation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mechanical ventilation</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">artificial respiration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000517 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000517">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000002"/>
+        <obo:IAO_0000115>The insertion of a cannula or tube into a hollow body organ.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/maxo/releases/2024-07-29/maxo.owl</obo:IAO_0000412>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-23T20:44:41Z</dc:date>
+        <terms:creator rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <oboInOwl:hasDbXref>ERO:0001108</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D007440</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C37981</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">intubation procedure</rdfs:label>
     </owl:Class>
     
 
@@ -2313,6 +2347,39 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005433 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005433">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005567"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mondo/releases/2025-01-07/mondo.owl</obo:IAO_0000412>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005303"/>
+        <oboInOwl:hasDbXref>EFO:0004777</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:291.81</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDGEN:536543</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:191480000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0236663</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>icd11.foundation:998231424</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>alcohol withdrawal syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005433</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
+        <oboInOwl:source>EFO:0004777</oboInOwl:source>
+        <oboInOwl:source>MEDGEN:536543</oboInOwl:source>
+        <oboInOwl:source>MONDO:EFO</oboInOwl:source>
+        <oboInOwl:source>MONDO:MEDGEN</oboInOwl:source>
+        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
+        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0001-5208-3432</oboInOwl:source>
+        <rdfs:label>alcohol withdrawal</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/536543"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/191480000"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0236663"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/mondo/sources/icd11foundation/998231424"/>
+        <skos:exactMatch rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004777"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0005567 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005567">
@@ -2394,49 +2461,6 @@ Thus, we are attempting to define things generally enough that they could be reu
         <skos:closeMatch rdf:resource="http://identifiers.org/meddra/10001052"/>
         <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/J80"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3353"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MONDO_0006642 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0006642">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005567"/>
-        <obo:IAO_0000115>An acute organic mental disorder induced by cessation or reduction in chronic alcohol consumption. Clinical characteristics include confusion; delusions; vivid hallucinations; tremor; agitation; insomnia; and signs of autonomic hyperactivity (e.g., elevated blood pressure and heart rate, dilated pupils, and diaphoresis). This condition may occasionally be fatal. It was formerly called delirium tremens. (From Adams et al., Principles of Neurology, 6th ed, p1175)</obo:IAO_0000115>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/mondo/releases/2024-07-02/mondo.owl</obo:IAO_0000412>
-        <mondo:excluded_from_qc_check rdf:resource="http://purl.obolibrary.org/obo/mondo/sparql/qc/general/qc-single-child.sparql"/>
-        <oboInOwl:hasDbXref>EFO:1000800</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD9:291.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MEDGEN:1398</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MESH:D000430</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MedDRA:10001610</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SCTID:8635005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS:C0001957</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym>alcohol withdrawal associated autonomic hyperactivity</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>alcohol withdrawal hallucinosis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>alcohol withdrawal induced delirium Tremens</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>alcohol withdrawal-induced delirium Tremens</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>autonomic hyperactivity, alcohol withdrawal associated</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>delirium Tremens</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>delirium Tremens, alcohol withdrawal induced</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>delirium, alcohol withdrawal</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>hallucinosis, alcohol withdrawal</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#DEPRECATED"/>
-        <oboInOwl:id>MONDO:0006642</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#otar"/>
-        <oboInOwl:source>EFO:1000800</oboInOwl:source>
-        <oboInOwl:source>MEDGEN:1398</oboInOwl:source>
-        <oboInOwl:source>MONDO:EFO</oboInOwl:source>
-        <oboInOwl:source>MONDO:MEDGEN</oboInOwl:source>
-        <oboInOwl:source>MONDO:OTAR</oboInOwl:source>
-        <oboInOwl:source>MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source>MONDO:i2s</oboInOwl:source>
-        <rdfs:label>alcohol withdrawal delirium</rdfs:label>
-        <skos:closeMatch rdf:resource="http://identifiers.org/meddra/10001610"/>
-        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/1398"/>
-        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D000430"/>
-        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/8635005"/>
-        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0001957"/>
     </owl:Class>
     
 
@@ -3531,6 +3555,12 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000077"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000085">
@@ -3664,7 +3694,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000119"/>
         <obo:IAO_0000115 xml:lang="en">A professional organization of healthcare providers and trauma facilitites aiming to improve trauma care, the trauma system, and/or to conduct trauma research.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A group of health professionals and trauma facilities with a formal mission focused on improving trauma care, the trauma system, and/or trauma research.</obo:OOSTT_00000030>
@@ -3744,7 +3774,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000015"/>
-        <obo:IAO_0000115 xml:lang="en">An organization in a defined geographic area that ensures optimal trauma care, which includes injury prevention, access to care, prehospital care, acute hospital care, and rehabilitation.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A trauma system in a defined geographic area that ensures optimal trauma care, which includes injury prevention, access to care, prehospital care, acute hospital care, and rehabilitation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A systematic approach within a geographic region to assure and improve the process of trauma care, including prehospital care and rehabilitation, by establishing guidelines and monitoring performance and outcomes of care for the region&apos;s population and visitors.</obo:OOSTT_00000030>
@@ -7003,6 +7033,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     </owl:Class>
     
 
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000191 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000191">
@@ -7026,6 +7057,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:OOSTT_00000030 xml:lang="en">An employee who provides services full time as specified in the employment agreement.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">full time employee role</rdfs:label>
     </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000192 -->
@@ -10438,6 +10470,22 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000359">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000067"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content identity that denotes the age of a patient at the time of the specific injury.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
@@ -10510,6 +10558,17 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">sex information content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000363">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000386"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that specified the total number of days a patient has spent on a machine that moves oxygen in and out of their lungs.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">total days of ventilator use</rdfs:label>
     </owl:Class>
     
 
@@ -10798,20 +10857,12 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000377 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000378"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content identity that denotes the field where an individual is compensated for their service</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
@@ -10932,7 +10983,23 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000386">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115 xml:lang="en">A data item that denotes the total amount of time a patient has spent on a machine that moves oxygen in and out of their lungs.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000503"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A data item that specifies the total amount of time a patient has spent on a machine that moves oxygen in and out of their lungs.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">total length of ventilator use</rdfs:label>
@@ -10944,7 +11011,13 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000387">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115 xml:lang="en">A process that leads to intense physical injury to the body.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A process that leads to intense physical injury to an organism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Emma Chappell</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">American College of Surgeons TCOT. National Trauma Data Standard Data Dictionary [Internet]. 2024. https://www.facs.org/media/k4wnvapp/final_2024-data-dictionary-830.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">trauma incident</rdfs:label>
@@ -11094,6 +11167,18 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     </owl:Class>
     
 
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000397">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000502"/>
+        <obo:IAO_0000115 xml:lang="en">An endotraceal intubation that was not part of the initial treatment plan.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">unplanned endotracheal intubation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000398 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000398">
@@ -11108,6 +11193,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117>Emma Chappell</obo:IAO_0000117>
         <rdfs:label xml:lang="en">racial category information</rdfs:label>
     </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/STATO_0000184 -->
