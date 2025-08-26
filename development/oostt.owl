@@ -4981,7 +4981,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000049"/>
-        <obo:IAO_0000115 xml:lang="en">A plan specification that has a continuing trauma education objective specification as parts.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A continuing medical education plan specification that has a continuing trauma education objective specification as parts.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">continuing trauma education plan</obo:IAO_0000118>
