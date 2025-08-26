@@ -5904,7 +5904,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
-        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques on a patient, either to remodel body parts to change their appearance or to restore the appearance and sometimes the function of body parts affected by trauma, previous surgery, or congenital defect.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A healthcare provider organization role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques on a patient, either to remodel body parts to change their appearance or to restore the appearance and sometimes the function of body parts affected by trauma, previous surgery, or congenital defect.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">An association of plastic surgeons with the role of sharing information and establishing guidelines for the diagnosis, treatment, and surgical techniques to remodel body parts to change their appearance or to restore the appearance and sometimes the function of body parts affected by trauma, previous surgery, or congenital defect</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">plastic surgery provider organization role</rdfs:label>
