@@ -4954,7 +4954,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000050"/>
-        <obo:IAO_0000115 xml:lang="en">An objective specification that describes the endpoint of processes to  maintain competency and learn new and developing areas in trauma medicine.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A continuing medical education objective specification that describes the endpoint of processes to  maintain competency and learn new and developing areas in trauma medicine.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
