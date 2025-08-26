@@ -4831,7 +4831,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <obo:IAO_0000115 xml:lang="en">A university (Latin: universitas, &quot;a whole&quot;) is an institution of higher (or tertiary) education and research which grants academic degrees in various subjects and typically provides undergraduate education and postgraduate education.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An organization that conducts higher (or tertiary) education and research, and grants academic degree in various subjects and typically provides undergraduate education and postgraduate education.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=University&amp;oldid=714964422</obo:IAO_0000119>
         <rdfs:label xml:lang="en">university</rdfs:label>
     </owl:Class>
