@@ -7014,7 +7014,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is a specified output of a person participating in an trauma nursing core course and that certifies successful completion of that course.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A training certificate that is a specified output of a person participating in an trauma nursing core course and that certifies successful completion of that course.</obo:IAO_0000115>
         <obo:OOSTT_00000030 xml:lang="en">Documentation that a nurse has successfully completed the Trauma Nurse Core Curriculum program.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma nursing core course certificate</rdfs:label>
     </owl:Class>
