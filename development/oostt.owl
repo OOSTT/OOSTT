@@ -43,7 +43,7 @@
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">development version - 2027-08-26</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version - 2027-08-27</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -6319,7 +6319,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A role that inheres in a nurse and, if realized, is realized by its bearer to act as contact for all matter relating to nursing in the emergency room.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An emergency department representative role that inheres in a nurse and, if realized, is realized by its bearer to act as contact for all matter relating to nursing in the emergency room.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">An emergency nurse manager who serves as the point of contact for all matters related to nursing in the ED.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">emergency department nursing liaison</rdfs:label>
