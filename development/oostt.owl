@@ -6798,7 +6798,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000179"/>
-        <obo:IAO_0000115 xml:lang="en">The qualification criteria for a physician to become a member of the emergency department that have been approved by the trauma medical director of the institution the department is a part of.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An institution-specific emergency medicine physician role description that has been approved by the trauma medical director of the institution that the department is part of.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">TMD approved institution-specific emergency medicine physician profile</rdfs:label>
     </owl:Class>
