@@ -6538,7 +6538,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">Board certification is the process by which a healthcare provider (physician, nurse, or other) in the United States demonstrates a mastery of basic knowledge and skills in a speciality of their occupation through written, practical, or simulator-based testing.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process by which a healthcare provider (physician, nurse, or other) in the United States demonstrates a mastery of basic knowledge and skills in a speciality of their occupation through written, practical, or simulator-based testing.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">Board certification is the process by which a healthcare provider (physician, nurse, or other) in the United States demonstrates a mastery of basic knowledge and skills in a speciality of their occupation through written, practical, or simulator-based testing.  Health professionals from other countries go through a similar process as consistent with their country&apos;s requirements.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">medical board certification</rdfs:label>
