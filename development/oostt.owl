@@ -6962,7 +6962,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is a specific output of a person participating in an advanced trauma care for nurses program and that certifies successful completion of the program.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A training certificate that is a specified output of a person participating in an advanced trauma care for nurses program and that certifies successful completion of the program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">ATNC certificate</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">Recognition awarded after successfully completing the advanced trauma care for nurses education program.</obo:OOSTT_00000030>
