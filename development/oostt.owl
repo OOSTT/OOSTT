@@ -7549,7 +7549,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies under which circumstances and with which neurological injuries patients will be triaged from the emergency department to another healthcare provider organization when limited or no neurosurgical coverage is available and that is the specified output of an approval process through the trauma medical director.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A hospital neurological injury triage plan specification that specifies under which circumstances and with which neurological injuries patients will be triaged from the emergency department to another healthcare provider organization when limited or no neurosurgical coverage is available and that is the specified output of an approval process through the trauma medical director.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A hospital&apos;s neurologic injury triage plan identifying the destination of patients with specified injuries, or based on injury severity, approved by the trauma medical director.</obo:OOSTT_00000030>
