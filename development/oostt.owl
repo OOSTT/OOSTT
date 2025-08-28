@@ -8753,7 +8753,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
-        <obo:IAO_0000115 xml:lang="en">An aggregate of emergency medical services agencies that do not provide transport for the sick and injured.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An aggregate of organizations that consists of emergency medical services agencies that do not provide transport for the sick and injured.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">aggregate of emergency medical services non-transporting agencies</rdfs:label>
     </owl:Class>
