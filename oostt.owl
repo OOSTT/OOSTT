@@ -20,7 +20,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2025-07-31/oostt.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2025-08-08/oostt.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl"/>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <dc:contributor xml:lang="en">Diya Mehta</dc:contributor>
@@ -44,7 +44,7 @@
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">release version - 2025-07-31</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release version - 2025-08-28</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -3101,25 +3101,6 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000111 xml:lang="en">population</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">PMID12564891. Environ Sci Technol. 2003 Jan 15;37(2):223-8. Effects of historic PCB exposures on the reproductive success of the Hudson River striped bass population.</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115 xml:lang="en">a population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area</obo:IAO_0000115>
-        <obo:IAO_0000116>1/28/2013, BP, on the call it was raised that we may want to switch to an external ontology for all populatin terms: 
-http://code.google.com/p/popcomm-ontology/</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">adapted from Oxford English Dictionnary</obo:IAO_0000119>
-        <obo:IAO_0000232 xml:lang="en">rem1: collection somehow always involve a selection process</obo:IAO_0000232>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/obi/2023-09-20/obi.owl</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">population</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBI_0000679 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000679">
@@ -3557,7 +3538,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000077 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000077"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000077">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label>obsolete_OMRSE_00000077</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
@@ -3793,7 +3778,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A conditional specification that guides prehospital providers in determining the most appropriate facility to care for the injured patient.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A plan specification that guides prehospital providers in determining the most appropriate facility to care for the injured patient.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A decision tool &quot;to help prehospital providers determine the most appropriate facility to care for the injured patient&quot; developed by a medical direction authority [PMID: 22626915].</obo:OOSTT_00000030>
@@ -3890,11 +3875,12 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A statute or a set of statutes specifying an agency that holds authority for the creation and operation of a trauma system.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A statute or multiple statutes that identifies a lead agency and authorizes the creation, operation, and evaluation of a state, regional or local trauma system.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">enabling legislation</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_enabling legislation</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -4010,7 +3996,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An individual who abstracts, records, and validates data in an electronic trauma registry; assists with data analysis; and runs reports.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A registrar role that, if realized, is realized by the bearer abstracting, recording, and validating data in an electronic trauma registry; assists with data analysis; and runs reports.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
@@ -4107,7 +4093,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
-        <obo:IAO_0000115 xml:lang="en">A role that is borne by a hospital or clinic and, if realized, is realized by its bearer providing emergency trauma care through specially trained personnel. The role is the specified outcome of a trauma center designation.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A healthcare provider organization role that is borne by a hospital or clinic and, if realized, is realized by its bearer providing emergency trauma care through specially trained personnel. The role is the specified outcome of a trauma center designation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A formally recognized acute care hospital or clinic that meets the standards and established criteria for trauma center designation and provides stabilization or definitive care to trauma patients.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma center role</rdfs:label>
@@ -4557,8 +4543,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
-        <obo:IAO_0000115 xml:lang="en">A deontic role borne by the bearer of a healthcare provider role that, if realized, is realized by developing, overseeing and improving medical care for injured patients in a healthcare provider organization.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021023"/>
+        <obo:IAO_0000115 xml:lang="en">A power role borne by the bearer of a healthcare provider role that, if realized, is realized by developing, overseeing and improving medical care for injured patients in a healthcare provider organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
@@ -4828,7 +4814,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <obo:IAO_0000115 xml:lang="en">A university (Latin: universitas, &quot;a whole&quot;) is an institution of higher (or tertiary) education and research which grants academic degrees in various subjects and typically provides undergraduate education and postgraduate education.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An organization that conducts higher (or tertiary) education and research, and grants academic degree in various subjects and typically provides undergraduate education and postgraduate education.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=University&amp;oldid=714964422</obo:IAO_0000119>
         <rdfs:label xml:lang="en">university</rdfs:label>
     </owl:Class>
@@ -4951,7 +4937,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000050"/>
-        <obo:IAO_0000115 xml:lang="en">An objective specification that describes the endpoint of processes to  maintain competency and learn new and developing areas in trauma medicine.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A continuing medical education objective specification that describes the endpoint of processes to  maintain competency and learn new and developing areas in trauma medicine.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
@@ -4978,7 +4964,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000049"/>
-        <obo:IAO_0000115 xml:lang="en">A plan specification that has a continuing trauma education objective specification as parts.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A continuing medical education plan specification that has a continuing trauma education objective specification as parts.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">continuing trauma education plan</obo:IAO_0000118>
@@ -5159,8 +5145,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000099 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000099">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
-        <obo:IAO_0000115 xml:lang="en">A deontic role that, if realized, is realized by its bearer providing a document that lists the minimum qualifications of a person to become a member of the trauma service.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021023"/>
+        <obo:IAO_0000115 xml:lang="en">A power role that, if realized, is realized by its bearer providing a document that lists the minimum qualifications of a person to become a member of the trauma service.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The power to establish minimum qualifications to be a member of the trauma service.</obo:OOSTT_00000030>
@@ -5172,10 +5158,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000100">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021004"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A socio-legal generically dependent continuant that is concretized in a role within an organizational context and which legally, normatively, or ethically permits some action.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">authority</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_authority</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -5183,11 +5170,12 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000101">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000100"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">Authority prescribed by some enabling legislation</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">Authority prescribed by enabling legislation, rules, or regulations</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">statutory authority</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_statutory authority</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -5195,8 +5183,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
-        <obo:IAO_0000115 xml:lang="en">A deontic role that, if realized, is realized by its bearer actively participating in a document act that has a trauma service member role as its specified output.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021023"/>
+        <obo:IAO_0000115 xml:lang="en">A power role that, if realized, is realized by its bearer actively participating in a document act that has a trauma service member role as its specified output.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The power to appoint members to the trauma service.</obo:OOSTT_00000030>
@@ -5240,8 +5228,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000105 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000105">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
-        <obo:IAO_0000115 xml:lang="en">A deontic role that, if realized, is realized by its bearer participating in a document act that revokes a trauma service member role.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021023"/>
+        <obo:IAO_0000115 xml:lang="en">A power role that, if realized, is realized by its bearer participating in a document act that revokes a trauma service member role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The power to revoke membership on the trauma service.</obo:OOSTT_00000030>
@@ -5899,7 +5887,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
-        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques on a patient, either to remodel body parts to change their appearance or to restore the appearance and sometimes the function of body parts affected by trauma, previous surgery, or congenital defect.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A healthcare provider organization role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques on a patient, either to remodel body parts to change their appearance or to restore the appearance and sometimes the function of body parts affected by trauma, previous surgery, or congenital defect.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">An association of plastic surgeons with the role of sharing information and establishing guidelines for the diagnosis, treatment, and surgical techniques to remodel body parts to change their appearance or to restore the appearance and sometimes the function of body parts affected by trauma, previous surgery, or congenital defect</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">plastic surgery provider organization role</rdfs:label>
@@ -5911,7 +5899,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
-        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques on a patient&apos;s hand to investigate and/or treat a pathological condition such as disease or injury, to help improve bodily function or appearance.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A health care provider organization role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques on a patient&apos;s hand to investigate and/or treat a pathological condition such as disease or injury, to help improve bodily function or appearance.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">An group or association of hand surgeons with the role of sharing information and establishing guidelines for the diagnosis, treatment, and surgical techniques on a patient&apos;s hand and upper extremities.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">hand surgery provider organization role</rdfs:label>
@@ -5923,7 +5911,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000143">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
-        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques to join or repair blood vessels too small to view unaided by microscopy, in order to provide blood circulation to a body part that is being surgically attached or reconstructed</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A healthcare provider organization role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques to join or repair blood vessels too small to view unaided by microscopy, in order to provide blood circulation to a body part that is being surgically attached or reconstructed</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">An organization that provides specialized operative manual and instrumental techniques to join or repair blood vessels too small to view unaided by microscopy, in order to provide blood circulation to a body part that is being surgically attached or reconstructed</obo:OOSTT_00000030>
         <rdfs:comment xml:lang="en">This is not a representation of a professional organization of microvascular sugery providers, but an organization that provides microvascular surgery.</rdfs:comment>
@@ -5936,7 +5924,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000144">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
-        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques on a patient&apos;s spine to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A healthcare provider organization role that inheres in an organization and, if realized, is realized by the bearer organizing the provision of operative manual and instrumental techniques on a patient&apos;s spine to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A group or association of neurosurgical or orthopedic spine surgeons with the role of sharing information and establishing guidelines for the diagnosis, treatment, and surgical techniques on a patient&apos;s spine and spinal cord.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">spinal surgery provider organization role</rdfs:label>
@@ -6014,7 +6002,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000127"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A coverage policy that specifies that a emergency physician who is certified by an official agency or correspondent authority is present in the emergency department 24 hours, 7 days a week.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A continuous coverage policy that specifies that a emergency physician who is certified by an official agency or correspondent authority is present in the emergency department 24 hours, 7 days a week.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A healthcare facility policy that specifies the requirement for an emergency physician who is certified by an official agency or correspondent authority availability 24 hours a day, 7 days a week.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">continuous board certified emergency physician staffing policy</rdfs:label>
@@ -6150,8 +6138,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000156 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000156">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
                 <owl:someValuesFrom>
@@ -6166,10 +6153,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </rdfs:subClassOf>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that only has as members bearers of an anesthesiologist role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of anesthesiologists</rdfs:label>
     </owl:Class>
     
@@ -6313,7 +6300,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A role that inheres in a nurse and, if realized, is realized by its bearer to act as contact for all matter relating to nursing in the emergency room.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An emergency department representative role that inheres in a nurse and, if realized, is realized by its bearer to act as contact for all matter relating to nursing in the emergency room.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">An emergency nurse manager who serves as the point of contact for all matters related to nursing in the ED.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">emergency department nursing liaison</rdfs:label>
@@ -6352,8 +6339,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000165">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
                 <owl:someValuesFrom>
@@ -6368,10 +6354,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </rdfs:subClassOf>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that only has bearers of an emergency physician role as members.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of emergency physicians</rdfs:label>
     </owl:Class>
     
@@ -6435,7 +6421,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
         <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians that has successfully completed the advanced life support course.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of emergency physicians with ATLS training</rdfs:label>
     </owl:Class>
     
@@ -6458,33 +6443,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000170">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000168"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000153"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty>
-                                    <rdf:Description>
-                                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                    </rdf:Description>
-                                </owl:onProperty>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000169"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians with ATLS training for which the training has not been more than the time specified before their knowledge is no longer deemed current.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of emergency physicians current in ATLS</rdfs:label>
     </owl:Class>
     
@@ -6532,7 +6492,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">Board certification is the process by which a healthcare provider (physician, nurse, or other) in the United States demonstrates a mastery of basic knowledge and skills in a speciality of their occupation through written, practical, or simulator-based testing.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process by which a healthcare provider (physician, nurse, or other) in the United States demonstrates a mastery of basic knowledge and skills in a speciality of their occupation through written, practical, or simulator-based testing.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">Board certification is the process by which a healthcare provider (physician, nurse, or other) in the United States demonstrates a mastery of basic knowledge and skills in a speciality of their occupation through written, practical, or simulator-based testing.  Health professionals from other countries go through a similar process as consistent with their country&apos;s requirements.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">medical board certification</rdfs:label>
@@ -6556,25 +6516,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000171"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians that only has members, which are board certified in emergency medicine or or have met all requirements for that subspecialty in their country of practice.</obo:IAO_0000115>
         <obo:OOSTT_00000030>All emergency physicians credentialed to practice in a healthcare facility who are either board certified or have met all requirements for that subspecialty in their country of practice.</obo:OOSTT_00000030>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of board certified emergency physicians</rdfs:label>
     </owl:Class>
     
@@ -6584,34 +6527,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000175">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                            <owl:Class>
-                                <owl:complementOf>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000171"/>
-                                    </owl:Restriction>
-                                </owl:complementOf>
-                            </owl:Class>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000173"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians that fulfil all criteria to sit a board certification exam, but that either have not taken one or have failed.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All emergency physicians who have completed all training requirements and are eligible to sit for the emergency physician or pediatric emergency physician board certification exam in the country of intended practice.</obo:OOSTT_00000030>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of board eligible emergency physicians</rdfs:label>
     </owl:Class>
     
@@ -6621,34 +6539,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000176">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000165"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000171"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty>
-                                    <rdf:Description>
-                                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                    </rdf:Description>
-                                </owl:onProperty>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000169"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians that all successfully took the board certification exam in emergency medicine and that have had ATLS training.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A collection of emergency physicians whose members successfully took the board certification exam in emergency medicine and that have had ATLS training.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All board certified emergency physicians who have successfully completed the ATLS course.</obo:OOSTT_00000030>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of board certified emergency physicians current in ATLS</rdfs:label>
     </owl:Class>
     
@@ -6792,7 +6685,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000179"/>
-        <obo:IAO_0000115 xml:lang="en">The qualification criteria for a physician to become a member of the emergency department that have been approved by the trauma medical director of the institution the department is a part of.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An institution-specific emergency medicine physician role description that has been approved by the trauma medical director of the institution that the department is part of.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">TMD approved institution-specific emergency medicine physician profile</rdfs:label>
     </owl:Class>
@@ -6859,34 +6752,14 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000184">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000098"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000400"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000143"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of humans that only consists of surgeons that are mentioned in a trauma on call plan specification and that are subject to a performance review by the trauma medical director.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A collection of surgeons whose members are mentioned in a trauma on call plan specification and that are subject to a performance review by the trauma medical director.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
@@ -6956,7 +6829,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is a specific output of a person participating in an advanced trauma care for nurses program and that certifies successful completion of the program.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A training certificate that is a specified output of a person participating in an advanced trauma care for nurses program and that certifies successful completion of the program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">ATNC certificate</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">Recognition awarded after successfully completing the advanced trauma care for nurses education program.</obo:OOSTT_00000030>
@@ -7008,7 +6881,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is a specified output of a person participating in an trauma nursing core course and that certifies successful completion of that course.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A training certificate that is a specified output of a person participating in an trauma nursing core course and that certifies successful completion of that course.</obo:IAO_0000115>
         <obo:OOSTT_00000030 xml:lang="en">Documentation that a nurse has successfully completed the Trauma Nurse Core Curriculum program.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma nursing core course certificate</rdfs:label>
     </owl:Class>
@@ -7100,35 +6973,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000194 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000194">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000195"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty>
-                                    <rdf:Description>
-                                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                    </rdf:Description>
-                                </owl:onProperty>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000166"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of general surgeons that has successfully completed the advanced life support course.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000403"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of general surgeons that whose members have successfully completed the advanced life support course.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All surgeons serving who have successfully completed the Advanced Trauma Life Support program at some point in time.</obo:OOSTT_00000030>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of general surgeons with ATLS training</rdfs:label>
     </owl:Class>
     
@@ -7138,7 +6986,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000195">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
-        <obo:IAO_0000115 xml:lang="en">A physician role borne by a human being and that, if realized, is being realized by its bearer using operative manual and instrumental techniques on a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas without the bearer of the role specializing into any particular field of surgery.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is being realized by its bearer using operative manual and instrumental techniques on a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas without the bearer of the role specializing into any particular field of surgery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A surgeon without specialization who performs operative manual and instrumental techniques on a patient to investigate or treat a  disease or injury, to help improve bodily function or appearance, or to repair unwanted ruptured areas .</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">general surgeon role</rdfs:label>
@@ -7177,7 +7025,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A collection of general surgeons with ATLS training for which the training has not been more than the time specified before their knowledge is no longer deemed current.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All surgeons serving on the trauma panel who have successfully completed the Advanced Trauma Life Support program at some point in time.</obo:OOSTT_00000030>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of general surgeons current in ATLS</rdfs:label>
     </owl:Class>
     
@@ -7186,14 +7033,14 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000197 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000197">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021019"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0021002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0021001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A deontic role that is the specified outcome of a document act between the chair of a surgery department and the bearer of a surgeon role that, of realized, is realized by its bearer admitting, evaluating, diagnosing, consulting, and providing pre-, intra and post-operative care, and performing surgical procedures, to patients of all ages, to correct or treat various conditions, diseases, disorders, and injuries of the alimentary tract, abdomen and its contents, extremities, breast, skin and soft tissue, head and neck, and endocrine systems.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A privilege holder role that is the specified outcome of a document act between the chair of a surgery department and the bearer of a surgeon role that, of realized, is realized by its bearer admitting, evaluating, diagnosing, consulting, and providing pre-, intra and post-operative care, and performing surgical procedures, to patients of all ages, to correct or treat various conditions, diseases, disorders, and injuries of the alimentary tract, abdomen and its contents, extremities, breast, skin and soft tissue, head and neck, and endocrine systems.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://www.umc.edu/uploadedFiles/UMCedu/Content/Administration/Business_Services/Medical_Staff_Services/New_Faculty/SUR%20-%20General%20Surgery%20Clinical%20Privileges_rev07032013.pdf</obo:IAO_0000119>
         <obo:OOSTT_00000030 xml:lang="en">A general surgeon who is credentialed by a healthcare facility to admit, evaluate, diagnose, consult, and provide pre-, intra and post-operative care, and perform surgical procedures, to patients of all ages, to correct or treat various conditions, diseases, disorders, and injuries of the various body systems.</obo:OOSTT_00000030>
@@ -7205,30 +7052,9 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000198 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000198">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000096"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000197"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a trauma surgeon role that are also bearing a general surgery privileges role.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000402"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons that consists only of bearers of a trauma surgeon role that are also bearing a general surgery privileges role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of trauma surgeons with general surgery privileges</rdfs:label>
     </owl:Class>
     
@@ -7237,54 +7063,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000199 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000199">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:intersectionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000106"/>
-                                                    <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000107"/>
-                                                    </owl:Restriction>
-                                                </owl:intersectionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000096"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a trauma surgeon role that are mentioned in a trauma on call plan specification and that particpates in trauma education verifiable for 18 hours over 3 years.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000207"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons on a trauma service whose members participated in trauma education verifiable for 18 hours over 3 years.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of trauma surgeons on trauma service fulfilling CME requirement</rdfs:label>
     </owl:Class>
     
@@ -7308,54 +7090,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000201 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000201">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000096"/>
-                                            </owl:Restriction>
-                                            <owl:Restriction>
-                                                <owl:onProperty>
-                                                    <rdf:Description>
-                                                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                                    </rdf:Description>
-                                                </owl:onProperty>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000204"/>
-                                            </owl:Restriction>
-                                            <owl:Restriction>
-                                                <owl:onProperty>
-                                                    <rdf:Description>
-                                                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                                                    </rdf:Description>
-                                                </owl:onProperty>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a trauma surgeon role that are mentioned in a trauma on call plan specification and that particpates in practice based training course organized by a trauma program.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000207"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons on a trauma service that whose members particpated in a practice based training course organized by a trauma program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030>All trauma surgeons participating in the trauma service who have completed a trauma program sponsored simulation-based training program.</obo:OOSTT_00000030>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of trauma surgeons on trauma service with practice-based learning course</rdfs:label>
     </owl:Class>
     
@@ -7364,35 +7103,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000202">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                            <owl:Class>
-                                <owl:complementOf>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000182"/>
-                                    </owl:Restriction>
-                                </owl:complementOf>
-                            </owl:Class>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000181"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000402"/>
         <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons that fulfil all criteria to sit a board certification exam, but that either have not taken one or have failed.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All surgeons who have completed all training requirements and are eligible to take the acute care and trauma surgery board certification examination in the country of intended practice.</obo:OOSTT_00000030>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of board eligible trauma surgeons</rdfs:label>
     </owl:Class>
     
@@ -7401,27 +7115,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000203 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000203">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000182"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000402"/>
         <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons that only has members which are board certified in trauma surgery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All board certified trauma surgeons.</obo:OOSTT_00000030>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of board certified trauma surgeons</rdfs:label>
     </owl:Class>
     
@@ -7475,40 +7172,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000207 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000207">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000096"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of humans that consists exclusively of trauma surgeons that are listed on the trauma on call plan specification.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000402"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons that consists exclusively of trauma surgeons that are listed on the trauma on call plan specification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All trauma surgeons participating on the trauma service.</obo:OOSTT_00000030>
-        <rdfs:comment xml:lang="en">This class already follows the strategy of not fully defining collections (using universal restrictions) due to the reasoning load it creates. We only represent which properties the affirmed members of this class have using a necessary existential restriction</rdfs:comment>
         <rdfs:label xml:lang="en">collection of trauma surgeons on a trauma service</rdfs:label>
     </owl:Class>
     
@@ -7533,39 +7200,12 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000209 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000209">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000096"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty>
-                                    <rdf:Description>
-                                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                    </rdf:Description>
-                                </owl:onProperty>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000372"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons who are members of the trauma service of an organization and are exclusively on call for that organization.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000207"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons on a trauma service of an organization that are exclusively on call for that organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All trauma surgeons who are members of the trauma service and exclusively serve one trauma center during a specific time period.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">collection of trauma surgeons with on call exclusivity</rdfs:label>
+        <rdfs:label xml:lang="en">collection of trauma surgeons on trauma service with on call exclusivity</rdfs:label>
     </owl:Class>
     
 
@@ -7620,7 +7260,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000288"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is the specified output of a critical care certificate course.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A training certificate that is the specified output of a critical care certificate course.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">Recognition awarded after successful completion of education and training in any aspect of critical care meeting standards established under the authority of a governing board or agency.</obo:OOSTT_00000030>
@@ -7632,41 +7272,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000213 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000213">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000096"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty>
-                                    <rdf:Description>
-                                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                    </rdf:Description>
-                                </owl:onProperty>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                    <owl:Restriction>
-                        <owl:onProperty>
-                            <rdf:Description>
-                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                            </rdf:Description>
-                        </owl:onProperty>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000212"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons that are part of the on call list of an organization and are certified in critical care.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000207"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons on a trauma service whose members are certified in critical care.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">collection of trauma surgeons certified for critical care</rdfs:label>
+        <rdfs:label xml:lang="en">collection of trauma surgeons on trauma service certified for critical care</rdfs:label>
     </owl:Class>
     
 
@@ -7740,37 +7349,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000217 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000217">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000090"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a trauma surgeon role an that are mentioned in a trauma on call plan specification.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000401"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of orthopedic surgeons whose members are mentioned in a trauma on call plan specification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <rdfs:label xml:lang="en">collection of orthopedic surgeons on trauma service</rdfs:label>
@@ -7781,51 +7361,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000218">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:intersectionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000106"/>
-                                                    <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000107"/>
-                                                    </owl:Restriction>
-                                                </owl:intersectionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000096"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a orthopedic surgeon role an that are mentioned in the trauma panel and that particpates in trauma education verifiable for 18 hours over 3 years.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000217"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of orthopedic surgeons on trauma service whose members particpate in trauma education verifiable for 18 hours over 3 years.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All orthopedic surgeons participating in the trauma service who are current in fulfilling requirements for trauma-related continuing medical education.</obo:OOSTT_00000030>
@@ -7887,37 +7424,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000221 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000221">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000219"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of orthopedic surgeons mentioned on the trauma on call plan specification that fulfil all criteria to sit a board certification exam, but that either have not taken one or have failed.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000217"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of orthopedic surgeons on trauma service whose members fulfil all criteria to sit a board certification exam, but that either have not taken one or have failed.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All orthopedic surgeons who have completed all training requirements, are eligible to sit for the orthopedic surgery board certification exam, practicing in a healthcare facility, and participating in the trauma service.</obo:OOSTT_00000030>
@@ -7929,37 +7437,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000222 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000222">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000220"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of orthopedic surgeons that are mentioned in the trauma on call plan specification and that are board certified in orthopedic surgery.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000217"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of orthopedic surgeons on trauma service whose members are board certified in orthopedic surgery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <rdfs:label xml:lang="en">collection of board certified orthopedic surgeons on trauma service</rdfs:label>
@@ -7970,14 +7449,14 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000223 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000223">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021019"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0021002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0021001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A deontic role that is the specified outcome of a document act between the head of a orthopedic surgery and the bearer of a orthopedic surgeon role that, of realized, is realized by its bearer admitting, evaluating, diagnosing, consulting, and providing pre-, intra and post-operative care, and performing orthopedic surgical procedures, to patients of all ages, to correct or treat various conditions, diseases, disorders, and injuries of the musculoskeletal system.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A privilege holder role that is the specified outcome of a document act between the head of a orthopedic surgery and the bearer of a orthopedic surgeon role that, of realized, is realized by its bearer admitting, evaluating, diagnosing, consulting, and providing pre-, intra and post-operative care, and performing orthopedic surgical procedures, to patients of all ages, to correct or treat various conditions, diseases, disorders, and injuries of the musculoskeletal system.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">An orthopaedic surgeon who is credentialed by a healthcare facility to provide services that include assessment, diagnosis, management, and treatment of various conditions and injuries of the musculosekeletal system.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">general orthopedic surgery privileges role</rdfs:label>
@@ -8052,7 +7531,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies under which circumstances and with which neurological injuries patients will be triaged from the emergency department to another healthcare provider organization when limited or no neurosurgical coverage is available and that is the specified output of an approval process through the trauma medical director.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A hospital neurological injury triage plan specification that specifies under which circumstances and with which neurological injuries patients will be triaged from the emergency department to another healthcare provider organization when limited or no neurosurgical coverage is available and that is the specified output of an approval process through the trauma medical director.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A hospital&apos;s neurologic injury triage plan identifying the destination of patients with specified injuries, or based on injury severity, approved by the trauma medical director.</obo:OOSTT_00000030>
@@ -8064,37 +7543,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000227 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000227">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000367"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a neurosurgeon role that are mentioned in a trauma on call plan specification.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000399"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of neurosurgeons that consists only of bearers of a neurosurgeon role that are mentioned in a trauma on call plan specification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <rdfs:label xml:lang="en">collection of neurosurgeons on trauma service</rdfs:label>
@@ -8105,39 +7555,12 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000228 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000228">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000090"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty>
-                                    <rdf:Description>
-                                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                    </rdf:Description>
-                                </owl:onProperty>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000372"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of orthopedic surgeons who are members of the trauma service of an organization and are exclusively on call for that organization.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000217"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of orthopedic surgeons on trauma service whose members are exclusively on call for that organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All orthopedic surgeons who are members of the trauma service and exclusively serve one trauma center during a specific time period.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">collection of orthopedic surgeons with on call exclusivity</rdfs:label>
+        <rdfs:label xml:lang="en">collection of orthopedic surgeons on trauma service with on call exclusivity</rdfs:label>
     </owl:Class>
     
 
@@ -8145,39 +7568,12 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000229 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000229">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000367"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty>
-                                    <rdf:Description>
-                                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                    </rdf:Description>
-                                </owl:onProperty>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000372"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of neurosurgeons that are members of the trauma service of an organization and are exclusively on call for that organization.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000227"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of neurosurgeons on trauma service whose members are exclusively on call for that organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All neurosurgeons who are members of the trauma service and exclusively serve one trauma center during a specific time period.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">collection of neurosurgeons with on call exclusivity</rdfs:label>
+        <rdfs:label xml:lang="en">collection of neurosurgeons on trauma service with on call exclusivity</rdfs:label>
     </owl:Class>
     
 
@@ -8185,51 +7581,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000230 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000230">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:intersectionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000370"/>
-                                                    <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000107"/>
-                                                    </owl:Restriction>
-                                                </owl:intersectionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000367"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a neurosurgeon role that are mentioned in a trauma on call plan specification and that particpates in trauma education verifiable for 18 hours over 3 years.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000227"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of neurosurgeons on trauma service whose members particpate in trauma education verifiable for 18 hours over 3 years.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All neurosurgeons participating in the trauma service who are current in fulfilling requirements for trauma-related continuing medical education.</obo:OOSTT_00000030>
@@ -8241,37 +7594,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000231 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000231">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000130"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of an anesthesiologist role that are mentioned in a trauma on call plan specification.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000156"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of anesthesiologists whose members are mentioned in a trauma on call plan specification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">collection of anesthesiologists on trauma service</rdfs:label>
     </owl:Class>
@@ -8334,45 +7658,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000234">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000130"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000233"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of an anesthesiologist role and that have successfully completed an anesthesiology residency and that are mentioned in a trauma on call plan specification.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000231"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of anesthesiologists on trauma service whose members have successfully completed an anesthesiology residency.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <rdfs:label xml:lang="en">collection of anesthesiologists with anesthesiology residency on trauma service</rdfs:label>
@@ -8384,7 +7671,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000235">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000323"/>
-        <obo:IAO_0000115 xml:lang="en">A nurse role that is the specified output of post-graduate education in nursing and that is realized by using extended and expanded skills, experience and knowledge in assessment, planning, implementation, diagnosis and evaluation of the care required.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A registered nurse role that is the specified output of post-graduate education in nursing and that is realized by using extended and expanded skills, experience and knowledge in assessment, planning, implementation, diagnosis and evaluation of the care required.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A nurse with, at minimum, a Master&apos;s degree in nursing who uses expanded knowledge and skills in assessment, diagnosis, planning, implementation, and evaluation of patient care.</obo:OOSTT_00000030>
@@ -8410,22 +7697,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000236"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that only has bearers of an certified registered nurse anesthetist role as members.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All nurses with advanced education in anesthesiology who have successfully completed a national certification examination process, and is credentialed to practice by a healthcare facility.</obo:OOSTT_00000030>
@@ -8943,7 +8214,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000270"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An organization that is part of the machinery of government and that is responsible for the oversight and administration of specific functions. The governmental agencies are given the authority to fulfill those responsibilities by the government.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A government organization that is part of the machinery of government and that is responsible for the oversight and administration of specific functions. The governmental agencies are given the authority to fulfill those responsibilities by the government.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">government agency</obo:IAO_0000118>
         <rdfs:label xml:lang="en">governmental agency</rdfs:label>
     </owl:Class>
@@ -9129,8 +8400,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000280">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
-        <obo:IAO_0000115 xml:lang="en">A deontic role that if realised is realised by its bearer being the active participant in a document act ratifying regulations for trauma systems.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021023"/>
+        <obo:IAO_0000115 xml:lang="en">A power role that if realised is realised by its bearer being the active participant in a document act ratifying regulations for trauma systems.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">authority to create regulation for trauma system</rdfs:label>
     </owl:Class>
@@ -9344,7 +8615,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A healthcare provider representing their specialty in the multidisciplinary peer review committee.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A human whos is the bearer of a healthcare provider role and represents their specialty in the multidisciplinary peer review committee.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A physician or other qualified healthcare professional representing their specialty in the multidisciplinary peer review committee who is also responsible for providing specialty input on issues, carrying opportunities for improvement back to their specialty, and assisting with formation,  implementation, and auditing of corrective action plans.</obo:OOSTT_00000030>
@@ -9374,7 +8645,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000292">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000299"/>
-        <obo:IAO_0000115 xml:lang="en">An emergency medical service agency that provides transport to the sick and wounded.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An emergency medical services agency that provides transport to the sick and wounded.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">EMS transporting agency</obo:IAO_0000118>
         <rdfs:label xml:lang="en">emergency medical service transportation agency</rdfs:label>
@@ -9438,7 +8709,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
-        <obo:IAO_0000115 xml:lang="en">An aggregate of emergency medical services agencies that provide transport for the sick and injured.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An aggregate of organizations that consists of emergency medical services transportation agencies.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">aggregate of emergency medical service transporting agency</rdfs:label>
     </owl:Class>
@@ -9464,7 +8735,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
-        <obo:IAO_0000115 xml:lang="en">An aggregate of emergency medical services agencies that do not provide transport for the sick and injured.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An aggregate of organizations that consists of emergency medical services agencies that do not provide transport for the sick and injured.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">aggregate of emergency medical services non-transporting agencies</rdfs:label>
     </owl:Class>
@@ -9675,7 +8946,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A role borne by a hospital and realized by providing specialized care for patients with traumatic brain injuries.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A health care provider organization role borne by a hospital and realized by providing specialized care for patients with traumatic brain injuries.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">center for traumatic brain injury role</rdfs:label>
     </owl:Class>
@@ -9713,7 +8984,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000311">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
-        <obo:IAO_0000115 xml:lang="en">A role borne by an organization and realized by providing specialized rehabilitation for patients with traumatic brain injuries.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A healthcare provider organization role realized by providing specialized rehabilitation for patients with traumatic brain injuries.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">traumatic brain injury rehabilitation organization role</rdfs:label>
     </owl:Class>
@@ -9751,7 +9022,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000313">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
-        <obo:IAO_0000115 xml:lang="en">A role borne by a hospital and realized by providing specialized care for patients with spinal cord injuries.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A health care provider organization role borne by a hospital and realized by providing specialized care for patients with spinal cord injuries.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">spinal cord injury center role</rdfs:label>
     </owl:Class>
@@ -9762,7 +9033,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000314">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
-        <obo:IAO_0000115 xml:lang="en">A role borne by an organization and realized by providing specialized rehabilitation for patients with spinal cord injuries.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A healthcare provider organization role borne by an organization and realized by providing specialized rehabilitation for patients with spinal cord injuries.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">spinal cord injury rehabilitation organization role</rdfs:label>
     </owl:Class>
@@ -9945,34 +9216,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000327 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000327">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000172"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000326"/>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000130"/>
-        <obo:IAO_0000115 xml:lang="en">An emergency physician role that is the specified output of a board certification process and that, if realized is realized, is realized either by administering medication for the temporary general or local suppression of sensory or motor nerve function during some health care encounter or providing airway management or by making decisions independently of a supervising physician regarding the adminstration of such medication.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An anesthesiologist role that is the specified output of a board certification process and that, if realized is realized, is realized either by administering medication for the temporary general or local suppression of sensory or motor nerve function during some health care encounter or providing airway management or by making decisions independently of a supervising physician regarding the adminstration of such medication.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">board certified anesthesiologist role</rdfs:label>
     </owl:Class>
@@ -9982,37 +9227,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000328 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000328">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000327"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a board certified anesthesiologist role.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000231"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of anesthesiologist on trauma service whose members are bearers of a board certified anesthesiologist role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <rdfs:label xml:lang="en">collection of board certified anesthesiologists on trauma service</rdfs:label>
@@ -10070,7 +9286,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A role that is borne by a member of the medical team of an emergency department and that, if realized, is realized by its bearer serving as the point of contact for all quality improvement-related communication between the emergency department and the trauma program.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An emergency department representative role that is borne by a member of the medical team of an emergency department and that, if realized, is realized by its bearer serving as the point of contact for all quality improvement-related communication between the emergency department and the trauma program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">An member of the medical team of an emergency department who serves as the formal point of contact for the trauma program for all quality improvement-related issues regarding trauma care within the ED.</obo:OOSTT_00000030>
@@ -10144,7 +9360,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A board certified general surgeon with additional training, experience, and career focus in the care of injured patients.</obo:IAO_0000115>
+        <obo:IAO_0000115>A human that is the bearer of a board certified general surgeon and that has additional training, experience, and career focus in the care of injured patients.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <rdfs:label xml:lang="en">board certified general surgeon with trauma concentration</rdfs:label>
     </owl:Class>
@@ -10436,8 +9652,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000356 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000356">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
-        <obo:IAO_0000115 xml:lang="en">A population of all human beings receiving healthcare from one healthcare provider during a specified time.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of humans consisting of humans that are receiving healthcare from one healthcare provider during a specified time.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">patient population</rdfs:label>
     </owl:Class>
@@ -10566,7 +9782,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000363">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000386"/>
-        <obo:IAO_0000115 xml:lang="en">A data item that specified the total number of days a patient has spent on a machine that moves oxygen in and out of their lungs.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A total length of ventilator use that specifies the total number of days a patient has spent on a machine that moves oxygen in and out of their lungs.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">total days of ventilator use</rdfs:label>
     </owl:Class>
@@ -10640,7 +9856,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000367"/>
-        <obo:IAO_0000115 xml:lang="en">A physician who has completed an neurosurgery residency program and achieved board certification.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A neurosurgeon role borne by an individual who has completed an neurosurgery residency program and achieved board certification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Joseph Utecht</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A physician who has completed an neurosurgery residency program and achieved board certification.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">board certified neurosurgeon role</rdfs:label>
@@ -10675,37 +9891,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000368 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000368">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000365"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a neurosurgeon role that are mentioned in a trauma on call plan specification and that are board certified in neurosurgery.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000227"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of neurosurgeons on trauma service whose members are board certified in neurosurgery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <rdfs:label xml:lang="en">collection of board certified neurosurgeons on trauma service</rdfs:label>
@@ -10716,37 +9903,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000369 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000369">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000366"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a neurosurgeon role that are mentioned in a trauma on call plan specification and that are eligible for board certification in neurosurgery.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000227"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of neurosurgeons on trauma service whose members are eligible for board certification in neurosurgery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <rdfs:label xml:lang="en">collection of board eligible neurosurgeons on trauma service</rdfs:label>
@@ -11196,6 +10354,141 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000399">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000367"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000400"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of of surgeons that consists of bearers of a neurosurgeon role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">collection of neurosurgeons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000400">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of humans that consists of bearers of a surgeon role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">collection of surgeons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000401">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000090"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000400"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of of surgeons that consists of bearers of a orthopedic surgeon role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">collection of orthopedic surgeons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000402">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000096"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000400"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of of surgeons that consists of bearers of a trauma surgeon role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">collection of trauma surgeons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000403">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000195"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000400"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of surgeons that consists of bearers of a general surgeon role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">collection of general surgeons</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/STATO_0000184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000184">
@@ -11531,64 +10824,11 @@ https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000131">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                                                <owl:someValuesFrom>
-                                                    <owl:Class>
-                                                        <owl:intersectionOf rdf:parseType="Collection">
-                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000137"/>
-                                                            <owl:Class>
-                                                                <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000071"/>
-                                                            </owl:Class>
-                                                        </owl:intersectionOf>
-                                                    </owl:Class>
-                                                </owl:someValuesFrom>
-                                            </owl:Restriction>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002082"/>
-                                                <owl:someValuesFrom>
-                                                    <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                                        <owl:someValuesFrom>
-                                                            <owl:Restriction>
-                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
-                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000037"/>
-                                                            </owl:Restriction>
-                                                        </owl:someValuesFrom>
-                                                    </owl:Restriction>
-                                                </owl:someValuesFrom>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000096"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A collection of humans, all of which bear a trauma surgeon role and, while on call, participate in emergency health care processes that are not trauma related.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000207"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons on a trauma service, that, while on call, participate in emergency health care processes that are not trauma related.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All  trauma surgeons who participate in acute care non-trauma-related surgery while on call for the trauma panel.</obo:OOSTT_00000030>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of trauma surgeons providing non-trauma emergency care on call</rdfs:label>
     </owl:Class>
     
