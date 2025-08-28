@@ -9261,7 +9261,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000130"/>
-        <obo:IAO_0000115 xml:lang="en">An emergency physician role that is the specified output of a board certification process and that, if realized is realized, is realized either by administering medication for the temporary general or local suppression of sensory or motor nerve function during some health care encounter or providing airway management or by making decisions independently of a supervising physician regarding the adminstration of such medication.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An anesthesiologist role that is the specified output of a board certification process and that, if realized is realized, is realized either by administering medication for the temporary general or local suppression of sensory or motor nerve function during some health care encounter or providing airway management or by making decisions independently of a supervising physician regarding the adminstration of such medication.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">board certified anesthesiologist role</rdfs:label>
     </owl:Class>
