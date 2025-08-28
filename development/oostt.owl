@@ -7032,14 +7032,14 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000197 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000197">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021019"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0021001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A deontic role that is the specified outcome of a document act between the chair of a surgery department and the bearer of a surgeon role that, of realized, is realized by its bearer admitting, evaluating, diagnosing, consulting, and providing pre-, intra and post-operative care, and performing surgical procedures, to patients of all ages, to correct or treat various conditions, diseases, disorders, and injuries of the alimentary tract, abdomen and its contents, extremities, breast, skin and soft tissue, head and neck, and endocrine systems.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A privilege holder role that is the specified outcome of a document act between the chair of a surgery department and the bearer of a surgeon role that, of realized, is realized by its bearer admitting, evaluating, diagnosing, consulting, and providing pre-, intra and post-operative care, and performing surgical procedures, to patients of all ages, to correct or treat various conditions, diseases, disorders, and injuries of the alimentary tract, abdomen and its contents, extremities, breast, skin and soft tissue, head and neck, and endocrine systems.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://www.umc.edu/uploadedFiles/UMCedu/Content/Administration/Business_Services/Medical_Staff_Services/New_Faculty/SUR%20-%20General%20Surgery%20Clinical%20Privileges_rev07032013.pdf</obo:IAO_0000119>
         <obo:OOSTT_00000030 xml:lang="en">A general surgeon who is credentialed by a healthcare facility to admit, evaluate, diagnose, consult, and provide pre-, intra and post-operative care, and perform surgical procedures, to patients of all ages, to correct or treat various conditions, diseases, disorders, and injuries of the various body systems.</obo:OOSTT_00000030>
