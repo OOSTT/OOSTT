@@ -7278,7 +7278,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000288"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is the specified output of a critical care certificate course.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A training certificate that is the specified output of a critical care certificate course.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">Recognition awarded after successful completion of education and training in any aspect of critical care meeting standards established under the authority of a governing board or agency.</obo:OOSTT_00000030>
