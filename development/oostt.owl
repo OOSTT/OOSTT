@@ -6865,7 +6865,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000184">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000400"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000143"/>
@@ -7167,7 +7167,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000198 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000198">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000402"/>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a trauma surgeon role that are also bearing a general surgery privileges role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
@@ -7179,7 +7179,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000199 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000199">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000207"/>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a trauma surgeon role that are mentioned in a trauma on call plan specification and that particpates in trauma education verifiable for 18 hours over 3 years.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
@@ -7207,7 +7207,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000201 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000201">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000207"/>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a trauma surgeon role that are mentioned in a trauma on call plan specification and that particpates in practice based training course organized by a trauma program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
@@ -7238,7 +7238,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons that only has members which are board certified in trauma surgery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All board certified trauma surgeons.</obo:OOSTT_00000030>
-        <rdfs:comment xml:lang="en">Initially, we used the SubClass restriction, with &apos;only&apos;  after &apos;is aggregate of&apos; as an equivalent to restriction, which fully defines this set. However, given the number of collections in OOSTT this negatively affected reasoning time. For our data management purposes having the restriction as an existential restriction is totally sufficient, so we go with this.</rdfs:comment>
         <rdfs:label xml:lang="en">collection of board certified trauma surgeons</rdfs:label>
     </owl:Class>
     
@@ -7292,7 +7291,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000207 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000207">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000402"/>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists exclusively of trauma surgeons that are listed on the trauma on call plan specification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All trauma surgeons participating on the trauma service.</obo:OOSTT_00000030>
@@ -7321,12 +7320,12 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000209 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000209">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000207"/>
         <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons who are members of the trauma service of an organization and are exclusively on call for that organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All trauma surgeons who are members of the trauma service and exclusively serve one trauma center during a specific time period.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">collection of trauma surgeons with on call exclusivity</rdfs:label>
+        <rdfs:label xml:lang="en">collection of trauma surgeons on trauma service with on call exclusivity</rdfs:label>
     </owl:Class>
     
 
@@ -7393,10 +7392,10 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000213 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000213">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000207"/>
         <obo:IAO_0000115 xml:lang="en">A collection of trauma surgeons that are part of the on call list of an organization and are certified in critical care.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">collection of trauma surgeons certified for critical care</rdfs:label>
+        <rdfs:label xml:lang="en">collection of trauma surgeons on trauma service certified for critical care</rdfs:label>
     </owl:Class>
     
 
@@ -7482,7 +7481,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000218">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000217"/>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a orthopedic surgeon role an that are mentioned in the trauma panel and that particpates in trauma education verifiable for 18 hours over 3 years.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
@@ -7676,12 +7675,12 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000228 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000228">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000217"/>
         <obo:IAO_0000115 xml:lang="en">A collection of orthopedic surgeons who are members of the trauma service of an organization and are exclusively on call for that organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All orthopedic surgeons who are members of the trauma service and exclusively serve one trauma center during a specific time period.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">collection of orthopedic surgeons with on call exclusivity</rdfs:label>
+        <rdfs:label xml:lang="en">collection of orthopedic surgeons on trauma service with on call exclusivity</rdfs:label>
     </owl:Class>
     
 
@@ -10936,7 +10935,7 @@ https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig
     <!-- http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/oostt/dev/oostt.owl/OOSTT_00000131">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000207"/>
         <obo:IAO_0000115 xml:lang="en">A collection of humans, all of which bear a trauma surgeon role and, while on call, participate in emergency health care processes that are not trauma related.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
