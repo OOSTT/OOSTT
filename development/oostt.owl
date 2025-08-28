@@ -9002,7 +9002,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000311">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
-        <obo:IAO_0000115 xml:lang="en">A role borne by an organization and realized by providing specialized rehabilitation for patients with traumatic brain injuries.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A healthcare provider organization role realized by providing specialized rehabilitation for patients with traumatic brain injuries.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">traumatic brain injury rehabilitation organization role</rdfs:label>
     </owl:Class>
