@@ -7051,11 +7051,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000197 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000197">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0021002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0021001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A deontic role that is the specified outcome of a document act between the chair of a surgery department and the bearer of a surgeon role that, of realized, is realized by its bearer admitting, evaluating, diagnosing, consulting, and providing pre-, intra and post-operative care, and performing surgical procedures, to patients of all ages, to correct or treat various conditions, diseases, disorders, and injuries of the alimentary tract, abdomen and its contents, extremities, breast, skin and soft tissue, head and neck, and endocrine systems.</obo:IAO_0000115>
