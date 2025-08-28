@@ -7664,7 +7664,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000227 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000227">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000399"/>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a neurosurgeon role that are mentioned in a trauma on call plan specification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
@@ -7689,12 +7689,12 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000229 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000229">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000227"/>
         <obo:IAO_0000115 xml:lang="en">A collection of neurosurgeons that are members of the trauma service of an organization and are exclusively on call for that organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All neurosurgeons who are members of the trauma service and exclusively serve one trauma center during a specific time period.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">collection of neurosurgeons with on call exclusivity</rdfs:label>
+        <rdfs:label xml:lang="en">collection of neurosurgeons on trauma service with on call exclusivity</rdfs:label>
     </owl:Class>
     
 
@@ -7702,7 +7702,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000230 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000230">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000227"/>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a neurosurgeon role that are mentioned in a trauma on call plan specification and that particpates in trauma education verifiable for 18 hours over 3 years.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
@@ -7779,7 +7779,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000234">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000156"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000231"/>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of an anesthesiologist role and that have successfully completed an anesthesiology residency and that are mentioned in a trauma on call plan specification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
@@ -9374,7 +9374,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000328 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000328">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000156"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000231"/>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a board certified anesthesiologist role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
@@ -10038,7 +10038,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000368 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000368">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000227"/>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a neurosurgeon role that are mentioned in a trauma on call plan specification and that are board certified in neurosurgery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
@@ -10050,7 +10050,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000369 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000369">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000227"/>
         <obo:IAO_0000115 xml:lang="en">A collection of humans that consists only of bearers of a neurosurgeon role that are mentioned in a trauma on call plan specification and that are eligible for board certification in neurosurgery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
@@ -10520,8 +10520,33 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000400"/>
         <rdfs:label xml:lang="en">collection of neurosurgeons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000400">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+        <rdfs:label xml:lang="en">collection of surgeons</rdfs:label>
     </owl:Class>
     
 
