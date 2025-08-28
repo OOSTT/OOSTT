@@ -9378,7 +9378,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A board certified general surgeon with additional training, experience, and career focus in the care of injured patients.</obo:IAO_0000115>
+        <obo:IAO_0000115>A human that is the bearer of a board certified general surgeon and that has additional training, experience, and career focus in the care of injured patients.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
         <rdfs:label xml:lang="en">board certified general surgeon with trauma concentration</rdfs:label>
     </owl:Class>
