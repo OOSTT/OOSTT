@@ -7004,7 +7004,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000195">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
-        <obo:IAO_0000115 xml:lang="en">A physician role borne by a human being and that, if realized, is being realized by its bearer using operative manual and instrumental techniques on a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas without the bearer of the role specializing into any particular field of surgery.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is being realized by its bearer using operative manual and instrumental techniques on a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas without the bearer of the role specializing into any particular field of surgery.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A surgeon without specialization who performs operative manual and instrumental techniques on a patient to investigate or treat a  disease or injury, to help improve bodily function or appearance, or to repair unwanted ruptured areas .</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">general surgeon role</rdfs:label>
