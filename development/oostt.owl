@@ -3321,7 +3321,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
         <obo:IAO_0000118 xml:lang="en">health care role</obo:IAO_0000118>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:comment>Mathias Brochhausen</rdfs:comment>
-        <rdfs:label xml:lang="en">human health care role</rdfs:label>
+        <rdfs:label xml:lang="en">health care role</rdfs:label>
     </owl:Class>
     
 
