@@ -3415,7 +3415,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00002072"/>
         <obo:IAO_0000115 xml:lang="en">A role in human social processes that inheres in an organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
