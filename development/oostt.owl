@@ -3572,7 +3572,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000087">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00002072"/>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">employer role</rdfs:label>
     </owl:Class>
