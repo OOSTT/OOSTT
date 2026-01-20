@@ -3430,7 +3430,7 @@ Ditto for its current descendants.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00002072"/>
         <obo:IAO_0000115 xml:lang="en">A role in human social processes that inheres in an organism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan
 Mathias Brochhausen</obo:IAO_0000117>
