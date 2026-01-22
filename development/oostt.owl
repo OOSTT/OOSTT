@@ -3895,7 +3895,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000085"/>
         <obo:IAO_0000115 xml:lang="en">A human social role that is created by a deontic declaration performed by an organization.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A socio-legal human social role that concretizes a socio-legally generically dependent continuat that was created by a declaration performed by an organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
@@ -5426,7 +5425,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000095 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000095">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000086"/>
         <obo:IAO_0000115 xml:lang="en">A healthcare provider role that, if realized, is realized by planning, organizing and overseeing planned processes that realize the concretization of a trauma quality improvement and patient safety program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The role of a healthcare provider that ensures trauma quality improvement and patient safety within the trauma program.</obo:OOSTT_00000030>
