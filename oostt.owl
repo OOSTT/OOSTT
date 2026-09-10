@@ -20,8 +20,9 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oostt.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2025-08-28/oostt.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oostt/release/2026-09-10/oostt.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
         <dc:contributor xml:lang="en">Diya Mehta</dc:contributor>
         <dc:contributor xml:lang="en">Emma Chappell</dc:contributor>
@@ -44,7 +45,7 @@
         <dc:title xml:lang="en">Ontology of Organizational Structures of Trauma centers and Trauma Systems</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">Development of this ontology is funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">release version - 2025-08-28</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release version - 2026-09-10</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -62,128 +63,140 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
         <rdfs:label>editor preferred label</rdfs:label>
         <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
         <rdfs:label>editor preferred term</rdfs:label>
         <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
         <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
         <rdfs:label xml:lang="en">example of usage</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
         <rdfs:label xml:lang="en">has curation status</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label>definition</rdfs:label>
         <rdfs:label xml:lang="en">definition</rdfs:label>
         <rdfs:label>textual definition</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
         <rdfs:label>editor note</rdfs:label>
         <rdfs:label xml:lang="en">editor note</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <rdfs:label>definition editor</rdfs:label>
         <rdfs:label xml:lang="en">definition editor</rdfs:label>
         <rdfs:label>term editor</rdfs:label>
         <rdfs:label xml:lang="en">term editor</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
         <rdfs:label xml:lang="en">alternative label</rdfs:label>
         <rdfs:label xml:lang="en">alternative term</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <rdfs:label>definition source</rdfs:label>
         <rdfs:label xml:lang="en">definition source</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
         <rdfs:label>curator note</rdfs:label>
         <rdfs:label xml:lang="en">curator note</rdfs:label>
         <rdfs:label>curator notes</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
         <rdfs:label>term tracker item</rdfs:label>
         <rdfs:label xml:lang="en">term tracker item</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000424 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000424">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000424">
         <rdfs:label xml:lang="en">expand expression to</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
         <rdfs:label xml:lang="en">OBO foundry unique label</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
         <rdfs:label xml:lang="en">elucidation</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
     
 
 
@@ -297,9 +310,9 @@
 
     <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001900">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900">
         <rdfs:label xml:lang="en">temporal interpretation</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
@@ -389,6 +402,48 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
     <!-- http://purl.org/dc/terms/conformsTo -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/conformsTo"/>
@@ -407,19 +462,25 @@
     
 
 
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
 
-    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by">
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by">
         <rdfs:label>created by</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
-    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
         <rdfs:label>creation date</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
@@ -445,10 +506,10 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
-    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
         <rdfs:label xml:lang="en">has broad synonym</rdfs:label>
         <rdfs:label>has_broad_synonym</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
@@ -462,35 +523,35 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
-    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
         <rdfs:label xml:lang="en">has exact synonym</rdfs:label>
         <rdfs:label>has_exact_synonym</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
 
-    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
         <rdfs:label>has_narrow_synonym</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
-    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
         <rdfs:label>has_obo_namespace</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
-    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
         <rdfs:label xml:lang="en">has related synonym</rdfs:label>
         <rdfs:label>has_related_synonym</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
@@ -518,9 +579,9 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
-    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
         <rdfs:label>in_subset</rdfs:label>
-    </rdf:Description>
+    </owl:AnnotationProperty>
     
 
 
@@ -618,9 +679,9 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
@@ -629,6 +690,18 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000055 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000055"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066"/>
     
 
 
@@ -659,6 +732,36 @@ Formal properties: transitive, anti-symmetric, irreflexive
 Natural language definition: A governing organization G1 is subordinate to another governing organization G2 iff there is some authority possessed by G2 that is not possessed by G1 and G1 falls within the relevant jurisdiction of G2.</rdfs:comment>
         <rdfs:label xml:lang="en">is subordinate authority of</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000143 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000143"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000312"/>
     
 
 
@@ -781,6 +884,18 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056">
@@ -794,6 +909,24 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">participates in</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000059 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000059"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087"/>
     
 
 
@@ -827,6 +960,12 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
         <rdfs:label xml:lang="en">overlaps</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002218 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002218"/>
     
 
 
@@ -904,6 +1043,12 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro/releases/2024-04-24/ro.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">condition ameliorated by</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
     
 
 
@@ -997,6 +1142,42 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ERO_0000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000007">
@@ -1026,6 +1207,18 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ero.owl</obo:IAO_0000412>
         <rdfs:label>rehabilitation</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_67135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67135"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_67165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67165"/>
     
 
 
@@ -1211,6 +1404,116 @@ Thus, we are attempting to define things generally enough that they could be reu
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hp#hposlim_core"/>
         <rdfs:label>skin ulcer</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000007"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000416"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000422"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0020000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0020000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0020027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0020027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00002072"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021016"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021023"/>
     
 
 
@@ -2713,6 +3016,12 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C122590 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C122590">
@@ -3080,6 +3389,12 @@ Thus, we are attempting to define things generally enough that they could be reu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070">
@@ -3098,6 +3413,12 @@ Thus, we are attempting to define things generally enough that they could be reu
         <obo:OBI_9991118>any method</obo:OBI_9991118>
         <rdfs:label xml:lang="en">assay</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
     
 
 
@@ -3176,9 +3497,9 @@ In the examples above, a reagent is an operational component of a device, but th
 
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -3316,13 +3637,13 @@ Is this the same as inpatient encounter?</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00002072"/>
         <obo:IAO_0000115 xml:lang="en">A role in human social processes that is realized by health care processes such as seeking or providing treatment for disease and injury, diagnosing disease and injury, and undergoing diagnosis.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">health care role</obo:IAO_0000118>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:comment>Mathias Brochhausen</rdfs:comment>
-        <rdfs:label xml:lang="en">human health care role</rdfs:label>
+        <rdfs:label xml:lang="en">health care role</rdfs:label>
     </owl:Class>
     
 
@@ -3400,15 +3721,22 @@ Is this the same as inpatient encounter?</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A role inhering in an entity realized by social interactions in human society.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">Previous definition: A role played by an entity in human social processes.</rdfs:comment>
-        <rdfs:label xml:lang="en">role in human social processes</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_role in human social processes</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3416,7 +3744,7 @@ Is this the same as inpatient encounter?</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00002072"/>
         <obo:IAO_0000115 xml:lang="en">A role in human social processes that inheres in an organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
@@ -3431,7 +3759,7 @@ Ditto for its current descendants.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00002072"/>
         <obo:IAO_0000115 xml:lang="en">A role in human social processes that inheres in an organism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan
 Mathias Brochhausen</obo:IAO_0000117>
@@ -3459,10 +3787,16 @@ Ditto for its current descendants.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00002072"/>
         <obo:IAO_0000115 xml:lang="en">A role borne by a human individual or by a collection of humans regarded as possessing rights and duties enforeable at law.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <obo:OOSTT_00000030 xml:lang="en">An individual(s) with authority and rights and duties enforceable by law.</obo:OOSTT_00000030>
@@ -3561,10 +3895,13 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000086">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000085"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000001"/>
+        <obo:IAO_0000115 xml:lang="en">A human social role that is created by a deontic declaration performed by an organization.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A socio-legal human social role that concretizes a socio-legally generically dependent continuat that was created by a declaration performed by an organization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">human organizational role</obo:IAO_0000118>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse/releases/2026-01-06/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">human role within an organization</rdfs:label>
     </owl:Class>
     
@@ -3573,7 +3910,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000087">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00002072"/>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">employer role</rdfs:label>
     </owl:Class>
@@ -3627,6 +3964,12 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse/releases/2023-10-08/omrse.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">admission process</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00002072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00002072"/>
     
 
 
@@ -3976,8 +4319,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000010"/>
-        <obo:IAO_0000115 xml:lang="en">A human health care role borne by a physician that, if realized, is realized by having the authority to direct and oversee the management all aspects of the trauma service.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000086"/>
+        <obo:IAO_0000115 xml:lang="en">A human role within an organization borne by a physician that, if realized, is realized by having the authority to direct and oversee the management all aspects of the trauma service.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">TMD role</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">The role borne by a physician having the authority to manage all aspects of a trauma service.</obo:OOSTT_00000030>
@@ -4577,14 +4920,14 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000086"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A role that is borne by a human being and that, if realized, is realized by managing an organization as the final decision maker for day to day operations and the bearer of which is held accountable for the organizations performance.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A human role within an organization that is borne by a human being and that, if realized, is realized by managing an organization as the final decision maker for day to day operations and the bearer of which is held accountable for the organizations performance.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">managing director</obo:IAO_0000118>
         <obo:OOSTT_00000030 xml:lang="en">The qualified person with the authority to make final day-to-day decisions for an organization, and who is accountable for the organization&apos;s performance.</obo:OOSTT_00000030>
@@ -4596,14 +4939,14 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000064">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000086"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A role that inheres in a human being and that, if realized, is realized by managing and overseeing the delivering of medical care at a hospital.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A human role within an organization that inheres in a human being and that, if realized, is realized by managing and overseeing the delivering of medical care at a hospital.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A qualified physician who has authority to manage and oversee medical care provided within the healthcare facility.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">chief medical officer role</rdfs:label>
@@ -4614,14 +4957,14 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000086"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A role that inheres in a human being and that, if realized, is realized by by its bearer managing nursing staff at a hospital and ensuring that standards of care are met.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A human role within an organization that inheres in a human being and that, if realized, is realized by by its bearer managing nursing staff at a hospital and ensuring that standards of care are met.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The chief nursing officer in a healthcare facility.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">head of clinical services role</rdfs:label>
@@ -4770,42 +5113,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">Recognized degree awarded after successful completion of a college or post-graduate porgram.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">academic degree</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000075 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000075">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
-        <obo:IAO_0000115 xml:lang="en">A healthcare provider role borne by a human being and that, if realized, realized by providing assessment and treatment to develop, recover, or maintain the daily living and work skills of people with a physical, mental, or cognitive disorder.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A healthcare professional who specializes in providing assessment and treatment to develop, recover, or maintain the daily living functioning and work-related skills of a person with a disability.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">occupational therapist role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000076 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000076">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
-        <obo:IAO_0000115 xml:lang="en">A health care provider role borne by a human being and, if realized, is realized by providing assessment and treatment to remediate impairments or promote mobility, function, and quality of by interventions that use mechanical force and movements.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A healthcare professional who specializes in providing assessment and treatment to remediate impairments or promote mobility, function, and quality of life by interventions that use mechanical force, movements, massage, or electrical stimulation.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">physical therapist role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000077 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
-        <obo:IAO_0000115 xml:lang="en">A healthcare provider role borne by a human being and if realized, is realized by providing assessment and treatment that follows surgery, or treatment of a disease or of an injury, and which restores a patient&apos;s preferable functionality.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A health professional (physiatrist, PT, OT, speech/language therapist) who promotes return to or improvement in functional status after a debilitating illness or injury event.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">rehabilitation specialist role</rdfs:label>
     </owl:Class>
     
 
@@ -4988,31 +5295,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000090 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
-        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and, that, if realized, is realized by its bearer using operative manual or instrumental techniques on the musculoskeletal system of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A surgeon who specializes in performing operative manual and instrumental techniques on the musculoskeletal system of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair ruptured areas.</obo:OOSTT_00000030>
-        <rdfs:comment xml:lang="en">term requested in OMRSE. Do not use outside the CAFE application!</rdfs:comment>
-        <rdfs:label xml:lang="en">orthopedic surgeon role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000091 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000091">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
-        <obo:IAO_0000115 xml:lang="en">A physician role borne by a human being and that, if realized, is being realized by its bearer using operative manual and instrumental techniques on preadult patients to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
-        <obo:OOSTT_00000030 xml:lang="en">A surgeon who specializes in performing operative manual and instrumental techniques on infants, children, and adolescents to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair ruptured areas.</obo:OOSTT_00000030>
-        <rdfs:comment xml:lang="en">term requested in OMRSE. Do not use outside the CAFE application!</rdfs:comment>
-        <rdfs:label xml:lang="en">pediatric surgeon role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000092">
@@ -5083,24 +5365,11 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000095 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000095">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
-        <obo:IAO_0000115 xml:lang="en">A healthcare provider role that, if realized, is realized by planning, organizing and overseeing planned processes that realize the concretization of a trauma quality improvement and patient safety program.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000086"/>
+        <obo:IAO_0000115 xml:lang="en">A human role within an organization that, if realized, is realized by planning, organizing and overseeing planned processes that realize the concretization of a trauma quality improvement and patient safety program.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">The role of a healthcare provider that ensures trauma quality improvement and patient safety within the trauma program.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">trauma quality improvement and patient safety program lead role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000096 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000096">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
-        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and, that, if realized, is realized by its bearer using operative and non-operative manual or instrumental techniques on a patient to investigate or treat an injury or other pathological situation that are caused by an injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A surgeon with oversight responsibility for the emergent, urgent, and restorative care of the injured patient, who specializes in performing operative and non-operative manual and instrumental techniques on a patient to investigate or treat an injury to help improve bodily function or appearance, or to repair ruptured areas.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">trauma surgeon role</rdfs:label>
     </owl:Class>
     
 
@@ -6092,18 +6361,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000153 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000153">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
-        <obo:IAO_0000115 xml:lang="en">A physician role that, if it is realized, is realized by providing treatment for undifferentiated and unscheduled  patients with illnesses and injuries requiring immediate medical attention.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A physician who  provides treatment to the ill and injured needing urgent and emergent care.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">emergency physician role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000154 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000154">
@@ -6202,19 +6459,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">A practice guideline that specifies the standards and procedures for the assessment and management of care provided to emergency patients before reaching the initial hospital or between the initial hospital and referral facility.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">prehospital protocol</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000160 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000160">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
-        <obo:IAO_0000115 xml:lang="en">A physician role that, if it is realized, is realized by diagnosing and managing life-threatening conditions requiring sophisticated organ support and invasive monitoring.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A physician with responsibility for diagnosing, managing, and treating  life-threatening conditions in collaboration with other health professionals and the patient&apos;s family.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">critical care physician role</rdfs:label>
     </owl:Class>
     
 
@@ -6450,44 +6694,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000171 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000171">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000172"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000173"/>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000153"/>
-        <obo:IAO_0000115 xml:lang="en">An emergency physician role that is the specified output of a board certification process and that, if realized, is realized by providing treatment for undifferentiated and unscheduled  patients with illnesses and injuries requiring immediate medical attention.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A physician who has completed an emergency medicine residency program and achieved board certification in the country of intended practice.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">board certified emergency physician role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000172">
@@ -6496,18 +6702,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">Board certification is the process by which a healthcare provider (physician, nurse, or other) in the United States demonstrates a mastery of basic knowledge and skills in a speciality of their occupation through written, practical, or simulator-based testing.  Health professionals from other countries go through a similar process as consistent with their country&apos;s requirements.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">medical board certification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000173 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000173">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000153"/>
-        <obo:IAO_0000115 xml:lang="en">An emergency medicine physician role that is the outcome of fullfilling all obligations to be allowed to take a board certification exam in emergency medicine.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">An emergency physician who has completed all training requirements and is eligible to take the board certification examination in the country of intended practice.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">board eligible emergency physician role</rdfs:label>
     </owl:Class>
     
 
@@ -6982,18 +7176,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000195 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000195">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
-        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is being realized by its bearer using operative manual and instrumental techniques on a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas without the bearer of the role specializing into any particular field of surgery.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A surgeon without specialization who performs operative manual and instrumental techniques on a patient to investigate or treat a  disease or injury, to help improve bodily function or appearance, or to repair unwanted ruptured areas .</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">general surgeon role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000196">
@@ -7371,56 +7553,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000219 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000219">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000090"/>
-        <obo:IAO_0000115 xml:lang="en">An orthopedic surgeon role that is the outcome of fullfilling all obligations to be allowed to take a board certification exam in orthopedic surgery.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">An orthopeadic surgeon who has completed all requisite training requirements and is eligible to take the board certification examination in the country of intended practice.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">board eligible orthopedic surgeon role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000220 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000220">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000172"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000219"/>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000090"/>
-        <obo:IAO_0000115 xml:lang="en">An orthopedic surgeon role that is the specified output of a board certification process and that, if realized, is realized by its bearer using operative manual or instrumental techniques on the musculoskeletal system of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A physician who has completed an orthopedic surgery residency program and achieved board certification.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">board certified orthopedic surgeon role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000221 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000221">
@@ -7667,32 +7799,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000235 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000235">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000323"/>
-        <obo:IAO_0000115 xml:lang="en">A registered nurse role that is the specified output of post-graduate education in nursing and that is realized by using extended and expanded skills, experience and knowledge in assessment, planning, implementation, diagnosis and evaluation of the care required.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A nurse with, at minimum, a Master&apos;s degree in nursing who uses expanded knowledge and skills in assessment, diagnosis, planning, implementation, and evaluation of patient care.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">advanced practice registered nurse role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000236 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000236">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000235"/>
-        <obo:IAO_0000115 xml:lang="en">An advanced practice registered nurse role that is the specified outcome of an accredition process with the Council of Accreditation in the United States of American and depends on graduate level education and board certification in anesthesiology.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">CRNA role</obo:IAO_0000118>
-        <obo:OOSTT_00000030>A nurse with advanced education and training in anesthesiology who has successfully completed a national certification examination process, and is credentialed to practice by a healthcare facility.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">certified registered nurse anesthetist role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000237 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000237">
@@ -7701,167 +7807,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">All nurses with advanced education in anesthesiology who have successfully completed a national certification examination process, and is credentialed to practice by a healthcare facility.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">collection of certified registered nurse anesthetist</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000238 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000238">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
-        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is realized by its bearer using operative manual and instrumental techniques on the genitourinary system of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">urologist</obo:IAO_0000118>
-        <obo:OOSTT_00000030 xml:lang="en">A surgeon with special training in genitourinary surgery operative techniques who investigates and treats patients with diseases and injuries to the kidneys and genitorurinary tract.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">genitourinary surgeon role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000239 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000239">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
-        <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by the study and identification of the cause and pathway of diseases through examination of the whole body, tissue, cells, and body fluids.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A physician who specializes in determining the cause and pathway of diseases and death through examination of the whole body, tissue, cells, and body fluids.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">pathologist role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000240 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000240">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
-        <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing diagnosis and treatment of diseases of the heart and the blood vessels.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A physician with speciialized training in cardiology who diagnoses and treats patients with dysrhythmias and diseases of the heart and blood vessels.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">cardiologist role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000241 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000241">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
-        <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing diagnosis and treatment of diseases of the kidney, including renal replacement therapy (dialysis and renal transplants).</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A physician that specializes in the diagnosis and treatment of diseases of  and injuries to the kidney, including renal replacement therapy (dialysis and renal transplants).</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">nephrologist role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000242 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000242">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
-        <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing diagnosis and treatment of diseases of the lung and the respiratory tract.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A physician who provides diagnosis and treatment of diseases of the lungs and the respiratory tract in association with the healthcare team managing an injured patient.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">pulmonologist role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000243 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000243">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
-        <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing minimally invasive image-guided diagnosis and treatment of diseases in every organ system.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Interventional_radiology&amp;oldid=752183885</obo:IAO_0000119>
-        <obo:OOSTT_00000030 xml:lang="en">A physician radiologist credentialed in providing minimally invasive image-guided diagnosis and treatment of diseases and vascular injuries.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">interventional radiologist role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000244 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000244">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
-        <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing diagnosis and medical treatment for infants, children, and adolescents.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Pediatrics&amp;oldid=752810576</obo:IAO_0000119>
-        <obo:OOSTT_00000030 xml:lang="en">A physician who specializes in providing diagnosis and medical treatment for infants, children, and adolescents.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">pediatrician role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000245 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000245">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
-        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is realized by its bearer using operative manual and instrumental techniques on the heart and the great blood vessels of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A surgeon with special training in cardiac surgery operative techniques who investigates and treats patients with diseases and injuries of the heart and great vessels.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">cardiac surgeon role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000246 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000246">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
-        <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing diagnosis and treatment, including surgical procedures, on the eyeball.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A physician who specializes in providing diagnosis and treatment, including surgical procedures on the eye and appendages (muscles, lids, sockets)</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">ophthalmologist role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000247 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000247">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
-        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is realized by its bearer using operative manual and instrumental techniques for the restoration, reconstruction, or alteration of the human body.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A surgeon who specializes in performing operative manual and instrumental techniques to remodel body parts to change their appearance or to restore the appearance and sometimes the function of body parts affected by trauma, previous surgery, or congenital defect.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">plastic surgeon role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000248 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000248">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
-        <obo:IAO_0000115 xml:lang="en">A physician role that, if it is realized, is realized by providing treatment for diseases of and injuries to the female reproductive system.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A  physician or surgeon with specialty in obstretrics and gynecology with responsibility for managing diseases and injuries to the female reproductive tract.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">gynecologist role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000249 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000249">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
-        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is realized by its bearer using operative manual and instrumental techniques on the hard and soft tissue of the oral and maxillofacial anatomy of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A surgeon who specializes in performing operative manual and instrumental techniques on the hard and soft tissue of the oral and maxillofacial anatomy of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair ruptured areas.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">oral and maxillofacial surgeon role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000250 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000250">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
-        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is realized by its bearer using operative manual and instrumental techniques on the hand and upper extremeties of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A surgeon who performs specialized operative manual and instrumental techniques on a patient to investigate or treat a disease or musculoskeletal injuries of the hand and wrist.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">hand surgeon role</rdfs:label>
     </owl:Class>
     
 
@@ -8433,8 +8378,8 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000283 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000283">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000010"/>
-        <obo:IAO_0000115 xml:lang="en">A human health care role that, if realized, is realized by its bearer keeping hospitals up-to-date on requirements, health practices, and staff needs to ensure patient safety and provide reports, analyses and benchmarking based on outcome and performance data.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000086"/>
+        <obo:IAO_0000115 xml:lang="en">A human role within an organization that, if realized, is realized by its bearer keeping hospitals up-to-date on requirements, health practices, and staff needs to ensure patient safety and provide reports, analyses and benchmarking based on outcome and performance data.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance improvement coordinator role</rdfs:label>
     </owl:Class>
@@ -9179,18 +9124,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000323 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000323">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000014"/>
-        <obo:IAO_0000115 xml:lang="en">A nurse role that is the specified output of nursing licensing act as specified by a country, state, province or similar licensing body ensureing that the bearer of the role meets the requirements specified in their jursidiction to obtain a nursing license.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Registered_nurse&amp;oldid=783787566</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">registered nurse role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000325 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000325">
@@ -9249,19 +9182,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000330 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000330">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000235"/>
-        <obo:IAO_0000115 xml:lang="en">An advanced practice registered nurse role that if realized is realized by its bearer assessing patient needs, ordering and interpreting diagnostic and laboratory tests, diagnosing illness and disease, prescribing medication and formulating treatment plans.</obo:IAO_0000115>
-        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">NP role</obo:IAO_0000118>
-        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Nurse_practitioner&amp;oldid=889394537</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">nurse practitioner role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000331 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000331">
@@ -9291,56 +9211,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
         <obo:IAO_0000117>Sarah Bost</obo:IAO_0000117>
         <obo:OOSTT_00000030 xml:lang="en">An member of the medical team of an emergency department who serves as the formal point of contact for the trauma program for all quality improvement-related issues regarding trauma care within the ED.</obo:OOSTT_00000030>
         <rdfs:label xml:lang="en">emergency department quality improvement liaison to trauma program role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000332 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000332">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000172"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000333"/>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000195"/>
-        <obo:IAO_0000115 xml:lang="en">A general surgeon role that is the specified output of a board certification process and that, if realized, is realized by its bearer using operative manual and instrumental techniques on a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas without the bearer of the role specializing into any particular field of surgery.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A physician who has completed a general surgery residency program and achieved board certification.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">board certified general surgeon role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000333 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000333">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000195"/>
-        <obo:IAO_0000115 xml:lang="en">A general surgeon role that is the outcome of fullfilling all obligations to be allowed to take a board certification exam in general surgery.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A general surgeon who has completed all requisite training requirements and is eligible to take the board certification examination in the country of intended practice.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">board eligible general surgeon role</rdfs:label>
     </owl:Class>
     
 
@@ -9826,68 +9696,6 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000365 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000365">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000172"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000366"/>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000367"/>
-        <obo:IAO_0000115 xml:lang="en">A neurosurgeon role borne by an individual who has completed an neurosurgery residency program and achieved board certification.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Joseph Utecht</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A physician who has completed an neurosurgery residency program and achieved board certification.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">board certified neurosurgeon role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000366 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000366">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000367"/>
-        <obo:IAO_0000115 xml:lang="en">A neurosurgeon role that is the outcome of fullfilling all obligations to be allowed to take a board certification exam in neurosurgery.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Joseph Utecht</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
-        <obo:OOSTT_00000030 xml:lang="en">A neurosurgeon who has completed all training requirements and is eligible to take the board certification examination in the country of intended practice.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">board eligible neurosurgeon role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000367 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000367">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000089"/>
-        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is realized by its bearer using operative manual and instrumental techniques on the nervous system of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
-        <obo:OOSTT_00000030 xml:lang="en">A surgeon who specializes in performing operative manual and instrumental techniques on the nervous system of a patient to investigate or treat a disease or injury, to help improve bodily function or appearance, or to repair compromised areas.</obo:OOSTT_00000030>
-        <rdfs:label xml:lang="en">neurosurgeon role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000368 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000368">
@@ -10366,7 +10174,7 @@ A patient suffering one or more injuries.</obo:IAO_0000119>
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000367"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000140"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -10884,6 +10692,12 @@ https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
+
+    <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    
+
+
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Government -->
 
     <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Government">
@@ -10900,6 +10714,489 @@ All rights reserved.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">government</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
+        <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by its bearer using operative manual and instrumental techniques to investigate, treat, or modify a patient&apos;s anatomical or physiological state for health, functional, or aesthetic purposes.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">surgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000086"/>
+        <obo:IAO_0000115 xml:lang="en">A human role within an organization that itself bears a healthcare provider organization role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">institutional health care provider role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000139"/>
+        <obo:IAO_0000115 xml:lang="en">A surgeon role realized by its bearer performing surgery on the nervous system.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A surgeon who specializes in performing operative manual and instrumental techniques on the nervous system of a patient to investigate or treat a disease or injury, to help improve bodily function or appearance, or to repair compromised areas.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">neurosurgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000139"/>
+        <obo:IAO_0000115 xml:lang="en">A surgeon role that, if realized, is realized by its bearer by performing procedures on a pre-adult person.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A surgeon who specializes in performing operative manual and instrumental techniques on infants, children, and adolescents to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair ruptured areas.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">pediatric surgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000014"/>
+        <obo:IAO_0000115 xml:lang="en">A nurse role that requires successful completion of some nursing education program and some nursing license examination.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">registered nurse role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000300"/>
+        <obo:IAO_0000115 xml:lang="en">An institutional health care provider role borne by a human being and that, if realized, realized by providing assessment and treatment to develop, recover, or maintain the daily living and work skills of people with a physical, mental, or cognitive disorder.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A healthcare professional who specializes in providing assessment and treatment to develop, recover, or maintain the daily living functioning and work-related skills of a person with a disability.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">occupational therapist role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000300"/>
+        <obo:IAO_0000115 xml:lang="en">An institutional health care provider role borne by a human being and, if realized, is realized by providing assessment and treatment to remediate impairments or promote mobility, function, and quality of by interventions that use mechanical force and movements.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A healthcare professional who specializes in providing assessment and treatment to remediate impairments or promote mobility, function, and quality of life by interventions that use mechanical force, movements, massage, or electrical stimulation.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">physical therapist role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000300"/>
+        <obo:IAO_0000115 xml:lang="en">An institutional health care provider role borne by a human being and if realized, is realized by providing assessment and treatment that follows surgery, or treatment of a disease or of an injury, and which restores a patient&apos;s preferable functionality.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A health professional (physiatrist, PT, OT, speech/language therapist) who promotes return to or improvement in functional status after a debilitating illness or injury event.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">rehabilitation specialist role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000139"/>
+        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and, that, if realized, is realized by its bearer using operative manual or instrumental techniques on the musculoskeletal system of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A surgeon who specializes in performing operative manual and instrumental techniques on the musculoskeletal system of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair ruptured areas.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">orthopedic surgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000139"/>
+        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and, that, if realized, is realized by its bearer using operative and non-operative manual or instrumental techniques on a patient to investigate or treat an injury or other pathological situation that are caused by an injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A surgeon with oversight responsibility for the emergent, urgent, and restorative care of the injured patient, who specializes in performing operative and non-operative manual and instrumental techniques on a patient to investigate or treat an injury to help improve bodily function or appearance, or to repair ruptured areas.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">trauma surgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
+        <obo:IAO_0000115 xml:lang="en">A physician role that, if it is realized, is realized by providing treatment for undifferentiated and unscheduled  patients with illnesses and injuries requiring immediate medical attention.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A physician who  provides treatment to the ill and injured needing urgent and emergent care.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">emergency physician role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
+        <obo:IAO_0000115 xml:lang="en">A physician role that, if it is realized, is realized by diagnosing and managing life-threatening conditions requiring sophisticated organ support and invasive monitoring.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A physician with responsibility for diagnosing, managing, and treating  life-threatening conditions in collaboration with other health professionals and the patient&apos;s family.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">critical care physician role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000153"/>
+        <obo:IAO_0000115 xml:lang="en">An emergency physician role that is the specified output of a board certification process and that, if realized, is realized by providing treatment for undifferentiated and unscheduled  patients with illnesses and injuries requiring immediate medical attention.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A physician who has completed an emergency medicine residency program and achieved board certification in the country of intended practice.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">board certified emergency physician role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000153"/>
+        <obo:IAO_0000115 xml:lang="en">An emergency medicine physician role that is the outcome of fullfilling all obligations to be allowed to take a board certification exam in emergency medicine.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">An emergency physician who has completed all training requirements and is eligible to take the board certification examination in the country of intended practice.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">board eligible emergency physician role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000139"/>
+        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is being realized by its bearer using operative manual and instrumental techniques on a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas without the bearer of the role specializing into any particular field of surgery.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A surgeon without specialization who performs operative manual and instrumental techniques on a patient to investigate or treat a  disease or injury, to help improve bodily function or appearance, or to repair unwanted ruptured areas .</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">general surgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000090"/>
+        <obo:IAO_0000115 xml:lang="en">An orthopedic surgeon role that is the outcome of fullfilling all obligations to be allowed to take a board certification exam in orthopedic surgery.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">An orthopeadic surgeon who has completed all requisite training requirements and is eligible to take the board certification examination in the country of intended practice.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">board eligible orthopedic surgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000090"/>
+        <obo:IAO_0000115 xml:lang="en">An orthopedic surgeon role that is the specified output of a board certification process and that, if realized, is realized by its bearer using operative manual or instrumental techniques on the musculoskeletal system of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A physician who has completed an orthopedic surgery residency program and achieved board certification.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">board certified orthopedic surgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000151"/>
+        <obo:IAO_0000115 xml:lang="en">A registered nurse role that is the specified output of post-graduate education in nursing and that is realized by using extended and expanded skills, experience and knowledge in assessment, planning, implementation, diagnosis and evaluation of the care required.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A nurse with, at minimum, a Master&apos;s degree in nursing who uses expanded knowledge and skills in assessment, diagnosis, planning, implementation, and evaluation of patient care.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">advanced practice registered nurse role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000235"/>
+        <obo:IAO_0000115 xml:lang="en">An advanced practice registered nurse role that is the specified outcome of an accredition process with the Council of Accreditation in the United States of American and depends on graduate level education and board certification in anesthesiology.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A nurse with advanced education and training in anesthesiology who has successfully completed a national certification examination process, and is credentialed to practice by a healthcare facility.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">certified registered nurse anesthetist role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000139"/>
+        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is realized by its bearer using operative manual and instrumental techniques on the genitourinary system of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A surgeon with special training in genitourinary surgery operative techniques who investigates and treats patients with diseases and injuries to the kidneys and genitorurinary tract.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">genitourinary surgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
+        <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by the study and identification of the cause and pathway of diseases through examination of the whole body, tissue, cells, and body fluids.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A physician who specializes in determining the cause and pathway of diseases and death through examination of the whole body, tissue, cells, and body fluids.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">pathologist role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
+        <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing diagnosis and treatment of diseases of the heart and the blood vessels.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A physician with speciialized training in cardiology who diagnoses and treats patients with dysrhythmias and diseases of the heart and blood vessels.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">cardiologist role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
+        <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing diagnosis and treatment of diseases of the kidney, including renal replacement therapy (dialysis and renal transplants).</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A physician that specializes in the diagnosis and treatment of diseases of  and injuries to the kidney, including renal replacement therapy (dialysis and renal transplants).</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">nephrologist role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
+        <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing diagnosis and treatment of diseases of the lung and the respiratory tract.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A physician who provides diagnosis and treatment of diseases of the lungs and the respiratory tract in association with the healthcare team managing an injured patient.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">pulmonologist role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
+        <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing minimally invasive image-guided diagnosis and treatment of diseases in every organ system.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A physician radiologist credentialed in providing minimally invasive image-guided diagnosis and treatment of diseases and vascular injuries.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">interventional radiologist role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
+        <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing diagnosis and medical treatment for infants, children, and adolescents.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A physician who specializes in providing diagnosis and medical treatment for infants, children, and adolescents.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">pediatrician role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000139"/>
+        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is realized by its bearer using operative manual and instrumental techniques on the heart and the great blood vessels of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A surgeon with special training in cardiac surgery operative techniques who investigates and treats patients with diseases and injuries of the heart and great vessels.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">cardiac surgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
+        <obo:IAO_0000115 xml:lang="en">A physician role that, if realized, is realized by providing diagnosis and treatment, including surgical procedures, on the eyeball.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A physician who specializes in providing diagnosis and treatment, including surgical procedures on the eye and appendages (muscles, lids, sockets)</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">ophthalmologist role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000139"/>
+        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is realized by its bearer using operative manual and instrumental techniques for the restoration, reconstruction, or alteration of the human body.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A surgeon who specializes in performing operative manual and instrumental techniques to remodel body parts to change their appearance or to restore the appearance and sometimes the function of body parts affected by trauma, previous surgery, or congenital defect.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">plastic surgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
+        <obo:IAO_0000115 xml:lang="en">A physician role that, if it is realized, is realized by providing treatment for diseases of and injuries to the female reproductive system.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Bona</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A  physician or surgeon with specialty in obstretrics and gynecology with responsibility for managing diseases and injuries to the female reproductive tract.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">gynecologist role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000139"/>
+        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is realized by its bearer using operative manual and instrumental techniques on the hard and soft tissue of the oral and maxillofacial anatomy of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A surgeon who specializes in performing operative manual and instrumental techniques on the hard and soft tissue of the oral and maxillofacial anatomy of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair ruptured areas.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">oral and maxillofacial surgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000139"/>
+        <obo:IAO_0000115 xml:lang="en">A surgeon role borne by a human being and that, if realized, is realized by its bearer using operative manual and instrumental techniques on the hand and upper extremeties of a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A surgeon who performs specialized operative manual and instrumental techniques on a patient to investigate or treat a disease or musculoskeletal injuries of the hand and wrist.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">hand surgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000235"/>
+        <obo:IAO_0000115 xml:lang="en">An advanced practice registered nurse role that if realized is realized by its bearer assessing patient needs, ordering and interpreting diagnostic and laboratory tests, diagnosing illness and disease, prescribing medication and formulating treatment plans.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">nurse practitioner role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000195"/>
+        <obo:IAO_0000115 xml:lang="en">A general surgeon role that is the specified output of a board certification process and that, if realized, is realized by its bearer using operative manual and instrumental techniques on a patient to investigate or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas without the bearer of the role specializing into any particular field of surgery.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A physician who has completed a general surgery residency program and achieved board certification.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">board certified general surgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000195"/>
+        <obo:IAO_0000115 xml:lang="en">A general surgeon role that is the outcome of fullfilling all obligations to be allowed to take a board certification exam in general surgery.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A general surgeon who has completed all requisite training requirements and is eligible to take the board certification examination in the country of intended practice.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">board eligible general surgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000365">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000140"/>
+        <obo:IAO_0000115 xml:lang="en">A neurosurgeon role borne by an individual who has completed an neurosurgery residency program and achieved board certification.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Joseph Utecht</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A physician who has completed an neurosurgery residency program and achieved board certification.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">board certified neurosurgeon role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000140"/>
+        <obo:IAO_0000115 xml:lang="en">A neurosurgeon role that is the outcome of fullfilling all obligations to be allowed to take a board certification exam in neurosurgery.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Joseph Utecht</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Sarah Bost</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:OOSTT_00000030 xml:lang="en">A neurosurgeon who has completed all training requirements and is eligible to take the board certification examination in the country of intended practice.</obo:OOSTT_00000030>
+        <rdfs:label xml:lang="en">board eligible neurosurgeon role</rdfs:label>
     </owl:Class>
     
 
